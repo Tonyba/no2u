@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.horizon,
+.horizontal,
 .menu--horizontal {
     flex-direction: row;
 }
