@@ -4,6 +4,8 @@
   assign heading = block_settings.heading
   assign color_scheme = block_settings.color_scheme
   assign show_as_accordion = block_settings.show_as_accordion
+  assign direction = block_settings.menu_direction
+  assign dividers_enabled = block_settings.divider
   if show_as_accordion == true and block_settings.accordion_dividers == true
     assign dividers_enabled = true
   endif
@@ -54,7 +56,7 @@
 
       <div class="details-content">
         {% if menu %}
-          <ul class="list-unstyled">
+          <ul class="list-unstyled flex items-center menu__list menu--{{ direction }} {% if dividers_enabled == true %}dividers{% endif %}">
             {% for link in menu.links %}
               <li class="menu__item {{ block_settings.link_preset }}">
                 <a href="{{ link.url }}">
@@ -141,6 +143,28 @@
       "id": "menu",
       "label": "t:settings.menu",
       "default": "main-menu"
+    },
+    {
+      "type": "select",
+      "id": "menu_direction",
+      "label": "Direction",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "t:options.horizontal"
+        },
+        {
+          "value": "vertical",
+          "label": "t:options.vertical"
+        }
+      ],
+      "default": "vertical"
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "Divider",
+      "default": false
     },
     {
       "type": "text",

@@ -24,7 +24,18 @@
     {{ block.shopify_attributes }}
     aria-hidden="{% if block_index == 0 %}false{% else %}true{% endif %}"
   >
-    <p class="announcement-bar__text">
+    <p class="announcement-bar__text flex items-center justify-center gap-2 m-0">
+      {% if block_settings.icon != blank %}
+        <span class="announcement-bar__icon">
+          <img
+            src="{{ block_settings.icon | image_url: width: 32, height: 32, crop: 'center' }}"
+            alt=""
+            width="32"
+            height="32"
+            loading="lazy"
+          >
+        </span>
+      {% endif %}
       {{ block.settings.text }}
     </p>
 
@@ -122,6 +133,11 @@
       "id": "text",
       "label": "t:settings.text",
       "default": "t:text_defaults.shop_our_latest_arrivals"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
     },
     {
       "type": "url",

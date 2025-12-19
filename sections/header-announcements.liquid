@@ -9,7 +9,7 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <aside
   class="announcement-bar spacing-style section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}"
-  style="{% render 'spacing-padding', settings: section.settings %}; --border-bottom-width: {{ section.settings.divider_width }}px;"
+  style="{% render 'spacing-padding', settings: section.settings %}; --border-bottom-width: {{ section.settings.divider_width }}px; background-color: {{ section.settings.bg_color }};"
 >
   {% liquid
     assign autoplay = false
@@ -30,7 +30,7 @@
       {% render 'slideshow-arrows', icon_style: 'chevron' %}
     {% endif %}
 
-    <div class="announcement-bar__slides">
+    <div class="announcement-bar__slides {{ section.settings.content_alignment }}">
       {% content_for 'blocks' %}
     </div>
   </announcement-bar-component>
@@ -57,7 +57,23 @@
     grid: [stack] auto / [stack] auto;
     width: calc(100% - var(--button-size) * 2);
     max-width: 680px;
+  }
+
+  .announcement-bar__slides:has(.menu__list) {
+    width: unset;
+    max-width: unset;
+  }
+
+  .announcement-bar__slides.center {
     margin-inline: auto;
+  }
+
+  .announcement-bar__slides.left {
+    margin-right: auto;
+  }
+
+  .announcement-bar__slides.right {
+    margin-left: auto;
   }
 
   .announcement-bar__slides > * {
@@ -126,6 +142,9 @@
   "blocks": [
     {
       "type": "_announcement"
+    },
+    {
+      "type": "menu"
     }
   ],
   "enabled_on": {
@@ -140,6 +159,32 @@
       "max": 10,
       "default": 5,
       "unit": "sec"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
     },
     {
       "type": "header",

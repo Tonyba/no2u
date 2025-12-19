@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.horizontal,
+.menu--horizontal {
+    flex-direction: row;
+}
+
+.vertical,
+.menu--vertical {
+    flex-direction: column;
+}
+
+.menu__list>li {
+    margin: 0 !important;
+    margin-block-start: 0 !important;
+}
+
+.announcement-bar .menu__list>li {
+    line-height: 1;
+}
+
+.announcement-bar .menu__list a {
+    font-weight: bold !important;
+    font-size: 14px;
+}
+
+.dividers>*:not(:last-child) {
+    border-right: 1px solid black;
+    padding-right: var(--gap-md);
+}

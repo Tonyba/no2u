@@ -77,6 +77,20 @@
     </dialog-component>
   {% endif %}
 
+  {% if user_icon %}
+    <a
+      href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}"
+      class="button header-actions__action button-unstyled"
+      aria-label="{{ 'accessibility.account' | t }}"
+    >
+      <div class="header-actions__cart-icon">
+        <span class="svg-wrapper">
+          {{ 'user-icon.svg' | inline_asset_content }}
+        </span>
+      </div>
+    </a>
+  {% endif %}
+
   {% if settings.cart_type == 'drawer' and template.name != 'cart' %}
     <script
       src="{{ 'cart-drawer.js' | asset_url }}"
@@ -197,7 +211,11 @@
       aria-label="{{ 'accessibility.cart' | t }}"
       aria-describedby="cart-bubble-text"
     >
-      {{ cart_icon }}
+      <div class="header-actions__cart-icon">
+        <span class="svg-wrapper">
+          {{ cart_icon }}
+        </span>
+      </div>
     </a>
   {% endif %}
 </header-actions>
