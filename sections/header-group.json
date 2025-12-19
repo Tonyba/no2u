@@ -44,6 +44,7 @@
       "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
+        "content_alignment": "Right",
         "section_width": "page-width",
         "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "divider_width": 1,
