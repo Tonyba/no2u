@@ -25,6 +25,11 @@
     aria-hidden="{% if block_index == 0 %}false{% else %}true{% endif %}"
   >
     <p class="announcement-bar__text">
+      {% if block_settings.icon != blank %}
+        <span class="svg-wrapper">
+          {{ block_settings.icon | inline_asset_content }}
+        </span>
+      {% endif %}
       {{ block.settings.text }}
     </p>
 
