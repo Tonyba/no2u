@@ -6,3 +6,8 @@
 .menu--horizontal {
     flex-direction: row;
 }
+
+.vertical,
+.menu--vertical {
+    flex-direction: column;
+}
