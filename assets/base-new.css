@@ -21,8 +21,8 @@
     margin-block-start: 0 !important;
 }
 
-.announcement-bar .menu__list {
-    font-weight: bold;
+.announcement-bar .menu__list a {
+    font-weight: bold !important;
 }
 
 .dividers>*:not(:last-child) {
