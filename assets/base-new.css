@@ -23,6 +23,7 @@
 
 .announcement-bar .menu__list a {
     font-weight: bold !important;
+    font-size: 14px;
 }
 
 .dividers>*:not(:last-child) {
