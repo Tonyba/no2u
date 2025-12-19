@@ -211,7 +211,11 @@
       class="button header-actions__action button-unstyled"
       aria-label="{{ 'accessibility.account' | t }}"
     >
-      {{ user_icon }}
+      <div class="header-actions__cart-icon">
+        <span class="svg-wrapper">
+          {{ user_icon }}
+        </span>
+      </div>
     </a>
   {% endif %}
 </header-actions>
