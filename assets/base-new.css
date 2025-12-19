@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .horizontal,
 .menu--horizontal {
     flex-direction: row;

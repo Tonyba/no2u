@@ -55,7 +55,7 @@
 
       <div class="details-content">
         {% if menu %}
-          <ul class="list-unstyled flex menu__list menu--{{ direction }}">
+          <ul class="list-unstyled flex items-center menu__list menu--{{ direction }}">
             {% for link in menu.links %}
               <li class="menu__item {{ block_settings.link_preset }}">
                 <a href="{{ link.url }}">
