@@ -130,11 +130,11 @@
         "announcement_6Whkq6": {
           "type": "_announcement",
           "settings": {
-            "text": "Free USA Shipping Over $199",
+            "text": "<span style=\"text-decoration:underline\">Free USA Shipping Over $199</span>",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
-            "weight": "",
+            "weight": "600",
             "letter_spacing": "normal",
             "case": "none"
           },
@@ -144,11 +144,11 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "Shop our latest arrivals!",
+            "text": "<span style=\"text-decoration:underline\">Shop our latest arrivals!</span>",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
-            "weight": "",
+            "weight": "600",
             "letter_spacing": "normal",
             "case": "none"
           },
