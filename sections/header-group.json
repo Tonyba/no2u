@@ -13,6 +13,32 @@
   "sections": {
     "header_announcements_9jGBFp": {
       "type": "header-announcements",
+      "blocks": {
+        "menu_KQXjUd": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "menu_KQXjUd"
+      ],
       "custom_css": [],
       "name": "t:names.announcement_bar",
       "settings": {
