@@ -26,7 +26,7 @@
   >
     <p class="announcement-bar__text">
       {% if block_settings.icon != blank %}
-        {{ block_settings.icon | json }}
+        {{ block_settings.icon | asset_url | image_tag }}
         <span class="svg-wrapper">
           {{ block_settings.icon | inline_asset_content }}
         </span>
