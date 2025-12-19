@@ -59,6 +59,7 @@
     "cart_price_font": "subheading",
     "show_cart_note": false,
     "show_add_discount_code": true,
+    "drawer_color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
     "drawer_drop_shadow": true,
     "icon_stroke": "default",
     "input_border_width": 1,
