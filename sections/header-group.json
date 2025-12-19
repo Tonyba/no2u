@@ -19,6 +19,7 @@
           "name": "t:names.menu",
           "settings": {
             "menu": "main-menu",
+            "menu_direction": "horizontal",
             "heading": "",
             "menu_spacing": 12,
             "show_as_accordion": false,
