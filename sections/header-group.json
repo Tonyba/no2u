@@ -13,10 +13,38 @@
   "sections": {
     "header_announcements_9jGBFp": {
       "type": "header-announcements",
+      "blocks": {
+        "menu_ytUG4R": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "menu_direction": "horizontal",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "menu_ytUG4R"
+      ],
       "custom_css": [],
       "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
+        "content_alignment": "center",
         "section_width": "page-width",
         "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "divider_width": 1,
