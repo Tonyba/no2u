@@ -131,6 +131,7 @@
           "type": "_announcement",
           "settings": {
             "text": "<span style=\"text-decoration:underline\">Free USA Shipping Over $199</span>",
+            "icon": "shopify://shop_images/box.svg",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -145,6 +146,7 @@
           "name": "t:names.announcement",
           "settings": {
             "text": "<span style=\"text-decoration:underline\">Shop our latest arrivals!</span>",
+            "icon": "shopify://shop_images/box.svg",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "1rem",
