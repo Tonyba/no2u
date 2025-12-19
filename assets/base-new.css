@@ -20,3 +20,7 @@
     margin: 0 !important;
     margin-block-start: 0 !important;
 }
+
+.dividers>* {
+    border-right: 1px solid black;
+}
