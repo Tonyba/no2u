@@ -15,3 +15,7 @@
 .menu--vertical {
     flex-direction: column;
 }
+
+.menu__list>li {
+    margin: 0;
+}
