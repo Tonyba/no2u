@@ -197,7 +197,11 @@
       aria-label="{{ 'accessibility.cart' | t }}"
       aria-describedby="cart-bubble-text"
     >
-      {{ cart_icon }}
+      <div class="header-actions__cart-icon">
+        <span class="svg-wrapper">
+          {{ cart_icon }}
+        </span>
+      </div>
     </a>
   {% endif %}
 
