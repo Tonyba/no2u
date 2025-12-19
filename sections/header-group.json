@@ -20,6 +20,7 @@
           "settings": {
             "menu": "main-menu",
             "menu_direction": "horizontal",
+            "divider": true,
             "heading": "",
             "menu_spacing": 12,
             "show_as_accordion": false,
