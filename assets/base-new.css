@@ -1,3 +1,7 @@
+.flex {
+    display: flex;
+}
+
 .horizon,
 .menu--horizontal {
     flex-direction: row;
