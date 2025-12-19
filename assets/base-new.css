@@ -21,6 +21,10 @@
     margin-block-start: 0 !important;
 }
 
+.announcement-bar .menu__list>li {
+    line-height: 1;
+}
+
 .announcement-bar .menu__list a {
     font-weight: bold !important;
     font-size: 14px;
