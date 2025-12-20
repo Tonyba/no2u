@@ -27,6 +27,7 @@
   <span
     class="divider__line"
     style="
+      --color-border: {{ settings.color }};
       --divider-border-thickness: {{ settings.thickness }}px;
       {% unless full_width %}
         --divider-border-rounded: {% if settings.corner_radius == 'rounded' %}1{% else %}0{% endif %};
