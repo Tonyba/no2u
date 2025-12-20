@@ -43,7 +43,7 @@
 
 /*hero*/
 
-.hero--overlay::after {
+.hero--overlay .hero__media-wrapper::after {
     content: '';
     position: absolute;
     top: 0;
@@ -51,11 +51,6 @@
     right: 0;
     bottom: 0;
     background-image: linear-gradient(to top, #000000, #00000000);
-}
-
-.hero__content-wrapper {
-    position: relative;
-    z-index: 2 !important;
 }
 
 /*hero end*/
