@@ -10,11 +10,11 @@
     font-size: 16px;
   }
 
-  .below-hero .grid > * {
+  .below-hero .flex > * {
     position: relative;
   }
 
-  .below-hero .grid > *:not(:last-child):after {
+  .below-hero .flex > *:not(:last-child):after {
     content: '';
     width: 6px;
     height: 6px;
@@ -33,7 +33,7 @@
   }
 </style>
 
-<div class="items-center justify-between contained">
+<div class="items-center justify-between contained flex">
   <div class="flex gap-1 items-center">
     {% if section.settings.img_1 %}
       {{-
