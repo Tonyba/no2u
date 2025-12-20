@@ -797,6 +797,27 @@
               },
               "blocks": {}
             },
+            "item_list_zrw6xU": {
+              "type": "item-list",
+              "name": "Item List",
+              "settings": {
+                "columns": 2
+              },
+              "blocks": {
+                "list_item_tEj6Ba": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/Group_18696.svg",
+                    "item_text": "Improve Nitric Oxide production"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "list_item_tEj6Ba"
+              ]
+            },
             "text_Lh6qFc": {
               "type": "text",
               "name": "t:names.text",
@@ -847,6 +868,7 @@
             "text_zxCGt9",
             "divider_RF9A7J",
             "text_TGhrez",
+            "item_list_zrw6xU",
             "text_Lh6qFc",
             "button_C3JLCG"
           ]
