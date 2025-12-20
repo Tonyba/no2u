@@ -51,9 +51,9 @@
   <h2>{{ section_settings.title }}</h2>
   <p>{{ section_settings.subtitle }}</p>
 
-  <div class="collections-grid cols-4 grid no-template-areas relative">
+  <div class="collections-grid cols-4 grid no-template-areas">
     {% for collection in section_settings.collection_list %}
-      <div class="collection-item collection-{{ collection.id }}">
+      <div class="collection-item collection-{{ collection.id }} relative">
         <div style="background-color: {{ collection.metafields.custom.color }}" class="top-box flex items-center gap-1">
           <span class="icon">
             {{ 'arrow.svg' | inline_asset_content }}
