@@ -491,6 +491,7 @@
       "type": "shop_by_goal",
       "name": "Shop by goal",
       "settings": {
+        "bg_color": "#efefef",
         "title": "Shop By Goal",
         "subtitle": "Find the right supplements to reach your health and fitness goals with ease.",
         "collection_list": [
