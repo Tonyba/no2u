@@ -43,6 +43,14 @@
 
 /*hero*/
 
-.hero--overlay {}
+.hero--overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(#000000, #00000000);
+}
 
 /*hero end*/
