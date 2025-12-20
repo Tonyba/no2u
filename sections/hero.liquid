@@ -790,6 +790,12 @@
   },
   "settings": [
     {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Add Overlay",
+      "default": false
+    },
+    {
       "type": "header",
       "content": "t:content.media_1"
     },
@@ -853,12 +859,7 @@
       "label": "t:settings.video",
       "visible_if": "{{ section.settings.media_type_2 == 'video' }}"
     },
-    {
-      "type": "checkbox",
-      "id": "show_overlay",
-      "label": "Add Overlay",
-      "default": false
-    },
+
     {
       "type": "header",
       "content": "t:content.mobile_media"
