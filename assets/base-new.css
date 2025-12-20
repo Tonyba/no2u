@@ -24,6 +24,7 @@
 
 /*basic end*/
 
+/*announcement*/
 .announcement-bar .menu__list>li {
     line-height: 1;
 }
@@ -37,3 +38,5 @@
     border-right: 1px solid black;
     padding-right: var(--gap-md);
 }
+
+/*announcement end*/
