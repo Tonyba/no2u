@@ -8,12 +8,18 @@
     padding-bottom: 30px;
   }
 
+  .below-hero .grid > * {
+    position: relative;
+  }
+
   .below-hero .grid > *:not(:last-child):after {
     content: '';
     width: 6px;
     height: 6px;
     background-color: #ea4335;
     border-radius: 100%;
+    position: absolute;
+    right: 0;
   }
 {% endstylesheet %}
 
