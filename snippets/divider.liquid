@@ -17,7 +17,7 @@
 <div
   class="divider divider-{{ id }} spacing-style"
   style="
-    --divider-justify-content: {{ settings.alignment_horizontal | default: 'center' }};
+    --divider-justify-content: {{ settings.alignment | default: 'center' }};
     {% render 'spacing-style', settings: settings %}
   "
   {% if attributes %}
