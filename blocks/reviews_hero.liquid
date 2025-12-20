@@ -1,9 +1,21 @@
+{% stylesheet %}
+  .reviews-hero . {
+  }
+{% endstylesheet %}
+
 <div class="flex items-center justify-center">
   {{-
     block.settings.img_1
     | image_url: width: settings.img_1.width
     | image_tag: loading: 'lazy', decoding: 'async', draggable: false
   -}}
+
+  {{-
+    block.settings.img_2
+    | image_url: width: settings.img_2.width
+    | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+  -}}
+
   <span class="hero-rev-text">{{ block.settings.text }}</span>
 </div>
 
