@@ -19,6 +19,11 @@
               <p>{{ collection.description }}</p>
             </div>
           </div>
+          {{-
+            collection.image
+            | image_url: width: 372
+            | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+          -}}
         </div>
       {% endfor %}
     </div>
