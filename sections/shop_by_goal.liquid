@@ -7,6 +7,10 @@
     padding: 60px 0;
   }
 
+  .collection-464207151340 {
+    color: white;
+  }
+
   .shop-by-goal .top-box {
     padding: 20px 30px;
   }
@@ -45,7 +49,7 @@
 
   <div class="collections-grid cols-4 grid">
     {% for collection in section_settings.collection_list %}
-      <div class="collection-item collecion-{{ collection.id }}">
+      <div class="collection-item collection-{{ collection.id }}">
         <div style="background-color: {{ collection.metafields.custom.color }}" class="top-box flex items-center gap-1">
           <span class="icon">
             {{ 'arrow.svg' | inline_asset_content }}
