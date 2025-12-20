@@ -3,8 +3,7 @@
     display: flex;
 }
 
-.justify-between,
-[ref="addToCartButton"] {
+.justify-between {
     justify-content: space-between;
 }
 
