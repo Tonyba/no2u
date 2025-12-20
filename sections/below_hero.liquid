@@ -11,9 +11,42 @@
       {{ section.settings.text_1 }}
     </div>
   </div>
-  <div class="flex gap-1"></div>
-  <div class="flex gap-1"></div>
-  <div class="flex gap-1"></div>
+  <div class="flex gap-1">
+    {% if section.settings.img_2 %}
+      {{-
+        section.settings.image
+        | image_url: width: section.settings.image.width
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    {% endif %}
+    <div>
+      {{ section.settings.text_2 }}
+    </div>
+  </div>
+  <div class="flex gap-1">
+    {% if section.settings.img_3 %}
+      {{-
+        section.settings.image
+        | image_url: width: section.settings.image.width
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    {% endif %}
+    <div>
+      {{ section.settings.text_3 }}
+    </div>
+  </div>
+  <div class="flex gap-1">
+    {% if section.settings.img_4 %}
+      {{-
+        section.settings.image
+        | image_url: width: section.settings.image.width
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    {% endif %}
+    <div>
+      {{ section.settings.text_4 }}
+    </div>
+  </div>
 </div>
 
 {% schema %}
