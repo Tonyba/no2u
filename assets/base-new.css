@@ -43,7 +43,10 @@
     --color-primary-button-background: rgb(201 37 49 / 1.0);
 }
 
-.button {
+
+
+.button,
+.link {
     display: flex;
     align-items: center;
     justify-self: center;
