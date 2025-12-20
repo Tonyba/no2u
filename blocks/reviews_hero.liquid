@@ -1,4 +1,12 @@
-<div class="flex items-center justify-center"></div>
+<div class="flex items-center justify-center">
+  {% if settings.img_1 %}
+    {{ settings.img_1 | image_url }}
+  {% endif %}
+  {% if settings.img_2 %}
+    {{ settings.img_2 | image_url }}
+  {% endif %}
+  <span class="text-lg font-semibold">{{ settings.text }}</span>
+</div>
 
 {% schema %}
 {
