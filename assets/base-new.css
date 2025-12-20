@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 .contained {
     max-width: 1440px;
     margin-inline-start: auto;
