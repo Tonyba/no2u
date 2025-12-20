@@ -8,7 +8,7 @@
   }
 {% endstylesheet %}
 
-<div style="" class="contained">
+<div style="background-color: {{ section_settings.bg_color }};" class="contained">
   <h2>{{ section_settings.title }}</h2>
   <p>{{ section_settings.subtitle }}</p>
 
@@ -42,6 +42,11 @@
     {
       "type": "header",
       "content": "Design"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
     },
 
     {
