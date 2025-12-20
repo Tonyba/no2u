@@ -2,6 +2,10 @@
   assign block_settings = block.settings
 %}
 
+{%- capture children %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
 <div class="grid cols-{{ block_settings.columns }}">
   {% for block in block_settings.blocks %}
   {% endfor %}
