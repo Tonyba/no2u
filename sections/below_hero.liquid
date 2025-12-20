@@ -7,6 +7,14 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .below-hero .grid > *:not(:last-child):after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 100%;
+  }
 {% endstylesheet %}
 
 <style>
