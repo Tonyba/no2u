@@ -199,6 +199,7 @@
       "type": "below_hero",
       "name": "Below Hero",
       "settings": {
+        "bg_color": "#efefef",
         "img_1": "shopify://shop_images/file_5664646_1.svg",
         "text_1": "<p>Complete Label Transparency</p>",
         "img_2": "shopify://shop_images/formulas.svg",
