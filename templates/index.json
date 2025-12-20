@@ -12,6 +12,14 @@
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
+        "reviews_hero_EpM3Bt": {
+          "type": "reviews_hero",
+          "name": "Reviews Hero",
+          "settings": {
+            "text": "100 reviews"
+          },
+          "blocks": {}
+        },
         "text_YLPk4p": {
           "type": "text",
           "name": "t:names.heading",
@@ -142,6 +150,7 @@
         }
       },
       "block_order": [
+        "reviews_hero_EpM3Bt",
         "text_YLPk4p",
         "text_RMFjRB",
         "group_73Vjte"
