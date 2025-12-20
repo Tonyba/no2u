@@ -30,7 +30,7 @@
   {%- endif -%}
   {{ block.shopify_attributes }}
 >
-  {{ block_settings.label }}
+  <span class="text">{{ block_settings.label }}</span>
 
   {% if block_settings.show_arrow %}
     <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
