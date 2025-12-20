@@ -54,7 +54,9 @@
     font-weight: bold;
 }
 
-.link:has(svg) {}
+.link:has(svg) .text {
+    border-bottom: 1px solid;
+}
 
 .scheme-d6f4d37e-1daf-4474-9eea-4205c1043995.button {
     color: white;
