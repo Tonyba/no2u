@@ -2,8 +2,8 @@
   <div class="flex gap-1">
     {% if section.settings.img_1 %}
       {{-
-        section.settings.image
-        | image_url: width: section.settings.image.width
+        section.settings.img_1
+        | image_url: width: section.settings.img_1.width
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     {% endif %}
@@ -14,8 +14,8 @@
   <div class="flex gap-1">
     {% if section.settings.img_2 %}
       {{-
-        section.settings.image
-        | image_url: width: section.settings.image.width
+        section.settings.img_2
+        | image_url: width: section.settings.img_2.width
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     {% endif %}
