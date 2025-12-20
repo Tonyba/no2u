@@ -600,10 +600,11 @@
               "settings": {
                 "source": "uploaded",
                 "video": "shopify://files/videos/ForBiggerBlazes.mp4",
+                "video_url": "",
                 "video_autoplay": false,
                 "video_loop": false,
                 "alt": "",
-                "custom_width": 60,
+                "custom_width": 75,
                 "custom_width_mobile": 100,
                 "aspect_ratio": "16/9",
                 "border": "none",
