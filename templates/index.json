@@ -119,6 +119,7 @@
               "name": "t:names.button",
               "settings": {
                 "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
+                "show_arrow": true,
                 "label": "Shop Supplements",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
@@ -135,6 +136,7 @@
               "name": "t:names.button",
               "settings": {
                 "color_scheme": "",
+                "show_arrow": true,
                 "label": "bundle & save",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
