@@ -51,6 +51,12 @@
   }
 {% endstylesheet %}
 
+<style>
+  #{{ section.id }} {
+    background-color: {{ section_settings.bg_color }};
+  }
+</style>
+
 <div class="contained">
   <div class="text-center mb-4">
     <h2>{{ section_settings.title }}</h2>
