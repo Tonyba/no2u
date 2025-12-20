@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.no-template-areas {
+    grid-template-areas: unset;
+}
+
 .grid {
     gap: 20px;
 }
