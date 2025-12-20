@@ -1,5 +1,5 @@
 <div class="flex items-center justify-center">
-  {% if settings.img_1 %}
+  {% if settings.img_1 != blank %}
     {{ settings.img_1 | image_url }}
   {% endif %}
   {% if settings.img_2 %}
