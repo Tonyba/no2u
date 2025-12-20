@@ -53,4 +53,9 @@
     background-image: linear-gradient(to top, #000000, #00000000);
 }
 
+.hero--overlay>* {
+    position: relative;
+    z-index: 1;
+}
+
 /*hero end*/
