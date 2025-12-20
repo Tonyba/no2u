@@ -26,8 +26,8 @@
   <div class="flex gap-1">
     {% if section.settings.img_3 %}
       {{-
-        section.settings.image
-        | image_url: width: section.settings.image.width
+        section.settings.img_3
+        | image_url: width: section.settings.img_3.width
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     {% endif %}
@@ -38,8 +38,8 @@
   <div class="flex gap-1">
     {% if section.settings.img_4 %}
       {{-
-        section.settings.image
-        | image_url: width: section.settings.image.width
+        section.settings.img_4
+        | image_url: width: section.settings.img_4.width
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     {% endif %}
