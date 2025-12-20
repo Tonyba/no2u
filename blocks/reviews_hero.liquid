@@ -1,5 +1,9 @@
 <div class="flex items-center justify-center">
-  fqw
+  {{-
+    settings.img_1
+    | image_url: width: settings.img_1.width
+    | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+  -}}
   <span class="hero-rev-text">{{ settings.text }}</span>
 </div>
 
