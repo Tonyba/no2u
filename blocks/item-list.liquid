@@ -2,7 +2,10 @@
   assign block_settings = block.settings
 %}
 
-<div class="grid cols-{{ block_settings.columns }}"></div>
+<div class="grid cols-{{ block_settings.columns }}">
+  {% for block in block_settings.blocks %}
+  {% endfor %}
+</div>
 
 {% schema %}
 {
