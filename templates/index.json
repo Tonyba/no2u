@@ -18,7 +18,7 @@
           "settings": {
             "img_1": "shopify://shop_images/Frame_1984077992.png",
             "img_2": "shopify://shop_images/stars.svg",
-            "text": "100 reviews"
+            "text": "<p>4.8/5 based on <strong>1000  </strong>reviews</p>"
           },
           "blocks": {}
         },
