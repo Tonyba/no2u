@@ -1,10 +1,10 @@
 <div class="flex items-center justify-center">
   {{-
-    settings.img_1
+    block.settings.img_1
     | image_url: width: settings.img_1.width
     | image_tag: loading: 'lazy', decoding: 'async', draggable: false
   -}}
-  <span class="hero-rev-text">{{ settings.text }}</span>
+  <span class="hero-rev-text">{{ block.settings.text }}</span>
 </div>
 
 {% schema %}
