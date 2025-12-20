@@ -102,7 +102,7 @@
             "border_opacity": 100,
             "border_radius": 0,
             "toggle_overlay": false,
-            "overlay_color": "#00000000",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_style": "solid",
             "gradient_direction": "to top",
             "link": "",
