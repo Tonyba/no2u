@@ -31,6 +31,10 @@
   {{ block.shopify_attributes }}
 >
   {{ block_settings.label }}
+
+  {% if block_settings.show_arrow %}
+    <span>{{ 'icon-arrow.svg' | inline_asset_content }}</span>
+  {% endif %}
 </a>
 
 {% stylesheet %}
