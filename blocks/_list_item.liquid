@@ -1,4 +1,11 @@
-wqdqwd
+<div class="flex items-center gap-1">
+  {% if block.settings.icon %}
+    <span class="icon"> </span>
+  {% endif %}
+  <div class="item-text">
+    {{ block.settings.item_text }}
+  </div>
+</div>
 
 {% schema %}
 {
