@@ -195,6 +195,16 @@
         "padding-block-end": 72
       }
     },
+    "below_hero_YdRXaQ": {
+      "type": "below_hero",
+      "name": "Below Hero",
+      "settings": {
+        "text_1": "<p>Complete Label Transparency</p>",
+        "text_2": "<p>Clinically-Dosed Formulas</p>",
+        "text_3": "<p>3rd-Party Lab Tested</p>",
+        "text_4": "<p>Natural & Grass-Fed Ingredients</p>"
+      }
+    },
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
@@ -392,6 +402,7 @@
   },
   "order": [
     "hero_jVaWmY",
+    "below_hero_YdRXaQ",
     "product_list_fa6P9H"
   ]
 }
