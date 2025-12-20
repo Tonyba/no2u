@@ -29,6 +29,12 @@
     --color-primary-button-background: rgb(201 37 49 / 1.0);
 }
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-self: center
+}
+
 .scheme-d6f4d37e-1daf-4474-9eea-4205c1043995.button {
     color: white;
 }
