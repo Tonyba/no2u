@@ -616,8 +616,9 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
+                    "video": "shopify://files/videos/ForBiggerBlazes.mp4",
                     "video_autoplay": false,
-                    "video_loop": true,
+                    "video_loop": false,
                     "alt": "",
                     "custom_width": 100,
                     "custom_width_mobile": 100,
