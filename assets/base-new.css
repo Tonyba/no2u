@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.grid.gap-1 {
+    gap: 20px;
+}
+
 .justify-between {
     justify-content: space-between;
 }
