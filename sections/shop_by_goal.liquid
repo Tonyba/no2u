@@ -48,8 +48,10 @@
 {% endstylesheet %}
 
 <div style="background-color: {{ section_settings.bg_color }};" class="contained">
-  <h2>{{ section_settings.title }}</h2>
-  <p>{{ section_settings.subtitle }}</p>
+  <div class="text-center">
+    <h2>{{ section_settings.title }}</h2>
+    <p>{{ section_settings.subtitle }}</p>
+  </div>
 
   <div class="collections-grid cols-4 grid no-template-areas">
     {% for collection in section_settings.collection_list %}
