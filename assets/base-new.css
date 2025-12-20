@@ -25,9 +25,7 @@
 /*basic end*/
 
 /*buttons*/
-.button:not(.button-secondary, .button-unstyled) {
-    background-color: var(--color-primary-button-background);
-}
+
 
 /**/
 
