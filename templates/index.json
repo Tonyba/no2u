@@ -486,11 +486,26 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "shop_by_goal_anwq6f": {
+      "type": "shop_by_goal",
+      "name": "Shop by goal",
+      "settings": {
+        "title": "Shop By Goal",
+        "subtitle": "Find the right supplements to reach your health and fitness goals with ease.",
+        "collection_list": [
+          "build-lean-muscle",
+          "support-health-longevity",
+          "improve-performance",
+          "body-recomposition"
+        ]
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
     "below_hero_YdRXaQ",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "shop_by_goal_anwq6f"
   ]
 }
