@@ -603,7 +603,7 @@
                 "video_autoplay": false,
                 "video_loop": false,
                 "alt": "",
-                "custom_width": 55,
+                "custom_width": 60,
                 "custom_width_mobile": 100,
                 "aspect_ratio": "16/9",
                 "border": "none",
