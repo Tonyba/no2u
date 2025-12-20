@@ -1,4 +1,8 @@
-<div></div>
+{% liquid
+  assign block_settings = block.settings
+%}
+
+<div class="grid cols-{{ block_settings.columns }}"></div>
 
 {% schema %}
 {
