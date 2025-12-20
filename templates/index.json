@@ -759,7 +759,7 @@
               "name": "t:names.divider",
               "settings": {
                 "color": "#1b73b3",
-                "alignment": "left",
+                "alignment": "flex-start",
                 "thickness": 1,
                 "corner_radius": "square",
                 "width_percent": 20,
