@@ -120,6 +120,7 @@
               "settings": {
                 "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
                 "show_arrow": true,
+                "show_arrow_2": false,
                 "label": "Shop Supplements",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
@@ -137,6 +138,7 @@
               "settings": {
                 "color_scheme": "",
                 "show_arrow": true,
+                "show_arrow_2": false,
                 "label": "bundle & save",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
@@ -279,6 +281,7 @@
               "settings": {
                 "color_scheme": "scheme-c1264752-e427-4ad2-bebb-75b2869e16d7",
                 "show_arrow": true,
+                "show_arrow_2": false,
                 "label": "View All",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
@@ -826,6 +829,7 @@
               "settings": {
                 "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
                 "show_arrow": false,
+                "show_arrow_2": true,
                 "label": "Discover The Difference",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
