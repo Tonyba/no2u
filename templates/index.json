@@ -502,10 +502,10 @@
         ]
       }
     },
-    "section_RQDyCe": {
+    "section_DqVheX": {
       "type": "section",
       "blocks": {
-        "group_DP7ah3": {
+        "group_4Tthpc": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -545,11 +545,34 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "image_KKz6zF": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/ed56e67c724f19fd7ae9e69ad9808790f30cd744.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_R6i4ni": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>“ Dr. Bryan & The Secret of Nitric Oxide was featured on Fox & Friends as part of American Health Month!”</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -571,85 +594,41 @@
               },
               "blocks": {}
             },
-            "group_zN7Mxt": {
-              "type": "group",
-              "name": "t:names.group",
+            "video_FLd3kw": {
+              "type": "video",
+              "name": "t:names.video",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
+                "source": "uploaded",
+                "video": "shopify://files/videos/ForBiggerBlazes.mp4",
+                "video_autoplay": false,
+                "video_loop": false,
+                "alt": "",
                 "custom_width": 100,
-                "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
+                "aspect_ratio": "16/9",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "video_NrzbKH": {
-                  "type": "video",
-                  "name": "t:names.video",
-                  "settings": {
-                    "source": "uploaded",
-                    "video": "shopify://files/videos/ForBiggerBlazes.mp4",
-                    "video_autoplay": false,
-                    "video_loop": false,
-                    "alt": "",
-                    "custom_width": 100,
-                    "custom_width_mobile": 100,
-                    "aspect_ratio": "16/9",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "video_NrzbKH"
-              ]
+              "blocks": {}
             }
           },
           "block_order": [
+            "image_KKz6zF",
             "text_R6i4ni",
-            "group_zN7Mxt"
+            "video_FLd3kw"
           ]
         }
       },
       "block_order": [
-        "group_DP7ah3"
+        "group_4Tthpc"
       ],
-      "name": "t:names.video_section",
+      "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -658,24 +637,25 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 12,
         "section_width": "page-width",
-        "section_height": "",
+        "section_height": "small",
         "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
+        "color_scheme": "scheme-5",
+        "background_media": "image",
         "video_position": "cover",
+        "background_image": "shopify://shop_images/40301244747b1cab931469e4553695645b9a9c73.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
+        "toggle_overlay": true,
+        "overlay_color": "#0e0e0ecc",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 32
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
@@ -684,6 +664,6 @@
     "below_hero_YdRXaQ",
     "product_list_fa6P9H",
     "shop_by_goal_anwq6f",
-    "section_RQDyCe"
+    "section_DqVheX"
   ]
 }
