@@ -793,13 +793,26 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "icon_yibFEL": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/stars.svg",
+                "width": 94,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_6GkzrK",
             "text_zxCGt9",
             "divider_RF9A7J",
-            "text_TGhrez"
+            "text_TGhrez",
+            "icon_yibFEL"
           ]
         },
         "group_qLNGiA": {
