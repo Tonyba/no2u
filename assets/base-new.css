@@ -55,7 +55,7 @@
 
 .hero__content-wrapper {
     position: relative;
-    z-index: 1 !important;
+    z-index: 2 !important;
 }
 
 /*hero end*/
