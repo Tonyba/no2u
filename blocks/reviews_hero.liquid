@@ -7,13 +7,13 @@
   {{-
     block.settings.img_1
     | image_url: width: settings.img_1.width
-    | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    | image_tag: loading: 'lazy', decoding: 'async', class: 'img-1', draggable: false
   -}}
 
   {{-
     block.settings.img_2
     | image_url: width: settings.img_2.width
-    | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    | image_tag: loading: 'lazy', decoding: 'async', class: 'img-2', draggable: false
   -}}
 
   <span class="hero-rev-text">{{ block.settings.text }}</span>
