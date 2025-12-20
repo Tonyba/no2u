@@ -6,7 +6,7 @@
   {% content_for 'blocks' %}
 {% endcapture %}
 
-<div class="grid cols-{{ block_settings.columns }}">
+<div class="grid cols-{{ block_settings.columns }} no-template-areas">
   {% for block in children %}
     {% render 'list_item', block: block %}
   {% endfor %}
