@@ -330,7 +330,7 @@
               },
               "blocks": {}
             },
-            "review_9aHePL": {
+            "review_tPq97P": {
               "type": "review",
               "name": "t:names.product_review_stars",
               "settings": {
@@ -343,7 +343,7 @@
               },
               "blocks": {}
             },
-            "product_title_YXxMTj": {
+            "product_title_xVP48q": {
               "type": "product-title",
               "name": "t:names.product_title",
               "settings": {
@@ -368,7 +368,7 @@
               },
               "blocks": {}
             },
-            "price_JQzVV4": {
+            "price_C7p4Yz": {
               "type": "price",
               "name": "t:names.product_price",
               "settings": {
@@ -458,9 +458,9 @@
           },
           "block_order": [
             "product_card_gallery_677WP3",
-            "review_9aHePL",
-            "product_title_YXxMTj",
-            "price_JQzVV4",
+            "review_tPq97P",
+            "product_title_xVP48q",
+            "price_C7p4Yz",
             "buy_buttons_PCD4hP",
             "text_QzFb3G"
           ]
