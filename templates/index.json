@@ -758,9 +758,11 @@
               "type": "_divider",
               "name": "t:names.divider",
               "settings": {
+                "color": "#1b73b3",
+                "alignment": "left",
                 "thickness": 1,
                 "corner_radius": "square",
-                "width_percent": 100,
+                "width_percent": 20,
                 "padding-block-start": 25,
                 "padding-block-end": 15
               },
