@@ -16,6 +16,8 @@
           "type": "reviews_hero",
           "name": "Reviews Hero",
           "settings": {
+            "img_1": "shopify://shop_images/Frame_1984077992.png",
+            "img_2": "shopify://shop_images/stars.svg",
             "text": "100 reviews"
           },
           "blocks": {}
