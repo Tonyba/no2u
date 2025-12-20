@@ -53,4 +53,8 @@
     background-image: linear-gradient(to top, #000000, #00000000);
 }
 
+.hero__container .text-block {
+    font-weight: 600;
+}
+
 /*hero end*/
