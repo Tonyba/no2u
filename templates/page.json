@@ -1208,7 +1208,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/fillers.svg",
+                        "image": "shopify://shop_images/lab-2.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
