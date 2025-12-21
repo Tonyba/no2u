@@ -542,7 +542,7 @@
                 "menu_cHyCRP"
               ]
             },
-            "group_T4qjLq": {
+            "group_MXRqiq": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -582,7 +582,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_aKDANJ": {
+                "text_YhM6F7": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
@@ -591,9 +591,9 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "type_preset": "custom",
+                    "font": "var(--font-subheading--family)",
+                    "font_size": "1.125rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -608,16 +608,41 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "menu_nYwzit": {
+                  "type": "menu",
+                  "name": "t:names.menu",
+                  "settings": {
+                    "menu": "main-menu",
+                    "alignment": "flex-start",
+                    "menu_direction": "vertical",
+                    "divider": false,
+                    "heading": "",
+                    "menu_spacing": 12,
+                    "show_as_accordion": false,
+                    "accordion_icon": "caret",
+                    "accordion_dividers": false,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading_preset": "paragraph",
+                    "link_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_aKDANJ"
+                "text_YhM6F7",
+                "menu_nYwzit"
               ]
             }
           },
           "block_order": [
             "group_bMDPtE",
-            "group_T4qjLq"
+            "group_MXRqiq"
           ]
         },
         "email-signup_HafH7P": {
