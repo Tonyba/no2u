@@ -49,7 +49,7 @@
                 <a href="{{ article.url }}">{{ article.title }}</a>
               </h3>
               <p class="blog-card__excerpt">{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
-              <a href="{{ article.url }}" class="blog-card__read-more">
+              <a href="{{ article.url }}" class="blog-card__read-more flex items-center">
                 <span class="text">Read More</span>
                 <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
               </a>
