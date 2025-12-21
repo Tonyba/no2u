@@ -4315,6 +4315,20 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "divider_ViXRbK": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "color": "#676767",
+                "alignment": "flex-start",
+                "thickness": 2,
+                "corner_radius": "square",
+                "width_percent": 12,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
+            },
             "text_Km4nyx": {
               "type": "text",
               "name": "t:names.heading",
@@ -4323,7 +4337,7 @@
                 "text": "<h2>Frequently Asked Questions</h2>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -4335,35 +4349,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_GLgKTD": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "css_class": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 20,
+                "padding-block-end": 43,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -4371,8 +4358,8 @@
             }
           },
           "block_order": [
-            "text_Km4nyx",
-            "text_GLgKTD"
+            "divider_ViXRbK",
+            "text_Km4nyx"
           ]
         }
       },
