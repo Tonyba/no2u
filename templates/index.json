@@ -2469,37 +2469,10 @@
                 "text_J6G3TL",
                 "text_YM34U4"
               ]
-            },
-            "text_egnfQJ": {
-              "type": "text",
-              "name": "t:names.header",
-              "settings": {
-                "text": "<p>Discover elevated design </p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "group_JHVB6F",
-            "text_egnfQJ"
+            "group_JHVB6F"
           ]
         },
         "static-carousel-content": {
