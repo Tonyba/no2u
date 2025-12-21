@@ -112,6 +112,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "judge_me_reviews_preview_badge_F4HXhe": {
+                  "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                  "settings": {}
+                },
                 "text_xpVMaM": {
                   "type": "text",
                   "name": "t:names.title",
@@ -163,6 +167,7 @@
                 }
               },
               "block_order": [
+                "judge_me_reviews_preview_badge_F4HXhe",
                 "text_xpVMaM",
                 "price_tVjtKg"
               ]
