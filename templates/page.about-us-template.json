@@ -2077,6 +2077,14 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "review_product_HAHWab": {
+                  "type": "review-product",
+                  "name": "Review product",
+                  "settings": {
+                    "product": "dyno-duo"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
@@ -2084,7 +2092,8 @@
                 "review_item_verified_BrYnXj",
                 "divider_EEMdP4",
                 "text_maxADj",
-                "text_D7QwY8"
+                "text_D7QwY8",
+                "review_product_HAHWab"
               ]
             }
           },
