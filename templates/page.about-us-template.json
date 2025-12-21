@@ -1879,7 +1879,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
-                "css_class": "about-us-review-card",
+                "css_class": "review-card",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
