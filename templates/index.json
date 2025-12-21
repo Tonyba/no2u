@@ -4834,10 +4834,19 @@
                 "text_EaEcNb",
                 "button_aHbCF7"
               ]
+            },
+            "blog_carousel_aXkfdj": {
+              "type": "blog-carousel",
+              "name": "Blog Carousel",
+              "settings": {
+                "blog": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "group_WcD3YY"
+            "group_WcD3YY",
+            "blog_carousel_aXkfdj"
           ]
         }
       },
