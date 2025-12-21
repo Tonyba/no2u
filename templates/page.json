@@ -1084,7 +1084,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/plant-2.svg",
+                        "image": "shopify://shop_images/pills.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
