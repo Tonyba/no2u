@@ -1,3 +1,33 @@
+<div class="embla cols-3">
+  <div class="embla__viewport">
+    <div class="embla__container">
+      {% assign blog = blogs[section.settings.blog] %}
+      {% for article in blog.articles %}
+        <div class="embla__slide">
+          <div class="blog-card">
+            <a href="{{ article.url }}" class="blog-card__image-wrapper">
+              {% if article.image != blank %}
+                {{-
+                  article.image
+                  | image_url: width: article.image.width
+                  | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+                -}}
+              {% endif %}
+            </a>
+            <div class="blog-card__content">
+              <h3 class="blog-card__title">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+              <p class="blog-card__excerpt">{{ article.excerpt | strip_html | truncate: 100 }}</p>
+              <a href="{{ article.url }}" class="blog-card__read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Blog Carousel",
