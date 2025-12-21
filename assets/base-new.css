@@ -204,6 +204,7 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
 /*shadows*/
 .review-card {
     box-shadow: 0px 4px 15px 0px #84848426;
+    padding-bottom: 4px;
 }
 
 /*shadows end*/
