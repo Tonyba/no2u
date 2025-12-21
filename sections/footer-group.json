@@ -138,11 +138,21 @@
                     "text": "Monday - Friday | 9 am - 5 pm CST"
                   },
                   "blocks": {}
+                },
+                "text_with_icon_CLNqgP": {
+                  "type": "text-with-icon",
+                  "name": "Text with icon",
+                  "settings": {
+                    "icon": "shopify://shop_images/pin.svg",
+                    "text": "2407 South Congress Ave, E-134, Austin, TX 78704"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_with_icon_feBXE6",
-                "text_with_icon_eAXLAw"
+                "text_with_icon_eAXLAw",
+                "text_with_icon_CLNqgP"
               ]
             }
           },
