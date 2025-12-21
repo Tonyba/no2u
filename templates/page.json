@@ -639,11 +639,31 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_6yBhQz": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "css_class": "",
+                "color_scheme": "",
+                "show_arrow": true,
+                "show_arrow_2": false,
+                "label": "Shop and save 10%",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "divider_yEKRJR",
-            "text_qNXtaz"
+            "text_qNXtaz",
+            "button_6yBhQz"
           ]
         },
         "group_BiQNej": {
