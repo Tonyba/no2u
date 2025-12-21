@@ -123,7 +123,7 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
 }
 
 .dividers>*:not(:last-child) {
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid var(--color-foreground);
     padding-right: var(--gap-md);
 }
 
