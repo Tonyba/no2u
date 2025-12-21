@@ -26,6 +26,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
+            "css_class": "",
             "text": "<h1>GO BEYOND LIMITS</h1>",
             "width": "fit-content",
             "max_width": "normal",
@@ -52,6 +53,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
+            "css_class": "",
             "text": "<p>NO2U fuels your body with the energy and recovery support you need to push harder, go further, and stay unstoppable.</p>",
             "width": "fit-content",
             "max_width": "none",
@@ -436,6 +438,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>Subscribe & save 10%</p>",
                 "width": "100%",
                 "max_width": "normal",
@@ -575,6 +578,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>“ Dr. Bryan & The Secret of Nitric Oxide was featured on Fox & Friends as part of American Health Month!”</p>",
                 "width": "fit-content",
                 "max_width": "normal",
@@ -709,6 +713,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
+                "css_class": "",
                 "text": "<h2>Effective Nitric Oxide Products Proven by Science</h2>",
                 "width": "100%",
                 "max_width": "normal",
@@ -735,6 +740,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
+                "css_class": "",
                 "text": "<p>As we age, our bodies NATURAL production of Nitric Oxide slows. It’s just a natural part of aging and lifestyle choices, but what if it doesn’t have to be that way? What if you could ramp uo N.O. production to the levels you had as a teen or in your 20s?It’s completely possible with Bryan Nitriceuticals</p>",
                 "width": "100%",
                 "max_width": "none",
@@ -761,6 +767,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>It’s completely possible with Bryan Nitriceuticals</p>",
                 "width": "fit-content",
                 "max_width": "normal",
@@ -801,6 +808,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>Nitric Oxide may support the following:</p>",
                 "width": "fit-content",
                 "max_width": "normal",
@@ -918,6 +926,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>No matter how limited your natural Nitric Oxide production is, our products help give you the boost you need to aid in the restoration of N.O. levels.</p>",
                 "width": "fit-content",
                 "max_width": "none",
@@ -1077,6 +1086,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p><strong>Dr. Nathan S Bryan</strong></p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1103,6 +1113,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1129,6 +1140,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>With over 20 years of dedicated research, Dr. Nathan S. Bryan is recognized as one of the foremost authorities in the field of Nitric Oxide. He has had the privilege of collaborating with each of the three Nobel Laureates responsible for discovering this remarkable “Miracle Molecule,” contributing to groundbreaking advancements in human health and wellness.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1306,6 +1318,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
+                "css_class": "",
                 "text": "<h2>TL Performance Partners</h2>",
                 "width": "100%",
                 "max_width": "none",
@@ -1332,6 +1345,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "css_class": "",
                 "text": "<p>Meet our team of athletes, coaches, and fitness professionals.</p>",
                 "width": "100%",
                 "max_width": "none",
@@ -1434,6 +1448,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1460,6 +1475,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1544,6 +1560,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1570,6 +1587,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1654,6 +1672,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1680,6 +1699,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1764,6 +1784,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1790,6 +1811,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1874,6 +1896,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1900,6 +1923,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1984,6 +2008,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2010,6 +2035,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2094,6 +2120,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Dr. Nathan S Bryan</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2120,6 +2147,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Leading Expert in Nitric Oxide Research</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2221,6 +2249,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
+                "css_class": "",
                 "text": "<h2>On a Mission to Increase Nitric Oxide Production for All</h2>",
                 "width": "100%",
                 "max_width": "normal",
@@ -2247,6 +2276,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
+                "css_class": "",
                 "text": "<p>Every day we strive to improve the lives of others through awareness about the critical significance of Nitric Oxide production and how to maintain healthy levels as we age. Bryan Nitriceuticals’ mission is to keep advancing Nitric Oxide technologies that can assist to provide consumers with the safest, most cost-effective and best nitric oxide product technology on the market.</p>",
                 "width": "100%",
                 "max_width": "none",
@@ -2416,6 +2446,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>Testimonials</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2442,6 +2473,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "reviews-title",
                     "text": "<p><strong>Thank YOU</strong> for helping us become one of the fastest-growing companies in America.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2560,6 +2592,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<h3>Clean Protein</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -2586,6 +2619,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
+                    "css_class": "",
                     "text": "<p>“I use TL creatine which I love so I decided to give their protein a shot, and I am a big fan. It mixes easily in my shaker cup and doesn’t make you feel bloated after you drink it. Love how clean the product is and will be buying again soon!”</p>",
                     "width": "fit-content",
                     "max_width": "normal",
