@@ -1200,6 +1200,50 @@
     },
     "supporting_science_8nR8dV": {
       "type": "supporting_science",
+      "blocks": {
+        "item_eQTcfi": {
+          "type": "item",
+          "settings": {
+            "title": "75,000 +",
+            "desc": "Active monthly subscribers who are committed to healthy routine."
+          }
+        },
+        "item_meJ9KK": {
+          "type": "item",
+          "settings": {
+            "title": "100 +",
+            "desc": "Clinical studies that support our ingredients."
+          }
+        },
+        "item_RFMKTR": {
+          "type": "item",
+          "settings": {
+            "title": "31,000 +",
+            "desc": "5-star reviews from customers who have seen the results."
+          }
+        },
+        "item_fKGUTW": {
+          "type": "item",
+          "settings": {
+            "title": "2,000 +",
+            "desc": "3rd-party lab tests performed to verify purity and potency."
+          }
+        },
+        "item_XCzpkn": {
+          "type": "item",
+          "settings": {
+            "title": "45 +",
+            "desc": "Rigorously formulated, effective products."
+          }
+        }
+      },
+      "block_order": [
+        "item_eQTcfi",
+        "item_meJ9KK",
+        "item_RFMKTR",
+        "item_fKGUTW",
+        "item_XCzpkn"
+      ],
       "name": "Supporting with science",
       "settings": {
         "title": "Supporting You With Science",
