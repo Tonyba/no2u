@@ -737,7 +737,7 @@
               "settings": {
                 "text": "<p>As we age, our bodies NATURAL production of Nitric Oxide slows. It’s just a natural part of aging and lifestyle choices, but what if it doesn’t have to be that way? What if you could ramp uo N.O. production to the levels you had as a teen or in your 20s?It’s completely possible with Bryan Nitriceuticals</p><p><strong>It’s completely possible with Bryan Nitriceuticals</strong></p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -894,7 +894,7 @@
               "settings": {
                 "text": "<p>No matter how limited your natural Nitric Oxide production is, our products help give you the boost you need to aid in the restoration of N.O. levels.</p>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
