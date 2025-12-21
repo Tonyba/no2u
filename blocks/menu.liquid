@@ -58,7 +58,7 @@
         {% if menu %}
           <ul class="list-unstyled flex items-{{ block_settings.alignment }} menu__list menu--{{ direction }} {% if dividers_enabled == true %}dividers{% endif %}">
             {% for link in menu.links %}
-              <li class="menu__item {{ block_settings.link_preset }}">
+              <li class="menu__item {{ block_settings.link_preset }} flex items-center">
                 {% if block_settings.icon != blank %}
                   <span class="menu-item-icon">
                     {{-
