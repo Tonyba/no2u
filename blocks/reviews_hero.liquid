@@ -1,0 +1,61 @@
+{% stylesheet %}
+  .reviews-hero .img-1 {
+    max-width: 100px;
+  }
+
+  .reviews-hero .img-2 {
+    max-width: 85px;
+  }
+
+  .reviews-hero {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #16141491;
+  }
+{% endstylesheet %}
+
+<div class="flex items-center justify-center">
+  {{-
+    block.settings.img_1
+    | image_url: width: settings.img_1.width
+    | image_tag: loading: 'lazy', decoding: 'async', class: 'img-1', draggable: false
+  -}}
+
+  {{-
+    block.settings.img_2
+    | image_url: width: settings.img_2.width
+    | image_tag: loading: 'lazy', decoding: 'async', class: 'img-2', draggable: false
+  -}}
+
+  <span class="hero-rev-text">{{ block.settings.text }}</span>
+</div>
+
+{% schema %}
+{
+  "name": "Reviews Hero",
+  "class": "reviews-hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews Hero"
+    }
+  ]
+}
+{% endschema %}

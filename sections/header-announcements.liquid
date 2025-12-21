@@ -6,6 +6,16 @@
   ></script>
 {% endif %}
 
+{% if section.settings.show_mobile == false %}
+  <style>
+    @media screen and (max-width: 1024px) {
+      #shopify-section-{{ section.id }} {
+        display: none;
+      }
+    }
+  </style>
+{% endif %}
+
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <aside
   class="announcement-bar spacing-style section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}"
@@ -179,6 +189,12 @@
         }
       ],
       "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_mobile",
+      "label": "Show on mobile",
+      "default": false
     },
     {
       "type": "color",

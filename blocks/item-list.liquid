@@ -1,0 +1,52 @@
+{% liquid
+  assign block_settings = block.settings
+%}
+
+{%- capture children %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
+{% stylesheet %}
+  .item-list .icon {
+    width: 38px;
+    flex-shrink: 0;
+  }
+
+  .item-list .list-item {
+    padding: 25px 18px;
+    border: 1px solid #a7a7a7;
+    color: #2a2a2a;
+    font-weight: 600;
+  }
+{% endstylesheet %}
+
+<div class="grid cols-{{ block_settings.columns }} no-template-areas">
+  {% for block in children %}
+    {% render 'list_item', block: block %}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Item List",
+  "class": "item-list",
+  "blocks": [
+    {
+      "type": "_list_item"
+    }
+  ],
+  "settings": [
+    {
+      "type": "number",
+      "id": "columns",
+      "label": "Columns",
+      "default": 2
+    }
+  ],
+  "presets": [
+    {
+      "name": "Item List"
+    }
+  ]
+}
+{% endschema %}

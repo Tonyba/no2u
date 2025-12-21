@@ -19,6 +19,7 @@
   {% endif %}
   class="
     size-style
+    {{ block_settings.color_scheme }}
     {{ block_settings.style_class }}
     {{ block_settings.style_class }}--{{ block.id }}
   "
@@ -29,7 +30,15 @@
   {%- endif -%}
   {{ block.shopify_attributes }}
 >
-  {{ block_settings.label }}
+  <span class="text">{{ block_settings.label }}</span>
+
+  {% if block_settings.show_arrow %}
+    <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
+  {% endif %}
+
+  {% if block_settings.show_arrow_2 %}
+    <span class="icon">{{ 'arrow-right.svg' | inline_asset_content }}</span>
+  {% endif %}
 </a>
 
 {% stylesheet %}

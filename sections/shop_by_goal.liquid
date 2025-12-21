@@ -1,0 +1,131 @@
+{% liquid
+  assign section_settings = section.settings
+%}
+
+{% stylesheet %}
+  .shop-by-goal {
+    padding: 60px 0;
+  }
+
+  .collection-464207151340 .box-details {
+    color: white;
+  }
+
+  .shop-by-goal .top-box {
+    padding: 20px 30px;
+  }
+
+  .shop-by-goal .icon {
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+  }
+
+  .shop-by-goal .collection-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .shop-by-goal h3 {
+    font-size: 21px;
+    margin-bottom: 6px;
+  }
+
+  .shop-by-goal .top-box {
+    min-height: 150px;
+  }
+
+  .shop-by-goal img {
+    width: 100%;
+    height: 372px;
+    object-fit: cover;
+  }
+
+  .shop-by-goal h2 {
+    margin-bottom: 10px;
+  }
+{% endstylesheet %}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section_settings.bg_color }};
+  }
+</style>
+
+<div class="contained">
+  <div class="text-center mb-4">
+    <h2>{{ section_settings.title }}</h2>
+    <p>{{ section_settings.subtitle }}</p>
+  </div>
+
+  <div class="collections-grid cols-4 grid no-template-areas">
+    {% for collection in section_settings.collection_list %}
+      <div class="collection-item collection-{{ collection.id }} relative">
+        <div style="background-color: {{ collection.metafields.custom.color }}" class="top-box flex items-center gap-1">
+          <span class="icon">
+            {{ 'arrow.svg' | inline_asset_content }}
+          </span>
+          <div class="box-details">
+            <h3>{{ collection.title }}</h3>
+            <p>{{ collection.description }}</p>
+          </div>
+        </div>
+        {{-
+          collection.image
+          | image_url: width: 372
+          | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+        -}}
+        <a class="wrapper-link" href="{{ collection.url }}" aria-label="{{ collection.title }}"></a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Shop By Goal",
+  "class": "shop-by-goal",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Design"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections",
+      "limit": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop by goal"
+    }
+  ]
+}
+{% endschema %}
