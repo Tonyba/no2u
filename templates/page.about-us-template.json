@@ -1715,10 +1715,10 @@
                         "color": "var(--color-foreground-heading)",
                         "background": true,
                         "background_color": "#e6effc",
-                        "corner_radius": 0,
+                        "corner_radius": 25,
                         "padding-block-start": 0,
                         "padding-block-end": 0,
-                        "padding-inline-start": 15,
+                        "padding-inline-start": 20,
                         "padding-inline-end": 15
                       },
                       "blocks": {}
@@ -1806,7 +1806,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
+        "padding-block-start": 90,
         "padding-block-end": 48
       }
     }
