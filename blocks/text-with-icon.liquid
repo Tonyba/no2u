@@ -1,13 +1,29 @@
 {% stylesheet %}
 {% endstylesheet %}
 
-<div></div>
+<div class="flex items-center">
+  <div class="icon">
+    {{-
+      block.settings.icon
+      | image_url: width: block.settings.image.width
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
+  <div class="text">
+    {{ block.settings.text }}
+  </div>
+</div>
 
 {% schema %}
 {
   "name": "Text with icon",
   "class": "text-with-icon",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
     {
       "type": "text",
       "id": "text",
