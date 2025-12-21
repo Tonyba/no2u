@@ -587,7 +587,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Quick Links</p>",
+                    "text": "<p>Company</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
