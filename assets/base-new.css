@@ -188,12 +188,12 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
 
 /*text*/
 
-.reviews-title {
+.reviews-title p {
     font-size: 28px;
     font-weight: 600;
 }
 
-.reviews-title strong {
+.reviews-title p strong {
     font-size: 32px;
 }
 
