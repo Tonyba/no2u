@@ -517,6 +517,7 @@
                   "name": "t:names.menu",
                   "settings": {
                     "menu": "main-menu",
+                    "alignment": "flex-start",
                     "menu_direction": "vertical",
                     "divider": false,
                     "heading": "",
