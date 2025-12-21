@@ -1,7 +1,7 @@
 {% stylesheet %}
 {% endstylesheet %}
 
-<div class="flex">
+<div class="flex items-center">
   <div class="img">
     {{-
       block.settings.product.featured_image
@@ -9,7 +9,13 @@
       | image_tag: loading: 'lazy', decoding: 'async', draggable: false
     -}}
   </div>
-  <div class="prod-content"></div>
+  <div class="prod-content">
+    <h5>{{ block.settings.product.title }}</h5>
+    <a href="{{ block.settings.product.url }}" class="flex items-center">
+      <span class="icon">{{ 'arrow-right.svg' | inline_asset_content }}</span>
+      <span class="text"></span>
+    </a>
+  </div>
 </div>
 
 {% schema %}
