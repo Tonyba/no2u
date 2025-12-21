@@ -166,6 +166,11 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     position: relative;
 }
 
+.shopify-section .contained {
+    position: relative;
+    z-index: 1;
+}
+
 .section-bg-image {
     position: absolute;
     top: 0;
