@@ -528,7 +528,7 @@
                     "inherit_color_scheme": true,
                     "color_scheme": "",
                     "heading_preset": "paragraph",
-                    "link_preset": "paragraph",
+                    "link_preset": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
