@@ -1,5 +1,11 @@
 {% assign block_settings = block.settings %}
 
+{% stylesheet %}
+  .faqs .icon-plus {
+    display: none;
+  }
+{% endstylesheet %}
+
 <div class="grid cols-{{ block_settings.columns}}">
   {% content_for 'blocks' %}
 </div>
