@@ -812,10 +812,20 @@
                     "item_text": "Improve Nitric Oxide production"
                   },
                   "blocks": {}
+                },
+                "list_item_VjM7Mf": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/oxygen_16532541_1.svg",
+                    "item_text": "Enhance oxygen and nutrient delivery to cells."
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "list_item_tEj6Ba"
+                "list_item_tEj6Ba",
+                "list_item_VjM7Mf"
               ]
             },
             "text_Lh6qFc": {
