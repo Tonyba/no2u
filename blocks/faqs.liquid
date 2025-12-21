@@ -6,7 +6,7 @@
   }
 {% endstylesheet %}
 
-<div class="grid cols-{{ block_settings.columns}}">
+<div class="grid cols-{{ block_settings.columns}} no-template-areas ">
   {% content_for 'blocks' %}
 </div>
 
