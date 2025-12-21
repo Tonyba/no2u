@@ -494,7 +494,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body’s natural production of Nitric Oxide (N.O.) declines — a change that can impact blood flow, oxygen delivery, cardiovascular function, and more. NO2U was founded to challenge that decline. Through cutting-edge science, we create formulations designed to help restore and support N.O. levels responsibly and effectively.</p><p><strong>Led by Dr. Nathan S. Bryan — a world-renowned leader in Nitric Oxide biochemistry — NO2U bridges research, innovation, and consumer health. Dr. Bryan’s work, spanning over two decades and collaborations with Nobel researchers, informs every product.</strong></p>",
+                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
