@@ -11,6 +11,10 @@
     flex-wrap: wrap;
 }
 
+.menu__item .menu-item-icon img {
+    width: 12px;
+}
+
 .wrapper-link {
     position: absolute;
     top: 0;
