@@ -4,8 +4,8 @@
 <div class="flex">
   <div class="img">
     {{-
-      block.settings.image
-      | image_url: width: block.settings.image.width
+      block.settings.product.featured_image
+      | image_url: width: 150
       | image_tag: loading: 'lazy', decoding: 'async', draggable: false
     -}}
   </div>
