@@ -604,11 +604,11 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Quality first</h2>",
+                "text": "<h2>What sets TL products apart?</h2>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
+                "alignment": "left",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -620,43 +620,35 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 35,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_9nwxm9": {
-              "type": "text",
-              "name": "t:names.description",
+            "button_dUHgBY": {
+              "type": "button",
+              "name": "t:names.button",
               "settings": {
                 "css_class": "",
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "color_scheme": "",
+                "show_arrow": true,
+                "show_arrow_2": false,
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
               },
               "blocks": {}
             }
           },
           "block_order": [
             "text_KqmPyg",
-            "text_9nwxm9"
+            "button_dUHgBY"
           ]
         },
         "group_fWV9zd": {
@@ -777,7 +769,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
