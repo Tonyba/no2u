@@ -816,29 +816,32 @@
           },
           "blocks": {}
         },
-        "social_icons": {
-          "type": "social-links",
-          "settings": {
-            "facebook_url": "#",
-            "instagram_url": "#",
-            "youtube_url": "#",
-            "tiktok_url": "https://www.tiktok.com",
-            "twitter_url": "#",
-            "threads_url": "",
-            "linkedin_url": "",
-            "bluesky_url": "",
-            "snapchat_url": "",
-            "pinterest_url": "",
-            "tumblr_url": "",
-            "vimeo_url": "",
-            "custom_url": ""
+        "icon_list_WyXUJt": {
+          "type": "icon-list",
+          "name": "icon list",
+          "settings": {},
+          "blocks": {
+            "icon_Vx47Ui": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/twitter_2_1.svg",
+                "width": 24,
+                "link": "#",
+                "open_in_new_tab": true
+              },
+              "blocks": {}
+            }
           },
-          "blocks": {}
+          "block_order": [
+            "icon_Vx47Ui"
+          ]
         }
       },
       "block_order": [
         "menu_qfbRV3",
-        "social_icons"
+        "icon_list_WyXUJt"
       ],
       "settings": {
         "section_width": "page-width",
