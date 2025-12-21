@@ -2,7 +2,13 @@
 {% endstylesheet %}
 
 <div class="flex">
-  <div class="img"></div>
+  <div class="img">
+    {{-
+      block.settings.image
+      | image_url: width: block.settings.image.width
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
   <div class="prod-content"></div>
 </div>
 
