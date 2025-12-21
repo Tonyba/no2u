@@ -829,7 +829,34 @@
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
-                        "padding-block-start": 0,
+                        "padding-block-start": 15,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_TxdWJr": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>We believe that supplements should produce effective results and support overall health and longevity. That's why all of our products are made with natural ingredients and grass-fed protein.</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 10,
                         "padding-block-end": 0,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
@@ -839,7 +866,8 @@
                   },
                   "block_order": [
                     "image_TKTVNJ",
-                    "text_pqyBBg"
+                    "text_pqyBBg",
+                    "text_TxdWJr"
                   ]
                 },
                 "group_rMqctT": {
