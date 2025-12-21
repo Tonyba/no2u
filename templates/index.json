@@ -1397,6 +1397,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1509,6 +1510,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1621,6 +1623,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1733,6 +1736,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1845,6 +1849,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1957,6 +1962,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -2069,6 +2075,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -2541,6 +2548,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "css_class": "review-card",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
