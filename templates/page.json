@@ -599,6 +599,20 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "divider_yEKRJR": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "color": "#2a2a2a",
+                "alignment": "flex-start",
+                "thickness": 2,
+                "corner_radius": "square",
+                "width_percent": 25,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              },
+              "blocks": {}
+            },
             "text_qNXtaz": {
               "type": "text",
               "name": "t:names.heading",
@@ -628,6 +642,7 @@
             }
           },
           "block_order": [
+            "divider_yEKRJR",
             "text_qNXtaz"
           ]
         },
