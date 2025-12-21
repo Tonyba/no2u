@@ -21,6 +21,7 @@
               <p class="blog-card__excerpt">{{ article.excerpt | strip_html | truncate: 25 }}</p>
               <a href="{{ article.url }}" class="blog-card__read-more">
                 <span class="text">Read More</span>
+                <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
               </a>
             </div>
           </div>
