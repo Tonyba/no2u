@@ -4812,7 +4812,7 @@
                     "show_arrow": true,
                     "show_arrow_2": false,
                     "label": "View All",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://blogs/news",
                     "open_in_new_tab": false,
                     "style_class": "link",
                     "width": "fit-content",
