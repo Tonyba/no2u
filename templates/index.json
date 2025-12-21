@@ -1266,8 +1266,8 @@
           "name": "t:names.header",
           "static": true,
           "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
             "horizontal_alignment": "space-between",
             "vertical_alignment": "flex-end",
             "align_baseline": true,
@@ -1306,11 +1306,37 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<h2>Meet our team of athletes, coaches, and fitness professionals.</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
+                "text": "<h2>TL Performance Partners</h2>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "center",
                 "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_YGEfJM": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Meet our team of athletes, coaches, and fitness professionals.</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "center",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1330,7 +1356,8 @@
             }
           },
           "block_order": [
-            "text_CcxBiC"
+            "text_CcxBiC",
+            "text_YGEfJM"
           ]
         },
         "static-carousel-content": {
@@ -1799,7 +1826,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "columns": 3,
+        "columns": 4,
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 12,
