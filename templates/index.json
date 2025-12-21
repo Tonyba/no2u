@@ -2263,7 +2263,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 20,
-                "padding-block-end": 0,
+                "padding-block-end": 40,
                 "padding-inline-start": 40,
                 "padding-inline-end": 0
               },
