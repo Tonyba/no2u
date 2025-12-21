@@ -10,6 +10,7 @@
 {
   "current": {
     "logo": "shopify://shop_images/3a9831c777c067eb75f3afc4df692107b14aa7cb.png",
+    "logo_inverse": "shopify://shop_images/white-logo.png",
     "logo_height": 52,
     "logo_height_mobile": 42,
     "type_body_font": "manrope_n4",
