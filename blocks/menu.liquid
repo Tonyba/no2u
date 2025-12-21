@@ -62,8 +62,8 @@
                 {% if block_settings.icon != blank %}
                   <span class="menu-item-icon">
                     {{-
-                      block.settings.image
-                      | image_url: width: block.settings.image.width
+                      block_settings.icon
+                      | image_url: width: block_settings.icon.width
                       | image_tag: loading: 'lazy', decoding: 'async', draggable: false
                     -}}
                   </span>
