@@ -7,6 +7,10 @@
     grid-template-areas: unset;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .wrapper-link {
     position: absolute;
     top: 0;
