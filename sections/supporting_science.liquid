@@ -1,3 +1,16 @@
+<div>
+  <h2>{{ section.settings.title }}</h2>
+
+  <div class="flex flex-wrap">
+    {% for block in section.blocks %}
+      <div class="science-item">
+        <h3>{{ block.settings.title }}</h3>
+        <p>{{ block.settings.desc }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Supporting with science",
