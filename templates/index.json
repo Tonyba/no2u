@@ -1500,7 +1500,7 @@
         "columns": 4,
         "mobile_columns": "1",
         "section_width": "page-width",
-        "columns_gap": 12,
+        "columns_gap": 20,
         "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "icons_style": "arrow",
         "icons_shape": "circle",
