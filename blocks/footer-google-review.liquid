@@ -3,7 +3,7 @@
 
 <div class="flex items-center">
   <div class="google-icon">
-    {% if section.settings.google_review_img != blank %}
+    {% if block.settings.google_review_img != blank %}
       {{-
         block.settings.google_review_img
         | image_url: width: block.settings.google_review_img.width
@@ -13,10 +13,10 @@
   </div>
   <div class="review-texts">
     <span class="text">
-      {{ section.settings.review_text }}
+      {{ block.settings.review_text }}
     </span>
     <span class="rating">
-      {{ section.settings.rating }}
+      {{ block.settings.rating }}
     </span>
   </div>
 </div>
