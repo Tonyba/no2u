@@ -18,7 +18,7 @@
               <h3 class="blog-card__title">
                 <a href="{{ article.url }}">{{ article.title }}</a>
               </h3>
-              <p class="blog-card__excerpt">{{ article.excerpt | strip_html | truncate: 100 }}</p>
+              <p class="blog-card__excerpt">{{ article.excerpt | strip_html | truncate: 25 }}</p>
               <a href="{{ article.url }}" class="blog-card__read-more">Read More</a>
             </div>
           </div>
