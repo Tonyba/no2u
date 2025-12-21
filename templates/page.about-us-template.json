@@ -2003,10 +2003,17 @@
                     "text_nxUh7U",
                     "text_mAUmH4"
                   ]
+                },
+                "review_item_verified_BrYnXj": {
+                  "type": "review_item_verified",
+                  "name": "review item verified",
+                  "settings": {},
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "group_EDp4Ej"
+                "group_EDp4Ej",
+                "review_item_verified_BrYnXj"
               ]
             }
           },
