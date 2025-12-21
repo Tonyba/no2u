@@ -47,7 +47,7 @@
 
   <div class="flex flex-wrap">
     {% for block in section.blocks %}
-      <div class="col col-{{ block.index }}">
+      <div class="col col-{{ forloop.index }}">
         <div class="science-item">
           <h3>{{ block.settings.title }}</h3>
           <p>{{ block.settings.desc }}</p>
