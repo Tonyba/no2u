@@ -511,10 +511,34 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "menu_cHyCRP": {
+                  "type": "menu",
+                  "name": "t:names.menu",
+                  "settings": {
+                    "menu": "main-menu",
+                    "menu_direction": "vertical",
+                    "divider": false,
+                    "heading": "",
+                    "menu_spacing": 12,
+                    "show_as_accordion": false,
+                    "accordion_icon": "caret",
+                    "accordion_dividers": false,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "heading_preset": "paragraph",
+                    "link_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_tRV7QR"
+                "text_tRV7QR",
+                "menu_cHyCRP"
               ]
             },
             "group_T4qjLq": {
