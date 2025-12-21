@@ -735,7 +735,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>As we age, our bodies NATURAL production of Nitric Oxide slows. It’s just a natural part of aging and lifestyle choices, but what if it doesn’t have to be that way? What if you could ramp uo N.O. production to the levels you had as a teen or in your 20s?It’s completely possible with Bryan Nitriceuticals</p><p><strong>It’s completely possible with Bryan Nitriceuticals</strong></p>",
+                "text": "<p>As we age, our bodies NATURAL production of Nitric Oxide slows. It’s just a natural part of aging and lifestyle choices, but what if it doesn’t have to be that way? What if you could ramp uo N.O. production to the levels you had as a teen or in your 20s?It’s completely possible with Bryan Nitriceuticals</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -751,6 +751,32 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 20,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_xVagJB": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>It’s completely possible with Bryan Nitriceuticals</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -936,6 +962,7 @@
           "block_order": [
             "text_6GkzrK",
             "text_zxCGt9",
+            "text_xVagJB",
             "divider_RF9A7J",
             "text_TGhrez",
             "item_list_zrw6xU",
