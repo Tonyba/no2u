@@ -1,8 +1,17 @@
+{% stylesheet %}
+  .testimonials-header-count {
+  }
+{% endstylesheet %}
+
 <div class="flex items-center">
   <div class="rating flex items-center">
     <span class="icon">
       {{ 'google-icon.svg' | inline_asset_content }}
     </span>
+    <div class="rating-numbers">
+      <span>{{ settings.rating }}</span>
+      <span>/ 5</span>
+    </div>
   </div>
   <div class="texts">
     <p class="top-text">{{ settings.top_text }}</p>
