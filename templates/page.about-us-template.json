@@ -1732,7 +1732,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "css_class": "",
+                    "css_class": "reviews-title",
                     "text": "<p><strong>Thank YOU</strong> for helping us become one of the fastest-growing companies in America.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
