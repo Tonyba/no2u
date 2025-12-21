@@ -4360,7 +4360,7 @@
               "type": "faqs",
               "name": "FAQs",
               "settings": {
-                "columns": 1
+                "columns": 3
               },
               "blocks": {
                 "accordion_row_48y3N8": {
