@@ -120,7 +120,20 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "text_with_icon_feBXE6": {
+                  "type": "text-with-icon",
+                  "name": "Text with icon",
+                  "settings": {
+                    "icon": "shopify://shop_images/phone-ringing_1_1.svg",
+                    "text": "832-779-4435"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_with_icon_feBXE6"
+              ]
             }
           },
           "block_order": [
