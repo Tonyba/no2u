@@ -797,7 +797,7 @@
             "menu": "privacy-links",
             "alignment": "center",
             "menu_direction": "horizontal",
-            "divider": false,
+            "divider": true,
             "heading": "",
             "menu_spacing": 12,
             "show_as_accordion": false,
