@@ -4360,6 +4360,7 @@
               "type": "faqs",
               "name": "FAQs",
               "settings": {
+                "css_class": "",
                 "columns": 3
               },
               "blocks": {
@@ -4693,7 +4694,7 @@
         "padding-block-end": 48
       }
     },
-    "featured_blog_posts_XQXEzN": {
+    "featured_blog_posts_twF9bj": {
       "type": "featured-blog-posts",
       "blocks": {
         "static-blog-title": {
@@ -4701,7 +4702,7 @@
           "name": "t:names.title",
           "static": true,
           "settings": {
-            "text": "<h2>Start Learning</h2>",
+            "text": "<h3>{{ closest.blog.title }}</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -4783,8 +4784,8 @@
               "name": "t:names.details",
               "static": true,
               "settings": {
-                "show_date": true,
-                "show_author": true,
+                "show_date": false,
+                "show_author": false,
                 "type_preset": "",
                 "alignment": "left",
                 "show_alignment": false,
@@ -4849,6 +4850,6 @@
     "carousel_XzFVjC",
     "section_kCMTAX",
     "section_JHgAWg",
-    "featured_blog_posts_XQXEzN"
+    "featured_blog_posts_twF9bj"
   ]
 }
