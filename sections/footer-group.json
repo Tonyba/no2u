@@ -790,19 +790,10 @@
     "utilities": {
       "type": "footer-utilities",
       "blocks": {
-        "copyright": {
-          "type": "footer-copyright",
-          "settings": {
-            "show_powered_by": true,
-            "font_size": "0.75rem",
-            "case": "none"
-          },
-          "blocks": {}
-        },
         "policy_list": {
           "type": "footer-policy-list",
           "settings": {
-            "font_size": "0.75rem",
+            "font_size": "0.875rem",
             "case": "none"
           },
           "blocks": {}
@@ -828,7 +819,6 @@
         }
       },
       "block_order": [
-        "copyright",
         "policy_list",
         "social_icons"
       ],
