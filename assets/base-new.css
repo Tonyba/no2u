@@ -33,6 +33,10 @@
     margin-inline-end: auto;
 }
 
+.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .cols-4 {
     grid-template-columns: repeat(4, 1fr);
 }
