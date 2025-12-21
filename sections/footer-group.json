@@ -309,6 +309,20 @@
         "padding-block-end": 0
       }
     },
+    "divider_UBdddN": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "scheme-7d51669f-a616-4f6a-ac70-6c7885db9ec8",
+        "section_width": "page-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -1005,6 +1019,7 @@
     "divider_3YbadY",
     "footer",
     "utilities",
+    "divider_UBdddN",
     "section_DWmKwF"
   ]
 }
