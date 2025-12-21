@@ -821,11 +821,71 @@
                     "item_text": "Enhance oxygen and nutrient delivery to cells."
                   },
                   "blocks": {}
+                },
+                "list_item_B3k9Ti": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/Clip_path_group.svg",
+                    "item_text": "Support cardiovascular health."
+                  },
+                  "blocks": {}
+                },
+                "list_item_NXgpYJ": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/hear.svg",
+                    "item_text": "Aid normal heart function."
+                  },
+                  "blocks": {}
+                },
+                "list_item_jgRj7F": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/water-drop_18462599_1.svg",
+                    "item_text": "Support healthy blood circulation and blood pressure."
+                  },
+                  "blocks": {}
+                },
+                "list_item_iQeQU3": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/drop_543560_1.svg",
+                    "item_text": "Create healthy blood flow."
+                  },
+                  "blocks": {}
+                },
+                "list_item_eeTzUj": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/Group_18695.svg",
+                    "item_text": "Deliver antioxidant support."
+                  },
+                  "blocks": {}
+                },
+                "list_item_A9FJMc": {
+                  "type": "_list_item",
+                  "name": "List Item",
+                  "settings": {
+                    "icon": "shopify://shop_images/brain_5623114_1.svg",
+                    "item_text": "Support cognitive function and memory."
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "list_item_tEj6Ba",
-                "list_item_VjM7Mf"
+                "list_item_VjM7Mf",
+                "list_item_B3k9Ti",
+                "list_item_NXgpYJ",
+                "list_item_jgRj7F",
+                "list_item_iQeQU3",
+                "list_item_eeTzUj",
+                "list_item_A9FJMc"
               ]
             },
             "text_Lh6qFc": {
