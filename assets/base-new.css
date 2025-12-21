@@ -162,6 +162,17 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
 
 /*bg img*/
 
+.shopify-section:has(img.section-bg-image) {
+    position: relative;
+}
 
+.section-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*bg img end*/
