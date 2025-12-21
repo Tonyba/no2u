@@ -3542,7 +3542,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "css_class": "",
+                "css_class": "strong-line-blue",
                 "text": "<p>Recently purchased? Please <strong>leave a review</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
