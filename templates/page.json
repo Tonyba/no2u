@@ -713,7 +713,7 @@
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
+                "vertical_alignment": "flex-start",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
@@ -1108,7 +1108,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Natural and Grass-Fed Ingredients</h3>",
+                        "text": "<h3>Transparent, Clinically-Dosed Formulas</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1135,7 +1135,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We believe that supplements should produce effective results and support overall health and longevity. That's why all of our products are made with natural ingredients and grass-fed protein.</p>",
+                        "text": "<p>Our customers want to know exactly what they're putting in their body. All Transparent Labs products have fully transparent labels, with detailed ingredient breakdowns. Each formula contains active ingredients with dosages that have been proven to be effective by the latest scientific research.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1232,7 +1232,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>No Artificial Sweeteners, Fillers, or Colors</h3>",
+                        "text": "<h3>3rd-Party Lab Testing</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1259,7 +1259,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We believe that supplements should produce effective results and support overall health and longevity. That's why all of our products are made with natural ingredients and grass-fed protein.</p>",
+                        "text": "<p>We rigorously test all of our products for purity and potency, so you can be 100% confident about what's in the supplements you're taking - you can find our latest Certificates of Analysis at . Our products are also Informed Choice and Informed Protein certified for banned substances.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
