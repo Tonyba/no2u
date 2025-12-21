@@ -1,3 +1,10 @@
+{% stylesheet %}
+  .review-item-verified .text {
+    font-weight: 600;
+    font-size: 16px;
+  }
+{% endstylesheet %}
+
 <div class="flex items-center">
   <span class="stars">{{ 'stars.svg' | inline_asset_content }}</span>
   <span class="verified">{{ 'google-check.svg' | inline_asset_content }}</span>
