@@ -4839,7 +4839,7 @@
               "type": "blog-carousel",
               "name": "Blog Carousel",
               "settings": {
-                "blog": ""
+                "blog": "news"
               },
               "blocks": {}
             }
