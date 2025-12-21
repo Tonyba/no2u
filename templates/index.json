@@ -2274,9 +2274,9 @@
               "name": "t:names.button",
               "settings": {
                 "color_scheme": "",
-                "show_arrow": false,
+                "show_arrow": true,
                 "show_arrow_2": false,
-                "label": "Shop now",
+                "label": "Shop Supplements",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
