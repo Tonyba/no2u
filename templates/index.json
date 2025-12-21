@@ -2186,8 +2186,8 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 8,
             "width": "fill",
             "custom_width": 100,
@@ -2221,11 +2221,11 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Intentional design</h2>",
+                "text": "<h2>On a Mission to Increase Nitric Oxide Production for All</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2247,9 +2247,9 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Every day we strive to improve the lives of others through awareness about the critical significance of Nitric Oxide production and how to maintain healthy levels as we age. Bryan Nitriceuticals’ mission is to keep advancing Nitric Oxide technologies that can assist to provide consumers with the safest, most cost-effective and best nitric oxide product technology on the market.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -2268,11 +2268,30 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_ewgFqN": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "color_scheme": "",
+                "show_arrow": false,
+                "show_arrow_2": false,
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_fTX6Wh",
-            "text_gdBj3m"
+            "text_gdBj3m",
+            "button_ewgFqN"
           ]
         }
       },
@@ -2292,7 +2311,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
+        "color_scheme": "scheme-3ff33978-9a9e-4cc7-a104-dafbc3b7ff08",
         "background_media": "image",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Rectangle_296.png",
