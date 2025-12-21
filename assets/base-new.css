@@ -199,6 +199,10 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     font-weight: 700;
 }
 
+.strong-line-red strong {
+    border-bottom: 2px solid #C92531;
+}
+
 /*text end*/
 
 /*shadows*/
