@@ -6,7 +6,7 @@
   }
 {% endstylesheet %}
 
-<div class="grid cols-{{ block_settings.columns}} no-template-areas ">
+<div class="grid cols-{{ block_settings.columns}} no-template-areas {{ section.settings.css_class }}">
   {% content_for 'blocks' %}
 </div>
 
@@ -20,6 +20,11 @@
     }
   ],
   "settings": [
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
     {
       "type": "number",
       "id": "columns",
