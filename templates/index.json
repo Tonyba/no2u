@@ -2469,10 +2469,21 @@
                 "text_J6G3TL",
                 "text_YM34U4"
               ]
+            },
+            "testimonials_header_count_B9ekbg": {
+              "type": "testimonials-header-count",
+              "name": "testimonials header count",
+              "settings": {
+                "rating": "4.9",
+                "top_text": "",
+                "bottom_Text": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "group_JHVB6F"
+            "group_JHVB6F",
+            "testimonials_header_count_B9ekbg"
           ]
         },
         "static-carousel-content": {
