@@ -1235,6 +1235,13 @@
             "title": "45 +",
             "desc": "Rigorously formulated, effective products."
           }
+        },
+        "item_ceAwhU": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "desc": ""
+          }
         }
       },
       "block_order": [
@@ -1242,7 +1249,8 @@
         "item_meJ9KK",
         "item_RFMKTR",
         "item_fKGUTW",
-        "item_XCzpkn"
+        "item_XCzpkn",
+        "item_ceAwhU"
       ],
       "name": "Supporting with science",
       "settings": {
