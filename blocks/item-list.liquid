@@ -6,6 +6,12 @@
   {% content_for 'blocks' %}
 {% endcapture %}
 
+{% stylesheet %}
+  .item-list .icon {
+    width: 38px;
+  }
+{% endstylesheet %}
+
 <div class="grid cols-{{ block_settings.columns }} no-template-areas">
   {% for block in children %}
     {% render 'list_item', block: block %}
