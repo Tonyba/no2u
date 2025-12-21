@@ -261,8 +261,6 @@ function numberWithinRange(number, min, max) {
     return Math.min(Math.max(number, min), max);
 }
 
-
-
 function setTweenNodes(emblaApi) {
     tweenNodes = emblaApi.slideNodes().map((slideNode) => {
         return slideNode.querySelector('.service-carousel-item');
