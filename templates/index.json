@@ -2636,6 +2636,12 @@
                     "padding-inline-end": 30
                   },
                   "blocks": {
+                    "review_item_verified_NmXH7n": {
+                      "type": "review_item_verified",
+                      "name": "review item verified",
+                      "settings": {},
+                      "blocks": {}
+                    },
                     "text_7mahxJ": {
                       "type": "text",
                       "name": "t:names.text",
@@ -2792,6 +2798,7 @@
                     }
                   },
                   "block_order": [
+                    "review_item_verified_NmXH7n",
                     "text_7mahxJ",
                     "text_QyCM3h",
                     "group_BKTe3F"
