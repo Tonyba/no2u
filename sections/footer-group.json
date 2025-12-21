@@ -521,6 +521,7 @@
                     "menu_direction": "vertical",
                     "divider": false,
                     "heading": "",
+                    "icon": "shopify://shop_images/Icon.svg",
                     "menu_spacing": 12,
                     "show_as_accordion": false,
                     "accordion_icon": "caret",
