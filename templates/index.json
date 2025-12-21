@@ -1197,6 +1197,14 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "supporting_science_8nR8dV": {
+      "type": "supporting_science",
+      "name": "Supporting with science",
+      "settings": {
+        "title": "Supporting You With Science",
+        "bg_img": "shopify://shop_images/Rectangle_299.png"
+      }
     }
   },
   "order": [
@@ -1205,6 +1213,7 @@
     "product_list_fa6P9H",
     "shop_by_goal_anwq6f",
     "section_DqVheX",
-    "section_7Rraat"
+    "section_7Rraat",
+    "supporting_science_8nR8dV"
   ]
 }
