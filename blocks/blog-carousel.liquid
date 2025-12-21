@@ -1,7 +1,7 @@
 <div class="embla cols-3">
   <div class="embla__viewport">
     <div class="embla__container">
-      {% assign blog = blogs[section.settings.blog] %}
+      {% assign blog = block.settings.blog %}
       {% for article in blog.articles %}
         <div class="embla__slide">
           <div class="blog-card">
