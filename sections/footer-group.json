@@ -129,10 +129,20 @@
                     "text": "832-779-4435"
                   },
                   "blocks": {}
+                },
+                "text_with_icon_eAXLAw": {
+                  "type": "text-with-icon",
+                  "name": "Text with icon",
+                  "settings": {
+                    "icon": "shopify://shop_images/clock_2_1.svg",
+                    "text": "Monday - Friday | 9 am - 5 pm CST"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_with_icon_feBXE6"
+                "text_with_icon_feBXE6",
+                "text_with_icon_eAXLAw"
               ]
             }
           },
