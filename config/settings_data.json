@@ -213,8 +213,8 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#e1edf5",
-          "foreground_heading": "#000000",
+          "background": "rgba(0,0,0,0)",
+          "foreground_heading": "#1b73b3",
           "foreground": "#000000cf",
           "primary": "#000000cf",
           "primary_hover": "#000000",
