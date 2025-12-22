@@ -27,6 +27,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -153,6 +154,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -253,6 +255,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -358,6 +361,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -426,6 +430,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -563,6 +568,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -670,6 +676,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -710,6 +717,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "css_class": "",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -750,6 +758,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -874,6 +883,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -1004,6 +1014,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "css_class": "",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1044,6 +1055,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -1168,6 +1180,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -1341,6 +1354,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1442,6 +1456,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1580,6 +1595,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1620,6 +1636,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -1660,6 +1677,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -1819,6 +1837,7 @@
           "disabled": true,
           "static": true,
           "settings": {
+            "css_class": "",
             "content_direction": "row",
             "vertical_on_mobile": false,
             "horizontal_alignment": "space-between",
@@ -1908,6 +1927,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2082,6 +2102,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2174,6 +2195,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2348,6 +2370,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2440,6 +2463,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2614,6 +2638,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2706,6 +2731,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2880,6 +2906,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -2972,6 +2999,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3146,6 +3174,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3238,6 +3267,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3412,6 +3442,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
+                    "css_class": "",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -3502,6 +3533,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -3610,6 +3642,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "css_class": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -3763,7 +3796,7 @@
         "overlay_color": "#000000cc",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
+        "padding-block-start": 90,
         "padding-block-end": 48
       }
     }
