@@ -15,6 +15,9 @@
     align-items: center;
     background-color: transparent;
   }
+
+  .doctors-carousel .embla__controls {
+  }
 {% endstylesheet %}
 
 <div class="embla cols-1 paginated">
@@ -27,7 +30,7 @@
       {% endfor %}
     </div>
   </div>
-  <div class="embla__controls">
+  <div class="embla__controls flex items-center">
     <button class="embla__button embla__button--prev">
       {{ 'chevron-left.svg' | inline_asset_content }}
     </button>
