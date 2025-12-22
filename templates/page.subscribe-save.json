@@ -3051,28 +3051,48 @@
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "rte",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
-                "color": "var(--color-foreground)",
+                "color": "var(--color-foreground-heading)",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 25,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_JGpiBY": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "css_class": "",
+                "color_scheme": "",
+                "show_arrow": true,
+                "show_arrow_2": false,
+                "label": "Shop and save 10%",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
               },
               "blocks": {}
             }
           },
           "block_order": [
             "divider_wPDQhx",
-            "text_izUj8n"
+            "text_izUj8n",
+            "button_JGpiBY"
           ]
         },
         "group_DAQbjj": {
@@ -3136,7 +3156,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
