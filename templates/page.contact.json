@@ -389,7 +389,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/mail.svg",
+                "image": "shopify://shop_images/phone-black.svg",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
