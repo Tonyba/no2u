@@ -1,5 +1,10 @@
+{% stylesheet %}
+  .doctor-item {
+  }
+{% endstylesheet %}
+
 <div class="flex items-center">
-  <div class="img">
+  <div class="img relative">
     {{-
       block.settings.img
       | image_url: width: block.settings.img.width
