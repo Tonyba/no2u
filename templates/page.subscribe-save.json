@@ -682,7 +682,7 @@
               "settings": {
                 "css_class": "",
                 "color_scheme": "",
-                "show_arrow": false,
+                "show_arrow": true,
                 "show_arrow_2": false,
                 "label": "Shop and save 10%",
                 "link": "shopify://collections/all",
