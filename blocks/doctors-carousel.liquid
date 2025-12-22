@@ -26,11 +26,9 @@
 
 <div class="embla cols-1 paginated">
   <div class="embla__viewport">
-    <div class="embla__container">
+    <div class="embla__container convert-list">
       {% for item in children %}
-        <div class="embla__slide">
-          {{ item }}
-        </div>
+        {{ item }}
       {% endfor %}
     </div>
   </div>
