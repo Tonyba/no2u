@@ -15,7 +15,7 @@
 {%- enddoc -%}
 
 <div
-  class="divider divider-{{ id }} spacing-style"
+  class="divider divider-{{ id }} spacing-style divider-{{ settings.direction }}"
   style="
     --divider-justify-content: {{ settings.alignment | default: 'center' }};
     {% render 'spacing-style', settings: settings %}
