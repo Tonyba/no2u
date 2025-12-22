@@ -3952,78 +3952,32 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "group_HCHW9P": {
-                  "type": "group",
-                  "name": "t:names.group",
+                "text_TLh3wt": {
+                  "type": "text",
+                  "name": "t:names.text",
                   "settings": {
                     "css_class": "",
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "custom_height": 100,
-                    "inherit_color_scheme": false,
-                    "color_scheme": "scheme-4",
-                    "background_media": "none",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "placeholder": "",
+                    "text": "<p>Testimonials</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-subheading--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": true,
+                    "background_color": "#c9c9c9",
+                    "corner_radius": 25,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 36,
+                    "padding-inline-end": 36
                   },
-                  "blocks": {
-                    "text_wRPfjy": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Testimonials</p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-subheading--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground-heading)",
-                        "background": true,
-                        "background_color": "#e6effc",
-                        "corner_radius": 25,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 20,
-                        "padding-inline-end": 15
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_wRPfjy"
-                  ]
+                  "blocks": {}
                 },
                 "text_UDRnXT": {
                   "type": "text",
@@ -4054,7 +4008,7 @@
                 }
               },
               "block_order": [
-                "group_HCHW9P",
+                "text_TLh3wt",
                 "text_UDRnXT"
               ]
             }
