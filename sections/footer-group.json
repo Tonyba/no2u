@@ -309,20 +309,6 @@
         "padding-block-end": 0
       }
     },
-    "divider_UBdddN": {
-      "type": "divider",
-      "name": "t:names.divider_section",
-      "settings": {
-        "color_scheme": "scheme-7d51669f-a616-4f6a-ac70-6c7885db9ec8",
-        "section_width": "page-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -833,7 +819,9 @@
         "icon_list_WyXUJt": {
           "type": "icon-list",
           "name": "icon list",
-          "settings": {},
+          "settings": {
+            "gap": 12
+          },
           "blocks": {
             "icon_Vx47Ui": {
               "type": "icon",
@@ -903,6 +891,20 @@
         "color_scheme": "scheme-e17813a6-12c7-42c1-8191-2d058c5c457e",
         "padding-block-start": 12,
         "padding-block-end": 16
+      }
+    },
+    "divider_UBdddN": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "scheme-7d51669f-a616-4f6a-ac70-6c7885db9ec8",
+        "section_width": "page-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_DWmKwF": {
