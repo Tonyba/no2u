@@ -87,7 +87,8 @@
     --color-primary-button-background: rgb(201 37 49 / 1.0);
 }
 
-[ref="addToCartButton"] {
+[ref="addToCartButton"],
+.button {
     justify-content: center;
 }
 
