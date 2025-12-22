@@ -266,9 +266,6 @@ slideshow-slides:has(.review-card) {
     min-width: 100%;
 }
 
-.divider-vertical {
-    min-width: var(--divider-flex-basis);
-}
 
 /* dividers end*/
 
