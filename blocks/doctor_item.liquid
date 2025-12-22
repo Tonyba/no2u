@@ -1,5 +1,11 @@
 <div class="flex items-center">
-  <div class="img"></div>
+  <div class="img">
+    {{-
+      block.settings.img
+      | image_url: width: block.settings.img.width
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
   <div class="texts">
     <p class="quote"></p>
     <p class="content"></p>
