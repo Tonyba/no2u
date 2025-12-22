@@ -52,55 +52,7 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {
-            "breadcrumbs_PAmCCp": {
-              "type": "breadcrumbs",
-              "name": "Breadcrumb Navigation",
-              "settings": {
-                "breadcrumbs_home_icon_bool": false,
-                "breadcrumb_delimeter": "angle_right",
-                "breadcrumb_bg_color": "rgba(0,0,0,0)",
-                "breadcrumb_text_color": "#fafafa",
-                "breadcrumb_accent_color_bool": false,
-                "breadcrumb_accent_color": "#fafafa",
-                "enable_product_page": false,
-                "enable_collection_page": false,
-                "enable_complete_site": true
-              },
-              "blocks": {}
-            },
-            "text_UBMxpL": {
-              "type": "text",
-              "name": "t:names.title",
-              "settings": {
-                "css_class": "",
-                "text": "<h1>Everything You Need to Know</h1>",
-                "width": "100%",
-                "max_width": "none",
-                "alignment": "center",
-                "type_preset": "h1",
-                "font": "var(--font-primary--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "breadcrumbs_PAmCCp",
-            "text_UBMxpL"
-          ]
+          "blocks": {}
         },
         "content": {
           "type": "text",
@@ -134,6 +86,7 @@
         "group_m8Kr9W",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "gap": 0,
@@ -142,10 +95,10 @@
         "padding-block-end": 55
       }
     },
-    "section_KLf8Pa": {
+    "section_9F3NCP": {
       "type": "section",
       "blocks": {
-        "group_gNGkmE": {
+        "group_4YtmQR": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -164,8 +117,8 @@
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -180,16 +133,64 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 70,
-            "padding-block-end": 70,
-            "padding-inline-start": 60,
-            "padding-inline-end": 60
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "breadcrumbs_6Vjcfr": {
+              "type": "breadcrumbs",
+              "name": "Breadcrumb Navigation",
+              "settings": {
+                "breadcrumbs_home_icon_bool": false,
+                "breadcrumb_delimeter": "angle_right",
+                "breadcrumb_bg_color": "rgba(0,0,0,0)",
+                "breadcrumb_text_color": "#fafafa",
+                "breadcrumb_accent_color_bool": false,
+                "breadcrumb_accent_color": "#fafafa",
+                "enable_product_page": false,
+                "enable_collection_page": false,
+                "enable_complete_site": true
+              },
+              "blocks": {}
+            },
+            "text_pHPX9j": {
+              "type": "text",
+              "name": "t:names.title",
+              "settings": {
+                "css_class": "",
+                "text": "<h1>Everything You Need to Know</h1>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "center",
+                "type_preset": "h1",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "breadcrumbs_6Vjcfr",
+            "text_pHPX9j"
+          ]
         }
       },
       "block_order": [
-        "group_gNGkmE"
+        "group_4YtmQR"
       ],
       "name": "t:names.multicolumn",
       "settings": {
@@ -204,7 +205,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -216,13 +217,13 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 73,
+        "padding-block-end": 97
       }
     }
   },
   "order": [
     "main",
-    "section_KLf8Pa"
+    "section_9F3NCP"
   ]
 }
