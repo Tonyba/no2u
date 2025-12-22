@@ -4671,7 +4671,7 @@
                 "show_arrow": true,
                 "show_arrow_2": false,
                 "label": "Read All FAQs",
-                "link": "shopify://collections/all",
+                "link": "shopify://pages/faq",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
