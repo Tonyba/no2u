@@ -1294,7 +1294,7 @@
       "block_order": [
         "group_bXCef8"
       ],
-      "name": "t:names.multicolumn",
+      "name": "faqs",
       "settings": {
         "css_class": "",
         "content_direction": "row",
@@ -3837,7 +3837,7 @@
         "group_PhGAir",
         "group_QCCdCx"
       ],
-      "name": "faqs",
+      "name": "multi",
       "settings": {
         "css_class": "",
         "content_direction": "row",
@@ -5883,13 +5883,13 @@
     "below_hero_BBxpkR",
     "section_XqVntf",
     "section_BEmwQL",
-    "section_aMCdxR",
     "section_KCgJUi",
     "section_m66Li7",
     "section_egUPWE",
     "section_yUTKNC",
     "section_qbiQm6",
     "carousel_mDpEgh",
-    "section_rX3Kk9"
+    "section_rX3Kk9",
+    "section_aMCdxR"
   ]
 }
