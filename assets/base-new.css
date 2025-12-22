@@ -7,6 +7,10 @@
     grid-template-areas: unset;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
