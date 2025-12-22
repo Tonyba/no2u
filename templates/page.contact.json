@@ -677,12 +677,40 @@
                 }
               },
               "block_order": []
+            },
+            "text_a6Q6Ah": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<p><strong>NOTE:</strong> The information provided on this website and by our Customer Success team is for general informational purposes only. It is not intended as medical advice, diagnosis, or treatment. Our products are formulated for use by individuals aged 18 and older. Before using any of our products, we strongly recommend consulting with your healthcare provider, particularly if you have underlying medical conditions, are pregnant or nursing, or are taking prescription medications.</p><p><strong>Thank you for the support.<br/><br/></strong></p>",
+                "width": "fit-content",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 40,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_bdDn8P",
             "text_ADtbg6",
-            "contact_form_fLbYRG"
+            "contact_form_fLbYRG",
+            "text_a6Q6Ah"
           ]
         }
       },
