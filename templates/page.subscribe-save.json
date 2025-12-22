@@ -139,6 +139,16 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "reviews_hero_eFW8BX": {
+              "type": "reviews_hero",
+              "name": "Reviews Hero",
+              "settings": {
+                "img_1": "shopify://shop_images/Frame_1984077992.png",
+                "img_2": "shopify://shop_images/stars.svg",
+                "text": "<p>4.8/5 based on 1000  reviews</p>"
+              },
+              "blocks": {}
+            },
             "text_pHPX9j": {
               "type": "text",
               "name": "t:names.title",
@@ -214,6 +224,7 @@
             }
           },
           "block_order": [
+            "reviews_hero_eFW8BX",
             "text_pHPX9j",
             "text_jp4Rcw",
             "button_XW4EGn"
