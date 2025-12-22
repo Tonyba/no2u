@@ -69,7 +69,14 @@ function init() {
         } else {
 
             plugins.push(EmblaCarouselClassNames());
-            mountEmbla(elm, options, plugins);
+            const api = mountEmbla(elm, options, plugins);
+
+            if (elm.classList.contains('paginated')) {
+                const snapDisplayNode = elm.querySelector('.embla__selected-snap-display');
+                updateSelectedSnapDisplay(api, snapDisplayNode);
+            }
+
+
         }
 
     });
