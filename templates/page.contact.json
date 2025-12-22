@@ -1,38 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "blocks": {
-        "title": {
-          "type": "text",
-          "name": "t:names.title",
+        "group_m8Kr9W": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
+            "css_class": "",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "breadcrumbs_PAmCCp": {
+              "type": "breadcrumbs",
+              "name": "Breadcrumb Navigation",
+              "settings": {
+                "breadcrumbs_home_icon_bool": false,
+                "breadcrumb_delimeter": "angle_right",
+                "breadcrumb_bg_color": "#fff",
+                "breadcrumb_text_color": "#465076",
+                "breadcrumb_accent_color_bool": false,
+                "breadcrumb_accent_color": "#4770db",
+                "enable_product_page": false,
+                "enable_collection_page": false,
+                "enable_complete_site": true
+              },
+              "blocks": {}
+            },
+            "text_UBMxpL": {
+              "type": "text",
+              "name": "t:names.title",
+              "settings": {
+                "css_class": "",
+                "text": "<h1>{{ closest.page.title }}</h1>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h1",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_gxn6gA": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<p>Questions, comments, concerns? We'd love to hear from you.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 20,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "breadcrumbs_PAmCCp",
+            "text_UBMxpL",
+            "text_gxn6gA"
+          ]
         },
         "content": {
           "type": "text",
           "name": "t:names.content",
           "settings": {
+            "css_class": "",
             "text": "{{ closest.page.content }}",
             "width": "100%",
             "max_width": "narrow",
@@ -56,13 +158,16 @@
           "blocks": {}
         }
       },
-      "block_order": ["title", "content"],
+      "block_order": [
+        "group_m8Kr9W",
+        "content"
+      ],
       "settings": {
         "content_direction": "column",
-        "gap": 32,
-        "color_scheme": "",
+        "gap": 0,
+        "color_scheme": "scheme-5",
         "padding-block-start": 40,
-        "padding-block-end": 0
+        "padding-block-end": 55
       }
     },
     "form": {
@@ -100,7 +205,9 @@
           "block_order": []
         }
       },
-      "block_order": ["contact_form_UwiCkQ"],
+      "block_order": [
+        "contact_form_UwiCkQ"
+      ],
       "name": "t:names.contact_form",
       "settings": {
         "content_direction": "column",
@@ -131,5 +238,8 @@
       }
     }
   },
-  "order": ["main", "form"]
+  "order": [
+    "main",
+    "form"
+  ]
 }
