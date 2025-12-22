@@ -261,7 +261,14 @@ slideshow-slides:has(.review-card) {
 /*shadows end*/
 
 /* dividers */
-.divider-vertical {}
+.divider-vertical .divider__line {
+    min-height: unset;
+    min-width: 100%;
+}
+
+.divider-vertical {
+    min-width: var(--divider-flex-basis);
+}
 
 /* dividers end*/
 
