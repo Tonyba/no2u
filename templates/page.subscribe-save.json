@@ -133,8 +133,8 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
+            "padding-block-start": 50,
+            "padding-block-end": 50,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -249,8 +249,8 @@
         "overlay_color": "#0e0e0ecc",
         "overlay_style": "gradient",
         "gradient_direction": "to top",
-        "padding-block-start": 73,
-        "padding-block-end": 97
+        "padding-block-start": 100,
+        "padding-block-end": 100
       }
     },
     "section_aMCdxR": {
