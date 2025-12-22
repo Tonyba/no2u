@@ -265,6 +265,21 @@
         "padding-block-end": 100
       }
     },
+    "below_hero_BBxpkR": {
+      "type": "below_hero",
+      "name": "Below Hero",
+      "settings": {
+        "bg_color": "#efefef",
+        "img_1": "shopify://shop_images/truck.svg",
+        "text_1": "<p>Save 10% + free US shipping<br/>on every purchase</p>",
+        "img_2": "shopify://shop_images/Group.svg",
+        "text_2": "<p>VIP access to customer support</p>",
+        "img_3": "shopify://shop_images/Group_1.svg",
+        "text_3": "<p>Set your ideal delivery frequency (15, 30, or 45 days)</p>",
+        "img_4": "shopify://shop_images/times.svg",
+        "text_4": "<p>Pause, cancel, or edit<br/>your order at any time</p>"
+      }
+    },
     "section_XqVntf": {
       "type": "section",
       "blocks": {
@@ -3775,6 +3790,7 @@
   "order": [
     "main",
     "section_9F3NCP",
+    "below_hero_BBxpkR",
     "section_XqVntf",
     "section_BEmwQL",
     "section_yUTKNC",
