@@ -565,9 +565,9 @@
       "scheme-41266413-eba7-4eba-837f-bc1ccd61809e": {
         "settings": {
           "background": "#ffffff",
-          "foreground_heading": "#000000",
-          "foreground": "#000000cf",
-          "primary": "#000000cf",
+          "foreground_heading": "#ffffff",
+          "foreground": "#ffffff",
+          "primary": "#ffffff",
           "primary_hover": "#000000",
           "border": "#0000000f",
           "shadow": "#000000",
@@ -583,8 +583,8 @@
           "secondary_button_hover_background": "#fafafa",
           "secondary_button_hover_text": "#333333",
           "secondary_button_hover_border": "#333333",
-          "input_background": "#ffffffc7",
-          "input_text_color": "#333333",
+          "input_background": "#ffffff",
+          "input_text_color": "#000000",
           "input_border_color": "#dfdfdf",
           "input_hover_background": "#00000003",
           "variant_background_color": "#ffffff",
