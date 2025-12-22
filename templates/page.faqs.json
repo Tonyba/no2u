@@ -74,7 +74,7 @@
               "name": "t:names.title",
               "settings": {
                 "css_class": "",
-                "text": "<h1>Frequently Asked Questions</h1>",
+                "text": "<p>Everything You Need to Know</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
