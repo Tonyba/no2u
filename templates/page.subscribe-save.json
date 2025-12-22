@@ -3519,7 +3519,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/Frame_2397.svg",
+                        "image": "shopify://shop_images/Frame_2397_1.svg",
                         "link": "",
                         "image_ratio": "square",
                         "width": "custom",
@@ -3644,7 +3644,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/Frame_2397.svg",
+                        "image": "shopify://shop_images/Frame_2397_2.svg",
                         "link": "",
                         "image_ratio": "square",
                         "width": "custom",
