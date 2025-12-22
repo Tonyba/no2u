@@ -355,10 +355,220 @@
                   "block_order": [
                     "text_YzxPJe"
                   ]
+                },
+                "accordion_row_RbFF8G": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "How do subscriptions work?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_gLxNgw": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_gLxNgw"
+                  ]
+                },
+                "accordion_row_NbQCem": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "How do I make changes to my subscription?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_baL646": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_baL646"
+                  ]
+                },
+                "accordion_row_wNWwBh": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "What frequency should I choose?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_jR3KJA": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_jR3KJA"
+                  ]
+                },
+                "accordion_row_f3BbiX": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Can I subscribe to products at different frequencies?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_PfzmM6": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_PfzmM6"
+                  ]
+                },
+                "accordion_row_VawmwX": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Is there a minimum order value to receive my Subscribe & Save 10% discount?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_Nt9JG7": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_Nt9JG7"
+                  ]
                 }
               },
               "block_order": [
-                "accordion_row_3VY98z"
+                "accordion_row_3VY98z",
+                "accordion_row_RbFF8G",
+                "accordion_row_NbQCem",
+                "accordion_row_wNWwBh",
+                "accordion_row_f3BbiX",
+                "accordion_row_VawmwX"
               ]
             }
           },
