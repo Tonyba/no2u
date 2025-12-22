@@ -236,6 +236,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "hero-vertical-overlay",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -626,6 +627,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
