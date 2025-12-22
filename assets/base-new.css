@@ -92,6 +92,10 @@
     justify-content: center;
 }
 
+.button-secondary {
+    border-radius: 50px;
+}
+
 .button,
 .button-secondary,
 .link {
