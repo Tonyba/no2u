@@ -156,7 +156,7 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to right, #000000CC, #00000000);
+    background-image: linear-gradient(to right, #000000, #00000000);
 }
 
 .hero--overlay .hero__media-wrapper::after {
