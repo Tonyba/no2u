@@ -3566,10 +3566,49 @@
                     "position": "Leading Expert in Nitric Oxide Research"
                   },
                   "blocks": {}
+                },
+                "doctor_item_rgtQxB": {
+                  "type": "doctor_item",
+                  "name": "doctor item",
+                  "settings": {
+                    "img": "shopify://shop_images/20769da294ce18d4de05300a171352de05c0bcad.png",
+                    "quote": "“Big supplement companies that use artificial sweeteners, flavors, fillers, and colors in their products may taste great.”",
+                    "content": "“But if you actually look at the ingredients like I do, and I look at the ingredients and everything that I put into my body, you'll see that you're getting a whole bunch of junk. So for the amount of whey protein that I consume on a daily basis, I want to make sure that I'm not taking in a ton of artificial chemicals, and I'm taking in the best quality protein that I can. So, I use all Transparent Labs products. They're as clean as can be for me.”",
+                    "name": "Dr. Nathan S Bryan",
+                    "position": "Leading Expert in Nitric Oxide Research"
+                  },
+                  "blocks": {}
+                },
+                "doctor_item_Ery6AF": {
+                  "type": "doctor_item",
+                  "name": "doctor item",
+                  "settings": {
+                    "img": "shopify://shop_images/20769da294ce18d4de05300a171352de05c0bcad.png",
+                    "quote": "“Big supplement companies that use artificial sweeteners, flavors, fillers, and colors in their products may taste great.”",
+                    "content": "“But if you actually look at the ingredients like I do, and I look at the ingredients and everything that I put into my body, you'll see that you're getting a whole bunch of junk. So for the amount of whey protein that I consume on a daily basis, I want to make sure that I'm not taking in a ton of artificial chemicals, and I'm taking in the best quality protein that I can. So, I use all Transparent Labs products. They're as clean as can be for me.”",
+                    "name": "Dr. Nathan S Bryan",
+                    "position": "Leading Expert in Nitric Oxide Research"
+                  },
+                  "blocks": {}
+                },
+                "doctor_item_JGQeEh": {
+                  "type": "doctor_item",
+                  "name": "doctor item",
+                  "settings": {
+                    "img": "shopify://shop_images/20769da294ce18d4de05300a171352de05c0bcad.png",
+                    "quote": "“Big supplement companies that use artificial sweeteners, flavors, fillers, and colors in their products may taste great.”",
+                    "content": "“But if you actually look at the ingredients like I do, and I look at the ingredients and everything that I put into my body, you'll see that you're getting a whole bunch of junk. So for the amount of whey protein that I consume on a daily basis, I want to make sure that I'm not taking in a ton of artificial chemicals, and I'm taking in the best quality protein that I can. So, I use all Transparent Labs products. They're as clean as can be for me.”",
+                    "name": "Dr. Nathan S Bryan",
+                    "position": "Leading Expert in Nitric Oxide Research"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "doctor_item_pERnKh"
+                "doctor_item_pERnKh",
+                "doctor_item_rgtQxB",
+                "doctor_item_Ery6AF",
+                "doctor_item_JGQeEh"
               ]
             }
           },
