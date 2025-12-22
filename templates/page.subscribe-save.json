@@ -661,11 +661,31 @@
                 "accordion_row_kPHWMD",
                 "accordion_row_QJ9Dtf"
               ]
+            },
+            "button_ERMcxe": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "css_class": "",
+                "color_scheme": "",
+                "show_arrow": false,
+                "show_arrow_2": false,
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "group_PkiifX",
-            "faqs_VtNWdL"
+            "faqs_VtNWdL",
+            "button_ERMcxe"
           ]
         },
         "group_GNDTEH": {
