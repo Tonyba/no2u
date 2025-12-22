@@ -108,7 +108,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
             "width": "fill",
@@ -139,31 +139,15 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "breadcrumbs_6Vjcfr": {
-              "type": "breadcrumbs",
-              "name": "Breadcrumb Navigation",
-              "settings": {
-                "breadcrumbs_home_icon_bool": false,
-                "breadcrumb_delimeter": "angle_right",
-                "breadcrumb_bg_color": "rgba(0,0,0,0)",
-                "breadcrumb_text_color": "#fafafa",
-                "breadcrumb_accent_color_bool": false,
-                "breadcrumb_accent_color": "#fafafa",
-                "enable_product_page": false,
-                "enable_collection_page": false,
-                "enable_complete_site": true
-              },
-              "blocks": {}
-            },
             "text_pHPX9j": {
               "type": "text",
               "name": "t:names.title",
               "settings": {
                 "css_class": "",
-                "text": "<h1>Everything You Need to Know</h1>",
+                "text": "<h1>Subscribe & Save More</h1>",
                 "width": "100%",
                 "max_width": "none",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "h1",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
@@ -181,11 +165,58 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_jp4Rcw": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<p>With every order, you’ll save 10%! Get started today and make shopping simpler, smarter, and more affordable.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 10,
+                "padding-block-end": 10,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_XW4EGn": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "css_class": "",
+                "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
+                "show_arrow": true,
+                "show_arrow_2": false,
+                "label": "Shop and save 10%",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "breadcrumbs_6Vjcfr",
-            "text_pHPX9j"
+            "text_pHPX9j",
+            "text_jp4Rcw",
+            "button_XW4EGn"
           ]
         }
       },
