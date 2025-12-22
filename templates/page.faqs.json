@@ -25,7 +25,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
-            "width": "custom",
+            "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -74,7 +74,7 @@
               "name": "t:names.title",
               "settings": {
                 "css_class": "",
-                "text": "<p>Everything You Need to Know</p>",
+                "text": "<h1>Everything You Need to Know</h1>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
