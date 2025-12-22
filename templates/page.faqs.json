@@ -311,7 +311,7 @@
               "type": "faqs",
               "name": "FAQs",
               "settings": {
-                "css_class": "",
+                "css_class": "faqs-section",
                 "columns": 1
               },
               "blocks": {
