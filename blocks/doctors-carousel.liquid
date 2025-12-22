@@ -4,6 +4,19 @@
   {% content_for 'blocks' %}
 {% endcapture %}
 
+{% stylesheet %}
+  .doctors-carousel .embla__button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+{% endstylesheet %}
+
 <div class="embla cols-1 paginated">
   <div class="embla__viewport">
     <div class="embla__container">
