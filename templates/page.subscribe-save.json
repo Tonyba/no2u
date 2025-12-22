@@ -823,6 +823,606 @@
         "padding-block-end": 48
       }
     },
+    "section_yUTKNC": {
+      "type": "section",
+      "blocks": {
+        "group_pGeafC": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "css_class": "",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_fzzpyd": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "css_class": "",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 38,
+                "padding-block-end": 0,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
+              },
+              "blocks": {
+                "divider_qEwJen": {
+                  "type": "_divider",
+                  "name": "t:names.divider",
+                  "settings": {
+                    "color": "#c92531",
+                    "alignment": "flex-start",
+                    "direction": "horizontal",
+                    "thickness": 3,
+                    "corner_radius": "square",
+                    "width_percent": 25,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_GAyzNc": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h2>Log in to your Transparent Labs account</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_7JCrFY": {
+                  "type": "text",
+                  "name": "t:names.description",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<p>Log in to your Transparent Labs account with the email that was used to place your subscription order.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "divider_qEwJen",
+                "text_GAyzNc",
+                "text_7JCrFY"
+              ]
+            },
+            "image_JCjiiP": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Frame_1984078242.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_fzzpyd",
+            "image_JCjiiP"
+          ]
+        },
+        "group_PhGAir": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "css_class": "",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_AWRXmT": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "css_class": "",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 38,
+                "padding-block-end": 0,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
+              },
+              "blocks": {
+                "divider_gB9RBr": {
+                  "type": "_divider",
+                  "name": "t:names.divider",
+                  "settings": {
+                    "color": "#c92531",
+                    "alignment": "flex-start",
+                    "direction": "horizontal",
+                    "thickness": 3,
+                    "corner_radius": "square",
+                    "width_percent": 25,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_nHg8Hg": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h2>Using the icons in your portal</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_hzmq3z": {
+                  "type": "text",
+                  "name": "t:names.description",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<p>Using the icons in your portal, you can easily edit your shipping or payment information, skip orders, change your next order date, edit the products in your subscription, get your next order now, add a discount code, or cancel your subscriptions at any time.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "divider_gB9RBr",
+                "text_nHg8Hg",
+                "text_hzmq3z"
+              ]
+            },
+            "image_jQjzKE": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Frame_1984078241.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_AWRXmT",
+            "image_jQjzKE"
+          ]
+        },
+        "group_QCCdCx": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "css_class": "",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 0,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_nPYD3B": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "css_class": "",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 38,
+                "padding-block-end": 0,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
+              },
+              "blocks": {
+                "divider_jiCCBd": {
+                  "type": "_divider",
+                  "name": "t:names.divider",
+                  "settings": {
+                    "color": "#c92531",
+                    "alignment": "flex-start",
+                    "direction": "horizontal",
+                    "thickness": 3,
+                    "corner_radius": "square",
+                    "width_percent": 25,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_JzhzxB": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<p>Still have a question</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_mFz4pf": {
+                  "type": "text",
+                  "name": "t:names.description",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<p>Still have a question? Read our FAQ or send us a note at support@transparentlabs.com</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "divider_jiCCBd",
+                "text_JzhzxB",
+                "text_mFz4pf"
+              ]
+            },
+            "image_mX7gdf": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/Frame_1984078245.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_nPYD3B",
+            "image_mX7gdf"
+          ]
+        }
+      },
+      "block_order": [
+        "group_pGeafC",
+        "group_PhGAir",
+        "group_QCCdCx"
+      ],
+      "name": "multi",
+      "settings": {
+        "css_class": "",
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 22,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
     "section_BEmwQL": {
       "type": "section",
       "blocks": {
@@ -931,397 +1531,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 83,
         "padding-block-end": 0
-      }
-    },
-    "section_aMCdxR": {
-      "type": "section",
-      "blocks": {
-        "group_bXCef8": {
-          "type": "group",
-          "name": "t:names.column",
-          "settings": {
-            "css_class": "",
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "divider_QT8qLM": {
-              "type": "_divider",
-              "name": "t:names.divider",
-              "settings": {
-                "color": "#c92531",
-                "alignment": "flex-start",
-                "direction": "horizontal",
-                "thickness": 2,
-                "corner_radius": "square",
-                "width_percent": 25,
-                "padding-block-start": 0,
-                "padding-block-end": 20
-              },
-              "blocks": {}
-            },
-            "text_QDKB6z": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "css_class": "",
-                "text": "<h2>Frequently Asked Questions</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 25,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "faqs_ktWJNU": {
-              "type": "faqs",
-              "name": "FAQs",
-              "settings": {
-                "css_class": "faqs-section",
-                "columns": 1
-              },
-              "blocks": {
-                "accordion_row_3VY98z": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "Why should I subscribe?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_YzxPJe": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_YzxPJe"
-                  ]
-                },
-                "accordion_row_RbFF8G": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "How do subscriptions work?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_gLxNgw": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_gLxNgw"
-                  ]
-                },
-                "accordion_row_NbQCem": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "How do I make changes to my subscription?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_baL646": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_baL646"
-                  ]
-                },
-                "accordion_row_wNWwBh": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "What frequency should I choose?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_jR3KJA": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_jR3KJA"
-                  ]
-                },
-                "accordion_row_f3BbiX": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "Can I subscribe to products at different frequencies?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_PfzmM6": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_PfzmM6"
-                  ]
-                },
-                "accordion_row_VawmwX": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "Is there a minimum order value to receive my Subscribe & Save 10% discount?",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_Nt9JG7": {
-                      "type": "text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
-                        "width": "100%",
-                        "max_width": "none",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_Nt9JG7"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_row_3VY98z",
-                "accordion_row_RbFF8G",
-                "accordion_row_NbQCem",
-                "accordion_row_wNWwBh",
-                "accordion_row_f3BbiX",
-                "accordion_row_VawmwX"
-              ]
-            }
-          },
-          "block_order": [
-            "divider_QT8qLM",
-            "text_QDKB6z",
-            "faqs_ktWJNU"
-          ]
-        }
-      },
-      "block_order": [
-        "group_bXCef8"
-      ],
-      "name": "faqs",
-      "settings": {
-        "css_class": "",
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 35,
-        "padding-block-end": 80
       }
     },
     "section_KCgJUi": {
@@ -3265,606 +3474,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 62,
         "padding-block-end": 53
-      }
-    },
-    "section_yUTKNC": {
-      "type": "section",
-      "blocks": {
-        "group_pGeafC": {
-          "type": "group",
-          "name": "t:names.column",
-          "settings": {
-            "css_class": "",
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "group_fzzpyd": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "css_class": "",
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 38,
-                "padding-block-end": 0,
-                "padding-inline-start": 50,
-                "padding-inline-end": 50
-              },
-              "blocks": {
-                "divider_qEwJen": {
-                  "type": "_divider",
-                  "name": "t:names.divider",
-                  "settings": {
-                    "color": "#c92531",
-                    "alignment": "flex-start",
-                    "direction": "horizontal",
-                    "thickness": 3,
-                    "corner_radius": "square",
-                    "width_percent": 25,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_GAyzNc": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<h2>Log in to your Transparent Labs account</h2>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_7JCrFY": {
-                  "type": "text",
-                  "name": "t:names.description",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<p>Log in to your Transparent Labs account with the email that was used to place your subscription order.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "divider_qEwJen",
-                "text_GAyzNc",
-                "text_7JCrFY"
-              ]
-            },
-            "image_JCjiiP": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Frame_1984078242.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "group_fzzpyd",
-            "image_JCjiiP"
-          ]
-        },
-        "group_PhGAir": {
-          "type": "group",
-          "name": "t:names.column",
-          "settings": {
-            "css_class": "",
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "group_AWRXmT": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "css_class": "",
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 38,
-                "padding-block-end": 0,
-                "padding-inline-start": 50,
-                "padding-inline-end": 50
-              },
-              "blocks": {
-                "divider_gB9RBr": {
-                  "type": "_divider",
-                  "name": "t:names.divider",
-                  "settings": {
-                    "color": "#c92531",
-                    "alignment": "flex-start",
-                    "direction": "horizontal",
-                    "thickness": 3,
-                    "corner_radius": "square",
-                    "width_percent": 25,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_nHg8Hg": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<h2>Using the icons in your portal</h2>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_hzmq3z": {
-                  "type": "text",
-                  "name": "t:names.description",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<p>Using the icons in your portal, you can easily edit your shipping or payment information, skip orders, change your next order date, edit the products in your subscription, get your next order now, add a discount code, or cancel your subscriptions at any time.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "divider_gB9RBr",
-                "text_nHg8Hg",
-                "text_hzmq3z"
-              ]
-            },
-            "image_jQjzKE": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Frame_1984078241.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "group_AWRXmT",
-            "image_jQjzKE"
-          ]
-        },
-        "group_QCCdCx": {
-          "type": "group",
-          "name": "t:names.column",
-          "settings": {
-            "css_class": "",
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 0,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "group_nPYD3B": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "css_class": "",
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 38,
-                "padding-block-end": 0,
-                "padding-inline-start": 50,
-                "padding-inline-end": 50
-              },
-              "blocks": {
-                "divider_jiCCBd": {
-                  "type": "_divider",
-                  "name": "t:names.divider",
-                  "settings": {
-                    "color": "#c92531",
-                    "alignment": "flex-start",
-                    "direction": "horizontal",
-                    "thickness": 3,
-                    "corner_radius": "square",
-                    "width_percent": 25,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_JzhzxB": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<p>Still have a question</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_mFz4pf": {
-                  "type": "text",
-                  "name": "t:names.description",
-                  "settings": {
-                    "css_class": "",
-                    "text": "<p>Still have a question? Read our FAQ or send us a note at support@transparentlabs.com</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "divider_jiCCBd",
-                "text_JzhzxB",
-                "text_mFz4pf"
-              ]
-            },
-            "image_mX7gdf": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/Frame_1984078245.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "group_nPYD3B",
-            "image_mX7gdf"
-          ]
-        }
-      },
-      "block_order": [
-        "group_pGeafC",
-        "group_PhGAir",
-        "group_QCCdCx"
-      ],
-      "name": "multi",
-      "settings": {
-        "css_class": "",
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 22,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48
       }
     },
     "section_qbiQm6": {
@@ -5875,6 +5484,397 @@
         "padding-block-start": 0,
         "padding-block-end": 60
       }
+    },
+    "section_aMCdxR": {
+      "type": "section",
+      "blocks": {
+        "group_bXCef8": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "css_class": "",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "divider_QT8qLM": {
+              "type": "_divider",
+              "name": "t:names.divider",
+              "settings": {
+                "color": "#c92531",
+                "alignment": "flex-start",
+                "direction": "horizontal",
+                "thickness": 2,
+                "corner_radius": "square",
+                "width_percent": 25,
+                "padding-block-start": 0,
+                "padding-block-end": 20
+              },
+              "blocks": {}
+            },
+            "text_QDKB6z": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "css_class": "",
+                "text": "<h2>Frequently Asked Questions</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 25,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "faqs_ktWJNU": {
+              "type": "faqs",
+              "name": "FAQs",
+              "settings": {
+                "css_class": "faqs-section",
+                "columns": 1
+              },
+              "blocks": {
+                "accordion_row_3VY98z": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Why should I subscribe?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_YzxPJe": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_YzxPJe"
+                  ]
+                },
+                "accordion_row_RbFF8G": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "How do subscriptions work?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_gLxNgw": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_gLxNgw"
+                  ]
+                },
+                "accordion_row_NbQCem": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "How do I make changes to my subscription?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_baL646": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_baL646"
+                  ]
+                },
+                "accordion_row_wNWwBh": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "What frequency should I choose?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_jR3KJA": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_jR3KJA"
+                  ]
+                },
+                "accordion_row_f3BbiX": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Can I subscribe to products at different frequencies?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_PfzmM6": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_PfzmM6"
+                  ]
+                },
+                "accordion_row_VawmwX": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Is there a minimum order value to receive my Subscribe & Save 10% discount?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_Nt9JG7": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_Nt9JG7"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_row_3VY98z",
+                "accordion_row_RbFF8G",
+                "accordion_row_NbQCem",
+                "accordion_row_wNWwBh",
+                "accordion_row_f3BbiX",
+                "accordion_row_VawmwX"
+              ]
+            }
+          },
+          "block_order": [
+            "divider_QT8qLM",
+            "text_QDKB6z",
+            "faqs_ktWJNU"
+          ]
+        }
+      },
+      "block_order": [
+        "group_bXCef8"
+      ],
+      "name": "faqs",
+      "settings": {
+        "css_class": "",
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 35,
+        "padding-block-end": 80
+      }
     }
   },
   "order": [
@@ -5883,10 +5883,10 @@
     "below_hero_BBxpkR",
     "section_XqVntf",
     "section_BEmwQL",
+    "section_yUTKNC",
     "section_KCgJUi",
     "section_m66Li7",
     "section_egUPWE",
-    "section_yUTKNC",
     "section_qbiQm6",
     "carousel_mDpEgh",
     "section_rX3Kk9",
