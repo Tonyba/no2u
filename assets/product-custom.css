@@ -48,6 +48,7 @@
 .size-boxes .label {
     font-size: 21px;
     font-weight: 600;
+    color: #2A2A2A
 }
 
 .size-boxes .serving {
@@ -61,5 +62,5 @@
 
 .size-boxes .selected .label {
     font-weight: bold;
-    color: black
+
 }
