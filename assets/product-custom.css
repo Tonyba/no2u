@@ -9,3 +9,8 @@
 .breadcrumb-delimeter {
     color: #1B73B3;
 }
+
+.metafield-single_line_text_field-array {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
