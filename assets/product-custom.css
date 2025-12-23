@@ -25,3 +25,10 @@
     font-size: 14px;
     color: black
 }
+
+.metafield-single_line_text_field-array li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('cdn/shop/t/4/assets/green-check.svg');
+}
