@@ -76,3 +76,14 @@
 .variant-picker__form .variant-option {
     margin-top: 0 !important;
 }
+
+.best-seller-badge {
+    color: white;
+    background-color: #EA4335;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
