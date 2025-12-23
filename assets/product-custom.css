@@ -30,7 +30,7 @@
 }
 
 .how-to-use-text {
-    width: 100%;
+    width: 100% !important;
 }
 
 .how-to-use-text p {
