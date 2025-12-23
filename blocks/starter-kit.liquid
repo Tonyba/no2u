@@ -6,7 +6,7 @@
   }
 {% endstylesheet %}
 
-<div class="flex">
+<div class="flex items-center">
   <div class="img">
     {{- block.settings.img | image_url: width: 300 | image_tag: loading: 'lazy', decoding: 'async', draggable: false -}}
   </div>

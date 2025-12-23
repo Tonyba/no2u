@@ -309,6 +309,17 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "starter_kit_jRnNtf": {
+              "type": "starter-kit",
+              "name": "Starter Kit",
+              "settings": {
+                "img": "shopify://shop_images/0d6d68db1a13bbac089a105669f909446baaf2fc.jpg",
+                "title": "Free Starter Kit",
+                "description": "Kit Includes: Protein Variety Pack (Try our top 5 flavors), TL Blender Bottle",
+                "btn_text": "Subscribe to Unlock Your Free Starter Kit"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -317,7 +328,8 @@
             "variant_picker_R3rGDr",
             "bony_subscriptions_app_subscription_block_L7hpGF",
             "buy_buttons_eYQEYi",
-            "text_aEtTtq"
+            "text_aEtTtq",
+            "starter_kit_jRnNtf"
           ]
         }
       },
