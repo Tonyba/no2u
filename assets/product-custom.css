@@ -28,3 +28,8 @@
 .bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
     background-color: #34A853 !important;
 }
+
+.how-to-use-text {
+    width: 100%;
+    text-align: left;
+}
