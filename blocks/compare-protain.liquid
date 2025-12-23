@@ -1,6 +1,6 @@
 {% liquid
-  assign products = collections.all.products
   assign current_id = product.id
+  assign products = collections.all.products | where: 'id', '!=', current_id
 %}
 
 <div class="grid cols-4">
