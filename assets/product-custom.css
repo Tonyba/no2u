@@ -17,3 +17,7 @@
     padding: 0 !important;
     list-style: none;
 }
+
+.bs-radio-circle {
+    background-color: #B3FFC8;
+}
