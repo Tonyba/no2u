@@ -10,6 +10,7 @@ optWrapper.classList.add('flex');
 variantOptions.map(opt => {
     const newEl = document.createElement('div');
     newEl.classList.add('col');
+    newEl.classList.add('w-100');
     newEl.innerHTML = opt.label;
 
     optWrapper.append(newEl);
