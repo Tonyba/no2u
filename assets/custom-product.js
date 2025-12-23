@@ -9,11 +9,18 @@ optWrapper.classList.add('flex');
 
 variantOptions.map(opt => {
     const newEl = document.createElement('div');
+    const subEl = document.createElement('div');
+
+    subEl.classList.add('serving');
+
     newEl.classList.add('col');
     newEl.classList.add('w-100');
-    newEl.innerHTML = opt.label;
+
+    newEl.innerHTML = '<div class="label">' + opt.label + '</div>';
+    newEl.append(subEl);
 
     optWrapper.append(newEl);
+
 });
 
 variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
