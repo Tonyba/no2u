@@ -28,15 +28,16 @@ variantOptions.map((opt, i) => {
 
     optWrapper.append(newEl);
 
-    newEl.addEventListener('click', () => handleSelection(i));
+    newEl.addEventListener('click', () => handleSelection(i, newEl));
 });
 
 variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 
 
-function handleSelection(value) {
+function handleSelection(value, el) {
 
     select.selectedIndex = value;
     select.dispatchEvent(new Event("change"));
 
+    el.classList.add('selected');
 }
