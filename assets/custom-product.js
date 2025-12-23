@@ -7,6 +7,8 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
 const selectOpts = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option'));
 const select = document.querySelector('.variant-picker__form > .variant-option:first-child select');
 
+const newElsReferences = [];
+
 const optWrapper = document.createElement('div');
 optWrapper.classList.add('flex');
 optWrapper.classList.add('size-boxes')
@@ -28,6 +30,8 @@ variantOptions.map((opt, i) => {
 
     optWrapper.append(newEl);
 
+    newElsReferences.push(newEl);
+
     newEl.addEventListener('click', () => handleSelection(i, newEl));
 });
 
@@ -38,6 +42,8 @@ function handleSelection(value, el) {
 
     select.selectedIndex = value;
     select.dispatchEvent(new Event("change"));
+
+    newElsReferences.map(current => current.classList.remove('selected'));
 
     el.classList.add('selected');
 }
