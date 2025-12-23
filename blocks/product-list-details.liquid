@@ -1,6 +1,6 @@
 {% assign product_list = product.metafields.custom.detail_list %}
 
-{{ product.metafields.custom | json }}
+{{ product_list }}
 
 <ul class="metafield-single_line_text_field-array">
   {% for item in product_list %}
