@@ -195,7 +195,7 @@
           "type": "_product-card",
           "static": true,
           "settings": {
-            "product_card_gap": 4,
+            "product_card_gap": 0,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-db352f5c-ef2d-4f10-bbfe-c7fc79158375",
             "border": "none",
