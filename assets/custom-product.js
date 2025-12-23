@@ -42,7 +42,7 @@ function handleSelection(value, el) {
 
     select.selectedIndex = value;
     select.dispatchEvent(new Event("change"));
-    document.dispatchEvent(new Event('bs:variant:change'));
+    select.dispatchEvent(new Event('bs:variant:change'));
 
     newElsReferences.map(current => current.classList.remove('selected'))
 
