@@ -1,7 +1,9 @@
 {% assign products = collections.all.products %}
 
-{% for product in products limit: 4 %}
-{% endfor %}
+<div class="grid cols-4">
+  {% for product in products limit: 4 %}
+  {% endfor %}
+</div>
 
 {% schema %}
 {
