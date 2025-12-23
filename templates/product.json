@@ -2860,10 +2860,17 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "compare_protain_W6FBfC": {
+              "type": "compare-protain",
+              "name": "Compare Protain",
+              "settings": {},
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_w39z4B"
+            "text_w39z4B",
+            "compare_protain_W6FBfC"
           ]
         }
       },
