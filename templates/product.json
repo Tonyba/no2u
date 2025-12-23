@@ -2720,11 +2720,39 @@
                 "group_cKqKEA",
                 "group_Fa7mcX"
               ]
+            },
+            "text_nTnzPx": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<p>*Feel free to adjust the amount of liquid by a few ounces to suit your taste preferences (less water = stronger flavor and vice versa).</p>",
+                "width": "fit-content",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 40,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_JV869R",
-            "group_jYhane"
+            "group_jYhane",
+            "text_nTnzPx"
           ]
         }
       },
