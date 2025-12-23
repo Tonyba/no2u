@@ -194,6 +194,10 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     padding-right: 50px;
 }
 
+.product-card__content {
+    --star-fill-color: #0D4064
+}
+
 .product-card__content [ref="priceContainer"] .price {
     font-size: 28px !important;
     color: black !important
