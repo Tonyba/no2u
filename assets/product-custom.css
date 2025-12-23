@@ -4,5 +4,8 @@
 
 .breadcrumbs>*:not(:first-child) {
     font-weight: 600;
-    color: black;
+}
+
+.breadcrumb-delimeter {
+    color: #1B73B3;
 }
