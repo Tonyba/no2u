@@ -33,7 +33,9 @@
         -}}
         {% content_for 'block', type: 'review', id: '{{prod.id}}', closest.product: prod %}
 
-        <h3>{{ prod.title }}</h3>
+        <h3>
+          <a href="{{ prod.url }}">{{ prod.title }}</a>
+        </h3>
 
         <div class="comparison-items-list flex vertical">
           <div class="flex items-center">
