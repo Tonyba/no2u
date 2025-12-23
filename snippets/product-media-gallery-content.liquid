@@ -593,7 +593,7 @@
       </script>
     {%- endif -%}
 
-    {% if closest.product contains 'Best Seller' %}
+    {% if closest.product.tags contains 'Best Seller' %}
       <div class="best-seller-badge">Best Seller</div>
     {% endif %}
   </media-gallery>
