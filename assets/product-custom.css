@@ -22,6 +22,6 @@
     background-color: #B3FFC8;
 }
 
-.bs-radio-dot {
+.bs-subscription-widget .bs-radio-container--checked .bs-radio-dot {
     background-color: #34A853 !important;
 }
