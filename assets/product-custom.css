@@ -86,4 +86,6 @@
     top: 0;
     right: 0;
     z-index: 1;
+    padding: 9px 19px;
+    line-height: 160%;
 }
