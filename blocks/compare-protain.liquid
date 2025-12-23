@@ -1,4 +1,4 @@
-{% assign products = all_products %}
+{% assign products = collections.all.products %}
 
 <div class="grid cols-4">
   {% for product in products limit: 4 %}
