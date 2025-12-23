@@ -11,6 +11,11 @@
     width: 100%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+
 .flex-wrap {
     flex-wrap: wrap;
 }
