@@ -199,9 +199,7 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     color: black !important
 }
 
-.product-card__content p {
-    padding-bottom: 30px;
-}
+.product-card__content p {}
 
 .compare-at-price {
     text-decoration-color: #EA4335;
