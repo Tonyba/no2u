@@ -1414,6 +1414,19 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "review_YhiYAe": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "alignment": "center"
+              },
+              "blocks": {}
+            },
             "product_card_gallery_DNizbJ": {
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
@@ -1545,6 +1558,7 @@
             }
           },
           "block_order": [
+            "review_YhiYAe",
             "product_card_gallery_DNizbJ",
             "product_title_PtwEhb",
             "price_DrhenR",
