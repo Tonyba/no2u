@@ -1,10 +1,10 @@
 {% liquid
-  assign all_products = collections.all.products
+  assign products = collections.all.products
   assign current_id = product.id
 %}
 
 <div class="grid cols-4">
-  {% for product in all_products limit: 4 %}
+  {% for product in products limit: 4 %}
     <div class="col">
       {{-
         product.featured_image
