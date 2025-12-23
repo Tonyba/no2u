@@ -8,7 +8,7 @@
         | image_url: width: 500
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
-      {% content_for 'block', type: 'review', id: '{{product.id}}' %}
+      {% content_for 'block', type: 'review', id: '{{product.id}}', closest.product: product %}
       <h3>{{ product.title }}</h3>
     </div>
   {% endfor %}
