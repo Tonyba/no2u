@@ -3,6 +3,7 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
     label: item.textContent.trim(),
     value: item.getAttribute('data-option-value-id')
 }));
+const flavorsCount = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:last-child option')).length;
 
 const selectOpts = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option'));
 const select = document.querySelector('.variant-picker__form > .variant-option:first-child select');
