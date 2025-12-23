@@ -6,6 +6,7 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
 
 const optWrapper = document.createElement('div');
 optWrapper.classList.add('flex');
+optWrapper.classList.add('size-boxes')
 
 variantOptions.map(opt => {
     const newEl = document.createElement('div');
