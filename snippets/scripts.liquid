@@ -308,3 +308,7 @@
     },
   };
 </script>
+
+{% if request.page_type == 'product' %}
+  <script src="{{ 'custom-product.js' |  asset_url }}" defer></script>
+{% endif %}
