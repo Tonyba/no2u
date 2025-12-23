@@ -1,8 +1,16 @@
-{% assign products = collections.all.products %}
+{% assign products = all_products %}
 
 <div class="grid cols-4">
   {% for product in products limit: 4 %}
-    <div class="col"></div>
+    <div class="col">
+      {{-
+        block.settings.image
+        | image_url: width: block.settings.image.width
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+
+      <h3>{{ product.title }}</h3>
+    </div>
   {% endfor %}
 </div>
 
