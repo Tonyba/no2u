@@ -44,3 +44,8 @@
     text-align: center;
     padding: 20px;
 }
+
+.size-boxes .label {
+    font-size: 21px;
+    font-weight: bold;
+}
