@@ -1,10 +1,6 @@
 {% stylesheet %}
 {% endstylesheet %}
 
-{% capture children %}
-  {% content_for 'blocks' %}
-{% endcapture %}
-
 <div class="flex embla cols-2-half">
   <div class="left">
     <div class="divider"></div>
@@ -25,11 +21,7 @@
   <div class="right">
     <div class="embla__viewport">
       <div class="embla__container convert-list">
-        {% for item in children %}
-          <div class="embla__slide">
-            {{ item }}
-          </div>
-        {% endfor %}
+        {% content_for 'blocks' %}
       </div>
     </div>
   </div>
