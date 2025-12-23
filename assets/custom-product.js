@@ -32,7 +32,7 @@ variantOptions.map((opt, i) => {
 
     newElsReferences.push(newEl);
 
-    newEl.addEventListener('click', () => handleSelection(i, newEl));
+    newEl.addEventListener('click', () => handleSelection(opt.value, newEl));
 });
 
 variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
@@ -40,10 +40,8 @@ variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 
 function handleSelection(value, el) {
 
-    select.selectedIndex = value;
-    select.dispatchEvent(new Event("change"));
+    document.querySelector(`[data-option-value-id="${value}"]`).click();
 
     newElsReferences.map(current => current.classList.remove('selected'));
-
     el.classList.add('selected');
 }
