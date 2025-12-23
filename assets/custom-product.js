@@ -36,6 +36,6 @@ variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 
 function handleSelection(value) {
 
-
+    select.value = value;
 
 }
