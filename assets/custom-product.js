@@ -8,8 +8,13 @@ const optWrapper = document.createElement('div');
 optWrapper.classList.add('flex');
 
 variantOptions.map(opt => {
-    const newEl = document.querySelector('div');
+    const newEl = document.createElement('div');
+    newEl.classList.add('col');
+    newEl.innerHTML = opt.label;
 
+    optWrapper.append(newEl);
 });
+
+
 
 
