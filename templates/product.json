@@ -667,7 +667,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/plant-2.svg",
+                        "image": "shopify://shop_images/Frame_2397_3.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
@@ -792,7 +792,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/fillers.svg",
+                        "image": "shopify://shop_images/icon_2.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
@@ -964,7 +964,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/pills.svg",
+                        "image": "shopify://shop_images/Frame_2397_4.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
@@ -1089,7 +1089,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/lab-2.svg",
+                        "image": "shopify://shop_images/Frame_2397_5.svg",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
