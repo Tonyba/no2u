@@ -3,7 +3,11 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
     label: item.textContent.trim(),
     value: item.getAttribute('data-option-value-id')
 }));
-const flavorsCount = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:last-child option')).length;
+
+let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
+otherOpt = otherOpt[otherOpt.length - 1];
+
+const flavorsCount = otherOpt.querySelectorAll('option').length;
 let flavorLabel = document.querySelectorAll('.variant-picker__form > .variant-option');
 flavorLabel = flavorLabel[flavorLabel.length - 1]?.querySelector('label');
 
