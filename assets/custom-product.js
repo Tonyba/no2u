@@ -15,6 +15,6 @@ variantOptions.map(opt => {
     optWrapper.append(newEl);
 });
 
-
+variant_picker?.insertAdjacentElement(optWrapper);
 
 
