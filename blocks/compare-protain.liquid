@@ -68,44 +68,46 @@
     {% if prod.id != current_id and counter < 4 %}
       {% assign counter = counter | plus: 1 %}
       <div class="col">
-        <a href="{{ prod.url }}">
-          {{-
-            prod.featured_image
-            | image_url: width: 500
-            | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-          -}}
-        </a>
+        <div class="top">
+          <a href="{{ prod.url }}">
+            {{-
+              prod.featured_image
+              | image_url: width: 500
+              | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+            -}}
+          </a>
 
-        {% content_for 'block', type: 'review', id: '{{prod.id}}', closest.product: prod %}
+          {% content_for 'block', type: 'review', id: '{{prod.id}}', closest.product: prod %}
 
-        <h3>
-          <a href="{{ prod.url }}">{{ prod.title }}</a>
-        </h3>
+          <h3>
+            <a href="{{ prod.url }}">{{ prod.title }}</a>
+          </h3>
 
-        <div class="comparison-items-list flex vertical">
-          <div class="flex items-center">
-            <span class="icon">{{ 'bottle.svg' | inline_asset_content }}</span>
-            <span class="text">{{ prod.metafields.custom.best_for_most_people_text }}</span>
-          </div>
+          <div class="comparison-items-list flex vertical">
+            <div class="flex items-center">
+              <span class="icon">{{ 'bottle.svg' | inline_asset_content }}</span>
+              <span class="text">{{ prod.metafields.custom.best_for_most_people_text }}</span>
+            </div>
 
-          <div class="flex items-center">
-            <span class="icon">{{ 'protein.svg' | inline_asset_content }}</span>
-            <span class="text">{{ prod.metafields.custom.protein }}</span>
-          </div>
+            <div class="flex items-center">
+              <span class="icon">{{ 'protein.svg' | inline_asset_content }}</span>
+              <span class="text">{{ prod.metafields.custom.protein }}</span>
+            </div>
 
-          <div class="flex items-center">
-            <span class="icon">{{ 'protein.svg' | inline_asset_content }}</span>
-            <span class="text">{{ prod.metafields.custom.calories }}</span>
-          </div>
+            <div class="flex items-center">
+              <span class="icon">{{ 'protein.svg' | inline_asset_content }}</span>
+              <span class="text">{{ prod.metafields.custom.calories }}</span>
+            </div>
 
-          <div class="flex items-center">
-            <span class="icon">{{ 'calories.svg' | inline_asset_content }}</span>
-            <span class="text">{{ prod.metafields.custom.carbs_per_scoop }}</span>
-          </div>
+            <div class="flex items-center">
+              <span class="icon">{{ 'calories.svg' | inline_asset_content }}</span>
+              <span class="text">{{ prod.metafields.custom.carbs_per_scoop }}</span>
+            </div>
 
-          <div class="flex items-center">
-            <span class="icon">{{ 'weight.svg' | inline_asset_content }}</span>
-            <span class="text">{{ prod.metafields.custom.weight }}</span>
+            <div class="flex items-center">
+              <span class="icon">{{ 'weight.svg' | inline_asset_content }}</span>
+              <span class="text">{{ prod.metafields.custom.weight }}</span>
+            </div>
           </div>
         </div>
 
