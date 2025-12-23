@@ -4,7 +4,7 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
     value: item.getAttribute('data-option-value-id')
 }));
 const flavorsCount = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:last-child option')).length;
-const flavorLabel = document.querySelector('.variant-picker__form > .variant-option');
+const flavorLabel = document.querySelector('.variant-picker__form > .variant-option:last-child');
 
 console.log(flavorLabel)
 
