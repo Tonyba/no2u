@@ -1,9 +1,10 @@
-{% assign products = collections.all.product %}
+{% liquid
+  assign products = collections.all.products
+  assign current_id = product.id
+%}
 
 <div class="grid cols-4">
   {% for product in products limit: 4 %}
-    {% if condition %}
-    {% endif %}
     <div class="col">
       {{-
         product.featured_image
