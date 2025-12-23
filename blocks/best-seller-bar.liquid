@@ -1,0 +1,27 @@
+{% stylesheet %}
+  .best-seller {
+    width: 100%;
+    background-color: #addcfe;
+    color: #0d4064;
+    font-weight: 600;
+  }
+{% endstylesheet %}
+
+{% if product.tags contains 'Best Seller' %}
+  <div class="best-seller">Best Seller</div>
+{% endif %}
+
+<div class="best-seller"></div>
+
+{% schema %}
+{
+  "name": "Best Seller Bar",
+  "class": "best-seller-bar",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Best Seller bar"
+    }
+  ]
+}
+{% endschema %}
