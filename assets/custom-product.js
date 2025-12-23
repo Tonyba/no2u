@@ -13,7 +13,7 @@ flavorLabel = flavorLabel[flavorLabel.length - 1]?.querySelector('label');
 
 
 
-flavorLabel.innerText = `${flavorsCount} ${flavorLabel.innerText}`;
+flavorLabel.innerText = `${flavorsCount} ${flavorLabel.innerText} Available`;
 
 const selectOpts = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option'));
 const select = document.querySelector('.variant-picker__form > .variant-option:first-child select');
