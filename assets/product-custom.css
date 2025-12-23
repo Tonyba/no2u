@@ -13,5 +13,6 @@
 .metafield-single_line_text_field-array {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px
+    gap: 20px;
+    padding: 0 !important;
 }
