@@ -592,6 +592,10 @@
         window.ProductModel.loadShopifyXR();
       </script>
     {%- endif -%}
+
+    {% if closest.product contains 'Best Seller' %}
+      <div class="best-seller-badge">Best Seller</div>
+    {% endif %}
   </media-gallery>
 {% endif %}
 
