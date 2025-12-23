@@ -229,12 +229,17 @@
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {},
                   "blocks": {}
                 }
               },
               "block_order": []
+            },
+            "bony_subscriptions_app_subscription_block_L7hpGF": {
+              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
+              "settings": {}
             },
             "text_aEtTtq": {
               "type": "text",
@@ -269,6 +274,7 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "bony_subscriptions_app_subscription_block_L7hpGF",
             "text_aEtTtq"
           ]
         }
