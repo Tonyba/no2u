@@ -72,3 +72,7 @@
 .variant-picker__form .variant-option:first-child {
     display: none;
 }
+
+.variant-picker__form .variant-option {
+    margin-top: 0 !important;
+}
