@@ -206,6 +206,7 @@
       "type": "below_hero",
       "name": "Below Hero",
       "settings": {
+        "css_class": "",
         "bg_color": "#efefef",
         "img_1": "shopify://shop_images/file_5664646_1.svg",
         "text_1": "<p>Complete Label Transparency</p>",
@@ -348,7 +349,7 @@
                 "rating_color": "foreground",
                 "type_preset": "paragraph",
                 "width": "100%",
-                "alignment": "left"
+                "alignment": "center"
               },
               "blocks": {}
             },
@@ -643,6 +644,7 @@
       ],
       "name": "t:names.custom_section",
       "settings": {
+        "css_class": "",
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -802,6 +804,7 @@
               "settings": {
                 "color": "#1b73b3",
                 "alignment": "flex-start",
+                "direction": "horizontal",
                 "thickness": 1,
                 "corner_radius": "square",
                 "width_percent": 20,
@@ -1192,6 +1195,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2349,6 +2353,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4272,6 +4277,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4349,6 +4355,7 @@
               "settings": {
                 "color": "#676767",
                 "alignment": "flex-start",
+                "direction": "horizontal",
                 "thickness": 2,
                 "corner_radius": "square",
                 "width_percent": 12,
@@ -4696,6 +4703,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4880,6 +4888,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
