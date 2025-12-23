@@ -65,6 +65,7 @@
 
 <div class="grid cols-4 no-template-areas">
   {% for prod in products %}
+    {{ prod.variants | json }}
     {% if prod.id != current_id and counter < 4 %}
       {% assign counter = counter | plus: 1 %}
       <div class="col flex vertical justify-between">
