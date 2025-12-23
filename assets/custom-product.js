@@ -41,6 +41,7 @@ variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 function handleSelection(value, el) {
 
     document.querySelector(`[data-option-value-id="${value}"]`).click();
+    console.log(document.querySelector(`[data-option-value-id="${value}"]`));
 
     newElsReferences.map(current => current.classList.remove('selected'));
     el.classList.add('selected');
