@@ -1608,7 +1608,7 @@
         "columns": 4,
         "mobile_columns": "1",
         "columns_gap": 12,
-        "rows_gap": 18,
+        "rows_gap": 0,
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
