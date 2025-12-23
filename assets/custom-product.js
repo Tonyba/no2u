@@ -11,7 +11,7 @@ const optWrapper = document.createElement('div');
 optWrapper.classList.add('flex');
 optWrapper.classList.add('size-boxes')
 
-variantOptions.map((opt) => {
+variantOptions.map((opt, i) => {
     const newEl = document.createElement('div');
     const subEl = document.createElement('div');
 
@@ -28,7 +28,7 @@ variantOptions.map((opt) => {
 
     optWrapper.append(newEl);
 
-    newEl.addEventListener('click', () => handleSelection(opt.value));
+    newEl.addEventListener('click', () => handleSelection(i));
 });
 
 variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
@@ -36,6 +36,7 @@ variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 
 function handleSelection(value) {
 
-    select.value = value;
+    select.selectedIndex = value;
+
 
 }
