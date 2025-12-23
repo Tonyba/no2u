@@ -1,11 +1,20 @@
 {% stylesheet %}
+  .starter-kit {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 20px;
+  }
 {% endstylesheet %}
 
 <div class="flex">
   <div class="img">
     {{- block.settings.img | image_url: width: 300 | image_tag: loading: 'lazy', decoding: 'async', draggable: false -}}
   </div>
-  <div class="details"></div>
+  <div class="details">
+    <h3>{{ block.settings.title }}</h3>
+    <p>{{ block.settings.description }}</p>
+    <div class="sub-btn w-100">{{ block.settings.btn_text }}</div>
+  </div>
 </div>
 
 {% schema %}
