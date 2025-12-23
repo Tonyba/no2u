@@ -41,8 +41,12 @@ variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 function handleSelection(value, el) {
 
     select.selectedIndex = value;
-    select.dispatchEvent(new Event("change"));
-    select.dispatchEvent(new Event('bs:variant:change'));
+    select.dispatchEvent(new Event('change', {
+        bubbles: true, // Crucial for ensuring the event propagates up the DOM tree
+        cancelable: true,
+        view: window
+    }));
+    // select.dispatchEvent(new Event('bs:variant:change'));
 
     newElsReferences.map(current => current.classList.remove('selected'))
 
