@@ -50,4 +50,7 @@
     font-weight: 600;
 }
 
-.size-boxes .serving {}
+.size-boxes .serving {
+    font-size: 14px;
+    font-weight: 500;
+}
