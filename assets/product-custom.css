@@ -18,7 +18,7 @@
     list-style: none;
 }
 
-.bs-radio-circle {
+.bs-subscription-widget .bs-radio-container--checked .bs-radio-circle {
     background-color: #B3FFC8;
 }
 
