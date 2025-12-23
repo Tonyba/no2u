@@ -5,7 +5,7 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
 }));
 
 const selectOpts = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option'));
-const select = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option'));
+const select = document.querySelector('.variant-picker__form > .variant-option:first-child select');
 
 const optWrapper = document.createElement('div');
 optWrapper.classList.add('flex');
