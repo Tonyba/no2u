@@ -12,7 +12,9 @@
 
 <ul class="metafield-single_line_text_field-array">
   {% for item in product_list.value %}
-    <li class="metafield-single_line_text_field">{{ item }}</li>
+    <li class="metafield-single_line_text_field">
+      <span class="icon"> {{ 'gree-check.svg' | inline_asset_content }} </span> {{ item }}
+    </li>
   {% endfor %}
 </ul>
 
