@@ -31,5 +31,8 @@
 
 .how-to-use-text {
     width: 100%;
+}
+
+.how-to-use-text p {
     text-align: left;
 }
