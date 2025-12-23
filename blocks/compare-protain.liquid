@@ -4,11 +4,10 @@
   {% for product in products limit: 4 %}
     <div class="col">
       {{-
-        block.settings.image
-        | image_url: width: block.settings.image.width
+        product.featured_image
+        | image_url: width: 500
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
-
       <h3>{{ product.title }}</h3>
     </div>
   {% endfor %}
