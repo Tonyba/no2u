@@ -1,3 +1,8 @@
 .breadcrumbs {
     padding: 0 !important;
 }
+
+.breadcrumbs>*:not(:first-child) {
+    font-weight: 600;
+    color: black;
+}
