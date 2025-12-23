@@ -223,14 +223,14 @@
               },
               "blocks": {}
             },
-            "product_title_4nY4eT": {
+            "product_title_9UT7Lc": {
               "type": "product-title",
               "name": "t:names.product_title",
               "settings": {
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "rte",
+                "type_preset": "h4",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -353,7 +353,7 @@
           },
           "block_order": [
             "card-gallery",
-            "product_title_4nY4eT",
+            "product_title_9UT7Lc",
             "price_xBWpRD",
             "buy_buttons_D7KHhF",
             "text_QEKiEy",
