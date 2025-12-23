@@ -51,6 +51,10 @@
     --slide-size: 68%;
 }
 
+.cols-2-half {
+    --slide-size: 45%;
+}
+
 .no-gap {
     --slide-spacing: 0px;
 }
