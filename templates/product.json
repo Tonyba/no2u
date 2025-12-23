@@ -1612,10 +1612,10 @@
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
-        "gap": 28,
+        "gap": 40,
         "color_scheme": "scheme-70cc5631-803b-4e34-abff-ba427a146c89",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 50,
+        "padding-block-end": 40
       }
     },
     "176652033767442648": {
