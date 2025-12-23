@@ -1401,7 +1401,7 @@
           "name": "t:names.product_card",
           "static": true,
           "settings": {
-            "product_card_gap": 8,
+            "product_card_gap": 0,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
             "border": "none",
@@ -1471,7 +1471,7 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "color": "var(--color-foreground)",
-                "padding-block-start": 20,
+                "padding-block-start": 0,
                 "padding-block-end": 14,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
