@@ -13,6 +13,8 @@ variantOptions.map(opt => {
 
     subEl.classList.add('serving');
 
+    subEl.innerText = '($1.80/serving)';
+
     newEl.classList.add('col');
     newEl.classList.add('w-100');
 
