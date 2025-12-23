@@ -1,7 +1,9 @@
-{% assign products = collections.all.products %}
+{% assign products = collections.all.product %}
 
 <div class="grid cols-4">
   {% for product in products limit: 4 %}
+    {% if condition %}
+    {% endif %}
     <div class="col">
       {{-
         product.featured_image
