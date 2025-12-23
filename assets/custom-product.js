@@ -21,6 +21,7 @@ variantOptions.map((opt, i) => {
 
     newEl.classList.add('col');
     newEl.classList.add('w-100');
+    newEl.setAttribute('data-value', opt.value);
 
     newEl.innerHTML = '<div class="label">' + opt.label + '</div>';
     newEl.append(subEl);
