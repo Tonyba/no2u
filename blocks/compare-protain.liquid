@@ -67,7 +67,7 @@
   {% for prod in products %}
     {% if prod.id != current_id and counter < 4 %}
       {% assign counter = counter | plus: 1 %}
-      <div class="col">
+      <div class="col flex vertical justify-between">
         <div class="top">
           <a href="{{ prod.url }}">
             {{-
