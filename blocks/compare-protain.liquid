@@ -1,5 +1,7 @@
 {% assign products = all_products %}
 
+{{ products.first | json }}
+
 <div class="grid cols-4">
   {% for product in products limit: 4 %}
     <div class="col">
