@@ -54,3 +54,7 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.size-boxes .selected {
+    border: 2px solid black
+}
