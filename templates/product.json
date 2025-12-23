@@ -1276,10 +1276,54 @@
                     "description": "A concentrated source of natural nitrates, fermented for enhanced bioavailability and a smoother energy release. Supports Nitric Oxide production to boost circulation and performance."
                   },
                   "blocks": {}
+                },
+                "ingredient_item_zmnAgc": {
+                  "type": "ingredient-item",
+                  "name": "Ingredient Item",
+                  "settings": {
+                    "img": "shopify://shop_images/formulas.svg",
+                    "title": "Fermented Beet Extract",
+                    "description": "A concentrated source of natural nitrates, fermented for enhanced bioavailability and a smoother energy release. Supports Nitric Oxide production to boost circulation and performance."
+                  },
+                  "blocks": {}
+                },
+                "ingredient_item_idJHGM": {
+                  "type": "ingredient-item",
+                  "name": "Ingredient Item",
+                  "settings": {
+                    "img": "shopify://shop_images/formulas.svg",
+                    "title": "Fermented Beet Extract",
+                    "description": "A concentrated source of natural nitrates, fermented for enhanced bioavailability and a smoother energy release. Supports Nitric Oxide production to boost circulation and performance."
+                  },
+                  "blocks": {}
+                },
+                "ingredient_item_kr3RWe": {
+                  "type": "ingredient-item",
+                  "name": "Ingredient Item",
+                  "settings": {
+                    "img": "shopify://shop_images/formulas.svg",
+                    "title": "Fermented Beet Extract",
+                    "description": "A concentrated source of natural nitrates, fermented for enhanced bioavailability and a smoother energy release. Supports Nitric Oxide production to boost circulation and performance."
+                  },
+                  "blocks": {}
+                },
+                "ingredient_item_YYfmQK": {
+                  "type": "ingredient-item",
+                  "name": "Ingredient Item",
+                  "settings": {
+                    "img": "shopify://shop_images/formulas.svg",
+                    "title": "Fermented Beet Extract",
+                    "description": "A concentrated source of natural nitrates, fermented for enhanced bioavailability and a smoother energy release. Supports Nitric Oxide production to boost circulation and performance."
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "ingredient_item_AwwVUA"
+                "ingredient_item_AwwVUA",
+                "ingredient_item_zmnAgc",
+                "ingredient_item_idJHGM",
+                "ingredient_item_kr3RWe",
+                "ingredient_item_YYfmQK"
               ]
             }
           },
