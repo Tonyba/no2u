@@ -120,12 +120,12 @@
                     "breadcrumbs_home_icon_bool": false,
                     "breadcrumb_delimeter": "angle_right",
                     "breadcrumb_bg_color": "#fff",
-                    "breadcrumb_text_color": "#465076",
+                    "breadcrumb_text_color": "#000000",
                     "breadcrumb_accent_color_bool": false,
-                    "breadcrumb_accent_color": "#4770db",
-                    "enable_product_page": false,
+                    "breadcrumb_accent_color": "#000000",
+                    "enable_product_page": true,
                     "enable_collection_page": false,
-                    "enable_complete_site": true
+                    "enable_complete_site": false
                   },
                   "blocks": {}
                 },
