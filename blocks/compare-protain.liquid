@@ -1,19 +1,23 @@
 {% liquid
   assign products = collections.all.products
   assign current_id = product.id
+  assign counter = 0
 %}
 
 <div class="grid cols-4">
-  {% for product in products limit: 4 %}
-    <div class="col">
-      {{-
-        product.featured_image
-        | image_url: width: 500
-        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-      -}}
-      {% content_for 'block', type: 'review', id: '{{product.id}}', closest.product: product %}
-      <h3>{{ product.title }}</h3>
-    </div>
+  {% for prod in products %}
+    {% if prod.id != current_id and counter < 4 %}
+      {% assign counter = counter | plus: 1 %}
+      <div class="col">
+        {{-
+          prod.featured_image
+          | image_url: width: 500
+          | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+        -}}
+        {% content_for 'block', type: 'review', id: '{{prod.id}}', closest.product: prod %}
+        <h3>{{ prod.title }}</h3>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
