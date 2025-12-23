@@ -29,3 +29,6 @@ variantOptions.map(opt => {
 variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
 
 
+function handleSelection(index) {
+
+}
