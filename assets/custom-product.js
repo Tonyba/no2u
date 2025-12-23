@@ -6,6 +6,8 @@ const variantOptions = Array.from(document.querySelectorAll('.variant-picker__fo
 const flavorsCount = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:last-child option')).length;
 const flavorLabel = document.querySelector('.variant-picker__form > .variant-option:last-child label');
 
+console.log(flavorLabel)
+
 flavorLabel.innerText = `${flavorsCount} ${flavorLabel.innerText}`;
 
 const selectOpts = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option'));
