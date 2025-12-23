@@ -4,7 +4,7 @@
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 
 <div class="flex embla cols-2-half items-center">
-  <div class="left">
+  <div class="left w-50">
     <div class="divider"></div>
     <div class="h2">{{ block.settings.title }}</div>
     <p>{{ block.settings.description }}</p>
@@ -20,7 +20,7 @@
       </button>
     </div>
   </div>
-  <div class="right">
+  <div class="right w-50">
     <div class="embla__viewport">
       <div class="embla__container convert-list">
         {% content_for 'blocks' %}
