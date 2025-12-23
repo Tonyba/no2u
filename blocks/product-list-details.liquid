@@ -1,8 +1,9 @@
+{% assign product_list = product.metafields.detail_list %}
+
 <ul class="metafield-single_line_text_field-array">
-  <li class="metafield-single_line_text_field">No Artificial Sweeteners</li>
-  <li class="metafield-single_line_text_field">No Artificial Coloring</li>
-  <li class="metafield-single_line_text_field">Gluten-Free and Non-GMO</li>
-  <li class="metafield-single_line_text_field">No Artificial Preservatives</li>
+  {% for item in product_list %}
+    <li class="metafield-single_line_text_field">{{ item }}</li>
+  {% endfor %}
 </ul>
 
 {% schema %}
