@@ -76,6 +76,7 @@
               "type": "group",
               "name": "Header",
               "settings": {
+                "css_class": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -178,6 +179,7 @@
               "settings": {
                 "color": "#000000",
                 "alignment": "center",
+                "direction": "horizontal",
                 "thickness": 1,
                 "corner_radius": "square",
                 "width_percent": 100,
@@ -189,7 +191,7 @@
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
-                "variant_style": "buttons",
+                "variant_style": "dropdowns",
                 "show_swatches": false,
                 "alignment": "left",
                 "padding-block-start": 0,
