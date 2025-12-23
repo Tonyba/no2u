@@ -207,6 +207,11 @@ a.scheme-c1264752-e427-4ad2-bebb-75b2869e16d7 {
     text-decoration-color: #EA4335;
 }
 
+.variant-picker__form label {
+    font-weight: bold;
+    color: #2A2A2A;
+}
+
 /*product card end*/
 
 /*bg img*/
