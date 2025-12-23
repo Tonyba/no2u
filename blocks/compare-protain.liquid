@@ -26,11 +26,14 @@
     {% if prod.id != current_id and counter < 4 %}
       {% assign counter = counter | plus: 1 %}
       <div class="col">
-        {{-
-          prod.featured_image
-          | image_url: width: 500
-          | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-        -}}
+        <a href="{{ prod.url }}">
+          {{-
+            prod.featured_image
+            | image_url: width: 500
+            | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+          -}}
+        </a>
+
         {% content_for 'block', type: 'review', id: '{{prod.id}}', closest.product: prod %}
 
         <h3>
