@@ -1,11 +1,10 @@
 {% liquid
   assign all_products = collections.all.products
   assign current_id = product.id
-  assign filtered_products = all_products | where: 'id', '!=', current_id
 %}
 
 <div class="grid cols-4">
-  {% for product in filtered_products limit: 4 %}
+  {% for product in all_products limit: 4 %}
     <div class="col">
       {{-
         product.featured_image
