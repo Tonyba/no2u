@@ -20,6 +20,7 @@
 
 .bs-subscription-widget .bs-radio-container--checked .bs-radio-circle {
     background-color: #B3FFC8;
+    border-color: #B3FFC8
 }
 
 .bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
