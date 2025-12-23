@@ -68,3 +68,7 @@
 .size-boxes .selected .serving {
     color: #C92531
 }
+
+.variant-picker__form .variant-option:first-child {
+    display: none;
+}
