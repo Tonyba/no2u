@@ -21,3 +21,7 @@
 .bs-radio-circle {
     background-color: #B3FFC8;
 }
+
+.bs-radio-dot {
+    background-color: #34A853 !important;
+}
