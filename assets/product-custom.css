@@ -58,3 +58,8 @@
 .size-boxes .selected {
     border: 2px solid black
 }
+
+.size-boxes .selected .label {
+    font-weight: bold;
+    color: black
+}
