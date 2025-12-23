@@ -1466,7 +1466,7 @@
             },
             "product_card_group_r7mMcp": {
               "type": "_product-card-group",
-              "name": "t:names.group",
+              "name": "best seller bar",
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
