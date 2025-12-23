@@ -350,7 +350,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p></p>{{ closest.product.description }}",
+                "text": "{{ closest.product.description }}",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
