@@ -170,6 +170,7 @@
       ],
       "name": "t:names.hero",
       "settings": {
+        "css_class": "h",
         "show_overlay": true,
         "media_type_1": "image",
         "image_1": "shopify://shop_images/b6fa8c4111f599efca820a1419f23436dba60687.jpg",
