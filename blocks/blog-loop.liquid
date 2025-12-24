@@ -96,7 +96,7 @@
   {% assign counter = 0 %}
 
   {% for article in target_blog.articles %}
-    {% if article.tags contains target_tag %}
+    {% if article.tags contains target_tag and counter <= block.settings.limit %}
       {% assign counter = counter | plus: 1 %}
       <li>
         <a href="{{ article.url }}">{{ article.title }}</a>
