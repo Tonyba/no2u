@@ -400,6 +400,7 @@ slideshow-slides:has(.review-card) {
         border-bottom: 1px solid white;
         width: 100%;
         text-align: center;
+        justify-content: center;
     }
 
     .mission-text {
