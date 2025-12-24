@@ -312,6 +312,15 @@ slideshow-slides:has(.review-card) {
     background-color: white;
 }
 
+/*start your subscription*/
+
+.start-subscriptions rte-formatter {
+    border: 1px solid #2A2A2A;
+    border-radius: 50px;
+}
+
+/*start your subscription end*/
+
 @media only screen and (min-width: 1025px) {
     .hide-d {
         display: none;
