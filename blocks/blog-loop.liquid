@@ -98,10 +98,6 @@
   {% for article in target_blog.articles %}
     {% if article.tags contains target_tag and counter <= block.settings.limit %}
       {% assign counter = counter | plus: 1 %}
-      <li>
-        <a href="{{ article.url }}">{{ article.title }}</a>
-        <p>{{ article.excerpt_or_content | strip_html | truncatewords: 30 }}</p>
-      </li>
     {% endif %}
   {% endfor %}
 {% endif %}
