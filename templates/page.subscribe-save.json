@@ -269,7 +269,7 @@
       "type": "below_hero",
       "name": "Below Hero",
       "settings": {
-        "css_class": "subscribe-below-hero",
+        "css_class": "subscribe-below-hero subscribe-below-subscribe",
         "bg_color": "#efefef",
         "img_1": "shopify://shop_images/truck.svg",
         "text_1": "<p>Save 10% + free US shipping<br/>on every purchase</p>",
