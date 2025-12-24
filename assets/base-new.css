@@ -111,6 +111,16 @@
     font-weight: bold;
 }
 
+.calculator-overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #00000000, #000);
+}
+
 .menu__list>li {
     margin: 0 !important;
     margin-block-start: 0 !important;
