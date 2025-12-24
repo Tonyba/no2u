@@ -1919,7 +1919,7 @@
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
-                        "css_class": "",
+                        "css_class": "forced-row-m",
                         "content_direction": "row",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
@@ -2152,7 +2152,7 @@
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
-                        "css_class": "",
+                        "css_class": "forced-row-m",
                         "content_direction": "row",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
@@ -2385,7 +2385,7 @@
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
-                        "css_class": "",
+                        "css_class": "forced-row-m",
                         "content_direction": "row",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
@@ -2618,7 +2618,7 @@
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
-                        "css_class": "",
+                        "css_class": "forced-row-m",
                         "content_direction": "row",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
