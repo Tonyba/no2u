@@ -551,7 +551,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "css_class": "",
+            "css_class": "w-100-t",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
