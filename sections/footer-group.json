@@ -117,7 +117,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "css_class": "hide-d",
+        "css_class": "hide-d tablet-logo",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -455,7 +455,7 @@
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "css_class": "",
+            "css_class": "hide-t",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
