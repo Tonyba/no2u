@@ -330,7 +330,8 @@ slideshow-slides:has(.review-card) {
         width: 100%;
     }
 
-    .testimonials-header .layout-panel-flex {
+    .testimonials-header .layout-panel-flex,
+    .testimonials-header .layout-panel-flex .spacing-style {
         align-items: center;
     }
 }
