@@ -14,7 +14,7 @@
     </a>
 
     <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
-    <p>{{ first_blog.excerpt_or_content }}</p>
+    <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 200 }}</p>
   </div>
   <div class="other-articles">
     {% for item in other_blogs limit: 2 offset: 1 %}
@@ -26,7 +26,9 @@
             | image_tag: loading: 'lazy', decoding: 'async', draggable: false
           -}}
         </div>
-        <div class="content"></div>
+        <div class="content">
+          <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 100 }}</p>
+        </div>
       </div>
     {% endfor %}
   </div>
