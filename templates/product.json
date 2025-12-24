@@ -19,14 +19,14 @@
             "media_presentation": "grid",
             "media_columns": "two",
             "image_gap": 4,
-            "large_first_image": false,
+            "large_first_image": true,
             "icons_style": "arrow",
             "slideshow_controls_style": "counter",
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "right",
             "thumbnail_width": 44,
             "thumbnail_radius": 0,
-            "aspect_ratio": "adapt",
+            "aspect_ratio": "1",
             "constrain_to_viewport": true,
             "media_fit": "contain",
             "media_radius": 0,
@@ -187,7 +187,6 @@
                 }
               },
               "block_order": [
-                "judge_me_reviews_preview_badge_F4HXhe",
                 "text_xpVMaM",
                 "price_tVjtKg",
                 "text_K3qMFi"
@@ -289,7 +288,6 @@
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_R3rGDr",
-            "bony_subscriptions_app_subscription_block_L7hpGF",
             "buy_buttons_eYQEYi",
             "text_aEtTtq"
           ]
