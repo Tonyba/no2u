@@ -494,8 +494,8 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
-    .forced-row-m {
-        flex-direction: row !important;
+    .forced-row-m>* {
+        flex-direction: row;
     }
 
     .fox-video .image-block img {
