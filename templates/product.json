@@ -248,6 +248,15 @@
               },
               "blocks": {}
             },
+            "maximum_per_order_U7mqgh": {
+              "type": "maximum_per_order",
+              "name": "Maximum per order",
+              "settings": {
+                "first_Text": "Maximum of 2 per order",
+                "last_text": ""
+              },
+              "blocks": {}
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -317,6 +326,7 @@
             "group_icgrde",
             "product_list_details_6xALVh",
             "text_fFbnXz",
+            "maximum_per_order_U7mqgh",
             "variant_picker_R3rGDr",
             "bony_subscriptions_app_subscription_block_L7hpGF",
             "buy_buttons_eYQEYi",
