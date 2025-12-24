@@ -338,7 +338,7 @@ slideshow-slides:has(.review-card) {
     }
 
     .start-subscriptions .icon-block {
-        justify-content: center;
+        align-items: center;
     }
 
     .hero-vertical-overlay::after {
