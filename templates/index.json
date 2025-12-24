@@ -4332,7 +4332,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "css_class": "",
+        "css_class": "reviews-carousel",
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
