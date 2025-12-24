@@ -693,6 +693,7 @@
                 },
                 "add-to-cart": {
                   "type": "add-to-cart",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "style_class": "button"
@@ -708,33 +709,6 @@
                 }
               },
               "block_order": []
-            },
-            "text_C8b4Vz": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "css_class": "",
-                "text": "<p>Subscribe & save 10%</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "custom",
-                "font": "var(--font-heading--family)",
-                "font_size": "1.125rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
@@ -743,8 +717,7 @@
             "review_fpMmph",
             "product_title_hkaQXM",
             "swatches_dw8M6Y",
-            "buy_buttons_HCrdGP",
-            "text_C8b4Vz"
+            "buy_buttons_HCrdGP"
           ]
         }
       },
