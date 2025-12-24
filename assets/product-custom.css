@@ -97,7 +97,8 @@
 
 .recurpay__widget .recurpay__group_price_wrapper {
     flex-direction: row !important;
-    justify-self: flex-end;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 @media only screen and (max-width: 1024px) {
