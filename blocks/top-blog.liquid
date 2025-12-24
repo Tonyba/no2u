@@ -53,7 +53,7 @@
     <a href="{{ first_blog.url }}">
       {{-
         first_blog.image
-        | image_url: width: first_blog.image.width, height: 300
+        | image_url: width: 300, height: 300
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     </a>
