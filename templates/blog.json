@@ -2148,7 +2148,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 15,
             "padding-block-end": 50,
             "padding-inline-start": 50,
             "padding-inline-end": 50
@@ -2219,7 +2219,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 15,
             "padding-block-end": 50,
             "padding-inline-start": 50,
             "padding-inline-end": 50
