@@ -102,6 +102,10 @@
     left: 0;
 }
 
+.dark-overlay>* {
+    z-index: 1;
+}
+
 .menu__list>li {
     margin: 0 !important;
     margin-block-start: 0 !important;
