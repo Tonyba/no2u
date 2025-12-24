@@ -127,7 +127,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
-                    "css_class": "",
+                    "css_class": "footer-inquiries-data",
                     "content_direction": "row",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -202,7 +202,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
-                    "css_class": "",
+                    "css_class": "footer-inquirie",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
