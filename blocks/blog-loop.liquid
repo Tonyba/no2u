@@ -1,6 +1,9 @@
 <div class="grid cols-4">
   {% paginate blog.articles by 8 %}
-    {% render 'custom-blog-card', article: article %}
+    {% for article in blog.articles %}
+      {% render 'custom-blog-card', article: article %}
+    {% endfor %}
+    {{ paginate | default_pagination }}
   {% endpaginate %}
 </div>
 
