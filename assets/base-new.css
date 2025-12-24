@@ -359,7 +359,7 @@ slideshow-slides:has(.review-card) {
     }
 
     .img-block {
-        width: 20%;
+        width: 20% !important;
     }
 
     .vision {
