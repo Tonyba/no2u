@@ -1,4 +1,14 @@
 <div class="grid cols-4 no-template-areas">
+  {% if blog.all_tags.size > 0 %}
+    <aside class="blog-sidebar-tags flex">
+      {% for tag in blog.all_tags %}
+        <li>
+          <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
+        </li>
+      {% endfor %}
+    </aside>
+  {% endif %}
+
   {% paginate blog.articles by 8 %}
     {% for article in blog.articles %}
       {% render 'custom-blog-card', article: article %}
