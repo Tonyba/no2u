@@ -563,7 +563,7 @@
                 "rating_color": "foreground",
                 "type_preset": "paragraph",
                 "width": "100%",
-                "alignment": "center"
+                "alignment": "left"
               },
               "blocks": {}
             },
@@ -573,7 +573,7 @@
               "settings": {
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
+                "alignment": "left",
                 "type_preset": "h4",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
