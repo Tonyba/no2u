@@ -44,7 +44,7 @@
     {% if article.image != blank %}
       {{-
         article.image
-        | image_url: width: 500, height: 300
+        | image_url: width: 400, height: 250
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     {% endif %}
