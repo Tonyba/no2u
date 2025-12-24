@@ -395,8 +395,8 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
-    .footer-inquiries>*:not(:last-child) {
-        border: 1px solid white
+    .footer-inquiries .text-with-icon:not(:last-child) {
+        border-bottom: 1px solid white
     }
 
     .mobile-inquiry rte-formatter p {
