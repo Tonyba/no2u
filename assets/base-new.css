@@ -422,6 +422,11 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .subscribe-hero .mobile-column {
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
     .reviews-carousel .carousel-content slideshow-slides>.card {
         --carousel-columns: 1;
     }
