@@ -5839,7 +5839,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
-                    "css_class": "",
+                    "css_class": "review-prod",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",
@@ -5939,7 +5939,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "css_class": "",
+        "css_class": "reviews-carousel",
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
