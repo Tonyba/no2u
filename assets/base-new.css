@@ -321,6 +321,11 @@ slideshow-slides:has(.review-card) {
         flex-direction: column-reverse;
     }
 
+    .hero-vertical-overlay::after {
+
+        background-image: linear-gradient(to top, #000000 20%, #00000000 50%);
+    }
+
     .hide-t {
         display: none;
     }
