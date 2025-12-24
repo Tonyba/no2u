@@ -120,7 +120,7 @@
 
 .recurpay__description li {
     display: flex;
-    gap: 12px;
+    gap: 6px;
 }
 
 .recurpay__description li::before {
