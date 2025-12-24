@@ -27,6 +27,7 @@
           -}}
         </div>
         <div class="content">
+          <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
           <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 100 }}</p>
         </div>
       </div>
