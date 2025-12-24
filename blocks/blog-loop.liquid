@@ -27,16 +27,14 @@
     {% endfor %}
   </aside>
 {% endif %}
-
-<div class="grid cols-4 no-template-areas">
-  {% paginate blog.articles by 8 %}
+{% paginate blog.articles by 8 %}
+  <div class="grid cols-4 no-template-areas">
     {% for article in blog.articles %}
       {% render 'custom-blog-card', article: article %}
     {% endfor %}
-    {{ paginate | default_pagination }}
-  {% endpaginate %}
-</div>
-
+  </div>
+  {{ paginate | default_pagination }}
+{% endpaginate %}
 {% schema %}
 {
   "name": "Blog Loop",
