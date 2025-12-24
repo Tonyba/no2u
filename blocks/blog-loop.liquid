@@ -13,7 +13,7 @@
 {% endstylesheet %}
 
 {% if blog.all_tags.size > 0 %}
-  <aside class="blog-sidebar-tags flex">
+  <aside class="blog-sidebar-tags flex items-center">
     <a href="{{ blog.url }}">All</a>
     {% for tag in blog.all_tags %}
       <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
