@@ -1,3 +1,10 @@
+{% if section.settings.bg_img != blank %}
+  {{-
+    section.settings.bg_img
+    | image_url: width: section.settings.bg_img.width
+    | image_tag: loading: 'lazy', decoding: 'async', draggable: false, class: 'section-bg-image'
+  -}}
+{% endif %}
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div
   class="
@@ -15,14 +22,6 @@
   "
   data-testid="carousel-section"
 >
-  {% if section.settings.bg_img != blank %}
-    {{-
-      section.settings.bg_img
-      | image_url: width: section.settings.bg_img.width
-      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-    -}}
-  {% endif %}
-
   {% content_for 'block', type: 'group', id: 'static-header' %}
 
   {% content_for 'block', type: '_carousel-content', id: 'static-carousel-content', closest.product: null %}
