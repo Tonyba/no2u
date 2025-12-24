@@ -2287,8 +2287,8 @@
           "type": "text",
           "static": true,
           "settings": {
-            "css_class": "",
-            "text": "<p>Recently purchased? Please leave a review<br/></p>",
+            "css_class": "strong-line-red",
+            "text": "<p>Recently purchased? Please <strong>leave a review</strong><br/></p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
