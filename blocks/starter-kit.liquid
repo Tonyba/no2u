@@ -55,9 +55,14 @@
   .starter-kit .icon svg {
     width: 14px;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .starter-kit {
+    }
+  }
 {% endstylesheet %}
 
-<div class="flex items-center">
+<div class="flex items-center flex-col-t">
   <div class="img">
     {{- block.settings.img | image_url: width: 300 | image_tag: loading: 'lazy', decoding: 'async', draggable: false -}}
   </div>
