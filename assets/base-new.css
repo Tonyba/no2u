@@ -356,9 +356,9 @@ slideshow-slides:has(.review-card) {
     }
 
     .flex-col-t,
-    .flex-col-t>*>.mobile-column,
-    .flex-col-t>*>*,
-    .flex-col-t>* {
+    .flex-col-t>*:not(.button)>.mobile-column,
+    .flex-col-t>*:not(.button)>*:not(.button),
+    .flex-col-t>*:not(.button) {
         flex-direction: column;
     }
 
