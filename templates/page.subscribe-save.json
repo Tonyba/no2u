@@ -680,6 +680,20 @@
               },
               "blocks": {}
             },
+            "swatches_dw8M6Y": {
+              "type": "swatches",
+              "name": "t:names.swatches",
+              "settings": {
+                "product_swatches_alignment": "flex-start",
+                "product_swatches_alignment_mobile": "flex-start",
+                "hide_padding": false,
+                "product_swatches_padding_top": 4,
+                "product_swatches_padding_bottom": 0,
+                "product_swatches_padding_left": 0,
+                "product_swatches_padding_right": 0
+              },
+              "blocks": {}
+            },
             "buy_buttons_HCrdGP": {
               "type": "buy-buttons",
               "name": "t:names.product_buy_buttons",
@@ -752,6 +766,7 @@
             "review_fpMmph",
             "product_title_hkaQXM",
             "price_Hy6RWh",
+            "swatches_dw8M6Y",
             "buy_buttons_HCrdGP",
             "text_C8b4Vz"
           ]
