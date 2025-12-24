@@ -76,7 +76,7 @@
   {% endif %}
 {% endif %}
 
-{% if block.settings.selected_tag != blank %}
+{% if block.settings.selected_tag != '' %}
   {% paginate blog_loop.articles by 8 %}
     <div class="grid cols-4 no-template-areas">
       {% for article in blog.articles %}
