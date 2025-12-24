@@ -348,7 +348,8 @@ slideshow-slides:has(.review-card) {
         align-items: center;
     }
 
-    .footer-content {
+    .footer-content,
+    .utilities {
         grid-template-columns: repeat(1, 1fr) !important;
     }
 
