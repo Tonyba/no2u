@@ -380,4 +380,8 @@ slideshow-slides:has(.review-card) {
     .home-hero .hero__content-wrapper {
         gap: 13px
     }
+
+    body {
+        font-size: 14px;
+    }
 }
