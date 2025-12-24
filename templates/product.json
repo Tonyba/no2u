@@ -260,7 +260,7 @@
             "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH": {
               "type": "shopify://apps/recurpay-subscriptions-app/blocks/recurpay-app-block-widget/c600a513-dad8-4030-8697-de47c18881f2",
               "settings": {
-                "multiply_price_with_quantity": false,
+                "multiply_price_with_quantity": true,
                 "show_price_in_frequency_dropdown": true
               }
             },
