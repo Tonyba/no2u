@@ -1683,7 +1683,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 38,
-                "padding-block-end": 0,
+                "padding-block-end": 20,
                 "padding-inline-start": 50,
                 "padding-inline-end": 50
               },
@@ -1870,7 +1870,7 @@
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 38,
-                "padding-block-end": 0,
+                "padding-block-end": 20,
                 "padding-inline-start": 50,
                 "padding-inline-end": 50
               },
