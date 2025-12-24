@@ -450,7 +450,10 @@
             "blog_loop_fCMxEe": {
               "type": "blog-loop",
               "name": "Blog Loop",
-              "settings": {},
+              "settings": {
+                "show_filters": false,
+                "limit": 4
+              },
               "blocks": {}
             }
           },
@@ -567,7 +570,10 @@
             "blog_loop_PmhTmy": {
               "type": "blog-loop",
               "name": "Blog Loop",
-              "settings": {},
+              "settings": {
+                "show_filters": true,
+                "limit": 8
+              },
               "blocks": {}
             }
           },
