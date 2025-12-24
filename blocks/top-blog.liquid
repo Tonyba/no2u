@@ -13,6 +13,16 @@
   </div>
   <div class="other-articles">
     {% for item in other_blogs limit: 2 offset: 1 %}
+      <div class="flex">
+        <div class="img">
+          {{-
+            first_blog.image
+            | image_url: width: first_blog.image.width, height: 300
+            | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+          -}}
+        </div>
+        <div class="content"></div>
+      </div>
     {% endfor %}
   </div>
 </div>
