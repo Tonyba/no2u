@@ -376,4 +376,8 @@ slideshow-slides:has(.review-card) {
     h1 {
         font-size: 42px !important;
     }
+
+    .home-hero .hero__content-wrapper {
+        gap: 13px
+    }
 }
