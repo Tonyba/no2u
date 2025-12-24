@@ -339,6 +339,7 @@ slideshow-slides:has(.review-card) {
 
     .start-subscriptions .icon-block {
         align-items: center;
+        transform: rotate(90deg);
     }
 
     .hero-vertical-overlay::after {
