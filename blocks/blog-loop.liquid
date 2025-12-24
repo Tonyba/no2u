@@ -33,7 +33,9 @@
       {% render 'custom-blog-card', article: article %}
     {% endfor %}
   </div>
-  {{ paginate | default_pagination }}
+  <div class="pagination flex items-center justify-center">
+    {{ paginate | default_pagination }}
+  </div>
 {% endpaginate %}
 {% schema %}
 {
