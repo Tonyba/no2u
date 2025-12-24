@@ -132,7 +132,7 @@
     <h2>{{ block.settings.title_2 }}</h2>
 
     <div class="flex vertical">
-      {% for item in other_blogs limit: 2 offset: 1 %}
+      {% for item in other_blogs limit: 3 offset: 1 %}
         {% assign min_read = item.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
         {% assign tag = item.tags.first %}
 
