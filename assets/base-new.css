@@ -358,6 +358,10 @@ slideshow-slides:has(.review-card) {
         max-width: 77px;
     }
 
+    .subscribe-choose .img-block {
+        width: 20%;
+    }
+
     .vision {
         border-top: 1px solid
     }
