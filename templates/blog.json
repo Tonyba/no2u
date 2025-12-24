@@ -2244,7 +2244,7 @@
               "name": "Text with icon",
               "settings": {
                 "icon": "shopify://shop_images/Group_2.svg",
-                "text": "Health & Fitness Calculators"
+                "text": "Find Your Daily MacronutrientBreakdown"
               },
               "blocks": {}
             }
@@ -2315,7 +2315,7 @@
               "name": "Text with icon",
               "settings": {
                 "icon": "shopify://shop_images/Group_2.svg",
-                "text": "Health & Fitness Calculators"
+                "text": "Find Your Total Daily Energy Expenditure"
               },
               "blocks": {}
             }
