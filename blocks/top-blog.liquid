@@ -89,7 +89,10 @@
           <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
           <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 100 }}</p>
 
-          <div class="meta flex">{{ first_blog.created_at | date: '%B %d, %Y' }}</div>
+          <div class="meta flex">
+            {{ first_blog.created_at | date: '%B %d, %Y' }}
+            <span class="min-read">{{ min_read }} min read</span>
+          </div>
         </div>
       </div>
     {% endfor %}
