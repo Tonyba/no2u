@@ -393,6 +393,11 @@ slideshow-slides:has(.review-card) {
 
     .fox-video .image-block img {
         max-width: 251px;
+        margin: auto;
+    }
+
+    .fox-video .layout-panel-flex {
+        padding-top: 60px;
     }
 
     .cols-1-m {
