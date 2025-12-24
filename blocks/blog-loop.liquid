@@ -43,7 +43,7 @@
       {% if current_tags == null or current_tags == empty %}
         {% assign all_link_class = 'active' %}
       {% endif %}
-      <a href="{{ blog.url }}" class="{{ all_link_class }}">All Posts</a>
+      <a href="{{ blog.url }}" class="{{ all_link_class }}">All</a>
 
       {% for tag in blog.all_tags %}
         {% comment %} Check if the current tag is in the array of current_tags {% endcomment %}
