@@ -78,7 +78,7 @@
 
 {% if block.settings.selected_tag == '' %}
   {% paginate blog_loop.articles by block.settings.limit %}
-    <div class="grid cols-4 no-template-areas">
+    <div class="grid cols-4 cols-2-t cols-1-m no-template-areas">
       {% for article in blog.articles %}
         {% render 'custom-blog-card', article: article %}
       {% endfor %}
@@ -94,7 +94,7 @@
   {% assign target_blog = blogs.news %}
   {% assign target_tag = block.settings.selected_tag %}
   {% assign counter = 0 %}
-  <div class="grid cols-4 no-template-areas">
+  <div class="grid cols-4 cols-2-t cols-1-m no-template-areas">
     {% for article in target_blog.articles %}
       {% if article.tags contains target_tag %}
         {% assign counter = counter | plus: 1 %}
