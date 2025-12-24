@@ -7,6 +7,7 @@
     section-carousel
     spacing-style
     gap-style
+    {{ section.settings.css_class }}
   "
   style="
     {% render 'spacing-style', settings: section.settings %}
@@ -26,6 +27,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
     {
       "type": "range",
       "id": "columns",
