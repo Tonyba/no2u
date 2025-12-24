@@ -2419,7 +2419,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "css_class": "",
+                "css_class": "mission-text",
                 "text": "<p>Every day we strive to improve the lives of others through awareness about the critical significance of Nitric Oxide production and how to maintain healthy levels as we age. Bryan Nitriceuticals’ mission is to keep advancing Nitric Oxide technologies that can assist to provide consumers with the safest, most cost-effective and best nitric oxide product technology on the market.</p>",
                 "width": "100%",
                 "max_width": "none",
