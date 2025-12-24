@@ -352,7 +352,7 @@ slideshow-slides:has(.review-card) {
     }
 
     .w-100-t {
-        flex-basis: 100%;
+        flex-basis: 100% !important;
     }
 
     .flex-col-t,
