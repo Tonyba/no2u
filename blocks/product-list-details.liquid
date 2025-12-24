@@ -10,10 +10,10 @@
 
 {% assign product_list = product.metafields.custom.detail_list %}
 
-<ul class="metafield-single_line_text_field-array">
+<ul class="metafield-single_line_text_field-array cols-1-m">
   {% for item in product_list.value %}
     <li class="metafield-single_line_text_field">
-      <span class="icon"> {{ 'gree-check.svg' | inline_asset_content }} </span> {{ item }}
+      <span class="icon"> {{ 'green-check.svg' | inline_asset_content }} </span> {{ item }}
     </li>
   {% endfor %}
 </ul>
