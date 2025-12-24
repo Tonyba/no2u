@@ -107,4 +107,9 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    .prod-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
