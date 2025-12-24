@@ -99,7 +99,9 @@
   {% for article in target_blog.articles %}
     {% if article.tags contains target_tag %}
       {% assign counter = counter | plus: 1 %}
-      {% render 'custom-blog-card', article: article %}
+      <div class="grid cols-4 no-template-areas">
+        {% render 'custom-blog-card', article: article %}
+      </div>
     {% endif %}
   {% endfor %}
 {% endif %}
