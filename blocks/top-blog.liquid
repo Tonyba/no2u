@@ -6,8 +6,8 @@
 <div class="flex">
   <div class="big-article">
     {{-
-      block.settings.image
-      | image_url: width: block.settings.image.width
+      first_blog.image
+      | image_url: width: first_blog.image.width, height: 300
       | image_tag: loading: 'lazy', decoding: 'async', draggable: false
     -}}
   </div>
