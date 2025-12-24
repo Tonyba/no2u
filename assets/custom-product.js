@@ -35,7 +35,7 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
         const subs_opts = document.querySelector('.recurpay-pdp-widget');
 
         variant_picker?.insertAdjacentElement('afterend', subs_el);
-        subs_el?.insertAdjacentElement('beforebegin', free_shipping_badge);
+        subs_el?.append('beforebegin', free_shipping_badge);
         subs_opts?.classList.remove('hide');
     })
 
