@@ -425,7 +425,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<p>What’s Trending</p>",
+                "text": "<h2>What’s Trending</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
