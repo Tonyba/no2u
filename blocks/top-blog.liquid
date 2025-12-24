@@ -5,11 +5,15 @@
 
 <div class="flex">
   <div class="big-article">
-    {{-
-      first_blog.image
-      | image_url: width: first_blog.image.width, height: 300
-      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-    -}}
+    <a href="{{ first_blog.url }}">
+      {{-
+        first_blog.image
+        | image_url: width: first_blog.image.width, height: 300
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    </a>
+
+    <h3></h3>
   </div>
   <div class="other-articles">
     {% for item in other_blogs limit: 2 offset: 1 %}
