@@ -391,6 +391,10 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .utilities ul {
+        flex-direction: column;
+    }
+
     .mission-text {
         padding-left: 0;
     }
