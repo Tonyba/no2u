@@ -452,6 +452,7 @@
               "name": "Blog Loop",
               "settings": {
                 "show_filters": false,
+                "pagination": false,
                 "limit": 4
               },
               "blocks": {}
@@ -572,6 +573,7 @@
               "name": "Blog Loop",
               "settings": {
                 "show_filters": true,
+                "pagination": true,
                 "limit": 8
               },
               "blocks": {}
