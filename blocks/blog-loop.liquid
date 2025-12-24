@@ -95,7 +95,7 @@
   {% assign target_tag = block.settings.selected_tag %}
   {% assign counter = 0 %}
 
-  {{ target_blog | json }}
+  {{ target_blog }}
 
   {% for article in target_blog.articles %}
     {% if article.tags contains target_tag and counter <= block.settings.limit %}
