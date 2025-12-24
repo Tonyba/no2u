@@ -420,7 +420,9 @@ slideshow-slides:has(.review-card) {
         font-size: 16px;
     }
 
-    .contact-item {}
+    .contact-item .image-block {
+        width: 15%;
+    }
 }
 
 
