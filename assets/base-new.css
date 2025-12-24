@@ -323,7 +323,7 @@ slideshow-slides:has(.review-card) {
 
     .hero-vertical-overlay::after {
 
-        background-image: linear-gradient(to top, #000000 20%, #00000000 50%);
+        background-image: linear-gradient(to top, #000000 0%, #00000000 100%);
     }
 
     .hide-t {
