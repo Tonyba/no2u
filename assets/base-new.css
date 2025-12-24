@@ -400,6 +400,11 @@ slideshow-slides:has(.review-card) {
         padding-bottom: 12px;
     }
 
+    .footer-inquiries .text-with-icon .flex {
+        max-width: 280px;
+        margin: auto;
+    }
+
     .footer-inquiries .layout-panel-flex {
         gap: 12px !important
     }
