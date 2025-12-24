@@ -413,7 +413,7 @@ slideshow-slides:has(.review-card) {
     }
 
     .product-card__content .buy-buttons-block {
-        padding: 0;
+        padding: 0 10px;
     }
 
     .button {
