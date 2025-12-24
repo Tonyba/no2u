@@ -108,7 +108,7 @@
 .recurpay__widget .recurpay__group_price_wrapper .recurpay__group_compare_price {
     font-size: 18px;
     color: #2A2A2BC7;
-    text-decoration-color: #EA4335;
+    text-decoration: line-through #EA4335 2px;
 }
 
 @media only screen and (max-width: 1024px) {
