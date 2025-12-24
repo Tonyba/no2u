@@ -78,12 +78,11 @@
 
 {% if block.settings.selected_tag == '' %}
   {% paginate blog_loop.articles by block.settings.limit %}
-    {% for article in blog.articles %}
-      <div class="grid cols-4 no-template-areas">
+    <div class="grid cols-4 no-template-areas">
+      {% for article in blog.articles %}
         {% render 'custom-blog-card', article: article %}
-      </div>
-    {% endfor %}
-
+      {% endfor %}
+    </div>
     {% if block.settings.pagination %}
       <div class="pagination flex items-center justify-center">
         {{ paginate | default_pagination }}
@@ -95,15 +94,15 @@
   {% assign target_blog = blogs.news %}
   {% assign target_tag = block.settings.selected_tag %}
   {% assign counter = 0 %}
+  <div class="grid cols-4 no-template-areas">
+    {% for article in target_blog.articles %}
+      {% if article.tags contains target_tag %}
+        {% assign counter = counter | plus: 1 %}
 
-  {% for article in target_blog.articles %}
-    {% if article.tags contains target_tag %}
-      {% assign counter = counter | plus: 1 %}
-      <div class="grid cols-4 no-template-areas">
         {% render 'custom-blog-card', article: article %}
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endif %}
 
 {% schema %}
