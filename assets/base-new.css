@@ -339,7 +339,7 @@ slideshow-slides:has(.review-card) {
         width: unset;
     }
 
-    .testimonials-header .reviews-title {
+    .testimonials-header .reviews-title p {
         text-align: center;
     }
 }
