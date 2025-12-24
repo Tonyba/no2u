@@ -342,6 +342,10 @@ slideshow-slides:has(.review-card) {
         transform: rotate(90deg);
     }
 
+    .start-subscriptions rte-formatter {
+        padding: 10px 20px;
+    }
+
     .hero-vertical-overlay::after {
 
         background-image: linear-gradient(to top, #000000 0%, #00000000 100%);
