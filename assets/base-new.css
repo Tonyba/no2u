@@ -427,6 +427,10 @@ slideshow-slides:has(.review-card) {
         padding-top: 200px;
     }
 
+    .w-100-m {
+        width: 100%;
+    }
+
     .subscribe-hero .spacing-style>* {
         text-align: center;
     }
