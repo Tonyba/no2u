@@ -82,9 +82,11 @@
       {% render 'custom-blog-card', article: article %}
     {% endfor %}
   </div>
-  <div class="pagination flex items-center justify-center">
-    {{ paginate | default_pagination }}
-  </div>
+  {% if block.settings.pagination %}
+    <div class="pagination flex items-center justify-center">
+      {{ paginate | default_pagination }}
+    </div>
+  {% endif %}
 {% endpaginate %}
 {% schema %}
 {
