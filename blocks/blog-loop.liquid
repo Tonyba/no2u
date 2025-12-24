@@ -2,9 +2,7 @@
   {% if blog.all_tags.size > 0 %}
     <aside class="blog-sidebar-tags flex">
       {% for tag in blog.all_tags %}
-        <li>
-          <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
-        </li>
+        <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
       {% endfor %}
     </aside>
   {% endif %}
