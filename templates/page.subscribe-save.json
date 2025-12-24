@@ -3354,7 +3354,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Natural and Grass-Fed Ingredients</p>",
+                        "text": "<h3>Natural and Grass-Fed Ingredients</h3>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -3479,7 +3479,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No Artificial Sweeteners, Fillers, or Colors</p>",
+                        "text": "<h3>No Artificial Sweeteners, Fillers, or Colors</h3>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -3651,7 +3651,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Transparent, Clinically-Dosed Formulas</p>",
+                        "text": "<h3>Transparent, Clinically-Dosed Formulas</h3>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -3776,7 +3776,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>3rd-Party Lab Testing</p>",
+                        "text": "<h3>3rd-Party Lab Testing</h3>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
