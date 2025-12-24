@@ -37,7 +37,7 @@
 
 {% if blog.all_tags.size > 0 %}
   {% if blog.all_tags.size > 0 %}
-    <div class="blog-tags-list">
+    <div class="blog-tags-list flex items-center">
       {% comment %} Optionally add a link to view all articles (no filter applied) {% endcomment %}
       {% assign all_link_class = '' %}
       {% if current_tags == null or current_tags == empty %}
