@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.hide {
+    display: none;
+}
+
 .no-template-areas {
     grid-template-areas: unset;
 }
