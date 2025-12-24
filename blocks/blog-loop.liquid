@@ -36,11 +36,11 @@
 {% endstylesheet %}
 
 {% liquid
-
+  assign blog_loop = blog
 %}
 
-{% if blog.all_tags.size > 0 and block.settings.show_filters %}
-  {% if blog.all_tags.size > 0 %}
+{% if blog_loop.all_tags.size > 0 and block.settings.show_filters %}
+  {% if blog_loop.all_tags.size > 0 %}
     <div class="blog-sidebar-tags flex items-center">
       {% comment %} Optionally add a link to view all articles (no filter applied) {% endcomment %}
       {% assign all_link_class = '' %}
@@ -76,7 +76,7 @@
   {% endif %}
 {% endif %}
 
-{% paginate blog.articles by 8 %}
+{% paginate blog_loop.articles by 8 %}
   <div class="grid cols-4 no-template-areas">
     {% for article in blog.articles %}
       {% render 'custom-blog-card', article: article %}
