@@ -337,6 +337,10 @@ slideshow-slides:has(.review-card) {
         flex-direction: column-reverse;
     }
 
+    .start-subscriptions .icon-block {
+        justify-content: center;
+    }
+
     .hero-vertical-overlay::after {
 
         background-image: linear-gradient(to top, #000000 0%, #00000000 100%);
