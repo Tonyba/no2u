@@ -395,6 +395,10 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
+    .utilities>* {
+        border-right: 0
+    }
+
     .mission-text {
         padding-left: 0;
     }
