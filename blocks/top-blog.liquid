@@ -93,7 +93,7 @@
     {% for item in other_blogs limit: 2 offset: 1 %}
       {% assign min_read = item.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
 
-      <div class="flex">
+      <div class="flex article">
         <div class="img">
           <a href="{{ first_blog.url }}">
             {{-
