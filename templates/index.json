@@ -1247,7 +1247,7 @@
                     "css_class": "",
                     "text": "<p>With over 20 years of dedicated research, Dr. Nathan S. Bryan is recognized as one of the foremost authorities in the field of Nitric Oxide. He has had the privilege of collaborating with each of the three Nobel Laureates responsible for discovering this remarkable “Miracle Molecule,” contributing to groundbreaking advancements in human health and wellness.</p>",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
