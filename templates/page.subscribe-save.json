@@ -618,7 +618,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "selector_loop_qw7hfc": {
+                "selector_loop_XdPWRj": {
                   "type": "selector_loop",
                   "name": "Variant Selector Loop",
                   "settings": {},
@@ -642,7 +642,7 @@
                 }
               },
               "block_order": [
-                "selector_loop_qw7hfc"
+                "selector_loop_XdPWRj"
               ]
             },
             "review_fpMmph": {
