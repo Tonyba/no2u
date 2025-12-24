@@ -352,6 +352,10 @@ slideshow-slides:has(.review-card) {
         border-top: 1px solid
     }
 
+    .reviews-carousel .carousel-content slideshow-slides>.card {
+        --carousel-columns: 2;
+    }
+
     .flex-col-t .mobile-column>*,
     .flex-column-reverse-t>*,
     .flex-column-reverse-t .layout-panel-flex,
