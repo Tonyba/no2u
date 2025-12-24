@@ -77,7 +77,7 @@
 {% endif %}
 
 {% if block.settings.selected_tag != '' %}
-  {% paginate blog_loop.articles by 8 %}
+  {% paginate blog_loop.articles by block.settings.limit %}
     <div class="grid cols-4 no-template-areas">
       {% for article in blog.articles %}
         {% render 'custom-blog-card', article: article %}
