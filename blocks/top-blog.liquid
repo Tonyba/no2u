@@ -67,7 +67,9 @@
       -}}
     </a>
 
-    <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
+    <h3>
+      <a href="{{ first_blog.url }}">{{ first_blog.title }}</a>
+    </h3>
 
     <div class="meta flex">
       {{ first_blog.created_at | date: '%B %d, %Y' }}
@@ -96,7 +98,9 @@
           </a>
         </div>
         <div class="content">
-          <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
+          <h3>
+            <a href="{{ first_blog.url }}">{{ first_blog.title }}</a>
+          </h3>
 
           <div class="meta flex">
             {{ first_blog.created_at | date: '%B %d, %Y' }}
