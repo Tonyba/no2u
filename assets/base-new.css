@@ -421,7 +421,7 @@ slideshow-slides:has(.review-card) {
     }
 
     .contact-item .image-block {
-        width: 15%;
+        flex-basis: 15%;
     }
 }
 
