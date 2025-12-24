@@ -324,6 +324,7 @@ slideshow-slides:has(.review-card) {
     .flex-col-t .mobile-column,
     .flex-col-t .group-block-content {
         flex-direction: column;
+        --flex-direction: column
     }
 
     .flex-col-t .mobile-column>* {
