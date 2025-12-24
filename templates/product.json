@@ -253,7 +253,7 @@
               "name": "Maximum per order",
               "settings": {
                 "first_Text": "Maximum of 2 per order",
-                "last_text": ""
+                "last_text": "<p>To order a larger quantity, please choose the <span style=\"text-decoration:underline\">Buy 3 get 1 Free bundle</span></p>"
               },
               "blocks": {}
             },
