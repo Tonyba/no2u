@@ -1,3 +1,19 @@
+{% liquid
+  assign first_blog = blog.articles.first
+  assign other_blogs = blog.articles
+%}
+
+<div class="flex">
+  <div class="big-article">
+    {{-
+      block.settings.image
+      | image_url: width: block.settings.image.width
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
+  <div class="other-articles"></div>
+</div>
+
 {% schema %}
 {
   "name": "Top Blog",
