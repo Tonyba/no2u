@@ -316,6 +316,10 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .tablet-logo img {
+        max-width: 250px;
+    }
+
     .contained {
         padding-right: 20px;
         padding-left: 20px;
