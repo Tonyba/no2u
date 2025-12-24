@@ -92,6 +92,16 @@
     flex-direction: column;
 }
 
+.dark-overlay::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0ECC;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .menu__list>li {
     margin: 0 !important;
     margin-block-start: 0 !important;
