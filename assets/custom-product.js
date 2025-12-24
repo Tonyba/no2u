@@ -96,13 +96,3 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-
-
-
-
-
-});
-
-
-
