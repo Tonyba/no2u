@@ -36,7 +36,7 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
 
         variant_picker?.insertAdjacentElement('afterend', subs_el);
         subs_el?.append(free_shipping_badge);
-        subs_opts?.classList.remove('hide');
+        free_shipping_badge?.classList.remove('hide');
     })
 
     let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
