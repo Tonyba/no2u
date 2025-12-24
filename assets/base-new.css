@@ -395,8 +395,11 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
-    .utilities>* {
-        border-right: 0
+    .dividers>* {
+        border-right: 0;
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
     }
 
     .mission-text {
