@@ -3562,7 +3562,7 @@
         "columns_gap": 20,
         "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
         "icons_style": "arrow",
-        "icons_shape": "none",
+        "icons_shape": "circle",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
