@@ -117,9 +117,14 @@
     list-style: none;
 }
 
+
+.recurpay__description li {
+    display: flex;
+}
+
 .recurpay__description li::before {
     content: '';
-    display: flex;
+
     gap: 12px;
     background-image: url('https://cdn.shopify.com/s/files/1/0701/2525/6940/files/green-check.svg?v=1766596572');
 }
