@@ -397,6 +397,8 @@ slideshow-slides:has(.review-card) {
 
     .mobile-inquiry rte-formatter p {
         text-align: center;
+        font-weight: 600;
+        font-size: 18px;
     }
 
     .dividers>*:not(:last-child) {
