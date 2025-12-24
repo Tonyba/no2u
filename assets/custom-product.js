@@ -1,6 +1,28 @@
-document.addEventListener('DOMContentLoaded', () => {
 
 
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                observer.disconnect();
+                resolve(document.querySelector(selector));
+            }
+        });
+
+        // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+
+
+waitForElm('.variant-picker__form > .variant-option:first-child option').then((elm) => {
 
     const variant_picker = document.querySelector('.variant-picker');
     const variantOptions = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option')).map(item => ({
@@ -69,6 +91,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         el.classList.add('selected');
     }
+
+});
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+
 
 
 
