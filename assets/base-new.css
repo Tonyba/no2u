@@ -430,6 +430,10 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .sub-item .image-block {
+        width: unset !important;
+    }
+
     .subscribe-hero .group-block {
         padding-bottom: 30px;
         padding-top: 200px;
