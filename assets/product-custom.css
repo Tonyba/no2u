@@ -91,7 +91,8 @@
 }
 
 .recurpay__widget .recurpay__widget_container--selected .recurpay__radio_group svg {
-    color: #34A853
+    color: #34A853;
+    fill: #B3FFC8
 }
 
 @media only screen and (max-width: 1024px) {
