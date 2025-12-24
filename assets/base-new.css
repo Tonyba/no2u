@@ -369,6 +369,10 @@ slideshow-slides:has(.review-card) {
     .product-card__content .buy-buttons-block {
         padding: 0;
     }
+
+    .button {
+        font-size: 16px;
+    }
 }
 
 
