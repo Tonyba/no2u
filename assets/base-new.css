@@ -320,6 +320,9 @@ slideshow-slides:has(.review-card) {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .flex-col-t {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 767px) {
