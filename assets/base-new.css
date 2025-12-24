@@ -494,6 +494,10 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
+    .forced-row-m {
+        flex-direction: row !important;
+    }
+
     .fox-video .image-block img {
         max-width: 251px;
         margin: auto;
