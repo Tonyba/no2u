@@ -402,6 +402,10 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .reviews-carousel .carousel-content slideshow-slides>.card {
+        --carousel-columns: 1;
+    }
+
     .utilities ul {
         flex-direction: column;
     }
