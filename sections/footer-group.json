@@ -406,7 +406,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "css_class": "",
+        "css_class": "mobile-inquiry",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
