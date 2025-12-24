@@ -858,7 +858,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "css_class": "",
+        "css_class": "dark-overlay",
         "bg_img": "shopify://shop_images/a3b8cef8d18d492de58445161b94a12254626229.jpg",
         "columns": 3,
         "mobile_columns": "1",
