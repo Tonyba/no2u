@@ -354,6 +354,10 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
+    .subscribe-choose img {
+        max-width: 77px;
+    }
+
     .vision {
         border-top: 1px solid
     }
