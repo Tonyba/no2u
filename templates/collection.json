@@ -2282,6 +2282,33 @@
             "card_LYVniP",
             "card_44pjgj"
           ]
+        },
+        "after-text": {
+          "type": "text",
+          "static": true,
+          "settings": {
+            "css_class": "",
+            "text": "<p>Recently purchased? Please leave a review<br/></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "name": "t:names.carousel",
