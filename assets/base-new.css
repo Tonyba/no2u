@@ -335,6 +335,10 @@ slideshow-slides:has(.review-card) {
         align-items: center;
     }
 
+    .footer-content {
+        flex-direction: column;
+    }
+
     .testimonials-header .layout-panel-flex .spacing-style {
         width: unset;
     }
