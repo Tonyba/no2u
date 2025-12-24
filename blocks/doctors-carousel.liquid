@@ -1,0 +1,82 @@
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+
+{% capture children %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
+{% stylesheet %}
+  .doctors-carousel .embla__button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .doctors-carousel .embla__controls {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .doctors-carousel .embla__controls {
+      position: unset;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    .doctor-item .item-wrapper {
+      gap: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .doctors-carousel .embla {
+      width: calc(100vw - 30px);
+    }
+  }
+{% endstylesheet %}
+
+<div class="embla cols-1 cols-1-t paginated">
+  <div class="embla__viewport">
+    <div class="embla__container convert-list">
+      {% for item in children %}
+        {{ item }}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="embla__controls flex items-center">
+    <button class="embla__button embla__button--prev">
+      {{ 'chevron-left.svg' | inline_asset_content }}
+    </button>
+    <div class="embla__selected-snap-display"></div>
+    <button class="embla__button embla__button--next">
+      {{ 'chevron-right.svg' | inline_asset_content }}
+    </button>
+  </div>
+</div>
+
+{% render 'embla-scripts' %}
+
+{% schema %}
+{
+  "name": "Doctors Carousel",
+  "class": "doctors-carousel",
+  "blocks": [
+    {
+      "type": "doctor_item"
+    }
+  ],
+  "settings": [],
+  "presets": [
+    {
+      "name": "Doctors Carousel"
+    }
+  ]
+}
+{% endschema %}

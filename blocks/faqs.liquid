@@ -1,0 +1,101 @@
+{% assign block_settings = block.settings %}
+
+{% stylesheet %}
+  .faqs .icon-plus {
+    display: none;
+  }
+
+  .faqs accordion-custom {
+    background-color: #f8f9fb;
+    padding: 40px 30px;
+  }
+
+  .faqs .icon-caret {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid #676767;
+    color: #c92531;
+  }
+
+  .faqs p {
+    font-size: 14px;
+  }
+
+  .faqs .details__header {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    column-gap: 35px;
+  }
+
+  .faqs .faqs-section accordion-custom {
+    padding: 10px 50px;
+  }
+
+  .faqs .faqs-subscribe accordion-custom {
+    padding: 15px 18px;
+    border-bottom: 1px solid;
+  }
+
+  .faqs .faqs-subscribe {
+    gap: 0;
+  }
+
+  .faqs .faqs-subscribe .details-content p {
+    color: #676767;
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .faqs .faqs-subscribe {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .faqs accordion-custom,
+    .faqs .faqs-section accordion-custom {
+      padding: 12px 13px;
+    }
+
+    .faqs .details__header {
+      font-size: 16px;
+    }
+  }
+{% endstylesheet %}
+
+<div class="grid cols-{{ block_settings.columns}} cols-1-t no-template-areas {{ block.settings.css_class }}">
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+{
+  "name": "faqs",
+  "class": "faqs w-100",
+  "blocks": [
+    {
+      "type": "_accordion-row"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "number",
+      "id": "columns",
+      "label": "Columns",
+      "default": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQs"
+    }
+  ]
+}
+{% endschema %}

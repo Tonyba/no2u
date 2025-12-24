@@ -1,0 +1,72 @@
+{% stylesheet %}
+  .review-product .img {
+    width: 100px;
+  }
+
+  .review-product .text {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+  }
+
+  .review-product h5 {
+    margin-bottom: 7px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .review-product a {
+    color: black;
+  }
+
+  .review-product .prod-container {
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .review-product .prod-container {
+      gap: 20px;
+    }
+
+    .review-prod {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+{% endstylesheet %}
+
+<div class="flex items-center prod-container">
+  <div class="img">
+    {{-
+      block.settings.product.featured_image
+      | image_url: width: 150
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
+  <div class="prod-content">
+    <h5>{{ block.settings.product.title }}</h5>
+    <a href="{{ block.settings.product.url }}" class="flex items-center">
+      <span class="text">Shop Product</span>
+      <span class="icon">{{ 'arrow-right.svg' | inline_asset_content }}</span>
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "review product",
+  "class": "review-product",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Review product"
+    }
+  ]
+}
+{% endschema %}

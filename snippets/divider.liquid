@@ -14,8 +14,16 @@
   @param {boolean} [attributes] - When `true`, render block.shopify_attributes on the divider container.
 {%- enddoc -%}
 
+{% if settings.direction == 'vertical' %}
+  <style>
+    .divider-vertical {
+        width: {{settings.width_percent}}%;
+    }
+  </style>
+{% endif %}
+
 <div
-  class="divider divider-{{ id }} spacing-style"
+  class="divider divider-{{ id }} spacing-style divider-{{ settings.direction }}"
   style="
     --divider-justify-content: {{ settings.alignment | default: 'center' }};
     {% render 'spacing-style', settings: settings %}

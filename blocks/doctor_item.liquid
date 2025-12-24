@@ -1,0 +1,92 @@
+{% stylesheet %}
+  .doctor-item .img {
+    width: 35%;
+  }
+
+  .doctor-item .texts {
+    width: 65%;
+  }
+
+  .doctor-item .item-wrapper {
+    gap: 75px;
+  }
+
+  .doctor-item .content {
+    margin-top: 23px;
+    margin-bottom: 40px;
+  }
+
+  .doctor-item .quote {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .doctor-item .name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .doctor-item .position {
+    margin-top: 0;
+    font-size: 16px;
+  }
+{% endstylesheet %}
+
+<div class="flex items-center item-wrapper flex-col-t">
+  <div class="img relative">
+    {{-
+      block.settings.img
+      | image_url: width: block.settings.img.width
+      | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+    -}}
+  </div>
+  <div class="texts">
+    <p class="quote">{{ block.settings.quote }}</p>
+    <p class="content">{{ block.settings.content }}</p>
+
+    <div class="author">
+      <p class="name">{{ block.settings.name }}</p>
+      <p class="position">{{ block.settings.position }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Doctor Item",
+  "class": "doctor-item",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "quote",
+      "label": "Qoute"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Name"
+    },
+    {
+      "type": "text",
+      "id": "position",
+      "label": "Position"
+    }
+  ],
+  "presets": [
+    {
+      "name": "doctor item"
+    }
+  ]
+}
+{% endschema %}

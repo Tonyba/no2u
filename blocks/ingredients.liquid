@@ -1,0 +1,143 @@
+{% stylesheet %}
+  .key-ingredients .left {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .key-ingredients .flex:not(.embla__buttons) {
+    gap: 82px;
+  }
+
+  .key-ingredients .embla__dots button {
+    background-color: #ffffff87;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    border: 0;
+    padding: 0;
+  }
+
+  .key-ingredients .embla__dots {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 40px;
+  }
+
+  .key-ingredients .divider {
+    background-color: white;
+    height: 3px;
+    width: 71px;
+    margin-bottom: 38px;
+  }
+
+  .key-ingredients .embla__dots .embla__dot--selected {
+    background-color: #c92531;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #ff98a0;
+  }
+
+  .key-ingredients h3 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+
+  .key-ingredients .right {
+    width: 65%;
+  }
+
+  .key-ingredients .texts {
+    max-width: 382px;
+  }
+
+  .key-ingredients .embla__button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .key-ingredients .embla__container > * {
+    display: flex;
+  }
+
+  .key-ingredients > .flex {
+    width: 100vw;
+    padding: 0 20px;
+  }
+
+  .key-ingredients .texts {
+    max-width: 100%;
+  }
+
+  .key-ingredients .flex:not(.embla__buttons) {
+    gap: 30px;
+  }
+{% endstylesheet %}
+
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+
+<div class="flex flex-col-t embla cols-2-half items-center">
+  <div class="left">
+    <div class="texts">
+      <div class="divider"></div>
+      <div class="h2">{{ block.settings.title }}</div>
+      <p>{{ block.settings.description }}</p>
+
+      <div class="embla__dots items-center"></div>
+
+      <div class="embla__buttons flex">
+        <button class="embla__button embla__button--prev">
+          {{ 'chevron-left.svg' | inline_asset_content }}
+        </button>
+        <button class="embla__button embla__button--next">
+          {{ 'chevron-right.svg' | inline_asset_content }}
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="embla__viewport">
+      <div class="embla__container convert-list">
+        {% content_for 'blocks' %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'embla-scripts' %}
+
+{% schema %}
+{
+  "name": "Ingredients",
+  "class": "key-ingredients",
+  "blocks": [
+    {
+      "type": "ingredient-item"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredients"
+    }
+  ]
+}
+{% endschema %}

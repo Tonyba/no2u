@@ -1,0 +1,32 @@
+<div class="flex items-center" style="gap: {{ block.settings.gap }}px">
+  {%- content_for 'blocks' -%}
+</div>
+
+{% schema %}
+{
+  "name": "icon list",
+  "class": "icon-list",
+  "settings": [
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Gap",
+      "default": 12
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon"
+    }
+  ],
+  "presets": [
+    {
+      "name": "icon list"
+    }
+  ]
+}
+{% endschema %}

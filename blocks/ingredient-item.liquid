@@ -1,0 +1,65 @@
+{% stylesheet %}
+  .ingredient-item .card-box {
+    background-color: white;
+    color: #676767;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    padding-left: 58px;
+  }
+
+  .ingredient-item h3 {
+    color: #c92531;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .ingredient-item p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .ingredient-item img {
+    width: 98px;
+  }
+{% endstylesheet %}
+
+<div class="card-box">
+  {{-
+    block.settings.img
+    | image_url: width: block.settings.img.width
+    | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+  -}}
+
+  <h3>{{ block.settings.title }}</h3>
+  <p>{{ block.settings.description }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Ingredient Item",
+  "class": "ingredient-item",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredient Item"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,148 @@
+.embla {
+    --slide-spacing: 20px;
+    --slide-size: 50%;
+}
+
+.embla .embla__viewport {
+    overflow: hidden;
+}
+
+.embla .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    flex-wrap: nowrap;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla .embla__container>* {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+    width: unset !important;
+}
+
+.cols-1 {
+    --slide-size: 100%;
+}
+
+.three-cols {
+    --slide-size: 33.33%;
+}
+
+.gap-5 {
+    --slide-spacing: 5px;
+
+}
+
+.cols-10 {
+    --slide-size: 10%;
+}
+
+.cols-6 {
+    --slide-size: 16.66%;
+}
+
+.cols-4 {
+    --slide-size: 25%;
+}
+
+.cols-1-half {
+    --slide-size: 68%;
+}
+
+.cols-2-half {
+    --slide-size: 45%;
+}
+
+.no-gap {
+    --slide-spacing: 0px;
+}
+
+.cols-auto {
+    --slide-size: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .embla {
+        --slide-size: 50%;
+    }
+
+    .cols-1-t {
+        --slide-size: 100%;
+    }
+
+    .cols-4-m {
+        --slide-size: 25%;
+    }
+
+    .cols-4-t {
+        --slide-size: 25%;
+    }
+
+    .cols-3-half {
+        --slide-size: 35%;
+    }
+
+    .service-content {
+        --slide-size: 100%;
+    }
+
+    .cols-2-t {
+        --slide-size: 50%;
+    }
+
+    .cols-6-t {
+        --slide-size: 16.66%;
+    }
+
+    .cols-3-t-half {
+        --slide-size: 35%;
+    }
+
+    .cols-1-t-half {
+        --slide-size: 70%;
+    }
+
+    .cols-2-t-half {
+        --slide-size: 40%;
+    }
+
+    .cols-auto {
+        --slide-size: auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .embla {
+        --slide-size: 100%;
+    }
+
+    .cols-3-m {
+        --slide-size: 33.33%;
+    }
+
+    .cols-1-half-m {
+        --slide-size: 65%;
+    }
+
+    .cols-4-m {
+        --slide-size: 25%;
+    }
+
+    .cols-1-m-half {
+        --slide-size: 70%;
+    }
+
+    .cols-4-m-half {
+        --slide-size: 23%;
+    }
+
+    .cols-auto {
+        --slide-size: auto;
+    }
+
+}

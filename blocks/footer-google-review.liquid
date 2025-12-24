@@ -1,0 +1,61 @@
+{% stylesheet %}
+  .footer-google-review img {
+    width: 105px;
+  }
+
+  .footer-google-review .rating {
+    color: var(--color-background);
+    background-color: var(--color-foreground);
+    border-radius: 50px;
+    padding: 0 5px;
+  }
+{% endstylesheet %}
+
+<div class="flex items-center">
+  <div class="google-icon">
+    {% if block.settings.google_review_img != blank %}
+      {{-
+        block.settings.google_review_img
+        | image_url: width: 105
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    {% endif %}
+  </div>
+  <div class="review-texts flex items-center">
+    <span class="text">
+      {{ block.settings.review_text }}
+    </span>
+    <span class="rating">
+      {{ block.settings.rating }}
+    </span>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Footer Google Review",
+  "class": "footer-google-review",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "google_review_img",
+      "label": "Google Review Image"
+    },
+    {
+      "type": "text",
+      "id": "review_text",
+      "label": "Review Text"
+    },
+    {
+      "type": "text",
+      "id": "rating",
+      "label": "Rating"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer Google Review"
+    }
+  ]
+}
+{% endschema %}

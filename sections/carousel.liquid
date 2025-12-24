@@ -1,3 +1,10 @@
+{% if section.settings.bg_img != blank %}
+  {{-
+    section.settings.bg_img
+    | image_url: width: section.settings.bg_img.width
+    | image_tag: loading: 'lazy', decoding: 'async', draggable: false, class: 'section-bg-image'
+  -}}
+{% endif %}
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div
   class="
@@ -7,6 +14,7 @@
     section-carousel
     spacing-style
     gap-style
+    {{ section.settings.css_class }}
   "
   style="
     {% render 'spacing-style', settings: section.settings %}
@@ -17,6 +25,8 @@
   {% content_for 'block', type: 'group', id: 'static-header' %}
 
   {% content_for 'block', type: '_carousel-content', id: 'static-carousel-content', closest.product: null %}
+
+  {% content_for 'block', type: 'text', id: 'after-text', closest.product: null %}
 </div>
 
 {% schema %}
@@ -25,7 +35,22 @@
   "disabled_on": {
     "groups": ["header", "footer"]
   },
+  "blocks": [
+    {
+      "type": "text"
+    }
+  ],
   "settings": [
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    },
     {
       "type": "range",
       "id": "columns",

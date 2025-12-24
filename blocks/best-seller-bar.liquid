@@ -1,0 +1,26 @@
+{% stylesheet %}
+  .best-seller {
+    text-align: center;
+    background-color: #addcfe;
+    color: #0d4064;
+    font-weight: 600;
+    padding: 5px;
+  }
+{% endstylesheet %}
+
+{% if closest.product.tags contains 'Best Seller' %}
+  <div class="best-seller">Best Seller</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Best Seller Bar",
+  "class": "best-seller-bar w-100",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Best Seller bar"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,110 @@
+{% stylesheet %}
+  .starter-kit {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 20px;
+  }
+
+  .starter-kit .img {
+    width: 30%;
+  }
+
+  .starter-kit img {
+    object-fit: cover;
+  }
+
+  .starter-kit .details {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  .starter-kit .flex {
+    gap: 35px;
+  }
+
+  .starter-kit h3 {
+    margin-bottom: 7px;
+    font-size: 18px;
+  }
+
+  .starter-kit p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  .starter-kit .sub-btn {
+    background-color: var(--button-background-color);
+    color: var(--color-primary-button-text);
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .starter-kit .icon {
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: var(--button-background-color);
+  }
+
+  .starter-kit .icon svg {
+    width: 14px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .starter-kit {
+    }
+  }
+{% endstylesheet %}
+
+<div class="flex items-center flex-col-t">
+  <div class="img ">
+    {{- block.settings.img | image_url: width: 300 | image_tag: loading: 'lazy', decoding: 'async', draggable: false -}}
+  </div>
+  <div class="details">
+    <h3>{{ block.settings.title }}</h3>
+    <p>{{ block.settings.description }}</p>
+    <div class="sub-btn button w-100">
+      <span class="icon shrink-0">{{ 'icon-checkmark.svg' | inline_asset_content }}</span> {{ block.settings.btn_text }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Starter Kit",
+  "class": "starter-kit",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Tex"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Starter Kit"
+    }
+  ]
+}
+{% endschema %}

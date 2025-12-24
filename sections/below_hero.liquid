@@ -25,6 +25,40 @@
     top: 50%;
     transform: translateY(-50%);
   }
+
+  .subscribe-below-hero > .flex:not(:last-child):after {
+    right: -50px;
+  }
+
+  .below-hero .white-ver {
+    color: white;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .below-hero .flex > *:not(:last-child):after {
+      right: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .below-hero .contained {
+      gap: 50px;
+    }
+
+    .below-hero .flex {
+      justify-content: center;
+    }
+
+    .below-hero .flex > *:not(:last-child):after {
+      right: 50%;
+      transform: translate3d(-50%, 0, 0);
+      top: 54px;
+    }
+
+    .subscribe-below-subscribe > .flex:not(:last-child):after {
+      top: 140%;
+    }
+  }
 {% endstylesheet %}
 
 <style>
@@ -33,7 +67,7 @@
   }
 </style>
 
-<div class="items-center justify-between contained flex">
+<div class="items-center justify-between contained flex {{ section.settings.css_class }} grid-t cols-2-t cols-1-m">
   <div class="flex gap-1 items-center">
     {% if section.settings.img_1 %}
       {{-
@@ -89,6 +123,11 @@
   "name": "Below Hero",
   "class": "below-hero",
   "settings": [
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
     {
       "type": "header",
       "content": "Design"

@@ -1,0 +1,125 @@
+{% stylesheet %}
+  .suporting-science {
+    color: white;
+  }
+
+  .suporting-science {
+    padding: 52px 0;
+  }
+
+  .suporting-science .science-item {
+    padding: 16px;
+    background-color: #000000cc;
+    text-align: center;
+    width: 100%;
+  }
+
+  .suporting-science .col {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+  }
+
+  .suporting-science h3 {
+    margin-bottom: 0px;
+  }
+
+  .suporting-science p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .suporting-science .flex {
+    gap: unset;
+  }
+
+  .suporting-science .col-5,
+  .suporting-science .col-4 {
+    width: 42%;
+  }
+
+  .suporting-science .col-6,
+  .suporting-science .col-3 {
+    flex: 1;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .suporting-science .col-5,
+    .suporting-science .col-4 {
+      width: 100%;
+    }
+
+    .suporting-science .col-6 {
+      display: none;
+    }
+
+    .suporting-science h2 {
+      text-align: center;
+    }
+  }
+{% endstylesheet %}
+
+{{-
+  section.settings.bg_img
+  | image_url: width: section.settings.bg_img.width
+  | image_tag: loading: 'lazy', decoding: 'async', draggable: false, class: 'section-bg-image'
+-}}
+
+<div class="contained">
+  <h2>{{ section.settings.title }}</h2>
+
+  <div class="flex flex-wrap flex-col-m">
+    {% for block in section.blocks %}
+      <div class="col col-{{ forloop.index }}">
+        <div class="science-item">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.desc }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Supporting with science",
+  "class": "suporting-science",
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_img",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Supporting with science"
+    }
+  ]
+}
+{% endschema %}

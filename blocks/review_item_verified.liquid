@@ -1,0 +1,39 @@
+{% stylesheet %}
+  .review-item-verified .text {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .review-item-verified .flex {
+    gap: 8px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .review-item-verified .text {
+      font-size: 14px;
+    }
+
+    .review-card > * {
+      padding: 15px 9px;
+    }
+  }
+{% endstylesheet %}
+
+<div class="flex items-center">
+  <span class="stars">{{ 'stars.svg' | inline_asset_content }}</span>
+  <span class="verified">{{ 'google-check.svg' | inline_asset_content }}</span>
+  <span class="text">Verified Purchase</span>
+</div>
+
+{% schema %}
+{
+  "name": "review item verified",
+  "class": "review-item-verified",
+  "settings": [],
+  "presets": [
+    {
+      "name": "review item verified"
+    }
+  ]
+}
+{% endschema %}

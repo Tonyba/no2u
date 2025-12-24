@@ -1,3 +1,7 @@
+{% if request.page_type == 'product' %}
+  <script defer src="{{ 'custom-product.js' |  asset_url }}" async></script>
+{% endif %}
+
 <script type="importmap">
   {
     "imports": {

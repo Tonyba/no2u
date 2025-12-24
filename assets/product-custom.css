@@ -1,0 +1,125 @@
+.breadcrumbs {
+    padding: 0 !important;
+}
+
+.breadcrumbs>*:not(:first-child) {
+    font-weight: 600;
+}
+
+.breadcrumb-delimeter {
+    color: #1B73B3;
+}
+
+.metafield-single_line_text_field-array {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 !important;
+    list-style: none;
+}
+
+.bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle {
+    background-color: #B3FFC8;
+    border-color: #B3FFC8 !important
+}
+
+
+
+.bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
+    background-color: #34A853 !important;
+}
+
+.how-to-use-text {
+    width: 100% !important;
+}
+
+.how-to-use-text p {
+    text-align: left;
+    width: 100%;
+    color: #FFFFFF7D !important
+}
+
+.size-boxes>.col {
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.size-boxes .label {
+    font-size: 21px;
+    font-weight: 600;
+    color: #2A2A2A
+}
+
+.size-boxes .serving {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.size-boxes .selected {
+    border: 2px solid black
+}
+
+.size-boxes .selected .label {
+    font-weight: bold;
+}
+
+.size-boxes .selected .serving {
+    color: #C92531
+}
+
+.variant-picker__form .variant-option:first-child {
+    display: none;
+}
+
+.variant-picker__form .variant-option {
+    margin-top: 0 !important;
+}
+
+.best-seller-badge {
+    color: white;
+    background-color: #EA4335;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    padding: 9px 19px;
+    line-height: 160%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .product-recommendations .resource-list--grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .how-to-use-cols>.group-block-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .metafield-single_line_text_field-array,
+    .how-to-use-cols>.group-block-content {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .how-to-use-cols img {
+        width: 80px;
+    }
+
+    .how-to-use-cols .image-block {
+        width: unset;
+    }
+
+    .prod-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

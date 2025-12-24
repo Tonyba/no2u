@@ -1,0 +1,106 @@
+{% stylesheet %}
+  .testimonials-header-count .rating-number {
+    color: black;
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  .testimonials-header-count .top-text {
+    color: black;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .testimonials-header-count .rating-numbers {
+    color: #676767;
+    font-size: 29px;
+    font-family: var(--font-h2--family);
+    font-weight: 400;
+  }
+
+  .testimonials-header-count .vertical {
+    gap: 0;
+  }
+
+  .testimonials-header-count .bottom-text {
+    margin: 0;
+  }
+
+  .testimonials-header-count .rating {
+    gap: 12px;
+  }
+
+  .testimonials-header-count > .flex {
+    gap: 30px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .testimonials-header-count .flex {
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .rating-numbers .rating-number {
+      font-size: 27px;
+    }
+
+    .rating-numbers .max-rating {
+      font-size: 19px;
+    }
+
+    .testimonials-header-count > .flex {
+      gap: 19px;
+    }
+
+    .testimonials-header-count .icon svg {
+      max-width: 30px;
+    }
+  }
+{% endstylesheet %}
+
+<div class="flex items-center">
+  <div class="rating flex items-center">
+    <span class="icon">
+      {{ 'google-icon.svg' | inline_asset_content }}
+    </span>
+    <div class="rating-numbers">
+      <span class="rating-number">{{ block.settings.rating }}</span>
+      <span class="max-rating">/ 5</span>
+    </div>
+  </div>
+  <div class="flex vertical">
+    <p class="top-text">{{ block.settings.top_text }}</p>
+    <p class="bottom-text">{{ block.settings.bottom_text }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "testimonials header count",
+  "class": "testimonials-header-count",
+  "settings": [
+    {
+      "type": "text",
+      "id": "rating",
+      "label": "Rating",
+      "default": "4.9"
+    },
+    {
+      "type": "text",
+      "id": "top_text",
+      "label": "Top Text"
+    },
+    {
+      "type": "text",
+      "id": "bottom_text",
+      "label": "Bottom Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "testimonials header count"
+    }
+  ]
+}
+{% endschema %}
