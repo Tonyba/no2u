@@ -355,7 +355,7 @@ slideshow-slides:has(.review-card) {
 
 
     .icon-list {
-        justify-self: start;
+        justify-self: start !important;
     }
 
     .testimonials-header .layout-panel-flex .spacing-style {
