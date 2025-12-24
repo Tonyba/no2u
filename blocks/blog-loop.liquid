@@ -91,7 +91,18 @@
   {% endpaginate %}
 
 {% else %}
+  {% assign target_blog = blogs.news %}
+  {% assign target_tag = block.settings.selected_tag %}
+  {% assign counter = 0 %}
 
+  {% for article in target_blog.articles %}
+    {% if article.tags contains target_tag %}
+      <li>
+        <a href="{{ article.url }}">{{ article.title }}</a>
+        <p>{{ article.excerpt_or_content | strip_html | truncatewords: 30 }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 {% schema %}
