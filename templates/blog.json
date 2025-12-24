@@ -2229,7 +2229,7 @@
             "text_thJtbB"
           ]
         },
-        "group_WcGNqg": {
+        "group_if6Gzf": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -2250,8 +2250,9 @@
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "background_media": "none",
+            "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/26653ed532bc4c8535e58819866df30821459dbf.jpg",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
@@ -2264,18 +2265,32 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-block-start": 0,
+            "padding-block-end": 50,
+            "padding-inline-start": 50,
+            "padding-inline-end": 50
           },
           "blocks": {
-            "text_GYrtxP": {
+            "spacer_4zNGBW": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 400,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
+            "text_gDkFHM": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Quality first</h2>",
+                "text": "<h2>Intentional design</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2297,12 +2312,12 @@
               },
               "blocks": {}
             },
-            "text_WNecmK": {
+            "text_XNzDD3": {
               "type": "text",
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
+                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2326,11 +2341,12 @@
             }
           },
           "block_order": [
-            "text_GYrtxP",
-            "text_WNecmK"
+            "spacer_4zNGBW",
+            "text_gDkFHM",
+            "text_XNzDD3"
           ]
         },
-        "group_RJGt7e": {
+        "group_zFy8EE": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -2351,8 +2367,9 @@
             "custom_height": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "background_media": "none",
+            "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/26653ed532bc4c8535e58819866df30821459dbf.jpg",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
@@ -2365,18 +2382,32 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-block-start": 0,
+            "padding-block-end": 50,
+            "padding-inline-start": 50,
+            "padding-inline-end": 50
           },
           "blocks": {
-            "text_fHCGWt": {
+            "spacer_zAHj9B": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 400,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
+            "text_ikFCKA": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Customer care</h2>",
+                "text": "<h2>Intentional design</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2398,12 +2429,12 @@
               },
               "blocks": {}
             },
-            "text_6bKhCM": {
+            "text_JfwYYU": {
               "type": "text",
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
+                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2427,19 +2458,20 @@
             }
           },
           "block_order": [
-            "text_fHCGWt",
-            "text_6bKhCM"
+            "spacer_zAHj9B",
+            "text_ikFCKA",
+            "text_JfwYYU"
           ]
         }
       },
       "block_order": [
         "group_jtPpVH",
-        "group_WcGNqg",
-        "group_RJGt7e"
+        "group_if6Gzf",
+        "group_zFy8EE"
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "css_class": "",
+        "css_class": "flex-col-t",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
