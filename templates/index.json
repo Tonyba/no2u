@@ -260,7 +260,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>NO2U's Nitric Oxide Supplements</p>",
+                "text": "<h2>NO2U's Nitric Oxide Supplements</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
