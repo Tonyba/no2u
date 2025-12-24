@@ -23,8 +23,14 @@
     bottom: 0;
   }
 
-  .doctors-carousel .embla__controls {
-    position: unset;
+  @media only screen and (max-width: 1024px) {
+    .doctors-carousel .embla__controls {
+      position: unset;
+    }
+
+    .doctor-item .item-wrapper {
+      gap: 30px;
+    }
   }
 {% endstylesheet %}
 
