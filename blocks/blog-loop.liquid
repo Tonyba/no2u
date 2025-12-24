@@ -96,6 +96,7 @@
   {% assign counter = 0 %}
 
   {% for article in target_blog.articles %}
+    {{ article.tags | json }}
     {% if article.tags contains target_tag %}
       {% assign counter = counter | plus: 1 %}
       {% render 'custom-blog-card', article: article %}
