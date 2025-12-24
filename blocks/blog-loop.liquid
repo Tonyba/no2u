@@ -1,4 +1,4 @@
-<div class="grid cols-4">
+<div class="grid cols-4 no-template-areas">
   {% paginate blog.articles by 8 %}
     {% for article in blog.articles %}
       {% render 'custom-blog-card', article: article %}
