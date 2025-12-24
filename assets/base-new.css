@@ -317,7 +317,7 @@ slideshow-slides:has(.review-card) {
 @media only screen and (max-width: 1024px) {
 
     .flex-column-reverse-t,
-    .flex-column-reverse-t>* {
+    .flex-column-reverse-t .layout-panel-flex--row {
         flex-direction: column-reverse;
     }
 
