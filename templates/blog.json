@@ -2048,7 +2048,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Intentional design</h2>",
+                "text": "<h2>Health & Fitness Calculators</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2290,7 +2290,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 15,
             "padding-block-end": 50,
             "padding-inline-start": 50,
             "padding-inline-end": 50
