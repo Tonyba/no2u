@@ -446,10 +446,17 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "blog_loop_fCMxEe": {
+              "type": "blog-loop",
+              "name": "Blog Loop",
+              "settings": {},
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_bfKbhe"
+            "text_bfKbhe",
+            "blog_loop_fCMxEe"
           ]
         }
       },
