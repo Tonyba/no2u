@@ -91,6 +91,10 @@
       -}}
     </a>
 
+    {% assign big_tag = first_blog.tags.first %}
+
+    <div class="cat">{{ big_tag }}</div>
+
     <h3>
       <a href="{{ first_blog.url }}">{{ first_blog.title }}</a>
     </h3>
