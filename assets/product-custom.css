@@ -112,6 +112,11 @@
     text-decoration: line-through #EA4335 2px;
 }
 
+
+.recurpay__description li {
+    list-style-image: url('https://cdn.shopify.com/s/files/1/0701/2525/6940/files/green-check.svg?v=1766596572');
+}
+
 @media only screen and (max-width: 1024px) {
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);
