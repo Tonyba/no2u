@@ -1521,7 +1521,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h2>Log in to your Transparent Labs account</h2>",
+                    "text": "<h3>Log in to your Transparent Labs account</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1708,7 +1708,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h2>Using the icons in your portal</h2>",
+                    "text": "<h3>Using the icons in your portal</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1895,7 +1895,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Still have a question</p>",
+                    "text": "<h3>Still have a question</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
