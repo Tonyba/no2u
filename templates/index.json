@@ -613,7 +613,7 @@
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "css_class": "",
+            "css_class": "fox-video",
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
