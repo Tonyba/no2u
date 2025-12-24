@@ -32,7 +32,11 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
 
     waitForElm('[data-block-handle="recurpay-app-block-widget"]').then((subs_el) => {
         const free_shipping_bar = document.querySelector('.free-shipping-badge');
+        const subs_opts = document.querySelector('.recurpay-pdp-widget');
+
         variant_picker?.insertAdjacentElement('afterend', subs_el);
+        subs_opts?.insertAdjacentElement('beforebegin', subs_opts);
+        subs_opts?.classList.remove('hide');
     })
 
     let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
