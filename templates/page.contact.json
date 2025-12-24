@@ -177,7 +177,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "css_class": "",
+            "css_class": "contact-item",
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -348,7 +348,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "css_class": "",
+            "css_class": "contact-item",
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
