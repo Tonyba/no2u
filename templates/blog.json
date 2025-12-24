@@ -451,9 +451,10 @@
               "type": "blog-loop",
               "name": "Blog Loop",
               "settings": {
-                "show_filters": false,
-                "pagination": false,
-                "limit": 4
+                "show_filters": true,
+                "pagination": true,
+                "limit": 8,
+                "selected_tag": ""
               },
               "blocks": {}
             }
@@ -574,7 +575,8 @@
               "settings": {
                 "show_filters": true,
                 "pagination": true,
-                "limit": 8
+                "limit": 4,
+                "selected_tag": ""
               },
               "blocks": {}
             }
