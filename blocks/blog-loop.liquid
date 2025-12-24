@@ -37,13 +37,13 @@
 
 {% if blog.all_tags.size > 0 %}
   {% if blog.all_tags.size > 0 %}
-    <ul class="blog-tags-list">
+    <div class="blog-tags-list">
       {% comment %} Optionally add a link to view all articles (no filter applied) {% endcomment %}
       {% assign all_link_class = '' %}
       {% if current_tags == null or current_tags == empty %}
         {% assign all_link_class = 'active' %}
       {% endif %}
-      <li><a href="{{ blog.url }}" class="{{ all_link_class }}">All Posts</a></li>
+      <a href="{{ blog.url }}" class="{{ all_link_class }}">All Posts</a>
 
       {% for tag in blog.all_tags %}
         {% comment %} Check if the current tag is in the array of current_tags {% endcomment %}
@@ -64,13 +64,11 @@
         {% endcomment %}
         {% assign tag_url = blog.url | append: '/tagged/' | append: tag_handle %}
 
-        <li>
-          <a href="{{ tag_url }}" class="{{ active_class }}">
-            {{ tag }}
-          </a>
-        </li>
+        <a href="{{ tag_url }}" class="{{ active_class }}">
+          {{ tag }}
+        </a>
       {% endfor %}
-    </ul>
+    </div>
   {% endif %}
 {% endif %}
 {% paginate blog.articles by 8 %}
