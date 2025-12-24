@@ -2925,7 +2925,7 @@
       ],
       "name": "start learning",
       "settings": {
-        "css_class": "",
+        "css_class": "start-learning-gray",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
