@@ -422,7 +422,7 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
-    .subscribe-hero>.mobile-column {
+    .subscribe-hero .group-block {
         padding-bottom: 30px;
         padding-top: 0px;
     }
