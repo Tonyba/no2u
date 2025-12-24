@@ -94,4 +94,9 @@
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .how-to-use-cols>.group-block-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
