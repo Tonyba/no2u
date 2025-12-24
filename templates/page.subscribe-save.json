@@ -420,6 +420,18 @@
                   },
                   "blocks": {}
                 },
+                "icon_zjhxD9": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/right-chevron_2.svg",
+                    "width": 24,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
+                },
                 "text_iczX9V": {
                   "type": "text",
                   "name": "t:names.text",
@@ -444,6 +456,18 @@
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "icon_LbqWzW": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/right-chevron_2.svg",
+                    "width": 24,
+                    "link": "",
+                    "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
@@ -477,7 +501,9 @@
               },
               "block_order": [
                 "text_aJyKdx",
+                "icon_zjhxD9",
                 "text_iczX9V",
+                "icon_LbqWzW",
                 "text_cHWcFK"
               ]
             }
