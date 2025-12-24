@@ -2314,6 +2314,7 @@
       "name": "t:names.carousel",
       "settings": {
         "css_class": "collection-testimonial",
+        "bg_img": "shopify://shop_images/Rectangle_299_2.png",
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
