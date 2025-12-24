@@ -391,6 +391,10 @@ slideshow-slides:has(.review-card) {
         display: none;
     }
 
+    .fox-video .image-block img {
+        max-width: 251px;
+    }
+
     .cols-1-m {
         grid-template-columns: repeat(1, 1fr);
     }
