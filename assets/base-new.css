@@ -396,7 +396,8 @@ slideshow-slides:has(.review-card) {
     }
 
     .footer-inquiries .text-with-icon:not(:last-child) {
-        border-bottom: 1px solid white
+        border-bottom: 1px solid white;
+        padding-bottom: 12px;
     }
 
     .mobile-inquiry rte-formatter p {
