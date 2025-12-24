@@ -100,7 +100,7 @@
         "menu_row": "top",
         "show_search": false,
         "search_position": "right",
-        "user_icon": true,
+        "user_icon": false,
         "search_row": "top",
         "show_country": false,
         "country_selector_style": false,
