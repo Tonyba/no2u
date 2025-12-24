@@ -1566,7 +1566,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "css_class": "flex-col-t",
+        "css_class": "flex-col-t mission-vision",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
