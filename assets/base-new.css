@@ -316,6 +316,10 @@ slideshow-slides:has(.review-card) {
 
 @media only screen and (max-width: 1024px) {
 
+    .flex-column-reverse-t {
+        flex-direction: column-reverse;
+    }
+
     .hide-t {
         display: none;
     }
