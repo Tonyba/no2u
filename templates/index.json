@@ -121,7 +121,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "css_class": "w-100",
+                "css_class": "w-100-m",
                 "color_scheme": "scheme-d6f4d37e-1daf-4474-9eea-4205c1043995",
                 "show_arrow": true,
                 "show_arrow_2": false,
@@ -140,7 +140,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "css_class": "w-100 justify-center",
+                "css_class": "w-100-m justify-center",
                 "color_scheme": "",
                 "show_arrow": true,
                 "show_arrow_2": false,
