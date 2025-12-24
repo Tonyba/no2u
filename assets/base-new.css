@@ -303,3 +303,22 @@ slideshow-slides:has(.review-card) {
 .start-learning-gray .blog-card__content {
     background-color: white;
 }
+
+
+@media only screen and (max-width: 1024px) {
+
+    .grid-t {
+        display: grid;
+    }
+
+    .cols-2-t {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .cols-1-m {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
