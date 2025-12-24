@@ -353,6 +353,11 @@ slideshow-slides:has(.review-card) {
         grid-template-columns: repeat(1, 1fr) !important;
     }
 
+
+    .icon-list {
+        justify-self: start;
+    }
+
     .testimonials-header .layout-panel-flex .spacing-style {
         width: unset;
     }
