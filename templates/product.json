@@ -1733,6 +1733,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_wcWQYz"
       ],
+      "name": "reviews",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -2851,7 +2852,7 @@
       "block_order": [
         "group_rFWYrn"
       ],
-      "name": "t:names.multicolumn",
+      "name": "how to use",
       "settings": {
         "css_class": "how-to-use",
         "content_direction": "row",
