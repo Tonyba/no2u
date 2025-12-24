@@ -695,7 +695,33 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "selector_loop_94wVwF": {
+                  "type": "selector_loop",
+                  "name": "Variant Selector Loop",
+                  "settings": {},
+                  "blocks": {
+                    "variant-selector-loop": {
+                      "type": "variant-picker",
+                      "static": true,
+                      "settings": {
+                        "variant_style": "dropdowns",
+                        "show_swatches": false,
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 8,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": []
+                }
+              },
+              "block_order": [
+                "selector_loop_94wVwF"
+              ]
             }
           },
           "block_order": [
