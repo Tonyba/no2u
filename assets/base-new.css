@@ -369,6 +369,11 @@ slideshow-slides:has(.review-card) {
 
 
 @media only screen and (max-width: 767px) {
+
+    .hide-m {
+        display: none;
+    }
+
     .cols-1-m {
         grid-template-columns: repeat(1, 1fr);
     }
