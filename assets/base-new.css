@@ -372,4 +372,8 @@ slideshow-slides:has(.review-card) {
     .cols-1-m {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    h1 {
+        font-size: 42px !important;
+    }
 }
