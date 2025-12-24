@@ -350,7 +350,8 @@ slideshow-slides:has(.review-card) {
 
     .flex-col-t .mobile-column>*,
     .flex-column-reverse-t>*,
-    .flex-column-reverse-t .layout-panel-flex {
+    .flex-column-reverse-t .layout-panel-flex,
+    .flex-column-reverse-t .group-block {
         width: 100%;
     }
 
