@@ -12,6 +12,11 @@
     font-weight: 600;
     font-size: 16px;
   }
+
+  .blog-sidebar-tags a:is(:hover, .active) {
+    background-color: black;
+    color: white;
+  }
 {% endstylesheet %}
 
 {% if blog.all_tags.size > 0 %}
