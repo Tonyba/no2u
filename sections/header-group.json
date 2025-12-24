@@ -75,7 +75,7 @@
           "type": "_header-menu",
           "static": true,
           "settings": {
-            "menu": "main-menu-1",
+            "menu": "main-menu",
             "color_scheme": "",
             "type_font_primary_size": "1rem",
             "menu_font_style": "inverse",
@@ -100,7 +100,7 @@
         "menu_row": "top",
         "show_search": false,
         "search_position": "right",
-        "user_icon": false,
+        "user_icon": true,
         "search_row": "top",
         "show_country": false,
         "country_selector_style": false,
