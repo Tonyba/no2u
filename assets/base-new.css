@@ -347,6 +347,10 @@ slideshow-slides:has(.review-card) {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .cols-1-t {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .flex-col-t,
     .flex-col-t>*>.mobile-column,
     .flex-col-t>*>*,
