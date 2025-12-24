@@ -98,6 +98,7 @@
   {% for article in target_blog.articles %}
     {% if article.tags contains target_tag and counter <= block.settings.limit %}
       {% assign counter = counter | plus: 1 %}
+      {% render 'custom-blog-card', article: article %}
     {% endif %}
   {% endfor %}
 {% endif %}
