@@ -63,7 +63,7 @@
   assign counter = 0
 %}
 
-<div class="grid cols-4 no-template-areas">
+<div class="grid cols-4 cols-2-t cols-1-m no-template-areas">
   {% for prod in products %}
     {% if prod.id != current_id and counter < 4 %}
       {% assign counter = counter | plus: 1 %}
