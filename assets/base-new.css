@@ -298,3 +298,8 @@ slideshow-slides:has(.review-card) {
 }
 
 /*collection*/
+
+/*blogs at the end*/
+.start-learning-gray .blog-card__content {
+    background-color: white;
+}
