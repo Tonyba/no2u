@@ -1,6 +1,7 @@
 <div class="grid cols-4">
-  {% for item in blog.articles %}
-  {% endfor %}
+  {% paginate blog.articles by 8 %}
+    <div class="col"></div>
+  {% endpaginate %}
 </div>
 
 {% schema %}
