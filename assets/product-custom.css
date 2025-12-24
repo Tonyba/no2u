@@ -90,6 +90,10 @@
     line-height: 160%;
 }
 
+.recurpay__widget .recurpay__widget_container--selected .recurpay__radio_group svg {
+    color: #34A853
+}
+
 @media only screen and (max-width: 1024px) {
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);
