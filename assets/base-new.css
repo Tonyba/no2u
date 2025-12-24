@@ -348,7 +348,9 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
-    .flex-col-t .mobile-column>* {
+    .flex-col-t .mobile-column>*,
+    .flex-column-reverse-t>*,
+    .flex-column-reverse-t .layout-panel-flex {
         width: 100%;
     }
 
