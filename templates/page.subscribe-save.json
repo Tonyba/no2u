@@ -236,7 +236,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "css_class": "hero-vertical-overlay",
+        "css_class": "hero-vertical-overlay subscribe-hero",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
