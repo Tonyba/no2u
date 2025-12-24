@@ -346,7 +346,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -356,7 +356,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "css_class": "",
+                "css_class": "start-subscriptions",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "center",
