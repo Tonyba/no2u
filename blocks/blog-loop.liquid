@@ -76,18 +76,24 @@
   {% endif %}
 {% endif %}
 
-{% paginate blog_loop.articles by 8 %}
-  <div class="grid cols-4 no-template-areas">
-    {% for article in blog.articles %}
-      {% render 'custom-blog-card', article: article %}
-    {% endfor %}
-  </div>
-  {% if block.settings.pagination %}
-    <div class="pagination flex items-center justify-center">
-      {{ paginate | default_pagination }}
+{% if block.settings.selected_tag != blank %}
+  {% paginate blog_loop.articles by 8 %}
+    <div class="grid cols-4 no-template-areas">
+      {% for article in blog.articles %}
+        {% render 'custom-blog-card', article: article %}
+      {% endfor %}
     </div>
-  {% endif %}
-{% endpaginate %}
+    {% if block.settings.pagination %}
+      <div class="pagination flex items-center justify-center">
+        {{ paginate | default_pagination }}
+      </div>
+    {% endif %}
+  {% endpaginate %}
+
+{% else %}
+
+{% endif %}
+
 {% schema %}
 {
   "name": "Blog Loop",
