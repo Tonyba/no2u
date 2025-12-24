@@ -221,6 +221,33 @@
               "settings": {},
               "blocks": {}
             },
+            "text_fFbnXz": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<p>Choose your size:</p>",
+                "width": "fit-content",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -289,6 +316,7 @@
           "block_order": [
             "group_icgrde",
             "product_list_details_6xALVh",
+            "text_fFbnXz",
             "variant_picker_R3rGDr",
             "bony_subscriptions_app_subscription_block_L7hpGF",
             "buy_buttons_eYQEYi",
