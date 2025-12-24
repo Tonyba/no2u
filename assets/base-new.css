@@ -334,6 +334,10 @@ slideshow-slides:has(.review-card) {
     .testimonials-header .layout-panel-flex .spacing-style {
         align-items: center;
     }
+
+    .testimonials-header .layout-panel-flex .spacing-style {
+        width: unset;
+    }
 }
 
 
