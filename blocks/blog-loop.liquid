@@ -36,12 +36,42 @@
 {% endstylesheet %}
 
 {% if blog.all_tags.size > 0 %}
-  <aside class="blog-sidebar-tags flex items-center">
-    <a href="{{ blog.url }}">All</a>
-    {% for tag in blog.all_tags %}
-      <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
-    {% endfor %}
-  </aside>
+  {% if blog.all_tags.size > 0 %}
+    <ul class="blog-tags-list">
+      {% comment %} Optionally add a link to view all articles (no filter applied) {% endcomment %}
+      {% assign all_link_class = '' %}
+      {% if current_tags == null or current_tags == empty %}
+        {% assign all_link_class = 'active' %}
+      {% endif %}
+      <li><a href="{{ blog.url }}" class="{{ all_link_class }}">All Posts</a></li>
+
+      {% for tag in blog.all_tags %}
+        {% comment %} Check if the current tag is in the array of current_tags {% endcomment %}
+        {% assign tag_handle = tag | handle %}
+        {% assign active_class = '' %}
+
+        {% comment %}
+          The 'contains' operator checks for an exact match in the current_tags array.
+          We use the 'current_tags' object for this comparison.
+        {% endcomment %}
+        {% if current_tags contains tag %}
+          {% assign active_class = 'active' %}
+        {% endif %}
+
+        {% comment %}
+          Generate the URL for the tagged posts. The structure is generally
+          /blogs/blog-handle/tagged/tag-handle
+        {% endcomment %}
+        {% assign tag_url = blog.url | append: '/tagged/' | append: tag_handle %}
+
+        <li>
+          <a href="{{ tag_url }}" class="{{ active_class }}">
+            {{ tag }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endif %}
 {% paginate blog.articles by 8 %}
   <div class="grid cols-4 no-template-areas">
