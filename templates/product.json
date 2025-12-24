@@ -270,10 +270,6 @@
               },
               "blocks": {}
             },
-            "bony_subscriptions_app_subscription_block_L7hpGF": {
-              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
-              "settings": {}
-            },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
@@ -328,7 +324,6 @@
             "text_fFbnXz",
             "maximum_per_order_U7mqgh",
             "variant_picker_R3rGDr",
-            "bony_subscriptions_app_subscription_block_L7hpGF",
             "buy_buttons_eYQEYi",
             "starter_kit_jRnNtf"
           ]
