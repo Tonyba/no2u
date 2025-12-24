@@ -121,6 +121,7 @@
 .recurpay__description li {
     display: flex;
     gap: 6px;
+    font-weight: bold;
 }
 
 .recurpay__description li::before {
