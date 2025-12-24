@@ -365,6 +365,10 @@ slideshow-slides:has(.review-card) {
     .testimonials-header .reviews-title p {
         text-align: center;
     }
+
+    .product-card__content .buy-buttons-block {
+        padding: 0;
+    }
 }
 
 
