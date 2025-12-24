@@ -329,7 +329,12 @@ slideshow-slides:has(.review-card) {
     .flex-col-t .mobile-column>* {
         width: 100%;
     }
+
+    .testimonials-header .layout-panel-flex {
+        align-items: center;
+    }
 }
+
 
 @media only screen and (max-width: 767px) {
     .cols-1-m {
