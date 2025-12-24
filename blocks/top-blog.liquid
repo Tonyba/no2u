@@ -16,8 +16,8 @@
       <div class="flex">
         <div class="img">
           {{-
-            first_blog.image
-            | image_url: width: first_blog.image.width, height: 300
+            item.image
+            | image_url: width: first_blog.image.width, height: 150
             | image_tag: loading: 'lazy', decoding: 'async', draggable: false
           -}}
         </div>
