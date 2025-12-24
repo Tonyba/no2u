@@ -2332,9 +2332,13 @@
       "settings": {
         "css_class": "white-ver",
         "bg_color": "#2a2a2a",
+        "img_1": "shopify://shop_images/file_5664646_1_1.svg",
         "text_1": "<p>Complete Label Transparency</p>",
+        "img_2": "shopify://shop_images/medical-checkup_17534908_1.svg",
         "text_2": "<p>Clinically-Dosed Formulas</p>",
+        "img_3": "shopify://shop_images/quality-control_6196957_1.svg",
         "text_3": "<p>3rd-Party Lab Tested</p>",
+        "img_4": "shopify://shop_images/plant_497357_1.svg",
         "text_4": "<p>Natural & Grass-Fed Ingredients</p>"
       }
     },
