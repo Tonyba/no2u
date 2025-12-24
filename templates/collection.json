@@ -2326,6 +2326,18 @@
         "padding-block-end": 60
       }
     },
+    "below_hero_8CCyfh": {
+      "type": "below_hero",
+      "name": "Below Hero",
+      "settings": {
+        "css_class": "",
+        "bg_color": "",
+        "text_1": "<p>Complete Label Transparency</p>",
+        "text_2": "<p>Clinically-Dosed Formulas</p>",
+        "text_3": "<p>3rd-Party Lab Tested</p>",
+        "text_4": "<p>Natural & Grass-Fed Ingredients</p>"
+      }
+    },
     "section_bfywmM": {
       "type": "section",
       "blocks": {
@@ -2942,6 +2954,7 @@
     "section_EG6CTF",
     "main",
     "carousel_mLHGnA",
+    "below_hero_8CCyfh",
     "section_bfywmM",
     "section_UXQ3iF"
   ]
