@@ -20,11 +20,13 @@
     {% for item in other_blogs limit: 2 offset: 1 %}
       <div class="flex">
         <div class="img">
-          {{-
-            item.image
-            | image_url: width: first_blog.image.width, height: 150
-            | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-          -}}
+          <a href="{{ first_blog.url }}">
+            {{-
+              item.image
+              | image_url: width: first_blog.image.width, height: 150
+              | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+            -}}
+          </a>
         </div>
         <div class="content">
           <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
