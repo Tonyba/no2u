@@ -47,6 +47,12 @@
     color: #676767;
     font-size: 16px;
   }
+
+  @media only screen and (max-width: 767px) {
+    .faqs accordion-custom {
+      padding: 22px 13px;
+    }
+  }
 {% endstylesheet %}
 
 <div class="grid cols-{{ block_settings.columns}} cols-2-t no-template-areas {{ block.settings.css_class }}">
