@@ -66,11 +66,14 @@
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     </a>
+
+    <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
+
     <div class="meta flex">
       {{ first_blog.created_at | date: '%B %d, %Y' }}
       <span class="min-read">{{ word_count_first }} min read</span>
     </div>
-    <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
+
     <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 200 }}...</p>
 
     <a href="{{ first_blog.url }}" class="flex items-center">
