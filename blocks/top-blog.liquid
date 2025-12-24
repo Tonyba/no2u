@@ -1,6 +1,8 @@
 {% liquid
   assign first_blog = blog.articles.first
   assign other_blogs = blog.articles
+
+  assign word_count_first = first_blog.content | strip_html | number_of_words | divided_by: 200 | plus: 1
 %}
 
 {% stylesheet %}
@@ -57,7 +59,10 @@
         | image_tag: loading: 'lazy', decoding: 'async', draggable: false
       -}}
     </a>
-    <div class="meta flex">{{ first_blog.created_at | date: '%B %d, %Y' }}</div>
+    <div class="meta flex">
+      {{ first_blog.created_at | date: '%B %d, %Y' }}
+      <span class="min-read">{{ word_count_first }}</span>
+    </div>
     <h3><a href="{{ first_blog.url }}"></a> {{ first_blog.title }}</h3>
     <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 200 }}</p>
 
