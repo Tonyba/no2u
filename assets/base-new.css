@@ -317,6 +317,8 @@ slideshow-slides:has(.review-card) {
 .start-subscriptions rte-formatter {
     border: 1px solid #2A2A2A;
     border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: bold;
 }
 
 /*start your subscription end*/
