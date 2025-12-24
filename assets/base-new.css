@@ -319,6 +319,7 @@ slideshow-slides:has(.review-card) {
     border-radius: 50px;
     padding: 10px 50px;
     font-weight: bold;
+    color: #2A2A2A
 }
 
 /*start your subscription end*/
