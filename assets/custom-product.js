@@ -70,7 +70,7 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
         newEl.addEventListener('click', () => handleSelection(i, newEl));
     });
 
-    variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
+    document.querySelector('.maximum-per-order')?.insertAdjacentElement('beforebegin', optWrapper);
 
 
 
