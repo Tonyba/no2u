@@ -89,3 +89,5 @@
     padding: 9px 19px;
     line-height: 160%;
 }
+
+@media only screen and (max-width: 1024px) {}
