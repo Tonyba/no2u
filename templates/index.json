@@ -2510,7 +2510,7 @@
           "name": "t:names.header",
           "static": true,
           "settings": {
-            "css_class": "flex-col-t",
+            "css_class": "flex-col-t testimonials-header",
             "content_direction": "row",
             "vertical_on_mobile": false,
             "horizontal_alignment": "space-between",
