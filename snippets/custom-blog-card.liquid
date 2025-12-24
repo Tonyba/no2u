@@ -1,0 +1,22 @@
+<div class="blog-card">
+  <a href="{{ article.url }}" class="blog-card__image-wrapper">
+    {% if article.image != blank %}
+      {{-
+        article.image
+        | image_url: width: article.image.width
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    {% endif %}
+  </a>
+  <div class="blog-card__content">
+    <div class="card-cats flex flex-wrap"></div>
+    <h3 class="blog-card__title">
+      <a href="{{ article.url }}">{{ article.title }}</a>
+    </h3>
+    <p class="blog-card__excerpt">{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
+    <a href="{{ article.url }}" class="blog-card__read-more flex items-center">
+      <span class="text">Read More</span>
+      <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
+    </a>
+  </div>
+</div>
