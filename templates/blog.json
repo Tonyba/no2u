@@ -332,7 +332,8 @@
               "type": "top-blog",
               "name": "Top blog",
               "settings": {
-                "title": "Recent Blogs"
+                "title": "Recent Blogs",
+                "title_2": "What’s Trending"
               },
               "blocks": {}
             }
