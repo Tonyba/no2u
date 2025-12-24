@@ -11,7 +11,10 @@
       | image_tag: loading: 'lazy', decoding: 'async', draggable: false
     -}}
   </div>
-  <div class="other-articles"></div>
+  <div class="other-articles">
+    {% for item in other_blogs limit: 2 offset: 1 %}
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
