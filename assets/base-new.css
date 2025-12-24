@@ -420,7 +420,9 @@ slideshow-slides:has(.review-card) {
         font-size: 16px;
     }
 
-    .contact-item {}
+    .contact-item .image-block {
+        flex-basis: 15%;
+    }
 }
 
 
@@ -441,6 +443,10 @@ slideshow-slides:has(.review-card) {
 
     .w-100-m {
         width: 100%;
+    }
+
+    .contact-item .image-block {
+        width: 25%;
     }
 
     .subscribe-hero .spacing-style>* {
