@@ -114,6 +114,10 @@
         width: 80px;
     }
 
+    .how-to-use-cols .image-block {
+        width: unset;
+    }
+
     .prod-content {
         padding-left: 20px;
         padding-right: 20px;
