@@ -327,7 +327,19 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "top_blog_JHn7cL": {
+              "type": "top-blog",
+              "name": "Top blog",
+              "settings": {
+                "title": "Recent Blogs"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "top_blog_JHn7cL"
+          ]
         }
       },
       "block_order": [
