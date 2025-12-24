@@ -33,6 +33,12 @@
   .below-hero .white-ver {
     color: white;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .below-hero .flex > *:not(:last-child):after {
+      right: 20px;
+    }
+  }
 {% endstylesheet %}
 
 <style>
