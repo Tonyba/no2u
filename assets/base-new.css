@@ -445,6 +445,10 @@ slideshow-slides:has(.review-card) {
         width: 100%;
     }
 
+    .contact-item .image-block {
+        width: 15%;
+    }
+
     .subscribe-hero .spacing-style>* {
         text-align: center;
     }
