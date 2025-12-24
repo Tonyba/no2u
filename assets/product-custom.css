@@ -105,6 +105,10 @@
     font-size: 24px;
 }
 
+.recurpay__widget .recurpay__group_price_wrapper .recurpay__group_compare_price {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 1024px) {
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);
