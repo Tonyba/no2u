@@ -722,6 +722,13 @@
               "block_order": [
                 "selector_loop_94wVwF"
               ]
+            },
+            "recurpay_subscriptions_app_recurpay_app_block_widget_hGQQyL": {
+              "type": "shopify://apps/recurpay-subscriptions-app/blocks/recurpay-app-block-widget/c600a513-dad8-4030-8697-de47c18881f2",
+              "settings": {
+                "multiply_price_with_quantity": false,
+                "show_price_in_frequency_dropdown": true
+              }
             }
           },
           "block_order": [
@@ -729,7 +736,8 @@
             "product_card_group_RJ3Fge",
             "review_fpMmph",
             "product_title_hkaQXM",
-            "product_card_group_ehiArT"
+            "product_card_group_ehiArT",
+            "recurpay_subscriptions_app_recurpay_app_block_widget_hGQQyL"
           ]
         }
       },
