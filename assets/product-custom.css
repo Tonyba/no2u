@@ -95,6 +95,11 @@
     fill: #B3FFC8 !important
 }
 
+.recurpay__widget .recurpay__group_price_wrapper {
+    flex-direction: row !important;
+    justify-self: flex-end;
+}
+
 @media only screen and (max-width: 1024px) {
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);
