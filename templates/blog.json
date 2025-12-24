@@ -2122,7 +2122,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
             "width": "fill",
@@ -2168,68 +2168,22 @@
               },
               "blocks": {}
             },
-            "text_E9KqQi": {
-              "type": "text",
-              "name": "t:names.heading",
+            "text_with_icon_NfDXkx": {
+              "type": "text-with-icon",
+              "name": "Text with icon",
               "settings": {
-                "css_class": "",
-                "text": "<h2>Intentional design</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_thJtbB": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "css_class": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "icon": "shopify://shop_images/Group_2.svg",
+                "text": "Health & Fitness Calculators"
               },
               "blocks": {}
             }
           },
           "block_order": [
             "spacer_6n3QLn",
-            "text_E9KqQi",
-            "text_thJtbB"
+            "text_with_icon_NfDXkx"
           ]
         },
-        "group_if6Gzf": {
+        "group_AXkrxQ": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -2239,7 +2193,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
             "width": "fill",
@@ -2271,7 +2225,7 @@
             "padding-inline-end": 50
           },
           "blocks": {
-            "spacer_4zNGBW": {
+            "spacer_zHapHd": {
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
@@ -2285,78 +2239,32 @@
               },
               "blocks": {}
             },
-            "text_gDkFHM": {
-              "type": "text",
-              "name": "t:names.heading",
+            "text_with_icon_rfBa4w": {
+              "type": "text-with-icon",
+              "name": "Text with icon",
               "settings": {
-                "css_class": "",
-                "text": "<h2>Intentional design</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_XNzDD3": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "css_class": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "icon": "shopify://shop_images/Group_2.svg",
+                "text": "Health & Fitness Calculators"
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "spacer_4zNGBW",
-            "text_gDkFHM",
-            "text_XNzDD3"
+            "spacer_zHapHd",
+            "text_with_icon_rfBa4w"
           ]
         },
-        "group_zFy8EE": {
+        "group_LmVKEx": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "css_class": "",
+            "css_class": "calculator-overlay",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
             "width": "fill",
@@ -2388,7 +2296,7 @@
             "padding-inline-end": 50
           },
           "blocks": {
-            "spacer_zAHj9B": {
+            "spacer_TbMD9q": {
               "type": "spacer",
               "name": "t:names.spacer",
               "settings": {
@@ -2402,72 +2310,26 @@
               },
               "blocks": {}
             },
-            "text_ikFCKA": {
-              "type": "text",
-              "name": "t:names.heading",
+            "text_with_icon_dUAKFt": {
+              "type": "text-with-icon",
+              "name": "Text with icon",
               "settings": {
-                "css_class": "",
-                "text": "<h2>Intentional design</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_JfwYYU": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "css_class": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "icon": "shopify://shop_images/Group_2.svg",
+                "text": "Health & Fitness Calculators"
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "spacer_zAHj9B",
-            "text_ikFCKA",
-            "text_JfwYYU"
+            "spacer_TbMD9q",
+            "text_with_icon_dUAKFt"
           ]
         }
       },
       "block_order": [
         "group_jtPpVH",
-        "group_if6Gzf",
-        "group_zFy8EE"
+        "group_AXkrxQ",
+        "group_LmVKEx"
       ],
       "name": "t:names.multicolumn",
       "settings": {
