@@ -22,15 +22,17 @@ function waitForElm(selector) {
 
 waitForElm('.variant-picker__form > .variant-option:first-child option').then((elm) => {
 
-    waitForElm('[data-block-handle="recurpay-app-block-widget"]').then((subs_el) => {
-        console.log(subs_el)
-    })
+
 
     const variant_picker = document.querySelector('.variant-picker');
     const variantOptions = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option')).map(item => ({
         label: item.textContent.trim(),
         value: item.getAttribute('data-option-value-id')
     }));
+
+    waitForElm('[data-block-handle="recurpay-app-block-widget"]').then((subs_el) => {
+        variant_picker?.insertAdjacentElement('afterend', subs_el);
+    })
 
     let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
     otherOpt = otherOpt[otherOpt.length - 1];
