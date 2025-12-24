@@ -257,6 +257,13 @@
               },
               "blocks": {}
             },
+            "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH": {
+              "type": "shopify://apps/recurpay-subscriptions-app/blocks/recurpay-app-block-widget/c600a513-dad8-4030-8697-de47c18881f2",
+              "settings": {
+                "multiply_price_with_quantity": false,
+                "show_price_in_frequency_dropdown": true
+              }
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -323,6 +330,7 @@
             "product_list_details_6xALVh",
             "text_fFbnXz",
             "maximum_per_order_U7mqgh",
+            "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "starter_kit_jRnNtf"
