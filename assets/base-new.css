@@ -121,6 +121,10 @@
     background-image: linear-gradient(to bottom, #00000000, #000);
 }
 
+.calculator-overlay>* {
+    z-index: 1;
+}
+
 .menu__list>li {
     margin: 0 !important;
     margin-block-start: 0 !important;
