@@ -395,12 +395,13 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
-    .dividers>* {
+    .dividers>*:not(:last-child) {
         border-right: 0;
         border-bottom: 1px solid white;
         width: 100%;
         text-align: center;
         justify-content: center;
+        padding-bottom: 10px;
     }
 
     .mission-text {
