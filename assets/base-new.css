@@ -395,6 +395,10 @@ slideshow-slides:has(.review-card) {
         flex-direction: column;
     }
 
+    .mobile-inquiry rte-formatter p {
+        text-align: center;
+    }
+
     .dividers>*:not(:last-child) {
         border-right: 0;
         border-bottom: 1px solid white;
