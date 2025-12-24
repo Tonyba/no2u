@@ -2313,7 +2313,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "css_class": "collection-testimoni",
+        "css_class": "collection-testimonial",
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
