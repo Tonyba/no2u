@@ -110,6 +110,10 @@
 
     }
 
+    .how-to-use-cols img {
+        width: 90px;
+    }
+
     .prod-content {
         padding-left: 20px;
         padding-right: 20px;
