@@ -292,7 +292,8 @@ slideshow-slides:has(.review-card) {
 /*footer end*/
 
 /*collection*/
-.collection-testimonial .reviews-title * {
+.collection-testimonial .reviews-title *,
+.collection-testimonial .testimonials-header-count * {
     color: white !important
 }
 
