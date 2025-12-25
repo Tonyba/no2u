@@ -37,7 +37,7 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
 
     waitForElm('.recurpay__widget_container').then((widget) => {
         const free_shipping_badge = document.querySelector('.free-shipping-badge');
-        widget.append(free_shipping_badge);
+        widget.insertAdjacentElement('beforebegin', free_shipping_badge);
         free_shipping_badge?.classList.remove('hide');
     });
 
