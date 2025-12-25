@@ -31,14 +31,15 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
     }));
 
     waitForElm('[data-block-handle="recurpay-app-block-widget"]').then((subs_el) => {
-        const free_shipping_badge = document.querySelector('.free-shipping-badge');
-        const subs_opts = document.querySelector('.recurpay-pdp-widget');
 
         variant_picker?.insertAdjacentElement('afterend', subs_el);
-        setTimeout(() => subs_el?.append(free_shipping_badge), 1000);
+    });
 
+    waitForElm('.recurpay__widget_container').then((widget) => {
+        const free_shipping_badge = document.querySelector('.free-shipping-badge');
+        widget.append(free_shipping_badge);
         free_shipping_badge?.classList.remove('hide');
-    })
+    });
 
     let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
     otherOpt = otherOpt[otherOpt.length - 1];
