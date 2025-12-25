@@ -142,7 +142,7 @@
 
     <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 200 }}...</p>
 
-    <a href="{{ first_blog.url }}" class="flex items-center read-more">
+    <a href="{{ first_blog.url }}" class="flex items-center read-more forced-row">
       <span class="text"> Read More </span>
       <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
     </a>
