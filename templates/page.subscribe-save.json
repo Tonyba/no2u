@@ -895,7 +895,7 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
                 "width": "fill",
@@ -924,7 +924,30 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "button_VHn3Ek": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "css_class": "",
+                    "color_scheme": "",
+                    "show_arrow": true,
+                    "show_arrow_2": false,
+                    "label": "Subscribe Now",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_VHn3Ek"
+              ]
             },
             "text_UtAbWr": {
               "type": "text",
