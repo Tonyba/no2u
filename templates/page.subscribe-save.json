@@ -934,7 +934,7 @@
                     "show_arrow": true,
                     "show_arrow_2": false,
                     "label": "Subscribe Now",
-                    "link": "shopify://collections/all",
+                    "link": "{{ closest.product.url }}",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
