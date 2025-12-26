@@ -85,7 +85,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h1>About NO2U<br/></h1>",
+                "text": "<h1>{{ closest.page.title }}</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -197,7 +197,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<p>Boost Your Athletic and Everyday Performance with Nitric Oxide<br/></p>",
+                "text": "<h2>Restoring Your Nitric Oxide</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -224,7 +224,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>You dedicate yourself to pushing limits, breaking records, and achieving peak physical condition. Every second, every rep, and every breath counts. At NO2U, we understand the drive that fuels you. That's why we've dedicated our work to a single, powerful molecule that is fundamental to athletic excellence: Nitric Oxide (N.O.).</p><p><strong>Our mission is to provide athletes like you with a scientifically proven, safe, and effective way to elevate your performance. We don't deal in hype or fleeting trends. We deliver results backed by decades of research and a deep understanding of human physiology.<br/></strong></p>",
+                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body’s natural production of Nitric Oxide (N.O.) declines — a change that can impact blood flow, oxygen delivery, cardiovascular function, and more. NO2U was founded to challenge that decline. Through cutting-edge science, we create formulations designed to help restore and support N.O. levels responsibly and effectively.</p><p><strong>Led by Dr. Nathan S. Bryan — a world-renowned leader in Nitric Oxide biochemistry — NO2U bridges research, innovation, and consumer health. Dr. Bryan’s work, spanning over two decades and collaborations with Nobel researchers, informs every product.</strong></p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -474,7 +474,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<p>Gain a Competitive Edge with Science You Can Trust<br/></p>",
+                "text": "<h2>Restoring Your Nitric Oxide</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -501,7 +501,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>As you train, your body's demand for oxygen and nutrients skyrockets. Nitric oxide is the master regulator that ensures your muscles get what they need, when they need it most. It acts as a powerful vasodilator, relaxing blood vessels to enhance circulation.</p><p><strong>Enhanced Nitric Oxide levels can help you:</strong></p><ul><li><strong>Maximize Endurance:</strong> By improving oxygen and nutrient delivery to your working muscles, N.O. helps you go harder for longer and fight off fatigue.</li><li><strong>Boost Power and Output:</strong> Better blood flow means your muscles are primed for explosive power and sustained strength.</li><li><strong>Accelerate Recovery:</strong> Efficiently clear metabolic waste products like lactic acid from muscle tissue to reduce soreness and shorten downtime between training sessions.</li></ul><p><strong>Support Cardiovascular Health:</strong> A strong heart and healthy circulation are the foundation of any elite athlete's performance. N.O. is crucial for maintaining a high-functioning cardiovascular system under the stress of intense training.<br/><br/></p>",
+                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -628,7 +628,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2><strong>What Sets NO2U Apart</strong></h2>",
+                "text": "<h2>What sets TL products apart?</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -658,7 +658,7 @@
                 "color_scheme": "",
                 "show_arrow": true,
                 "show_arrow_2": false,
-                "label": "Shop Now",
+                "label": "Shop and save 10%",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -827,7 +827,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3><strong>Scientifically Proven Formulations</strong></h3>",
+                        "text": "<h3>Natural and Grass-Fed Ingredients</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -854,7 +854,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our products are backed by decades of research and developed under the guidance of Dr. Nathan S. Bryan, a global authority on Nitric Oxide biochemistry.</p>",
+                        "text": "<p>We believe that supplements should produce effective results and support overall health and longevity. That's why all of our products are made with natural ingredients and grass-fed protein.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -952,7 +952,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3><strong>Proprietary Formulas</strong></h3>",
+                        "text": "<h3>No Artificial Sweeteners, Fillers, or Colors</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -979,7 +979,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our proprietary formulas use only the purest, most effective, clean ingredients to ensure reliable and consistent results for everyone. Our products are vegan, non-GMO, and crafted with care.</p>",
+                        "text": "<p>Most supplement brands use colored dyes and artificial sweeteners like acesulfame potassium and sucralose as cost-effective solutions. At Transparent Labs, we strictly avoid using these artificial additives in our products.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1124,7 +1124,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Targeted Solutions</h3>",
+                        "text": "<h3>Transparent, Clinically-Dosed Formulas</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1151,7 +1151,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our products are specifically designed to restore Nitric Oxide levels, addressing the natural decline caused by aging or intense physical stress.<br/></p>",
+                        "text": "<p>Our customers want to know exactly what they're putting in their body. All Transparent Labs products have fully transparent labels, with detailed ingredient breakdowns. Each formula contains active ingredients with dosages that have been proven to be effective by the latest scientific research.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1249,7 +1249,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Commitment to Education</h3>",
+                        "text": "<h3>3rd-Party Lab Testing</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1276,7 +1276,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We believe in empowering athletes with knowledge. From scientific insights to product transparency, we keep you informed every step of the way.</p>",
+                        "text": "<p>We rigorously test all of our products for purity and potency, so you can be 100% confident about what's in the supplements you're taking - you can find our latest Certificates of Analysis at . Our products are also Informed Choice and Informed Protein certified for banned substances.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",

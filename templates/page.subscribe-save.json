@@ -154,7 +154,7 @@
               "name": "t:names.title",
               "settings": {
                 "css_class": "",
-                "text": "<h1>Never Miss a Day of Peak Performance: The NO2U Subscription<br/></h1>",
+                "text": "<h1>Subscribe & Save More</h1>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -181,7 +181,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>Elevate your health and performance with the ultimate convenience. The NO2U subscription program is the easiest and most cost-effective way to ensure you never run out of the science-backed Nitric Oxide supplements that fuel your life. Consistency is key to experiencing the full benefits of optimal N.O. levels, and our subscription service makes it effortless.<br/><br/>Stop worrying about reordering and start enjoying the seamless delivery of your favorite NO2U products right to your doorstep.</p>",
+                "text": "<p>With every order, you’ll save 10%! Get started today and make shopping simpler, smarter, and more affordable.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -886,68 +886,43 @@
               },
               "blocks": {}
             },
-            "product_card_group_78hxFp": {
-              "type": "_product-card-group",
-              "name": "t:names.group",
+            "buy_buttons_Rn6pg6": {
+              "type": "buy-buttons",
+              "name": "t:names.product_buy_buttons",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
+                "stacking": false,
+                "show_pickup_availability": true,
+                "gift_card_form": true,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
-                "button_VHn3Ek": {
-                  "type": "button",
-                  "name": "t:names.button",
+                "quantity": {
+                  "type": "quantity",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
                   "settings": {
-                    "css_class": "",
-                    "color_scheme": "",
-                    "show_arrow": true,
-                    "show_arrow_2": false,
-                    "label": "Subscribe Now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "button",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
+                    "style_class": "button"
                   },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {},
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "button_VHn3Ek"
-              ]
+              "block_order": []
             },
             "text_UtAbWr": {
               "type": "text",
@@ -984,7 +959,7 @@
             "review_VJ7M7W",
             "product_title_hJ7VAq",
             "price_xGqiB7",
-            "product_card_group_78hxFp",
+            "buy_buttons_Rn6pg6",
             "text_UtAbWr"
           ]
         }
@@ -1118,7 +1093,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h2>Why Subscribe to NO2U?</h2>",
+                    "text": "<h2>How to subscribe & save on every order</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1158,7 +1133,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "1. Save on Every Order",
+                    "heading": "01. Pick Your Product and Flavor",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1168,7 +1143,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribers automatically receive a 10% discount on every shipment. It's our way of rewarding you for your commitment to your health. This is the best value we offer on our premium, science-backed supplements.</p>",
+                        "text": "<p>Find the product and select your ideal flavor that you’d like to subscribe to and select the “Subscribe & Save” option.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1199,7 +1174,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "2. Ultimate Convenience",
+                    "heading": "2. Set Delivery Frequency",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1209,7 +1184,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Set it and forget it. Your NO2U products are delivered automatically on a schedule that you choose. You’ll never have to worry about running out or placing last-minute orders. Your path to better cardiovascular health and peak performance is uninterrupted.</p>",
+                        "text": "<p>Find the product and select your ideal flavor that you’d like to subscribe to and select the “Subscribe & Save” option.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1240,7 +1215,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "3. Total Flexibility and Control",
+                    "heading": "3. Select Quantity",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1250,7 +1225,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Your health journey is personal, and your subscription should be too. Easily manage your account to pause, skip a delivery, or adjust your shipping frequency at any time. Our subscriber portal gives you complete control over your convenient delivery schedule.</p>",
+                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1281,7 +1256,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "4. Exclusive Subscriber Perks",
+                    "heading": "4. Subscribe",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -1291,7 +1266,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>As a NO2U subscriber, you are part of our core community. You'll get first access to new products, special promotions, and exclusive content from Dr. Nathan S. Bryan to help you on your health optimization journey.</p>",
+                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1317,13 +1292,97 @@
                   "block_order": [
                     "text_QY6fVi"
                   ]
+                },
+                "accordion_row_kPHWMD": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "5. Repeat for Multiple Products",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_KyryYq": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_KyryYq"
+                  ]
+                },
+                "accordion_row_QJ9Dtf": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "6. Checkout",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_dGVcnm": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_dGVcnm"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_WYVgxD",
                 "accordion_row_pCthGV",
                 "accordion_row_wTLx9V",
-                "accordion_row_ei8gYQ"
+                "accordion_row_ei8gYQ",
+                "accordion_row_kPHWMD",
+                "accordion_row_QJ9Dtf"
               ]
             },
             "spacer_HgTLAz": {
@@ -1348,7 +1407,7 @@
                 "color_scheme": "",
                 "show_arrow": true,
                 "show_arrow_2": false,
-                "label": "Subscribe & Save Today",
+                "label": "Shop and save 10%",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -1520,7 +1579,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>How It Works<br/></h2>",
+                "text": "<h2>How to manage my subscription</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1686,7 +1745,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h3>Choose Your Products</h3>",
+                    "text": "<h3>Log in to your Transparent Labs account</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1713,7 +1772,7 @@
                   "name": "t:names.description",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Select the \"Subscribe & Save 10%\" option on your favorite NO2U product pages, like our popular<a href=\"https://no2u.com/product/no2u-nitric-oxide-lozenge/\"> <span style=\"text-decoration:underline\">NO2U Nitric Oxide Lozenges</span></a> or<a href=\"https://no2u.com/product/n-o-beetz/\"> <span style=\"text-decoration:underline\">N.O.Beetz</span></a>.</p>",
+                    "text": "<p>Log in to your Transparent Labs account with the email that was used to place your subscription order.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1873,7 +1932,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h3>Select Your Frequency</h3>",
+                    "text": "<h3>Using the icons in your portal</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1900,7 +1959,7 @@
                   "name": "t:names.description",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Choose a delivery schedule that works for you (e.g., every 30, 45, or 60 days).</p>",
+                    "text": "<p>Using the icons in your portal, you can easily edit your shipping or payment information, skip orders, change your next order date, edit the products in your subscription, get your next order now, add a discount code, or cancel your subscriptions at any time.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2060,7 +2119,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h3>Checkout & Relax</h3>",
+                    "text": "<h3>Still have a question</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2087,7 +2146,7 @@
                   "name": "t:names.description",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Complete your order, and we'll handle the rest. Your Nitric Oxide subscription will arrive like clockwork.</p>",
+                    "text": "<p>Still have a question? Read our FAQ or send us a note at support@transparentlabs.com</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
