@@ -325,6 +325,7 @@
               "type": "starter-kit",
               "name": "Starter Kit",
               "settings": {
+                "img": "shopify://shop_images/0d6d68db1a13bbac089a105669f909446baaf2fc_d6ab2602-0088-403b-89a7-c6a209d8e801.jpg",
                 "title": "Free Starter Kit",
                 "description": "Kit Includes: Protein Variety Pack (Try our top 5 flavors), TL Blender Bottle",
                 "btn_text": "Subscribe to Unlock Your Free Starter Kit"
