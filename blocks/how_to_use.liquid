@@ -5,7 +5,13 @@
   assign items = product.metafields.custom.how_to_use_items.value
 %}
 
-<div class="grid-{{ items | size }} cols-2-t cols-1-m"></div>
+<div class="grid-{{ items | size }} cols-2-t cols-1-m">
+  {% for item in items %}
+    {% assign faqs_split = item | split: '|' %}
+    {% assign faqs_title = faqs_split.first %}
+    {% assign faqs_content = faqs_split.last %}
+  {% endfor %}
+</div>
 
 {% schema %}
 {
