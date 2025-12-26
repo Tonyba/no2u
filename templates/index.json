@@ -145,7 +145,7 @@
                 "show_arrow": true,
                 "show_arrow_2": false,
                 "label": "bundle & save",
-                "link": "shopify://collections/all",
+                "link": "shopify://pages/subscribe-save",
                 "open_in_new_tab": false,
                 "style_class": "button-secondary",
                 "width": "fit-content",
@@ -2717,7 +2717,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -2985,7 +2984,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -3253,7 +3251,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -3521,7 +3518,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -3789,7 +3785,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -4057,7 +4052,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Rectangle_456.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
