@@ -111,8 +111,9 @@
       <div class="embla__container convert-list">
         {% for item in ingredients %}
           {% assign faqs_split = item | split: '|' %}
-          {% assign faqs_title = faqs_split.first %}
-          {% assign faqs_content = faqs_split.last %}
+          {% assign title = faqs_split.first %}
+          {% assign content = faqs_split.last %}
+          {% render 'ingredient-item', title: title, description: content %}
         {% endfor %}
       </div>
     </div>
@@ -125,11 +126,6 @@
 {
   "name": "Ingredients",
   "class": "key-ingredients",
-  "blocks": [
-    {
-      "type": "ingredient-item"
-    }
-  ],
   "settings": [
     {
       "type": "text",
