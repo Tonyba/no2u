@@ -21,7 +21,7 @@
   assign items = product.metafields.custom.how_to_use_items.value
 %}
 
-<div class="grid-{{ items | size }} cols-2-t cols-1-m">
+<div class="grid cols-{{ items | size }} cols-2-t cols-1-m no-temple-areas">
   {% for item in items %}
     {% assign split = item | split: '|' %}
     {% assign title = split.first %}
