@@ -29,6 +29,11 @@
   .how-to-use .texts {
     margin-top: 20px;
   }
+
+  .how-to-use .divider {
+    background-color: white;
+    height: 1px;
+  }
 {% endstylesheet %}
 
 {% liquid
@@ -43,7 +48,7 @@
     {% assign step = forloop.index %}
 
     <div class="col">
-      <div class="flex no-gap">
+      <div class="flex no-gap items-center">
         <div class="step">
           {{ step }}
         </div>
