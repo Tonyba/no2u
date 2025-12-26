@@ -1,4 +1,8 @@
-{% assign block_settings = block.settings %}
+{% liquid
+  assign block_settings = block.settings
+  assign accordion_title = title
+  assign accordion_content = content
+%}
 
 <accordion-custom
   {% if block_settings.open_by_default %}
