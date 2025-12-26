@@ -69,7 +69,19 @@
   }
 {% endstylesheet %}
 
-<div class="grid cols-{{ block_settings.columns}} cols-1-t no-template-areas {{ block.settings.css_class }}"></div>
+<div class="grid cols-{{ block_settings.columns}} cols-1-t no-template-areas {{ block.settings.css_class }}">
+  {% for item in faqs_data %}
+    {% assign faqs_split = item | split: '|' %}
+    {% assign faqs_title = faqs_split.first %}
+    {% assign faqs_content = faqs_split.last %}
+    {% content_for 'block',
+      id: 'slide-{{ forloop.index }}',
+      type: '_accordion-row',
+      title: faqs_title,
+      accordion_content: faqs_content
+    %}
+  {% endfor %}
+</div>
 
 {% schema %}
 {
