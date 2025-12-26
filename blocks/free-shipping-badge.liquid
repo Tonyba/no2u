@@ -1,0 +1,39 @@
+{% stylesheet %}
+  .free-shipping-badge {
+    padding: 7px 27px;
+    background-color: #c92531;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+  }
+{% endstylesheet %}
+
+<div class="flex">
+  <div class="icon">
+    {{ 'delivery-truck.svg' | inline_asset_content }}
+  </div>
+  <div class="text">Free Shipping</div>
+</div>
+
+{% schema %}
+{
+  "name": "Free Shipping Badge",
+  "class": "free-shipping-badge hide",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "black_ver",
+      "label": "Show Black Version",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Free Shipping Badge"
+    }
+  ]
+}
+{% endschema %}

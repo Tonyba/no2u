@@ -1,0 +1,26 @@
+{% liquid
+  assign accordion_title = title
+  assign accordion_content = content
+%}
+
+<accordion-custom>
+  <details
+    class="details"
+    data-testid="accordion-details"
+    {{ block.shopify_attributes }}
+  >
+    <summary class="details__header">
+      {{ accordion_title }}
+      <span class="svg-wrapper icon-caret icon-animated">
+        {{- 'icon-caret.svg' | inline_asset_content -}}
+      </span>
+      <span class="svg-wrapper icon-plus">
+        {{- 'icon-plus.svg' | inline_asset_content -}}
+      </span>
+    </summary>
+
+    <div class="details-content">
+      {{ accordion_content }}
+    </div>
+  </details>
+</accordion-custom>

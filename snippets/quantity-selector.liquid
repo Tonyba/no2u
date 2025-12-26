@@ -72,9 +72,8 @@
       {% if line_index %}
         data-cart-line="{{ line_index | plus: 1 }}"
       {% endif %}
-      {% if variant.quantity_rule.max %}
-        max="{{ variant.quantity_rule.max }}"
-      {% endif %}
+      data-max="{{ variant.quantity_rule.max }}"
+      max="2"
       step="{{ variant.quantity_rule.increment | default: 1 }}"
       {% if can_update_quantity == false or variant.available == false %}
         disabled

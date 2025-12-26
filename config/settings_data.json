@@ -92,6 +92,17 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "10557767768680663964": {
+        "type": "shopify://apps/recurpay-subscriptions-app/blocks/recurpay-widget/c600a513-dad8-4030-8697-de47c18881f2",
+        "disabled": false,
+        "settings": {
+          "multiply_price_with_quantity": true,
+          "show_price_in_frequency_dropdown": true,
+          "enable_date_range": true,
+          "start_date": "",
+          "end_date": ""
+        }
       }
     },
     "color_schemes": {
@@ -390,9 +401,9 @@
           "secondary_button_hover_text": "#333333",
           "secondary_button_hover_border": "#333333",
           "input_background": "rgba(0,0,0,0)",
-          "input_text_color": "#021623",
+          "input_text_color": "#000000",
           "input_border_color": "#a8a8a8",
-          "input_hover_background": "#000000",
+          "input_hover_background": "#ffffff",
           "variant_background_color": "#ffffff",
           "variant_text_color": "#000000",
           "variant_border_color": "#00000021",
@@ -648,7 +659,7 @@
           "foreground": "#676767",
           "primary": "#c92531",
           "primary_hover": "#c92531",
-          "border": "#0000000f",
+          "border": "#d2d2d2",
           "shadow": "#000000",
           "primary_button_background": "#c92531",
           "primary_button_text": "#ffffff",

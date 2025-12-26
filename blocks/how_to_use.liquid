@@ -1,0 +1,86 @@
+{% stylesheet %}
+  .how-to-use .texts {
+    padding-right: 40px;
+  }
+
+  .how-to-use .step {
+    width: 60px;
+    height: 60px;
+    background-color: #c92531;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 21px;
+  }
+
+  .how-to-use h3 {
+    color: white;
+    font-size: 24px;
+  }
+
+  .how-to-use {
+    font-size: 16px;
+  }
+
+  .how-to-use .texts {
+    margin-top: 20px;
+  }
+
+  .how-to-use .grid {
+    column-gap: 0;
+  }
+
+  .how-to-use .divider {
+    background-color: white;
+    height: 1px;
+    align-self: center;
+  }
+
+  .how-to-use .num-container {
+    gap: 0;
+  }
+{% endstylesheet %}
+
+{% liquid
+  assign items = product.metafields.custom.how_to_use_items.value
+%}
+
+<div class="grid cols-{{ items | size }} cols-2-t cols-1-m no-template-areas">
+  {% for item in items %}
+    {% assign split = item | split: '|' %}
+    {% assign title = split.first %}
+    {% assign content = split.last %}
+    {% assign step = forloop.index %}
+
+    <div class="col">
+      <div class="flex no-gap num-container">
+        <div class="step">
+          {{ step }}
+        </div>
+        <div class="divider flex-1"></div>
+      </div>
+
+      <div class="texts">
+        <h3>{{ title }}</h3>
+        <p>{{ content }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "How to use",
+  "class": "how-to-use",
+  "settings": [],
+  "presets": [
+    {
+      "name": "how to use"
+    }
+  ]
+}
+{% endschema %}

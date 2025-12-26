@@ -1,0 +1,149 @@
+{% stylesheet %}
+  .blog-sidebar-tags {
+    margin-bottom: 40px;
+    overflow-x: auto;
+  }
+
+  .blog-sidebar-tags a {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  .blog-sidebar-tags a:is(:hover, .active) {
+    background-color: black;
+    color: white;
+  }
+
+  .pagination {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .pagination .page a {
+    color: #939393;
+  }
+  .pagination .current {
+    color: #2a2a2a;
+  }
+
+  .pagination > span:not(.page) a {
+    color: #2a2a2a;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .blog-sidebar-tags {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  }
+{% endstylesheet %}
+
+{% liquid
+  assign blog_loop = blog
+%}
+
+{% if blog_loop.all_tags.size > 0 and block.settings.show_filters %}
+  {% if blog_loop.all_tags.size > 0 %}
+    <div class="blog-sidebar-tags flex items-center">
+      {% comment %} Optionally add a link to view all articles (no filter applied) {% endcomment %}
+      {% assign all_link_class = '' %}
+      {% if current_tags == null or current_tags == empty %}
+        {% assign all_link_class = 'active' %}
+      {% endif %}
+      <a href="{{ blog.url }}" class="{{ all_link_class }}">All</a>
+
+      {% for tag in blog.all_tags %}
+        {% comment %} Check if the current tag is in the array of current_tags {% endcomment %}
+        {% assign tag_handle = tag | handle %}
+        {% assign active_class = '' %}
+
+        {% comment %}
+          The 'contains' operator checks for an exact match in the current_tags array.
+          We use the 'current_tags' object for this comparison.
+        {% endcomment %}
+        {% if current_tags contains tag %}
+          {% assign active_class = 'active' %}
+        {% endif %}
+
+        {% comment %}
+          Generate the URL for the tagged posts. The structure is generally
+          /blogs/blog-handle/tagged/tag-handle
+        {% endcomment %}
+        {% assign tag_url = blog.url | append: '/tagged/' | append: tag_handle %}
+
+        <a href="{{ tag_url }}" class="{{ active_class }}">
+          {{ tag }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endif %}
+
+{% if block.settings.selected_tag == '' %}
+  {% paginate blog_loop.articles by block.settings.limit %}
+    <div class="grid cols-4 cols-2-t cols-1-m no-template-areas">
+      {% for article in blog.articles %}
+        {% render 'custom-blog-card', article: article %}
+      {% endfor %}
+    </div>
+    {% if block.settings.pagination %}
+      <div class="pagination flex items-center justify-center">
+        {{ paginate | default_pagination }}
+      </div>
+    {% endif %}
+  {% endpaginate %}
+
+{% else %}
+  {% assign target_blog = blogs.news %}
+  {% assign target_tag = block.settings.selected_tag %}
+  {% assign counter = 0 %}
+  <div class="grid cols-4 cols-2-t cols-1-m no-template-areas">
+    {% for article in target_blog.articles %}
+      {% if article.tags contains target_tag %}
+        {% assign counter = counter | plus: 1 %}
+
+        {% render 'custom-blog-card', article: article %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Blog Loop",
+  "class": "blog-loop m-w-100",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_filters",
+      "label": "Show Filters"
+    },
+    {
+      "type": "checkbox",
+      "id": "pagination",
+      "label": "Pagination"
+    },
+    {
+      "type": "number",
+      "id": "limit",
+      "label": "Limit",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "selected_tag",
+      "label": "Tag"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Loop"
+    }
+  ]
+}
+{% endschema %}

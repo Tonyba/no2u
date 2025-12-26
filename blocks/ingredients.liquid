@@ -81,6 +81,10 @@
   }
 {% endstylesheet %}
 
+{% liquid
+  assign ingredients = product.metafields.custom.key_ingredients.value
+%}
+
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 
 <div class="flex flex-col-t embla cols-2-half items-center">
@@ -105,7 +109,12 @@
   <div class="right">
     <div class="embla__viewport">
       <div class="embla__container convert-list">
-        {% content_for 'blocks' %}
+        {% for item in ingredients %}
+          {% assign faqs_split = item | split: '|' %}
+          {% assign title = faqs_split.first %}
+          {% assign content = faqs_split.last %}
+          {% render 'ingredient-item', title: title, description: content %}
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -117,11 +126,6 @@
 {
   "name": "Ingredients",
   "class": "key-ingredients",
-  "blocks": [
-    {
-      "type": "ingredient-item"
-    }
-  ],
   "settings": [
     {
       "type": "text",

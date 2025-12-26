@@ -1,13 +1,13 @@
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
-  .custom-blog-carousel img {
+  .blog-card img {
     height: 194px;
     width: 100%;
     object-fit: cover;
   }
 
-  .custom-blog-carousel .blog-card__excerpt {
+  .blog-card .blog-card__excerpt {
     font-size: 14px;
     margin: 12px 0;
   }
@@ -16,23 +16,23 @@
     padding: 20px 30px;
   }
 
-  .custom-blog-carousel h3 a {
+  .blog-card h3 a {
     font-size: 16px;
     color: black;
     display: block;
   }
 
-  .custom-blog-carousel .blog-card__read-more {
+  .blog-card .blog-card__read-more {
     color: #ea4335;
     font-size: 14px;
     font-weight: 600;
   }
 
-  .custom-blog-carousel .blog-card__read-more .text {
+  .blog-card .blog-card__read-more .text {
     border-bottom: 1px solid;
   }
 
-  .custom-blog-carousel h3 {
+  .blog-card h3 {
     margin-bottom: 0;
   }
 
@@ -55,28 +55,7 @@
       {% assign blog = block.settings.blog %}
       {% for article in blog.articles %}
         <div class="embla__slide">
-          <div class="blog-card">
-            <a href="{{ article.url }}" class="blog-card__image-wrapper">
-              {% if article.image != blank %}
-                {{-
-                  article.image
-                  | image_url: width: article.image.width
-                  | image_tag: loading: 'lazy', decoding: 'async', draggable: false
-                -}}
-              {% endif %}
-            </a>
-            <div class="blog-card__content">
-              <div class="card-cats flex flex-wrap"></div>
-              <h3 class="blog-card__title">
-                <a href="{{ article.url }}">{{ article.title }}</a>
-              </h3>
-              <p class="blog-card__excerpt">{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
-              <a href="{{ article.url }}" class="blog-card__read-more flex items-center">
-                <span class="text">Read More</span>
-                <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
-              </a>
-            </div>
-          </div>
+          {% render 'custom-blog-card', article: article %}
         </div>
       {% endfor %}
     </div>

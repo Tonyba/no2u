@@ -90,6 +90,50 @@
     line-height: 160%;
 }
 
+.recurpay__widget .recurpay__widget_container--selected .recurpay__radio_group svg {
+    color: #34A853;
+    fill: #B3FFC8 !important
+}
+
+.recurpay__widget .recurpay__group_price_wrapper {
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    gap: 9px;
+}
+
+.recurpay__widget .recurpay__group_price_wrapper .recurpay__group_selling_price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.recurpay__widget .recurpay__group_price_wrapper .recurpay__group_compare_price {
+    font-size: 18px;
+    color: #2A2A2BC7;
+    text-decoration: line-through #EA4335 2px;
+}
+
+
+.recurpay__description ul {
+    list-style: none;
+}
+
+
+.recurpay__description li {
+    display: flex;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.recurpay__description li::before {
+    content: '';
+    width: 19px;
+    background-image: url('https://cdn.shopify.com/s/files/1/0701/2525/6940/files/green-check.svg?v=1766596572');
+}
+
+.recurpay__widget .recurpay__description li {
+    margin: 10px 0 !important;
+}
+
 @media only screen and (max-width: 1024px) {
     .product-recommendations .resource-list--grid {
         grid-template-columns: repeat(2, 1fr);

@@ -1,0 +1,64 @@
+{% stylesheet %}
+  .maximum-per-order .icon {
+    width: 33px;
+  }
+
+  .maximum-per-order {
+    background-color: #efefef;
+    padding: 14px 35px;
+  }
+
+  .maximum-per-order h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 3px;
+  }
+
+  .maximum-per-order p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .maximum-per-order * {
+    color: black;
+  }
+
+  .maximum-per-order p span {
+    color: #c92531;
+  }
+{% endstylesheet %}
+
+<div class="flex items-center">
+  <div class="icon">
+    {{ 'exclamation-circle.svg' | inline_asset_content }}
+  </div>
+  <div class="texts">
+    <h3>{{ block.settings.first_Text }}</h3>
+    {{ block.settings.last_text }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Maximum per order",
+  "class": "maximum-per-order",
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_Text",
+      "label": "First Text"
+    },
+    {
+      "type": "richtext",
+      "id": "last_text",
+      "label": "Last Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Maximum per order"
+    }
+  ]
+}
+{% endschema %}

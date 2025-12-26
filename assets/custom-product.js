@@ -1,5 +1,3 @@
-
-
 function waitForElm(selector) {
     return new Promise(resolve => {
         if (document.querySelector(selector)) {
@@ -14,7 +12,7 @@ function waitForElm(selector) {
         });
 
         // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
-        observer.observe(document.body, {
+        observer.observe(document.documentElement, {
             childList: true,
             subtree: true
         });
@@ -24,11 +22,24 @@ function waitForElm(selector) {
 
 waitForElm('.variant-picker__form > .variant-option:first-child option').then((elm) => {
 
+
+
     const variant_picker = document.querySelector('.variant-picker');
     const variantOptions = Array.from(document.querySelectorAll('.variant-picker__form > .variant-option:first-child option')).map(item => ({
         label: item.textContent.trim(),
         value: item.getAttribute('data-option-value-id')
     }));
+
+    waitForElm('[data-block-handle="recurpay-app-block-widget"]').then((subs_el) => {
+
+        variant_picker?.insertAdjacentElement('afterend', subs_el);
+    });
+
+    waitForElm('.recurpay__widget_container').then((widget) => {
+        const free_shipping_badge = document.querySelector('.free-shipping-badge');
+        widget.insertAdjacentElement('beforebegin', free_shipping_badge);
+        free_shipping_badge?.classList.remove('hide');
+    });
 
     let otherOpt = document.querySelectorAll('.variant-picker__form > .variant-option');
     otherOpt = otherOpt[otherOpt.length - 1];
@@ -72,7 +83,7 @@ waitForElm('.variant-picker__form > .variant-option:first-child option').then((e
         newEl.addEventListener('click', () => handleSelection(i, newEl));
     });
 
-    variant_picker?.insertAdjacentElement('beforebegin', optWrapper);
+    document.querySelector('.maximum-per-order')?.insertAdjacentElement('beforebegin', optWrapper);
 
 
 

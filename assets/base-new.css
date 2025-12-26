@@ -3,12 +3,28 @@
     display: flex;
 }
 
+.hide {
+    display: none;
+}
+
+.flex-1 {
+    flex: 1
+}
+
 .no-template-areas {
     grid-template-areas: unset;
 }
 
 .w-100 {
     width: 100%;
+}
+
+.m-w-100 {
+    max-width: 100%;
+}
+
+.forced-row {
+    flex-direction: row !important;
 }
 
 .w-50 {
@@ -86,6 +102,39 @@
 .vertical,
 .menu--vertical {
     flex-direction: column;
+}
+
+.dark-overlay::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0ECC;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dark-overlay>* {
+    z-index: 1;
+}
+
+.calculator-overlay {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calculator-overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #00000000, #000);
+}
+
+.calculator-overlay>* {
+    z-index: 1;
 }
 
 .menu__list>li {
@@ -308,6 +357,18 @@ slideshow-slides:has(.review-card) {
     background-color: white;
 }
 
+/*start your subscription*/
+
+.start-subscriptions rte-formatter {
+    border: 1px solid #2A2A2A;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: bold;
+    color: #2A2A2A
+}
+
+/*start your subscription end*/
+
 @media only screen and (min-width: 1025px) {
     .hide-d {
         display: none;
@@ -319,6 +380,15 @@ slideshow-slides:has(.review-card) {
     .flex-column-reverse-t,
     .flex-column-reverse-t .layout-panel-flex--row {
         flex-direction: column-reverse;
+    }
+
+    .start-subscriptions .icon-block {
+        align-items: center;
+        transform: rotate(90deg);
+    }
+
+    .start-subscriptions rte-formatter {
+        padding: 10px 20px;
     }
 
     .hero-vertical-overlay::after {

@@ -1,0 +1,215 @@
+{% liquid
+  assign first_blog = blog.articles.first
+  assign other_blogs = blog.articles
+
+  assign word_count_first = first_blog.content | strip_html | number_of_words | divided_by: 200 | plus: 1
+%}
+
+{% stylesheet %}
+  .big-article {
+    width: 60%;
+    padding-right: 55px;
+    border-right: 1px solid var(--border-color);
+  }
+
+  .min-read {
+    border-left: 1px solid;
+    padding-left: 5px;
+  }
+
+  .top-block h2 {
+    font-size: 52px;
+  }
+
+  h3,
+  h2 {
+    color: black;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .meta {
+    font-weight: 600;
+    font-size: 13px;
+    color: #2a2a2a;
+    gap: 5px;
+  }
+
+  .big-article h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+
+  .big-article img {
+    height: 287px;
+    object-fit: cover;
+    margin-bottom: 14px;
+  }
+
+  .top-block .other-articles h2 {
+    font-size: 42px;
+  }
+
+  .other-articles {
+    width: 40%;
+    padding-left: 48px;
+  }
+
+  .other-articles img {
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .other-articles .img {
+    width: 30%;
+  }
+
+  .other-articles .content {
+    width: 70%;
+  }
+
+  .other-articles > .flex > *:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 25px;
+  }
+
+  .article .read-more .text {
+    border-bottom: 1px solid;
+  }
+
+  .other-articles h3 {
+    font-size: 17px;
+  }
+
+  .article a {
+    color: black;
+  }
+
+  .cat {
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 52px;
+    max-width: max-content;
+    background-color: #dedede;
+    display: block;
+    padding: 5px 20px;
+    border-radius: 50px;
+  }
+
+  .other-articles .cat {
+    font-size: 12px;
+    min-width: 48px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .big-article {
+      padding-right: 0;
+      padding-bottom: 30px;
+      border-right: 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .other-articles {
+      padding-left: 0;
+    }
+  }
+{% endstylesheet %}
+
+<h2>{{ block.settings.title }}</h2>
+
+<div class="flex flex-col-t">
+  <div class="big-article article">
+    <a href="{{ first_blog.url }}">
+      {{-
+        first_blog.image
+        | image_url: width: 300, height: 300
+        | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+      -}}
+    </a>
+
+    {% assign big_tag = first_blog.tags.first %}
+
+    <div class="cat">{{ big_tag }}</div>
+
+    <h3>
+      <a href="{{ first_blog.url }}">{{ first_blog.title }}</a>
+    </h3>
+
+    <div class="meta flex">
+      {{ first_blog.created_at | date: '%B %d, %Y' }}
+      <span class="min-read">{{ word_count_first }} min read</span>
+    </div>
+
+    <p>{{ first_blog.excerpt_or_content | strip_html | truncate: 200 }}...</p>
+
+    <a href="{{ first_blog.url }}" class="flex items-center read-more forced-row">
+      <span class="text"> Read More </span>
+      <span class="icon">{{ 'arrow.svg' | inline_asset_content }}</span>
+    </a>
+  </div>
+  <div class="other-articles">
+    <h2>{{ block.settings.title_2 }}</h2>
+
+    <div class="flex vertical">
+      {% for item in other_blogs limit: 3 offset: 1 %}
+        {% assign min_read = item.content | strip_html | number_of_words | divided_by: 200 | plus: 1 %}
+        {% assign tag = item.tags.first %}
+
+        <div class="flex article">
+          <div class="img">
+            <a href="{{ first_blog.url }}">
+              {{-
+                item.image
+                | image_url: width: first_blog.image.width, height: 300
+                | image_tag: loading: 'lazy', decoding: 'async', draggable: false
+              -}}
+            </a>
+          </div>
+          <div class="content flex vertical justify-between">
+            <div class="top">
+              <div class="cat">{{ tag }}</div>
+
+              <h3>
+                <a href="{{ first_blog.url }}">{{ first_blog.title }}</a>
+              </h3>
+            </div>
+
+            <div class="meta flex">
+              {{ first_blog.created_at | date: '%B %d, %Y' }}
+              <span class="min-read">{{ min_read }} min read</span>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Top Blog",
+  "class": "top-block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "title_2",
+      "label": "Second Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Top blog"
+    }
+  ]
+}
+{% endschema %}
