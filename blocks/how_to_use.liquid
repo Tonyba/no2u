@@ -2,8 +2,10 @@
 {% endstylesheet %}
 
 {% liquid
-
+  assign items = product.metafields.custom.how_to_use_items.value
 %}
+
+<div class="grid-{{ items | size }} cols-2-t cols-1-m"></div>
 
 {% schema %}
 {
