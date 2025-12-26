@@ -1,0 +1,31 @@
+{% stylesheet %}
+  .ingredient-item .card-box {
+    background-color: white;
+    color: #676767;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    padding-left: 58px;
+  }
+
+  .ingredient-item h3 {
+    color: #c92531;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .ingredient-item p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .ingredient-item img {
+    width: 98px;
+  }
+{% endstylesheet %}
+
+<div class="card-box">
+  <img src="{{ 'formula.svg' | asset_url }}" width="100" height="100" alt="" loading="lazy" decoding="async">
+  <h3>{{ title }}</h3>
+  <p>{{ description }}</p>
+</div>
