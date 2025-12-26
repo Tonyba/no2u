@@ -7,6 +7,10 @@
     display: none;
 }
 
+.flex-1 {
+    flex: 1
+}
+
 .no-template-areas {
     grid-template-areas: unset;
 }
