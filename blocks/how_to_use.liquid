@@ -7,9 +7,24 @@
 
 <div class="grid-{{ items | size }} cols-2-t cols-1-m">
   {% for item in items %}
-    {% assign faqs_split = item | split: '|' %}
-    {% assign faqs_title = faqs_split.first %}
-    {% assign faqs_content = faqs_split.last %}
+    {% assign split = item | split: '|' %}
+    {% assign title = split.first %}
+    {% assign content = split.last %}
+    {% assign step = forloop.index %}
+
+    <div class="col">
+      <div class="flex">
+        <div class="step">
+          {{ step }}
+        </div>
+        <div class="divider"></div>
+      </div>
+
+      <div class="texts">
+        <h3>{{ title }}</h3>
+        <p>{{ content }}</p>
+      </div>
+    </div>
   {% endfor %}
 </div>
 
