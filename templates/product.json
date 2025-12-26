@@ -1883,6 +1883,12 @@
               },
               "blocks": {}
             },
+            "how_to_use_hgA3YA": {
+              "type": "how_to_use",
+              "name": "how to use",
+              "settings": {},
+              "blocks": {}
+            },
             "group_jYhane": {
               "type": "group",
               "name": "t:names.group",
@@ -2894,6 +2900,7 @@
           },
           "block_order": [
             "text_JV869R",
+            "how_to_use_hgA3YA",
             "group_jYhane",
             "text_nTnzPx"
           ]
