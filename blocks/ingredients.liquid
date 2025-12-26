@@ -109,7 +109,11 @@
   <div class="right">
     <div class="embla__viewport">
       <div class="embla__container convert-list">
-        {% content_for 'blocks' %}
+        {% for item in ingredients %}
+          {% assign faqs_split = item | split: '|' %}
+          {% assign faqs_title = faqs_split.first %}
+          {% assign faqs_content = faqs_split.last %}
+        {% endfor %}
       </div>
     </div>
   </div>
