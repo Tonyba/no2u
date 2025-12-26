@@ -81,6 +81,10 @@
   }
 {% endstylesheet %}
 
+{% liquid
+  assign ingredients = product.metafields.custom.key_ingredients.value
+%}
+
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 
 <div class="flex flex-col-t embla cols-2-half items-center">
