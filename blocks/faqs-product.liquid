@@ -1,9 +1,7 @@
 {% assign block_settings = block.settings %}
 {% liquid
-  assign faqs_data = product.metafields.custom.faqs
+  assign faqs_data = product.metafields.custom.faqs.value
 %}
-
-{{ faqs_data }}
 
 {% stylesheet %}
   .faqs .icon-plus {
