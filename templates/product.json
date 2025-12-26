@@ -3019,6 +3019,15 @@
               },
               "blocks": {}
             },
+            "faqs_product_Ec4FhP": {
+              "type": "faqs-product",
+              "name": "FAQs Product",
+              "settings": {
+                "css_class": "",
+                "columns": 1
+              },
+              "blocks": {}
+            },
             "faqs_NTKtrk": {
               "type": "faqs",
               "name": "FAQs",
@@ -3320,6 +3329,7 @@
           "block_order": [
             "divider_Jcajhr",
             "text_wR6cKq",
+            "faqs_product_Ec4FhP",
             "faqs_NTKtrk",
             "spacer_CapHNA",
             "button_MHHyr6"
