@@ -2869,7 +2869,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "w-100 how-to-use-text",
-                "text": "<p>*Feel free to adjust the amount of liquid by a few ounces to suit your taste preferences (less water = stronger flavor and vice versa).</p>",
+                "text": "<p>{{ closest.product.metafields.custom.how_to_use_below_text.value }}</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
