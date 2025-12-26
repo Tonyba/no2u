@@ -69,8 +69,6 @@
   }
 {% endstylesheet %}
 
-{{ product.metafields.custom.faqs[0] }}
-
 <div class="grid cols-{{ block_settings.columns}} cols-1-t no-template-areas {{ block.settings.css_class }}">
   {% for item in faqs_data %}
     {% assign faqs_split = item | split: '|' %}
