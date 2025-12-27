@@ -194,6 +194,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -272,6 +273,7 @@
               "settings": {
                 "color": "#c92531",
                 "alignment": "flex-start",
+                "direction": "horizontal",
                 "thickness": 2,
                 "corner_radius": "square",
                 "width_percent": 25,
@@ -319,7 +321,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Why should I subscribe?",
+                    "heading": "Are NO2U products backed by science?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -329,7 +331,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>Yes! NO2U products are developed using over 25 years of research on Nitric Oxide. They are formulated by Dr. Nathan S. Bryan, a leading expert in the field, ensuring that every product is scientifically tested and effective.<br/></p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -360,7 +362,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How do subscriptions work?",
+                    "heading": "What can I expect to feel after taking nitric oxide?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -370,7 +372,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>After taking nitric oxide, you may experience improved blood flow, enhanced energy levels, and better overall endurance. Many users report feeling more energized and focused shortly after use, though some may not feel the difference right away. Rest assured, it’s still working behind the scenes. Consistent use can yield long-term results, further enhancing your performance and overall well-being.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -401,7 +403,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How do I make changes to my subscription?",
+                    "heading": "What makes NO2U different from other Nitric Oxide supplements?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -411,7 +413,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>NO2U stands out due to its science-backed formulations, developed by a leading expert in Nitric Oxide research. The products are designed to deliver noticeable results and are trusted by customers worldwide. If your body has lost the ability to naturally produce nitric oxide, NO2U products provide it for you.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -442,7 +444,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "What frequency should I choose?",
+                    "heading": "Where can I learn more about Nitric Oxide and its benefits?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -452,7 +454,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>Learn about the science of Nitric Oxide and its benefits in the<a href=\"https://no2u.com/science/\"> <span style=\"text-decoration:underline\">Science</span></a> section of the NO2U website. You can also follow Dr. Nathan S. Bryan on <a href=\"http://instagram.com/drnathansbryan\"><span style=\"text-decoration:underline\">Instagram</span></a> and <a href=\"https://www.youtube.com/@DrNathanSBryanNitricOxide\"><span style=\"text-decoration:underline\">YouTube</span></a> or explore the topic further in his bestselling book, <a href=\"https://a.co/d/bmnJvqt\"><span style=\"text-decoration:underline\"><em>The Secret of Nitric Oxide: Bringing the Science to Life</em></span></a><em>,</em> which delves into the science alongside his personal life story, journey, pitfalls, and resilience with nitric oxide.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -483,7 +485,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Can I subscribe to products at different frequencies?",
+                    "heading": "How can Nitric Oxide supplements benefit athletes?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -493,7 +495,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>Nitric Oxide supports increased blood flow, which delivers more oxygen and nutrients to muscles during exercise. This can improve endurance, reduce fatigue, and enhance overall athletic performance. Many athletes use Nitric Oxide supplements to help push through tough workouts and recover faster.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -524,7 +526,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Is there a minimum order value to receive my Subscribe & Save 10% discount?",
+                    "heading": "Can NO2U products aid in post-workout recovery?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -534,7 +536,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Subscribing to your favorite TL products means you save money, never forget to reorder or run out (and saves you a trip to the store)</p><p><strong>!10% off: Save 10% if you subscribe. Forever!</strong></p><p>Never pay full price again - get 10% off all products you subscribe to.</p><p><strong>Free shipping: No more paying extra shipping fees</strong></p><p>Just pay for your products and nothing more. You're welcome.</p><p><strong>Full flexibility: Pause, skip, change or cancel anytime.</strong></p><p>No contracts or fine print. Modify, skip or cancel your subscription whenever you like.  </p><p><strong>Never run out: No more reorders or running out. </strong></p><p>We’ve got you covered.Your favorite TL products delivered to your door, without you lifting a finger.<br/><br/></p>",
+                        "text": "<p>Yes. By promoting better circulation and oxygen delivery, NO2U products can help reduce muscle soreness and speed up recovery after intense exercise. This makes it easier for athletes to stick to a consistent training schedule with less downtime.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
@@ -560,6 +562,170 @@
                   "block_order": [
                     "text_Nt9JG7"
                   ]
+                },
+                "accordion_row_b6X4f8": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Are NO2U supplements safe for competitive athletes?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_XXdghf": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>NO2U products are made with high-quality, research-backed ingredients. However, athletes competing at elite levels should always check with their coach or governing body and consult the supplement facts to ensure compliance with sports regulations.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_XXdghf"
+                  ]
+                },
+                "accordion_row_HWVAnA": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "When should athletes take NO2U supplements for optimal results?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_hTRAw9": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>For best results, athletes can take NO2U supplements immediately before a workout or sporting event. This timing allows for peak Nitric Oxide production right when enhanced blood flow is most beneficial.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_hTRAw9"
+                  ]
+                },
+                "accordion_row_bmJLbc": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Can Nitric Oxide supplementation help with endurance sports?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_NNgmfW": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Absolutely. Nitric Oxide is especially beneficial for endurance athletes, as it helps open blood vessels and sustain energy delivery over long distances or prolonged activity. This may contribute to improved stamina and less muscle fatigue.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_NNgmfW"
+                  ]
+                },
+                "accordion_row_aANUEp": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Are NO2U products suitable for specific dietary needs?",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_kT7WJe": {
+                      "type": "text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Yes. Our products are designed to fit a wide range of lifestyles. They are vegan, gluten-free, dairy-free, soy-free, and suitable for both paleo and keto diets. We are also proud to be a cruelty-free brand and do not test on animals.</p>",
+                        "width": "100%",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_kT7WJe"
+                  ]
                 }
               },
               "block_order": [
@@ -568,7 +734,11 @@
                 "accordion_row_NbQCem",
                 "accordion_row_wNWwBh",
                 "accordion_row_f3BbiX",
-                "accordion_row_VawmwX"
+                "accordion_row_VawmwX",
+                "accordion_row_b6X4f8",
+                "accordion_row_HWVAnA",
+                "accordion_row_bmJLbc",
+                "accordion_row_aANUEp"
               ]
             }
           },
@@ -584,6 +754,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
+        "css_class": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
