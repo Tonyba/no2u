@@ -4546,7 +4546,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "What certifications or testing standards do Transparent Labs products follow?",
+                    "heading": "What is Nitric Oxide, and why is it important?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4556,7 +4556,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>In addition to our products being produced in an FDA-registered, cGMP facility, we provide third parthy testing results for each batch of products. All of our products are also certified by Infotmed Choice</p>",
+                        "text": "<p>Nitric Oxide (N.O.) is a molecule naturally produced by the body that plays a critical role in cardiovascular health, blood circulation, and overall well-being. It helps improve oxygen and nutrient delivery to cells, supports healthy blood pressure, and enhances cognitive function. However, as we age, the body's natural production of Nitric Oxide decreases, making supplementation essential.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4587,7 +4587,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How do I know which supplements are right for my fitness goals?",
+                    "heading": "How do NO2U products help boost Nitric Oxide levels?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4597,7 +4597,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our products are categorized by goal and product type to help guide your shopping experience, including Pre-Workouts, Protein Supplements, Muscle-Building & Recovery Formulas, and Health & Wellness Products.</p>",
+                        "text": "<p>NO2U products are scientifically formulated to restore and enhance Nitric Oxide production in the body. Developed by Dr. Nathan S. Bryan, a leading expert in Nitric Oxide research, these supplements are designed to support cardiovascular health, improve circulation, and provide antioxidant benefits.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4628,7 +4628,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Do Transparent Labs products contain artificial sweeteners or colors?",
+                    "heading": "What products does NO2U offer",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4638,7 +4638,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No! We use natural sweeteners and colors, such as stevia extract and spirulina powder.</p>",
+                        "text": "<p>NO2U offers a range of Nitric Oxide supplements, including:</p><ul><li><strong>NO2U Nitric Oxide Lozenges</strong>: Convenient lozenges to boost N.O. levels.</li><li><strong>N.O.Beetz</strong>: A fermented oxalate free beet-based supplement for enhanced Nitric Oxide production.</li><li><strong>Power & Performance Stack</strong>: A combination pack for comprehensive support.</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4669,7 +4669,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Do you offer bundles or subscriptions?",
+                    "heading": "Who is Dr. Nathan S. Bryan?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4679,7 +4679,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No! We use natural sweeteners and colors, such as stevia extract and spirulina powder.</p>",
+                        "text": "<p>Dr. Nathan S. Bryan is a world-renowned biomedical scientist with over 25 years of expertise in Nitric Oxide research. He has collaborated with Nobel Laureates, holds numerous U.S. and international patents, and has published over 100 peer-reviewed articles. As the Founder and CEO of Bryan Therapeutics, Inc. and NO2U, he develops innovative nitric oxide-based therapies for heart disease, Alzheimer’s, and wound healing. A best-selling author and entrepreneur, Dr. Bryan frequently appears on major TV networks, podcasts, and platforms, sharing insights on Nitric Oxide’s critical role in health, longevity, and aging.<br/><br/><a href=\"https://no2u-nitric-oxide.myshopify.com/pages/about-us\" target=\"_blank\" title=\"https://no2u-nitric-oxide.myshopify.com/pages/about-us\">Read more about Dr. Nathan S Bryan.</a><br/><br/></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4710,7 +4710,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "What’s your return and refund policy?",
+                    "heading": "What are the benefits of Nitric Oxide supplementation?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4720,7 +4720,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No! We use natural sweeteners and colors, such as stevia extract and spirulina powder.</p>",
+                        "text": "<p>Supplementing with Nitric Oxide can:</p><ul><li>Improve cardiovascular health.</li><li>Enhance blood circulation and oxygen delivery.</li><li>Support healthy blood pressure levels.</li><li>Boost cognitive function and memory.</li><li>Provide antioxidant support.</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4751,7 +4751,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Where do you ship, and how long does it take?",
+                    "heading": "Why does Nitric Oxide production decrease with age?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -4761,7 +4761,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our fulfillment center allows us to ship worldwide, with some exceptions due to fraudulent activity in certain countries; see. Standard shipping for U.S. domestic orders typically takes 5-7 business days to arrive, and 14-21 business days for international orders.</p>",
+                        "text": "<p>As we age, lifestyle factors and natural biological changes reduce the body's ability to produce Nitric Oxide. This decline can lead to issues like poor circulation, high blood pressure, and reduced cognitive function. Supplementation helps restore these levels.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
