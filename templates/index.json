@@ -2672,7 +2672,7 @@
           "settings": {
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "height": "fit",
+            "height": "fill",
             "position": "top",
             "border": "none",
             "border_width": 1,
