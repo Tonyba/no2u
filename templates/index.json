@@ -7806,7 +7806,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"That 3 PM slump used to hit me hard. A friend recommended NO2U lozenges by Dr. Nathan Bryan, and I'm so glad she did. I have more mental clarity and consistent energy throughout the day. It’s become an essential part of my daily routine.\"<br/></p>",
+                        "text": "<p>\"I used to feel completely drained after a 5k run, but the N.O. Beetz has changed my recovery game. I feel a noticeable energy boost and less soreness the next day. It’s a huge win for my health optimization journey.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -7874,7 +7874,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p><strong>Jenna Todd</strong></p>",
+                            "text": "<p><strong> Brayden St. Patrick</strong></p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -7901,7 +7901,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>24/9/2025</p>",
+                            "text": "<p>14/11/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
