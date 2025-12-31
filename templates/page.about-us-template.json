@@ -628,7 +628,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>What sets NO2U products apart?</h2><h6>At NO2U, we strive to go beyond the ordinary. Here’s what makes us stand out:</h6>",
+                "text": "<h2>What sets NO2U products apart?</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -645,6 +645,33 @@
                 "corner_radius": 0,
                 "padding-block-start": 35,
                 "padding-block-end": 35,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_UMtByA": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<h5>At NO2U, we strive to go beyond the ordinary. Here’s what makes us stand out:</h5>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -673,6 +700,7 @@
           "block_order": [
             "divider_yEKRJR",
             "text_qNXtaz",
+            "text_UMtByA",
             "button_6yBhQz"
           ]
         },
