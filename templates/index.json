@@ -3897,7 +3897,7 @@
                 "group_LgzMNX"
               ]
             },
-            "card_zbW7Qe": {
+            "card_nXV6KH": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -3926,11 +3926,11 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "image_Q3kQPM": {
+                "image_KjKHz6": {
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Community_Image_-_Robert.png",
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Community_Image_-_Eleanor_D.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -3949,7 +3949,7 @@
                   },
                   "blocks": {}
                 },
-                "group_UQe9FU": {
+                "group_Xn8Fjy": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -3990,18 +3990,18 @@
                     "padding-inline-end": 30
                   },
                   "blocks": {
-                    "review_item_verified_BYYek8": {
+                    "review_item_verified_K7BfJD": {
                       "type": "review_item_verified",
                       "name": "review item verified",
                       "settings": {},
                       "blocks": {}
                     },
-                    "text_K6zPyK": {
+                    "text_wYwGD7": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"Stress and long hours were taking a toll on my health. I needed something to help with blood flow and mental fog. NO2U lozenges are easy to take, and I've noticed a significant improvement in my focus and energy levels throughout the workday.\"</p>",
+                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NO2U Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4023,7 +4023,7 @@
                       },
                       "blocks": {}
                     },
-                    "group_wL6zee": {
+                    "group_MzeEXU": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -4064,12 +4064,12 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "text_Xk8idx": {
+                        "text_MQh6LU": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p><strong>Robert Thorn - Teacher</strong></p>",
+                            "text": "<h3><strong>Eleanor D. Cohn</strong></h3>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4091,12 +4091,12 @@
                           },
                           "blocks": {}
                         },
-                        "text_yMjbLA": {
+                        "text_waiqU6": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>10/02/2025</p>",
+                            "text": "<p>11/15/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4120,21 +4120,21 @@
                         }
                       },
                       "block_order": [
-                        "text_Xk8idx",
-                        "text_yMjbLA"
+                        "text_MQh6LU",
+                        "text_waiqU6"
                       ]
                     }
                   },
                   "block_order": [
-                    "review_item_verified_BYYek8",
-                    "text_K6zPyK",
-                    "group_wL6zee"
+                    "review_item_verified_K7BfJD",
+                    "text_wYwGD7",
+                    "group_MzeEXU"
                   ]
                 }
               },
               "block_order": [
-                "image_Q3kQPM",
-                "group_UQe9FU"
+                "image_KjKHz6",
+                "group_Xn8Fjy"
               ]
             },
             "card_pkD6tK": {
@@ -4375,6 +4375,246 @@
               "block_order": [
                 "image_X9GLNB",
                 "group_Ar6B8H"
+              ]
+            },
+            "card_eV6BRt": {
+              "type": "_card",
+              "name": "t:names.card",
+              "settings": {
+                "css_class": "review-card",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 0,
+                "inherit_color_scheme": true,
+                "color_scheme": "scheme-1",
+                "background_media": "none",
+                "aspect_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "image_bctX4P": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Community_Image_-_Marcus.jpg",
+                    "link": "",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "group_yRffAM": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "css_class": "",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-c1264752-e427-4ad2-bebb-75b2869e16d7",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 39,
+                    "padding-block-end": 50,
+                    "padding-inline-start": 30,
+                    "padding-inline-end": 30
+                  },
+                  "blocks": {
+                    "review_item_verified_PktebM": {
+                      "type": "review_item_verified",
+                      "name": "review item verified",
+                      "settings": {},
+                      "blocks": {}
+                    },
+                    "text_JWW9rD": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>\"Staying fit after college sports was tough on my joints and energy. NO2U N.O. Beetz helped me get my groove back. I have the endurance to play in my recreational league without feeling wrecked the next day. It’s essential for maintaining athletic performance as you age.\"</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "0.875rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "group_6F7Rze": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "css_class": "",
+                        "content_direction": "row",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "inherit_color_scheme": false,
+                        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 12,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "text_JYyyF9": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "css_class": "",
+                            "text": "<p><strong>Marcus Penny </strong></p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-subheading--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground-heading)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        },
+                        "text_Qth68V": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "css_class": "",
+                            "text": "<p>9/1/2025</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-subheading--family)",
+                            "font_size": "0.875rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_JYyyF9",
+                        "text_Qth68V"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "review_item_verified_PktebM",
+                    "text_JWW9rD",
+                    "group_6F7Rze"
+                  ]
+                }
+              },
+              "block_order": [
+                "image_bctX4P",
+                "group_yRffAM"
               ]
             },
             "card_mdHCFj": {
@@ -4857,7 +5097,7 @@
                 "group_DUzdQR"
               ]
             },
-            "card_eV6BRt": {
+            "card_zbW7Qe": {
               "type": "_card",
               "name": "t:names.card",
               "settings": {
@@ -4886,11 +5126,11 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "image_bctX4P": {
+                "image_Q3kQPM": {
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Community_Image_-_Marcus.jpg",
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Community_Image_-_Robert.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -4909,7 +5149,7 @@
                   },
                   "blocks": {}
                 },
-                "group_yRffAM": {
+                "group_UQe9FU": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -4950,18 +5190,18 @@
                     "padding-inline-end": 30
                   },
                   "blocks": {
-                    "review_item_verified_PktebM": {
+                    "review_item_verified_BYYek8": {
                       "type": "review_item_verified",
                       "name": "review item verified",
                       "settings": {},
                       "blocks": {}
                     },
-                    "text_JWW9rD": {
+                    "text_K6zPyK": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"Staying fit after college sports was tough on my joints and energy. NO2U N.O. Beetz helped me get my groove back. I have the endurance to play in my recreational league without feeling wrecked the next day. It’s essential for maintaining athletic performance as you age.\"</p>",
+                        "text": "<p>\"Stress and long hours were taking a toll on my health. I needed something to help with blood flow and mental fog. NO2U lozenges are easy to take, and I've noticed a significant improvement in my focus and energy levels throughout the workday.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4983,7 +5223,7 @@
                       },
                       "blocks": {}
                     },
-                    "group_6F7Rze": {
+                    "group_wL6zee": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -5024,12 +5264,12 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "text_JYyyF9": {
+                        "text_Xk8idx": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p><strong>Marcus Penny </strong></p>",
+                            "text": "<p><strong>Robert Thorn - Teacher</strong></p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -5051,12 +5291,12 @@
                           },
                           "blocks": {}
                         },
-                        "text_Qth68V": {
+                        "text_yMjbLA": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>9/1/2025</p>",
+                            "text": "<p>10/02/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -5080,261 +5320,21 @@
                         }
                       },
                       "block_order": [
-                        "text_JYyyF9",
-                        "text_Qth68V"
+                        "text_Xk8idx",
+                        "text_yMjbLA"
                       ]
                     }
                   },
                   "block_order": [
-                    "review_item_verified_PktebM",
-                    "text_JWW9rD",
-                    "group_6F7Rze"
+                    "review_item_verified_BYYek8",
+                    "text_K6zPyK",
+                    "group_wL6zee"
                   ]
                 }
               },
               "block_order": [
-                "image_bctX4P",
-                "group_yRffAM"
-              ]
-            },
-            "card_nXV6KH": {
-              "type": "_card",
-              "name": "t:names.card",
-              "settings": {
-                "css_class": "review-card",
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 0,
-                "inherit_color_scheme": true,
-                "color_scheme": "scheme-1",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_KjKHz6": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Community_Image_-_Eleanor_D.jpg",
-                    "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "group_Xn8Fjy": {
-                  "type": "group",
-                  "name": "t:names.group",
-                  "settings": {
-                    "css_class": "",
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "custom_height": 100,
-                    "inherit_color_scheme": false,
-                    "color_scheme": "scheme-c1264752-e427-4ad2-bebb-75b2869e16d7",
-                    "background_media": "none",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "placeholder": "",
-                    "padding-block-start": 39,
-                    "padding-block-end": 50,
-                    "padding-inline-start": 30,
-                    "padding-inline-end": 30
-                  },
-                  "blocks": {
-                    "review_item_verified_K7BfJD": {
-                      "type": "review_item_verified",
-                      "name": "review item verified",
-                      "settings": {},
-                      "blocks": {}
-                    },
-                    "text_wYwGD7": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "css_class": "",
-                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NO2U Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-body--family)",
-                        "font_size": "0.875rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "group_MzeEXU": {
-                      "type": "group",
-                      "name": "t:names.group",
-                      "settings": {
-                        "css_class": "",
-                        "content_direction": "row",
-                        "vertical_on_mobile": true,
-                        "horizontal_alignment": "space-between",
-                        "vertical_alignment": "center",
-                        "align_baseline": false,
-                        "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
-                        "gap": 12,
-                        "width": "fill",
-                        "custom_width": 100,
-                        "width_mobile": "fill",
-                        "custom_width_mobile": 100,
-                        "height": "fit",
-                        "custom_height": 100,
-                        "inherit_color_scheme": false,
-                        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
-                        "background_media": "none",
-                        "video_position": "cover",
-                        "background_image_position": "cover",
-                        "border": "none",
-                        "border_width": 1,
-                        "border_opacity": 100,
-                        "border_radius": 0,
-                        "toggle_overlay": false,
-                        "overlay_color": "#00000026",
-                        "overlay_style": "solid",
-                        "gradient_direction": "to top",
-                        "link": "",
-                        "open_in_new_tab": false,
-                        "placeholder": "",
-                        "padding-block-start": 12,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {
-                        "text_MQh6LU": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "css_class": "",
-                            "text": "<h3><strong>Eleanor D. Cohn</strong></h3>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "custom",
-                            "font": "var(--font-subheading--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground-heading)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        },
-                        "text_waiqU6": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "css_class": "",
-                            "text": "<p>11/15/2025</p>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "custom",
-                            "font": "var(--font-subheading--family)",
-                            "font_size": "0.875rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "text_MQh6LU",
-                        "text_waiqU6"
-                      ]
-                    }
-                  },
-                  "block_order": [
-                    "review_item_verified_K7BfJD",
-                    "text_wYwGD7",
-                    "group_MzeEXU"
-                  ]
-                }
-              },
-              "block_order": [
-                "image_KjKHz6",
-                "group_Xn8Fjy"
+                "image_Q3kQPM",
+                "group_UQe9FU"
               ]
             },
             "card_Bc7xRd": {
@@ -9653,12 +9653,12 @@
             "card_Apwb8i",
             "card_R9UGPw",
             "card_UfRpBM",
-            "card_zbW7Qe",
+            "card_nXV6KH",
             "card_pkD6tK",
+            "card_eV6BRt",
             "card_mdHCFj",
             "card_YzTemL",
-            "card_eV6BRt",
-            "card_nXV6KH",
+            "card_zbW7Qe",
             "card_Bc7xRd",
             "card_QyR9bE",
             "card_88RfD8",
