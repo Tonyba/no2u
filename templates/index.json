@@ -5130,6 +5130,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Customer_Image_-_Patricia.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -5369,6 +5370,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Customer_Image_-_Tom.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
