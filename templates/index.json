@@ -7286,6 +7286,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Community_Image_-_Jenna.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
