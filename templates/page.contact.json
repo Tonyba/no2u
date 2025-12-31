@@ -694,7 +694,7 @@
                   "type": "contact-form-submit-button",
                   "static": true,
                   "settings": {
-                    "label": "Dërgo Mesazhin",
+                    "label": "SUBMIT",
                     "style_class": "button",
                     "width": "custom",
                     "custom_width": 100,
