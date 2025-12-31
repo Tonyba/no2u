@@ -8001,6 +8001,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_N.O._Beetz_Community_Image_-_Gwina.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
