@@ -101,7 +101,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>Questions, comments, concerns? We'd love to hear from you.</p>",
+                "text": "<p>We’re here to help. Whether you have a question about your order, need assistance with a product, or want to discuss wholesale opportunities, our support team is ready to assist you.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -310,7 +310,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<p><a href=\"mailto:support@transparentlabs.com\" title=\"mailto:support@transparentlabs.com\">support@transparentlabs.com</a></p>",
+                    "text": "<p><a href=\"mailto:support@transparentlabs.com\" title=\"mailto:support@no2u.com\">support@no2u.com</a></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -481,7 +481,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<p><a href=\"tel:+355 69 449 8638\" title=\"tel:+355 69 449 8638\">+355 69 449 8638</a></p>",
+                    "text": "<p><a href=\"tel:+832-779-4435\" title=\"tel:+832-779-4435\">832-779-4435</a></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -626,7 +626,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>We respond to inquiries in the order they are received, from oldest to newest. <br/>Our team is available Monday through Friday, 7:30 AM to 3:30 PM EST, and we aim to reply within 24 hours.</p>",
+                "text": "<h3><strong>Customer Service & Support</strong></h3><p>Our goal is to ensure you have all the facts you need. We pride ourselves on accessible, friendly support. If you have browsed our site and can’t find exactly what you are looking for, don’t hesitate to reach out. Connecting with us is the fastest way to get the answers you need.</p><h3><strong>Wholesale Inquiries</strong></h3><p>Are you interested in partnering with us? We welcome wholesale inquiries and look forward to discussing how we can work together. Please contact us using the details below to start the conversation.</p><h2><strong>Get in Touch</strong></h2><p>You can reach our dedicated customer service team by phone during our standard business hours.</p><p><strong>Phone Number:</strong><br/>832-779-4435</p><p><strong>Operating Hours:</strong><br/>Monday - Friday<br/>9:00 am - 5:00 pm CST</p><p><em>Please note: Our offices are closed during major US holidays.</em></p><h2><strong>Send Us a Message</strong></h2><p></p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
