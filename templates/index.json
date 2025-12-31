@@ -7763,6 +7763,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenges_Community_Image_-_K_J.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
