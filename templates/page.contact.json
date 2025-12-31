@@ -626,7 +626,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<h3><strong>Customer Service & Support</strong></h3><p>Our goal is to ensure you have all the facts you need. We pride ourselves on accessible, friendly support. If you have browsed our site and can’t find exactly what you are looking for, don’t hesitate to reach out. Connecting with us is the fastest way to get the answers you need.</p><h3><strong>Wholesale Inquiries</strong></h3><p>Are you interested in partnering with us? We welcome wholesale inquiries and look forward to discussing how we can work together. Please contact us using the details below to start the conversation.</p><h2><strong>Get in Touch</strong></h2><p>You can reach our dedicated customer service team by phone during our standard business hours.</p><p><strong>Phone Number:</strong><br/>832-779-4435</p><p><strong>Operating Hours:</strong><br/>Monday - Friday<br/>9:00 am - 5:00 pm CST</p><p><em>Please note: Our offices are closed during major US holidays.</em></p><h2><strong>Send Us a Message</strong></h2><p></p>",
+                "text": "<h3><strong>Customer Service & Support</strong></h3><p>Our goal is to ensure you have all the facts you need. We pride ourselves on accessible, friendly support. If you have browsed our site and can’t find exactly what you are looking for, don’t hesitate to reach out. Connecting with us is the fastest way to get the answers you need.</p><h3><strong>Wholesale Inquiries</strong></h3><p>Are you interested in partnering with us? We welcome wholesale inquiries and look forward to discussing how we can work together. Please contact us using the details below to start the conversation.</p><h2><strong>Get in Touch</strong></h2><p>You can reach our dedicated customer service team by phone during our standard business hours.</p><p><strong>Phone Number:</strong><br/>832-779-4435</p><p><strong>Operating Hours:</strong><br/>Monday - Friday<br/>9:00 am - 5:00 pm CST</p><p><em>Please note: Our offices are closed during major US holidays.</em></p><p></p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -643,6 +643,33 @@
                 "corner_radius": 0,
                 "padding-block-start": 15,
                 "padding-block-end": 35,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_mrJNAJ": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "css_class": "",
+                "text": "<h2><strong>Send Us a Message</strong></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -710,6 +737,7 @@
           "block_order": [
             "text_bdDn8P",
             "text_ADtbg6",
+            "text_mrJNAJ",
             "contact_form_fLbYRG",
             "text_a6Q6Ah"
           ]
