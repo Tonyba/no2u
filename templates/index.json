@@ -2654,8 +2654,8 @@
               "name": "testimonials header count",
               "settings": {
                 "rating": "4.9",
-                "top_text": "58,934  Verified 5 Star Reviews",
-                "bottom_text": "From Our Customers"
+                "top_text": "Verified 5 Star Reviews",
+                "bottom_text": "From Our Community"
               },
               "blocks": {}
             }
@@ -4397,6 +4397,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Customer_Image_-_Sophie.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -4562,7 +4563,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>21/10/2025</p>",
+                            "text": "<p>9/27/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4636,6 +4637,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Customer_Image_-_James.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -4706,7 +4708,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"I was skeptical about supplements, but the science behind NO2U and the nitric oxide lozenges convinced me. It’s not magic; it’s physiology. My circulation has improved noticeably—my hands and feet aren't cold anymore! I’m grateful for a product that actually delivers on its promises.\"s</p>",
+                        "text": "<p>\"I was skeptical about supplements, but the science behind NO2U and the nitric oxide lozenges convinced me. It’s not magic; it’s physiology. My circulation has improved noticeably—my hands and feet aren't cold anymore! I’m grateful for a product that actually delivers on its promises.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -4801,7 +4803,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>14/10/2025</p>",
+                            "text": "<p>9/16/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
