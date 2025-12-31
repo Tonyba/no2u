@@ -1555,7 +1555,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We believe in empowering athletes with knowledge. From scientific insights to product transparency, we keep you informed every step of the way.</p>",
+                        "text": "<p>We believe in empowering everyone with knowledge. From scientific insights to product transparency, we keep you informed every step of the way.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
