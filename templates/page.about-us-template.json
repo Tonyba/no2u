@@ -2273,7 +2273,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Andrea Vitali</p>",
+                        "text": "<p><strong>Dr. Emily C., Physical Therapist</strong></p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2381,7 +2381,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>“I use TL creatine which I love so I decided to give their protein a shot, and I am a big fan. It mixes easily in my shaker cup and doesn’t make you feel bloated after you drink it. Love how clean the product is and will be buying again soon!”</p>",
+                    "text": "<p>\"I often recommend Nitric Oxide support to patients looking to improve circulation and recovery. I use both NO2U Lozenges and N.O. Beetz myself and trust the formulation completely. It is the gold standard for anyone looking to support their cardiovascular health through science.\"</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
