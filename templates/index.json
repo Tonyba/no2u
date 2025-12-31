@@ -4650,6 +4650,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Customer_Image_-_Carlos.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -4720,7 +4721,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"The pump I get from NO2U is unlike anything else. It's not just about looking good; it's about the nutrient delivery to the muscles. My strength has gone up, and I just feel healthier overall. Genuine science-backed supplements make a huge difference.\"\"</p>",
+                        "text": "<p>\"The pump I get from NO2U is unlike anything else. It's not just about looking good; it's about the nutrient delivery to the muscles. My strength has gone up, and I just feel healthier overall. Genuine science-backed supplements make a huge difference.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
