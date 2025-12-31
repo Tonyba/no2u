@@ -2004,7 +2004,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p><strong>Dr. Carter - Cardiologist</strong></p>",
+                        "text": "<p><strong>Dr. Carter, Cardiologist</strong></p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2542,7 +2542,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p><strong>David Kang - Cyclist</strong></p>",
+                        "text": "<p><strong>David Kang, Cyclist</strong></p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
