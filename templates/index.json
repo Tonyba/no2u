@@ -4816,7 +4816,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>15/9/2025</p>",
+                            "text": "<p>9/9/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4890,6 +4890,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Customer_Image_-_Marcus.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -5055,7 +5056,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>17/10/2025</p>",
+                            "text": "<p>9/1/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
