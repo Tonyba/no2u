@@ -224,7 +224,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body’s natural production of Nitric Oxide (N.O.) declines — a change that can impact blood flow, oxygen delivery, cardiovascular function, and more. NO2U was founded to challenge that decline. Through cutting-edge science, we create formulations designed to help restore and support N.O. levels responsibly and effectively.</p><p><strong>Led by Dr. Nathan S. Bryan — a world-renowned leader in Nitric Oxide biochemistry — NO2U bridges research, innovation, and consumer health. Dr. Bryan’s work, spanning over two decades and collaborations with Nobel researchers, informs every product.</strong></p>",
+                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body's natural production of Nitric Oxide (N.O.) declines—a change that can impact blood flow, oxygen delivery, cardiovascular function, recovery, and overall performance. NO2U was founded to challenge that decline. Through advanced science, we develop targeted formulations designed to restore and support healthy N.O. levels, helping you perform your best and recover faster.</p><p>Led by Dr. Nathan S. Bryan, a world-renowned leader in Nitric Oxide biochemistry, NO2U blends decades of research, innovation, and expertise into every product. Dr. Bryan's pioneering work—including collaborations with Nobel researchers and over two decades of groundbreaking discoveries—ensures that each supplement is both safe and effective in supporting your athletic goals.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -474,7 +474,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Restoring Your Nitric Oxide</h2>",
+                "text": "<h2><strong>Gain a Competitive Edge with Science You Can Trust</strong></h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -501,7 +501,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.<br/>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+                "text": "<h3><strong>Boost Your Athletic and Everyday Performance with Nitric Oxide</strong></h3><p>You dedicate yourself to pushing limits, breaking records, and achieving peak physical condition. Every second, every rep, and every breath counts. At NO2U, we understand the drive that fuels you. That's why we've dedicated our work to a single, powerful molecule that is fundamental to athletic excellence: Nitric Oxide (N.O.).</p><p>As you train, your body's demand for oxygen and nutrients skyrockets. Nitric oxide is the master regulator that ensures your muscles get what they need, when they need it most. It acts as a powerful vasodilator, relaxing blood vessels to enhance circulation.</p><p><strong>Enhanced Nitric Oxide levels can help you:</strong></p><ul><li><strong>Maximize Endurance:</strong> By improving oxygen and nutrient delivery to your working muscles, N.O. helps you go harder for longer and fight off fatigue.</li><li><strong>Boost Power and Output:</strong> Better blood flow means your muscles are primed for explosive power and sustained strength.</li><li><strong>Accelerate Recovery:</strong> Efficiently clear metabolic waste products like lactic acid from muscle tissue to reduce soreness and shorten downtime between training sessions.</li><li><strong>Support Cardiovascular Health:</strong> A strong heart and healthy circulation are the foundation of any elite athlete's performance. N.O. is crucial for maintaining a high-functioning cardiovascular system under the stress of intense training.</li></ul>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
