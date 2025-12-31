@@ -1430,7 +1430,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We rigorously test all of our products for purity and potency, so you can be 100% confident about what's in the supplements you're taking - you can find our latest Certificates of Analysis at . Our products are also Informed Choice and Informed Protein certified for banned substances.</p>",
+                        "text": "<p>We rigorously test all of our products for purity and potency, so you can be 100% confident about what's in the supplements you're taking.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
