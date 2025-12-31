@@ -205,18 +205,19 @@
     },
     "below_hero_YdRXaQ": {
       "type": "below_hero",
+      "custom_css": [],
       "name": "Below Hero",
       "settings": {
         "css_class": "",
         "bg_color": "#efefef",
         "img_1": "shopify://shop_images/file_5664646_1.svg",
-        "text_1": "<p>Complete Label Transparency</p>",
+        "text_1": "<p>Complete Transparency</p>",
         "img_2": "shopify://shop_images/formulas.svg",
-        "text_2": "<p>Clinically-Dosed Formulas</p>",
+        "text_2": "<p>Clinically Researched Ingredients</p>",
         "img_3": "shopify://shop_images/quality-control_6196957.svg",
         "text_3": "<p>3rd-Party Lab Tested</p>",
         "img_4": "shopify://shop_images/plant.svg",
-        "text_4": "<p>Natural & Grass-Fed Ingredients</p>"
+        "text_4": "<p>Clean Proprietary Formulas</p>"
       }
     },
     "product_list_fa6P9H": {
