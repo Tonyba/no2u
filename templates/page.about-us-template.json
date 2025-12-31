@@ -224,7 +224,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body's natural production of Nitric Oxide (N.O.) declines—a change that can impact blood flow, oxygen delivery, cardiovascular function, recovery, and overall performance. NO2U was founded to challenge that decline. Through advanced science, we develop targeted formulations designed to restore and support healthy N.O. levels, helping you perform your best and recover faster.</p><p>Led by Dr. Nathan S. Bryan, a world-renowned leader in Nitric Oxide biochemistry, NO2U blends decades of research, innovation, and expertise into every product. Dr. Bryan's pioneering work—including collaborations with Nobel researchers and over two decades of groundbreaking discoveries—ensures that each supplement is both safe and effective in supporting your athletic goals.</p>",
+                "text": "<p>At NO2U, we believe that optimal health begins at the cellular level. As we age, our body's natural production of Nitric Oxide (N.O.) declines—a change that can impact blood flow, oxygen delivery, cardiovascular function, recovery, and overall performance. NO2U was founded to challenge that decline. Through advanced science, we develop targeted formulations designed to restore and support healthy N.O. levels, helping you perform your best and recover faster.</p><p>Led by <strong>Dr. Nathan S. Bryan</strong>, a world-renowned leader in Nitric Oxide biochemistry, NO2U blends decades of research, innovation, and expertise into every product. Dr. Bryan's pioneering work—including collaborations with Nobel researchers and over two decades of groundbreaking discoveries—ensures that each supplement is both safe and effective in supporting your athletic goals.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -297,9 +297,9 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Rectangle_174.png",
+                "image": "shopify://shop_images/NO2U_founder_Dr._Nathan_S_Bryan.jpg",
                 "link": "",
-                "image_ratio": "square",
+                "image_ratio": "portrait",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
