@@ -1402,7 +1402,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Misioni</h2>",
+                "text": "<h2>Our Mission</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1429,7 +1429,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>",
+                "text": "<p>Our mission is to provide athletes like you with a scientifically proven, safe, and effective way to elevate your performance. We don't deal in hype or fleeting trends. We deliver results backed by decades of research and a deep understanding of human physiology.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1504,7 +1504,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Vizioni</h2>",
+                "text": "<h2>Our Commitment</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1531,7 +1531,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>",
+                "text": "<p>Our products aren't just another supplement; they are a direct result of this cutting-edge science. We provide a pure, reliable source to replenish your Nitric Oxide levels, giving your body the tool it needs to perform at its best. As we age or undergo intense physical stress, our natural N.O. production declines. NO2U helps you bridge that gap, ensuring you never have to compete at less than 100%.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
