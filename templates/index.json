@@ -3856,7 +3856,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>9/9/2025</p>",
+                            "text": "<p>9/23/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -4096,7 +4096,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>11/15/2025</p>",
+                            "text": "<p>9/20/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
