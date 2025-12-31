@@ -1127,7 +1127,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/image_34.png",
+                "image": "shopify://shop_images/NO2U_founder_Dr._Nathan_S_Bryan.jpg",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -1426,7 +1426,7 @@
               "name": "t:names.header",
               "settings": {
                 "css_class": "",
-                "text": "<h2>TL Performance Partners</h2>",
+                "text": "<h2>NO2U Performance Partners</h2>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",
