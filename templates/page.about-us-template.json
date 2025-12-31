@@ -501,7 +501,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "",
-                "text": "<p><strong>Boost Your Athletic and Everyday Performance with Nitric Oxide</strong></p><p>You dedicate yourself to pushing limits, breaking records, and achieving peak physical condition. Every second, every rep, and every breath counts. At NO2U, we understand the drive that fuels you. That's why we've dedicated our work to a single, powerful molecule that is fundamental to athletic excellence: Nitric Oxide (N.O.).</p><p>As you train, your body's demand for oxygen and nutrients skyrockets. Nitric oxide is the master regulator that ensures your muscles get what they need, when they need it most. It acts as a powerful vasodilator, relaxing blood vessels to enhance circulation.</p><p><strong>Enhanced Nitric Oxide levels can help you:</strong></p><ul><li><strong>Maximize Endurance:</strong> By improving oxygen and nutrient delivery to your working muscles, N.O. helps you go harder for longer and fight off fatigue.</li><li><strong>Boost Power and Output:</strong> Better blood flow means your muscles are primed for explosive power and sustained strength.</li><li><strong>Accelerate Recovery:</strong> Efficiently clear metabolic waste products like lactic acid from muscle tissue to reduce soreness and shorten downtime between training sessions.</li><li><strong>Support Cardiovascular Health:</strong> A strong heart and healthy circulation are the foundation of any elite athlete's performance. N.O. is crucial for maintaining a high-functioning cardiovascular system under the stress of intense training.</li></ul>",
+                "text": "<p><strong>Boost Your Athletic and Everyday Performance with Nitric Oxide</strong></p><p>You dedicate yourself to pushing limits, breaking records, and achieving peak physical condition. Every second, every rep, and every breath counts. At NO2U, we understand the drive that fuels you. That's why we've dedicated our work to a single, powerful molecule that is fundamental to athletic excellence: Nitric Oxide (N.O.).</p><p>As you train, your body's demand for oxygen and nutrients skyrockets. Nitric oxide is the master regulator that ensures your muscles get what they need, when they need it most. It acts as a powerful vasodilator, relaxing blood vessels to enhance circulation.</p><p><strong>Enhanced Nitric Oxide levels can help you:</strong></p><ul><li><strong>Maximize Endurance:</strong> By improving oxygen and nutrient delivery to your working muscles, N.O. helps you go harder for longer and fight off fatigue.</li><li><strong>Boost Power and Output:</strong> Better blood flow means your muscles are primed for explosive power and sustained strength.</li><li><strong>Accelerate Recovery:</strong> Efficiently clear metabolic waste products like lactic acid from muscle tissue to reduce soreness and shorten downtime between training sessions.</li><li><strong>Support Cardiovascular Health:</strong> A strong heart and healthy circulation are the foundation of any elite athlete's performance. N.O. is crucial for maintaining a high-functioning cardiovascular system under the stress of intense training.</li></ul><p>Our products are specifically designed to restore Nitric Oxide levels, addressing the natural decline caused by aging or intense physical stress.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -855,7 +855,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Natural and Grass-Fed Ingredients</h3>",
+                        "text": "<p>Scientifically Proven Formulations</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -882,7 +882,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>We believe that supplements should produce effective results and support overall health and longevity. That's why all of our products are made with natural ingredients and grass-fed protein.</p>",
+                        "text": "<p>Our products are backed by decades of research and developed under the guidance of Dr. Nathan S. Bryan, a global authority on Nitric Oxide biochemistry. </p><p>If your body is not producing sufficient nitric oxide, our products provide it for you.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -980,7 +980,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>No Artificial Sweeteners, Fillers, or Colors</h3>",
+                        "text": "<p>Clean Proprietary Formulas</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1003,6 +1003,131 @@
                       "blocks": {}
                     },
                     "text_HUrKGy": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Our proprietary formulas use only the purest, most effective, clean ingredients to ensure reliable and consistent results for everyone. Our products are vegan, non-GMO, and crafted with care.</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 10,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "image_pVFt6n",
+                    "text_FYNimm",
+                    "text_HUrKGy"
+                  ]
+                },
+                "group_ikwKhV": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "css_class": "",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "solid",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 75,
+                    "padding-block-end": 75,
+                    "padding-inline-start": 35,
+                    "padding-inline-end": 35
+                  },
+                  "blocks": {
+                    "image_8WXQMA": {
+                      "type": "image",
+                      "name": "t:names.image",
+                      "settings": {
+                        "image": "shopify://shop_images/fillers.svg",
+                        "link": "",
+                        "image_ratio": "adapt",
+                        "width": "custom",
+                        "custom_width": 25,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_rYDfrH": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<h3>No Artificial Sweeteners, Fillers, or Colors</h3>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h4",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground-heading)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 15,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_3ELP4y": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
@@ -1031,15 +1156,16 @@
                     }
                   },
                   "block_order": [
-                    "image_pVFt6n",
-                    "text_FYNimm",
-                    "text_HUrKGy"
+                    "image_8WXQMA",
+                    "text_rYDfrH",
+                    "text_3ELP4y"
                   ]
                 }
               },
               "block_order": [
                 "group_qTVtRh",
-                "group_wwF73H"
+                "group_wwF73H",
+                "group_ikwKhV"
               ]
             },
             "group_pCtcwm": {
@@ -1332,11 +1458,137 @@
                     "text_Ca6RWb",
                     "text_yn8jWf"
                   ]
+                },
+                "group_eUwd6G": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "css_class": "",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "flex-start",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "solid",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 75,
+                    "padding-block-end": 75,
+                    "padding-inline-start": 35,
+                    "padding-inline-end": 35
+                  },
+                  "blocks": {
+                    "image_CHdpEi": {
+                      "type": "image",
+                      "name": "t:names.image",
+                      "settings": {
+                        "image": "shopify://shop_images/lab-2.svg",
+                        "link": "",
+                        "image_ratio": "adapt",
+                        "width": "custom",
+                        "custom_width": 25,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_Yp9byn": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>Commitment to Education</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h4",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground-heading)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 15,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_VgBYpX": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>We believe in empowering athletes with knowledge. From scientific insights to product transparency, we keep you informed every step of the way.</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "image_CHdpEi",
+                    "text_Yp9byn",
+                    "text_VgBYpX"
+                  ]
                 }
               },
               "block_order": [
                 "group_ii3TwK",
-                "group_CU38Mk"
+                "group_CU38Mk",
+                "group_eUwd6G"
               ]
             }
           },
