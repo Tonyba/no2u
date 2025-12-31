@@ -1823,8 +1823,8 @@
           "name": "testimonials header count",
           "settings": {
             "rating": "4.9",
-            "top_text": "58,934  Verified 5 Star Reviews",
-            "bottom_text": "From Our Customers"
+            "top_text": "Verified 5 Star Reviews",
+            "bottom_text": "From Our Community"
           },
           "blocks": {}
         }
