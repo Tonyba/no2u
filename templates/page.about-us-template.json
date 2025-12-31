@@ -3644,7 +3644,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "strong-line-blue",
-                "text": "<p>Recently purchased? Please <strong>leave a review</strong></p>",
+                "text": "<p>Recently purchased? Please <strong>Leave a Review</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
