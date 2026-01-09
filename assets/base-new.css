@@ -531,6 +531,10 @@ slideshow-slides:has(.review-card) {
         --carousel-columns: 1;
     }
 
+     .reviews-carousel .image-block img {
+            height: 452px;
+     }
+
     .utilities ul {
         flex-direction: column;
     }
