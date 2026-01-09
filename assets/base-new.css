@@ -532,7 +532,7 @@ slideshow-slides:has(.review-card) {
     }
 
      .reviews-carousel .carousel-content slideshow-slides img {
-        height: 452px;
+        height: 452px !important;
      }
 
     .utilities ul {
