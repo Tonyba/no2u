@@ -1,6 +1,459 @@
+{% doc %}
+  @prompt
+    2 video section, add description under heading
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-dual-video-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.section_padding }}px 0;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-dual-video-container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-dual-video-header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.heading_alignment }};
+    margin-bottom: {{ block.settings.heading_spacing }}px;
+  }
+
+  .ai-dual-video-heading-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 12px 0;
+  }
+
+  .ai-dual-video-section-description-{{ ai_gen_id }} {
+    color: {{ block.settings.section_description_color }};
+    font-size: {{ block.settings.section_description_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ai-dual-video-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: {{ block.settings.video_gap }}px;
+  }
+
+  @media (min-width: 750px) {
+    .ai-dual-video-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .ai-dual-video-item-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    border-radius: {{ block.settings.video_border_radius }}px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+
+  .ai-dual-video-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+
+  .ai-dual-video-iframe-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .ai-dual-video-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+
+  .ai-dual-video-placeholder-{{ ai_gen_id }} svg {
+    width: 80px;
+    height: 80px;
+    opacity: 0.3;
+  }
+
+  .ai-dual-video-title-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.title_spacing }}px;
+    text-align: {{ block.settings.title_alignment }};
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+  }
+
+  .ai-dual-video-description-{{ ai_gen_id }} {
+    margin-top: 8px;
+    text-align: {{ block.settings.title_alignment }};
+    color: {{ block.settings.description_color }};
+    font-size: {{ block.settings.description_size }}px;
+    line-height: 1.5;
+  }
+{% endstyle %}
+
+<dual-videos-{{ ai_gen_id }} class="ai-dual-video-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-dual-video-container-{{ ai_gen_id }}">
+    {% if block.settings.section_heading != blank or block.settings.section_description != blank %}
+      <div class="ai-dual-video-header-{{ ai_gen_id }}">
+        {% if block.settings.section_heading != blank %}
+          <h2 class="ai-dual-video-heading-{{ ai_gen_id }}">{{ block.settings.section_heading }}</h2>
+        {% endif %}
+        {% if block.settings.section_description != blank %}
+          <div class="ai-dual-video-section-description-{{ ai_gen_id }}">{{ block.settings.section_description }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-dual-video-grid-{{ ai_gen_id }}">
+      {% for i in (1..2) %}
+        {% liquid
+          assign video_url_key = 'video_url_' | append: i
+          assign video_title_key = 'video_title_' | append: i
+          assign video_description_key = 'video_description_' | append: i
+          
+          assign video_url = block.settings[video_url_key]
+          assign video_title = block.settings[video_title_key]
+          assign video_description = block.settings[video_description_key]
+        %}
+
+        <div class="ai-dual-video-item-{{ ai_gen_id }}">
+          <div class="ai-dual-video-wrapper-{{ ai_gen_id }}">
+            {% if video_url != blank %}
+              {% if video_url contains 'youtube.com' or video_url contains 'youtu.be' %}
+                {% liquid
+                  assign video_id = ''
+                  if video_url contains 'youtube.com/watch?v='
+                    assign video_id = video_url | split: 'watch?v=' | last | split: '&' | first
+                  elsif video_url contains 'youtu.be/'
+                    assign video_id = video_url | split: 'youtu.be/' | last | split: '?' | first
+                  elsif video_url contains 'youtube.com/embed/'
+                    assign video_id = video_url | split: 'embed/' | last | split: '?' | first
+                  endif
+                %}
+                {% if video_id != blank %}
+                  <iframe
+                    class="ai-dual-video-iframe-{{ ai_gen_id }}"
+                    src="https://www.youtube.com/embed/{{ video_id }}"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                {% else %}
+                  <div class="ai-dual-video-placeholder-{{ ai_gen_id }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                  </div>
+                {% endif %}
+              {% elsif video_url contains 'vimeo.com' %}
+                {% liquid
+                  assign video_id = video_url | split: 'vimeo.com/' | last | split: '/' | first
+                %}
+                {% if video_id != blank %}
+                  <iframe
+                    class="ai-dual-video-iframe-{{ ai_gen_id }}"
+                    src="https://player.vimeo.com/video/{{ video_id }}"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                {% else %}
+                  <div class="ai-dual-video-placeholder-{{ ai_gen_id }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                  </div>
+                {% endif %}
+              {% else %}
+                <div class="ai-dual-video-placeholder-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              {% endif %}
+            {% else %}
+              <div class="ai-dual-video-placeholder-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            {% endif %}
+          </div>
+
+          {% if video_title != blank %}
+            <h3 class="ai-dual-video-title-{{ ai_gen_id }}">{{ video_title }}</h3>
+          {% endif %}
+
+          {% if video_description != blank %}
+            <div class="ai-dual-video-description-{{ ai_gen_id }}">{{ video_description }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</dual-videos-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class DualVideos{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+      }
+    }
+
+    customElements.define('dual-videos-{{ ai_gen_id }}', DualVideos{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Dual video section",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "section_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "section_description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 16,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "section_description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Video 1"
+    },
+    {
+      "type": "text",
+      "id": "video_url_1",
+      "label": "Video URL",
+      "info": "YouTube or Vimeo URL"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "video_title_1",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "video_description_1",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Video 2"
+    },
+    {
+      "type": "text",
+      "id": "video_url_2",
+      "label": "Video URL",
+      "info": "YouTube or Vimeo URL"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "video_title_2",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "video_description_2",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "video_gap",
+      "label": "Gap between videos",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "video_border_radius",
+      "label": "Video border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Video title alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Video title size",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "label": "Video title spacing",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Video description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "section_description_color",
+      "label": "Section description",
+      "default": "#676767"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Video title",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Video description",
+      "default": "#676767"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dual video section"
+    }
+  ]
+}
 {% endschema %}
