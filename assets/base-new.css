@@ -535,7 +535,7 @@ slideshow-slides:has(.review-card) {
         height: 452px !important;
      }
 
-    .reviews-carousel  .card__inner {
+     .card__inner {
         justify-content: flex-start
      }
 
