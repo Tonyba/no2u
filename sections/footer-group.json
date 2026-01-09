@@ -997,9 +997,9 @@
               "name": "t:names.icon",
               "settings": {
                 "icon": "facebook",
-                "image_upload": "shopify://shop_images/meta.svg",
+                "image_upload": "shopify://shop_images/social_-_facebook_white.png",
                 "width": 40,
-                "link": "#",
+                "link": "https://www.facebook.com/NO2UNitricOxide/",
                 "open_in_new_tab": true
               },
               "blocks": {}
