@@ -531,7 +531,7 @@ slideshow-slides:has(.review-card) {
         --carousel-columns: 1;
     }
 
-     .reviews-carousel .carousel-content slideshow-slides img {
+     slideshow-slides img {
         height: 452px !important;
      }
 
