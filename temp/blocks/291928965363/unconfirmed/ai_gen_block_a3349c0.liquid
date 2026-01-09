@@ -1,6 +1,641 @@
+{% doc %}
+  @prompt
+    timeline of benefits
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-timeline-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.section_padding }}px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-timeline-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-timeline-header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: 40px;
+  }
+
+  .ai-timeline-title-{{ ai_gen_id }} {
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    margin: 0 0 12px 0;
+  }
+
+  .ai-timeline-description-{{ ai_gen_id }} {
+    color: {{ block.settings.description_color }};
+    font-size: {{ block.settings.description_size }}px;
+    margin: 0;
+  }
+
+  .ai-timeline-items-{{ ai_gen_id }} {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  .ai-timeline-line-{{ ai_gen_id }} {
+    position: absolute;
+    left: {{ block.settings.icon_size | divided_by: 2 }}px;
+    top: {{ block.settings.icon_size | divided_by: 2 }}px;
+    bottom: {{ block.settings.icon_size | divided_by: 2 }}px;
+    width: {{ block.settings.line_width }}px;
+    background-color: {{ block.settings.line_color }};
+    transform: translateX(-50%);
+  }
+
+  .ai-timeline-item-{{ ai_gen_id }} {
+    position: relative;
+    padding-left: {{ block.settings.icon_size | plus: 30 }}px;
+    padding-bottom: 40px;
+  }
+
+  .ai-timeline-item-{{ ai_gen_id }}:last-child {
+    padding-bottom: 0;
+  }
+
+  .ai-timeline-icon-wrapper-{{ ai_gen_id }} {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    background-color: {{ block.settings.icon_background }};
+    border: {{ block.settings.icon_border_width }}px solid {{ block.settings.icon_border_color }};
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .ai-timeline-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size | times: 0.5 }}px;
+    height: {{ block.settings.icon_size | times: 0.5 }}px;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-timeline-content-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background }};
+    padding: {{ block.settings.card_padding }}px;
+    border-radius: {{ block.settings.card_border_radius }}px;
+    {% if block.settings.show_card_shadow %}
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    {% endif %}
+  }
+
+  .ai-timeline-time-{{ ai_gen_id }} {
+    color: {{ block.settings.time_color }};
+    font-size: {{ block.settings.time_size }}px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+  }
+
+  .ai-timeline-benefit-title-{{ ai_gen_id }} {
+    color: {{ block.settings.benefit_title_color }};
+    font-size: {{ block.settings.benefit_title_size }}px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+  }
+
+  .ai-timeline-benefit-description-{{ ai_gen_id }} {
+    color: {{ block.settings.benefit_description_color }};
+    font-size: {{ block.settings.benefit_description_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-timeline-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding | times: 0.6 }}px 16px;
+    }
+
+    .ai-timeline-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.7 }}px;
+    }
+
+    .ai-timeline-description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.description_size | times: 0.9 }}px;
+    }
+
+    .ai-timeline-icon-wrapper-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.8 }}px;
+      height: {{ block.settings.icon_size | times: 0.8 }}px;
+    }
+
+    .ai-timeline-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.4 }}px;
+      height: {{ block.settings.icon_size | times: 0.4 }}px;
+    }
+
+    .ai-timeline-item-{{ ai_gen_id }} {
+      padding-left: {{ block.settings.icon_size | times: 0.8 | plus: 20 }}px;
+    }
+
+    .ai-timeline-line-{{ ai_gen_id }} {
+      left: {{ block.settings.icon_size | times: 0.8 | divided_by: 2 }}px;
+    }
+  }
+{% endstyle %}
+
+<timeline-benefits-{{ ai_gen_id }} class="ai-timeline-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-timeline-container-{{ ai_gen_id }}">
+    {% if block.settings.title != blank or block.settings.description != blank %}
+      <div class="ai-timeline-header-{{ ai_gen_id }}">
+        {% if block.settings.title != blank %}
+          <h2 class="ai-timeline-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        {% endif %}
+        {% if block.settings.description != blank %}
+          <div class="ai-timeline-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <ul class="ai-timeline-items-{{ ai_gen_id }}">
+      <div class="ai-timeline-line-{{ ai_gen_id }}"></div>
+
+      {% for i in (1..5) %}
+        {% liquid
+          assign time_key = 'benefit_' | append: i | append: '_time'
+          assign title_key = 'benefit_' | append: i | append: '_title'
+          assign description_key = 'benefit_' | append: i | append: '_description'
+          assign enabled_key = 'benefit_' | append: i | append: '_enabled'
+
+          assign time = block.settings[time_key]
+          assign title = block.settings[title_key]
+          assign description = block.settings[description_key]
+          assign enabled = block.settings[enabled_key]
+        %}
+
+        {% if enabled %}
+          <li class="ai-timeline-item-{{ ai_gen_id }}">
+            <div class="ai-timeline-icon-wrapper-{{ ai_gen_id }}">
+              <svg class="ai-timeline-icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="ai-timeline-content-{{ ai_gen_id }}">
+              {% if time != blank %}
+                <div class="ai-timeline-time-{{ ai_gen_id }}">{{ time }}</div>
+              {% endif %}
+              {% if title != blank %}
+                <h3 class="ai-timeline-benefit-title-{{ ai_gen_id }}">{{ title }}</h3>
+              {% endif %}
+              {% if description != blank %}
+                <div class="ai-timeline-benefit-description-{{ ai_gen_id }}">{{ description }}</div>
+              {% endif %}
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</timeline-benefits-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class TimelineBenefits{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.observeItems();
+      }
+
+      observeItems() {
+        const items = this.querySelectorAll('.ai-timeline-item-{{ ai_gen_id }}');
+        
+        if ('IntersectionObserver' in window) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+              }
+            });
+          }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+          });
+
+          items.forEach((item, index) => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            item.style.transitionDelay = (index * 0.1) + 's';
+            observer.observe(item);
+          });
+        }
+      }
+    }
+
+    customElements.define('timeline-benefits-{{ ai_gen_id }}', TimelineBenefits{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Timeline of benefits",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Benefits Timeline"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "Experience the benefits over time"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maximum width",
+      "min": 400,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "default": 800
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Timeline style"
+    },
+    {
+      "type": "range",
+      "id": "line_width",
+      "label": "Line width",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "line_color",
+      "label": "Line color",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 30,
+      "max": 70,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "icon_background",
+      "label": "Icon background",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "icon_border_width",
+      "label": "Icon border width",
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "unit": "px",
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "icon_border_color",
+      "label": "Icon border color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Card style"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "label": "Padding",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "checkbox",
+      "id": "show_card_shadow",
+      "label": "Show shadow",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background",
+      "default": "#f8f9fb"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description",
+      "default": "#676767"
+    },
+    {
+      "type": "color",
+      "id": "time_color",
+      "label": "Time",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "benefit_title_color",
+      "label": "Benefit title",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "color",
+      "id": "benefit_description_color",
+      "label": "Benefit description",
+      "default": "#676767"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "time_size",
+      "label": "Time size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "benefit_title_size",
+      "label": "Benefit title size",
+      "min": 14,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "benefit_description_size",
+      "label": "Benefit description size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Benefit 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "benefit_1_enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "benefit_1_time",
+      "label": "Time",
+      "default": "Within 30 minutes"
+    },
+    {
+      "type": "text",
+      "id": "benefit_1_title",
+      "label": "Title",
+      "default": "Increased energy"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_1_description",
+      "label": "Description",
+      "default": "Feel an immediate boost in energy and mental clarity as nitric oxide begins to improve blood flow."
+    },
+    {
+      "type": "header",
+      "content": "Benefit 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "benefit_2_enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "benefit_2_time",
+      "label": "Time",
+      "default": "After 1 week"
+    },
+    {
+      "type": "text",
+      "id": "benefit_2_title",
+      "label": "Title",
+      "default": "Better workouts"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_2_description",
+      "label": "Description",
+      "default": "Experience enhanced endurance and muscle pumps during exercise as circulation improves."
+    },
+    {
+      "type": "header",
+      "content": "Benefit 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "benefit_3_enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "benefit_3_time",
+      "label": "Time",
+      "default": "After 2 weeks"
+    },
+    {
+      "type": "text",
+      "id": "benefit_3_title",
+      "label": "Title",
+      "default": "Cardiovascular support"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_3_description",
+      "label": "Description",
+      "default": "Notice improved heart health and blood pressure regulation as your body adapts."
+    },
+    {
+      "type": "header",
+      "content": "Benefit 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "benefit_4_enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "benefit_4_time",
+      "label": "Time",
+      "default": "After 1 month"
+    },
+    {
+      "type": "text",
+      "id": "benefit_4_title",
+      "label": "Title",
+      "default": "Sustained vitality"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_4_description",
+      "label": "Description",
+      "default": "Enjoy consistent energy levels throughout the day and faster recovery times."
+    },
+    {
+      "type": "header",
+      "content": "Benefit 5"
+    },
+    {
+      "type": "checkbox",
+      "id": "benefit_5_enabled",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "benefit_5_time",
+      "label": "Time",
+      "default": "After 3 months"
+    },
+    {
+      "type": "text",
+      "id": "benefit_5_title",
+      "label": "Title",
+      "default": "Long-term wellness"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_5_description",
+      "label": "Description",
+      "default": "Experience optimal cardiovascular health, improved cognitive function, and overall vitality."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Timeline of benefits"
+    }
+  ]
+}
 {% endschema %}
