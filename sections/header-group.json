@@ -132,7 +132,7 @@
         "announcement_6Whkq6": {
           "type": "_announcement",
           "settings": {
-            "text": "<span style=\"text-decoration:underline\">Free USA Shipping Over $199</span>",
+            "text": "<span style=\"text-decoration:underline\">Free USA Shipping Over $300</span>",
             "icon": "shopify://shop_images/box.svg",
             "link": "",
             "font": "var(--font-body--family)",
