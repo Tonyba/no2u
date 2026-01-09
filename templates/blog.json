@@ -193,7 +193,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h1>Bruvi® Blog</h1>",
+                "text": "<h1>NO2U™ Blog</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -220,7 +220,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>Your source of truth for health and fitness</p>",
+                "text": "<p>Your ultimate guide to health, fitness, performance, and nitric oxide.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1987,7 +1987,6 @@
       "name": "t:names.carousel",
       "settings": {
         "css_class": "dark-overlay",
-        "bg_img": "shopify://shop_images/a3b8cef8d18d492de58445161b94a12254626229.jpg",
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
@@ -2048,7 +2047,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>Health & Fitness Calculators</h2>",
+                "text": "<h2>Intentional design</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2135,7 +2134,6 @@
             "color_scheme": "",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/26653ed532bc4c8535e58819866df30821459dbf.jpg",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
@@ -2206,7 +2204,6 @@
             "color_scheme": "",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/26653ed532bc4c8535e58819866df30821459dbf.jpg",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
@@ -2277,7 +2274,6 @@
             "color_scheme": "",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/26653ed532bc4c8535e58819866df30821459dbf.jpg",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
@@ -2290,7 +2286,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 15,
+            "padding-block-start": 0,
             "padding-block-end": 50,
             "padding-inline-start": 50,
             "padding-inline-end": 50
