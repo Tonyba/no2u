@@ -1,6 +1,793 @@
+{% doc %}
+  @prompt
+    clinical studies
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-clinical-studies-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.section_padding }}px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-clinical-studies__container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ai-clinical-studies__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: 40px;
+  }
+
+  .ai-clinical-studies__title-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 16px 0;
+    font-weight: 600;
+  }
+
+  .ai-clinical-studies__description-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.description_size }}px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ai-clinical-studies__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: {{ block.settings.card_spacing }}px;
+    margin-bottom: 32px;
+  }
+
+  .ai-clinical-studies__card-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: 32px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .ai-clinical-studies__card-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-clinical-studies__card-header-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .ai-clinical-studies__icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    background-color: {{ block.settings.icon_background }};
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-clinical-studies__icon-{{ ai_gen_id }} svg {
+    width: calc({{ block.settings.icon_size }}px * 0.5);
+    height: calc({{ block.settings.icon_size }}px * 0.5);
+    stroke: {{ block.settings.icon_color }};
+  }
+
+  .ai-clinical-studies__card-title-{{ ai_gen_id }} {
+    color: {{ block.settings.card_title_color }};
+    font-size: {{ block.settings.card_title_size }}px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+  }
+
+  .ai-clinical-studies__card-meta-{{ ai_gen_id }} {
+    color: {{ block.settings.meta_color }};
+    font-size: {{ block.settings.meta_size }}px;
+    margin: 0 0 16px 0;
+  }
+
+  .ai-clinical-studies__card-content-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.content_size }}px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .ai-clinical-studies__stat-{{ ai_gen_id }} {
+    background-color: {{ block.settings.stat_background }};
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .ai-clinical-studies__stat-value-{{ ai_gen_id }} {
+    color: {{ block.settings.stat_value_color }};
+    font-size: {{ block.settings.stat_value_size }}px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+  }
+
+  .ai-clinical-studies__stat-label-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.stat_label_size }}px;
+    margin: 0;
+  }
+
+  .ai-clinical-studies__link-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: {{ block.settings.link_color }};
+    font-size: {{ block.settings.link_size }}px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .ai-clinical-studies__link-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.link_hover_color }};
+  }
+
+  .ai-clinical-studies__link-{{ ai_gen_id }} svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+  }
+
+  .ai-clinical-studies__footer-{{ ai_gen_id }} {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .ai-clinical-studies__cta-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: {{ block.settings.cta_background }};
+    color: {{ block.settings.cta_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.cta_border_radius }}px;
+    font-size: {{ block.settings.cta_size }}px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+  }
+
+  .ai-clinical-studies__cta-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.cta_hover_background }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-clinical-studies__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+    }
+
+    .ai-clinical-studies__card-{{ ai_gen_id }} {
+      padding: 24px;
+    }
+  }
+{% endstyle %}
+
+<clinical-studies-{{ ai_gen_id }} class="ai-clinical-studies-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-clinical-studies__container-{{ ai_gen_id }}">
+    {% if block.settings.heading != blank or block.settings.description != blank %}
+      <div class="ai-clinical-studies__header-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-clinical-studies__title-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+        {% endif %}
+        {% if block.settings.description != blank %}
+          <div class="ai-clinical-studies__description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-clinical-studies__grid-{{ ai_gen_id }}">
+      {% for i in (1..3) %}
+        {% liquid
+          assign study_enabled_key = 'study_' | append: i | append: '_enabled'
+          assign study_title_key = 'study_' | append: i | append: '_title'
+          assign study_source_key = 'study_' | append: i | append: '_source'
+          assign study_date_key = 'study_' | append: i | append: '_date'
+          assign study_description_key = 'study_' | append: i | append: '_description'
+          assign study_stat_value_key = 'study_' | append: i | append: '_stat_value'
+          assign study_stat_label_key = 'study_' | append: i | append: '_stat_label'
+          assign study_link_key = 'study_' | append: i | append: '_link'
+          assign study_link_text_key = 'study_' | append: i | append: '_link_text'
+
+          assign study_enabled = block.settings[study_enabled_key]
+          assign study_title = block.settings[study_title_key]
+          assign study_source = block.settings[study_source_key]
+          assign study_date = block.settings[study_date_key]
+          assign study_description = block.settings[study_description_key]
+          assign study_stat_value = block.settings[study_stat_value_key]
+          assign study_stat_label = block.settings[study_stat_label_key]
+          assign study_link = block.settings[study_link_key]
+          assign study_link_text = block.settings[study_link_text_key]
+        %}
+
+        {% if study_enabled %}
+          <div class="ai-clinical-studies__card-{{ ai_gen_id }}">
+            <div class="ai-clinical-studies__card-header-{{ ai_gen_id }}">
+              <div class="ai-clinical-studies__icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                </svg>
+              </div>
+              <div>
+                {% if study_title != blank %}
+                  <h3 class="ai-clinical-studies__card-title-{{ ai_gen_id }}">{{ study_title }}</h3>
+                {% endif %}
+                {% if study_source != blank or study_date != blank %}
+                  <p class="ai-clinical-studies__card-meta-{{ ai_gen_id }}">
+                    {% if study_source != blank %}{{ study_source }}{% endif %}
+                    {% if study_source != blank and study_date != blank %} • {% endif %}
+                    {% if study_date != blank %}{{ study_date }}{% endif %}
+                  </p>
+                {% endif %}
+              </div>
+            </div>
+
+            {% if study_description != blank %}
+              <div class="ai-clinical-studies__card-content-{{ ai_gen_id }}">
+                {{ study_description }}
+              </div>
+            {% endif %}
+
+            {% if study_stat_value != blank or study_stat_label != blank %}
+              <div class="ai-clinical-studies__stat-{{ ai_gen_id }}">
+                {% if study_stat_value != blank %}
+                  <p class="ai-clinical-studies__stat-value-{{ ai_gen_id }}">{{ study_stat_value }}</p>
+                {% endif %}
+                {% if study_stat_label != blank %}
+                  <p class="ai-clinical-studies__stat-label-{{ ai_gen_id }}">{{ study_stat_label }}</p>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if study_link != blank and study_link_text != blank %}
+              <a href="{{ study_link }}" class="ai-clinical-studies__link-{{ ai_gen_id }}" target="_blank" rel="noopener">
+                {{ study_link_text }}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if block.settings.cta_text != blank and block.settings.cta_link != blank %}
+      <div class="ai-clinical-studies__footer-{{ ai_gen_id }}">
+        <a href="{{ block.settings.cta_link }}" class="ai-clinical-studies__cta-{{ ai_gen_id }}">
+          {{ block.settings.cta_text }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</clinical-studies-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ClinicalStudies{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+      }
+    }
+
+    customElements.define('clinical-studies-{{ ai_gen_id }}', ClinicalStudies{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Clinical studies",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>Clinical Studies</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Our products are backed by rigorous scientific research and clinical trials.</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Study 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "study_1_enabled",
+      "label": "Enable study 1",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "study_1_title",
+      "label": "Title",
+      "default": "Nitric Oxide and Cardiovascular Health"
+    },
+    {
+      "type": "text",
+      "id": "study_1_source",
+      "label": "Source",
+      "default": "Journal of Clinical Research"
+    },
+    {
+      "type": "text",
+      "id": "study_1_date",
+      "label": "Date",
+      "default": "2023"
+    },
+    {
+      "type": "richtext",
+      "id": "study_1_description",
+      "label": "Description",
+      "default": "<p>A comprehensive study examining the effects of nitric oxide supplementation on cardiovascular function and blood pressure regulation.</p>"
+    },
+    {
+      "type": "text",
+      "id": "study_1_stat_value",
+      "label": "Statistic value",
+      "default": "18% improvement"
+    },
+    {
+      "type": "text",
+      "id": "study_1_stat_label",
+      "label": "Statistic label",
+      "default": "in blood flow after 8 weeks"
+    },
+    {
+      "type": "url",
+      "id": "study_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "study_1_link_text",
+      "label": "Link text",
+      "default": "Read full study"
+    },
+    {
+      "type": "header",
+      "content": "Study 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "study_2_enabled",
+      "label": "Enable study 2",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "study_2_title",
+      "label": "Title",
+      "default": "Athletic Performance Enhancement"
+    },
+    {
+      "type": "text",
+      "id": "study_2_source",
+      "label": "Source",
+      "default": "Sports Medicine Journal"
+    },
+    {
+      "type": "text",
+      "id": "study_2_date",
+      "label": "Date",
+      "default": "2024"
+    },
+    {
+      "type": "richtext",
+      "id": "study_2_description",
+      "label": "Description",
+      "default": "<p>Research demonstrating the impact of nitric oxide on exercise performance, endurance, and recovery in athletes.</p>"
+    },
+    {
+      "type": "text",
+      "id": "study_2_stat_value",
+      "label": "Statistic value",
+      "default": "22% increase"
+    },
+    {
+      "type": "text",
+      "id": "study_2_stat_label",
+      "label": "Statistic label",
+      "default": "in exercise endurance"
+    },
+    {
+      "type": "url",
+      "id": "study_2_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "study_2_link_text",
+      "label": "Link text",
+      "default": "Read full study"
+    },
+    {
+      "type": "header",
+      "content": "Study 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "study_3_enabled",
+      "label": "Enable study 3",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "study_3_title",
+      "label": "Title",
+      "default": "Cognitive Function and Brain Health"
+    },
+    {
+      "type": "text",
+      "id": "study_3_source",
+      "label": "Source",
+      "default": "Neuroscience Research"
+    },
+    {
+      "type": "text",
+      "id": "study_3_date",
+      "label": "Date",
+      "default": "2023"
+    },
+    {
+      "type": "richtext",
+      "id": "study_3_description",
+      "label": "Description",
+      "default": "<p>Investigation into the role of nitric oxide in supporting cognitive function, memory, and overall brain health.</p>"
+    },
+    {
+      "type": "text",
+      "id": "study_3_stat_value",
+      "label": "Statistic value",
+      "default": "15% improvement"
+    },
+    {
+      "type": "text",
+      "id": "study_3_stat_label",
+      "label": "Statistic label",
+      "default": "in cognitive performance"
+    },
+    {
+      "type": "url",
+      "id": "study_3_link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "study_3_link_text",
+      "label": "Link text",
+      "default": "Read full study"
+    },
+    {
+      "type": "header",
+      "content": "Call to action"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Button text",
+      "default": "View all research"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#f8f9fb"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#111c1c"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#676767"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card border",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "color",
+      "id": "card_title_color",
+      "label": "Card title",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "color",
+      "id": "meta_color",
+      "label": "Meta text",
+      "default": "#9c9c9c"
+    },
+    {
+      "type": "color",
+      "id": "icon_background",
+      "label": "Icon background",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "stat_background",
+      "label": "Statistic background",
+      "default": "#f8f9fb"
+    },
+    {
+      "type": "color",
+      "id": "stat_value_color",
+      "label": "Statistic value",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "link_hover_color",
+      "label": "Link hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "cta_background",
+      "label": "Button background",
+      "default": "#c92531"
+    },
+    {
+      "type": "color",
+      "id": "cta_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_background",
+      "label": "Button hover background",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "label": "Card title size",
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "meta_size",
+      "label": "Meta text size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "content_size",
+      "label": "Content size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "stat_value_size",
+      "label": "Statistic value size",
+      "min": 16,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "stat_label_size",
+      "label": "Statistic label size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "link_size",
+      "label": "Link size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "cta_size",
+      "label": "Button text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "card_spacing",
+      "label": "Card spacing",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "label": "Card border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Card border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "cta_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "Clinical studies"
+    }
+  ]
+}
 {% endschema %}
