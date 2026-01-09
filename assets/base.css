@@ -4037,3 +4037,13 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+
+/*reviews carousel*/
+
+.reviews-carousel .carousel-content slideshow-slides>.card {
+    --carousel-columns: 1;
+}
+
+.reviews-carousel  slideshow-slides img {
+  height: 452px !important;
+}
