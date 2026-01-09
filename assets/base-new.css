@@ -527,9 +527,10 @@ slideshow-slides:has(.review-card) {
         padding: 0;
     }
 
-    .card__inner {
-        justify-content: flex-start
-     }
+    
+    .reviews-carousel .carousel-content slideshow-slides>.card {
+     --carousel-columns: 1;
+    }
 
     .utilities ul {
         flex-direction: column;
