@@ -9,8 +9,7 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/3a9831c777c067eb75f3afc4df692107b14aa7cb.png",
-    "logo_inverse": "shopify://shop_images/white-logo.png",
+    "logo": "shopify://shop_images/no2u_logo.png",
     "logo_height": 52,
     "logo_height_mobile": 42,
     "type_body_font": "manrope_n4",
@@ -659,7 +658,7 @@
           "foreground": "#676767",
           "primary": "#c92531",
           "primary_hover": "#c92531",
-          "border": "#d2d2d2",
+          "border": "#0000000f",
           "shadow": "#000000",
           "primary_button_background": "#c92531",
           "primary_button_text": "#ffffff",
