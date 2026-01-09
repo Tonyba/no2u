@@ -4039,9 +4039,8 @@ text-component {
 }
 
 /*reviews carousel*/
-
-.reviews-carousel .carousel-content slideshow-slides>.card {
-    --carousel-columns: 1;
+.card__inner {
+    justify-content: flex-start
 }
 
 .reviews-carousel  slideshow-slides img {
