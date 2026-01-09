@@ -538,7 +538,7 @@ slideshow-slides:has(.review-card) {
      }
 
     .reviews-carousel  .card__inner {
-        align-items: flex-start
+        justify-content: flex-start
      }
 
     .utilities ul {
