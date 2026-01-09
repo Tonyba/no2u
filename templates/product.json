@@ -320,17 +320,6 @@
                 }
               },
               "block_order": []
-            },
-            "starter_kit_jRnNtf": {
-              "type": "starter-kit",
-              "name": "Starter Kit",
-              "settings": {
-                "img": "shopify://shop_images/0d6d68db1a13bbac089a105669f909446baaf2fc.jpg",
-                "title": "Free Starter Kit",
-                "description": "Kit Includes: Protein Variety Pack (Try our top 5 flavors), TL Blender Bottle",
-                "btn_text": "Subscribe to Unlock Your Free Starter Kit"
-              },
-              "blocks": {}
             }
           },
           "block_order": [
@@ -341,8 +330,7 @@
             "free_shipping_badge_YX8nKK",
             "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH",
             "variant_picker_R3rGDr",
-            "buy_buttons_eYQEYi",
-            "starter_kit_jRnNtf"
+            "buy_buttons_eYQEYi"
           ]
         }
       },
