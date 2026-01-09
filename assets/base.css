@@ -4039,7 +4039,7 @@ text-component {
 }
 
 /*reviews carousel*/
-slideshow-slides .card__inner {
+.reviews-carousel slideshow-slides .card__inner {
   justify-content: flex-start;
 }
 
