@@ -527,15 +527,7 @@ slideshow-slides:has(.review-card) {
         padding: 0;
     }
 
-    .reviews-carousel .carousel-content slideshow-slides>.card {
-        --carousel-columns: 1;
-    }
-
-    .reviews-carousel  slideshow-slides img {
-        height: 452px !important;
-     }
-
-     .card__inner {
+    .card__inner {
         justify-content: flex-start
      }
 
