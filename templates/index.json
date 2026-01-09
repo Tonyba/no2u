@@ -2103,6 +2103,7 @@
           "blocks": {}
         }
       },
+      "disabled": true,
       "name": "t:names.carousel",
       "settings": {
         "css_class": "",
