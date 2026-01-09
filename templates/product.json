@@ -512,18 +512,63 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "ingredients_EqfFDB": {
-              "type": "ingredients",
-              "name": "Ingredients",
+            "ai_gen_block_a3349c0_6gaNQA": {
+              "type": "ai_gen_block_a3349c0",
               "settings": {
                 "title": "Timeline of Benefits",
-                "description": "Discover how N.O. Beetz works to support your health step by step:"
+                "description": "Discover how N.O. Beetz works to support your health step by step:",
+                "text_alignment": "center",
+                "section_padding": 60,
+                "max_width": 800,
+                "desktop_width_percent": 100,
+                "line_width": 2,
+                "line_color": "#e6e6e6",
+                "icon_size": 50,
+                "icon_background": "#c92531",
+                "icon_color": "#ffffff",
+                "icon_border_width": 3,
+                "icon_border_color": "#ffffff",
+                "card_background": "#ffffff",
+                "card_padding": 20,
+                "card_border_radius": 8,
+                "show_card_shadow": true,
+                "background_color": "#f8f9fb",
+                "title_color": "#2a2a2a",
+                "description_color": "#676767",
+                "time_color": "#c92531",
+                "benefit_title_color": "#2a2a2a",
+                "benefit_description_color": "#676767",
+                "title_size": 40,
+                "description_size": 16,
+                "time_size": 14,
+                "benefit_title_size": 20,
+                "benefit_description_size": 16,
+                "benefit_1_enabled": true,
+                "benefit_1_time": "Within Minutes",
+                "benefit_1_title": "Vasodilation",
+                "benefit_1_description": "Blood vessels begin to dilate, improving circulation and oxygen delivery.",
+                "benefit_2_enabled": true,
+                "benefit_2_time": "Within Hours",
+                "benefit_2_title": "Increased Energy & Endurance",
+                "benefit_2_description": "Enhanced nitric oxide levels lead to better energy, stamina, and focus.",
+                "benefit_3_enabled": true,
+                "benefit_3_time": "Within Weeks",
+                "benefit_3_title": "Cardiovascular Support",
+                "benefit_3_description": "Consistent use supports cardiovascular health, reduced oxidative stress, and improved endurance.",
+                "benefit_4_enabled": true,
+                "benefit_4_time": "Within Months",
+                "benefit_4_title": "Sustained Vitality",
+                "benefit_4_description": "Long-term benefits include stabilized blood pressure, reduced arterial plaque, more mitochondria per cell producing more energy more efficiently and improved overall vitality.",
+                "benefit_5_enabled": false,
+                "benefit_5_time": "After 3 months",
+                "benefit_5_title": "Long-term wellness",
+                "benefit_5_description": "Experience optimal cardiovascular health, improved cognitive function, and overall vitality."
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "ingredients_EqfFDB"
+            "ai_gen_block_a3349c0_6gaNQA"
           ]
         }
       },
@@ -544,8 +589,8 @@
         "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "background_media": "image",
+        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+        "background_media": "none",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Rectangle_441.png",
         "background_image_position": "cover",
@@ -557,8 +602,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 64,
-        "padding-block-end": 64
+        "padding-block-start": 10,
+        "padding-block-end": 10
       }
     },
     "section_wkkqUT": {
