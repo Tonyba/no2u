@@ -971,10 +971,10 @@
               "type": "icon",
               "name": "t:names.icon",
               "settings": {
-                "icon": "price_tag",
-                "image_upload": "shopify://shop_images/twitter_2_1.svg",
+                "icon": "instagram",
+                "image_upload": "shopify://shop_images/instagram_2.svg",
                 "width": 40,
-                "link": "#",
+                "link": "https://www.instagram.com/no2u_nitricoxide",
                 "open_in_new_tab": true
               },
               "blocks": {}
@@ -995,7 +995,7 @@
               "type": "icon",
               "name": "t:names.icon",
               "settings": {
-                "icon": "price_tag",
+                "icon": "facebook",
                 "image_upload": "shopify://shop_images/meta.svg",
                 "width": 40,
                 "link": "#",
