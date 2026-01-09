@@ -4044,5 +4044,11 @@ text-component {
 }
 
 .reviews-carousel  slideshow-slides img {
-  height: 452px !important;
+  height: 452px;
+}
+
+@media only screen and (max-width: 767px) {
+  .reviews-carousel  slideshow-slides img {
+    height: 350px;
+  }
 }
