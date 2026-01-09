@@ -970,6 +970,7 @@
             "icon_Vx47Ui": {
               "type": "icon",
               "name": "t:names.icon",
+              "disabled": true,
               "settings": {
                 "icon": "instagram",
                 "image_upload": "shopify://shop_images/instagram_2.svg",
@@ -983,10 +984,10 @@
               "type": "icon",
               "name": "t:names.icon",
               "settings": {
-                "icon": "price_tag",
+                "icon": "instagram",
                 "image_upload": "shopify://shop_images/instagram_2.svg",
                 "width": 40,
-                "link": "#",
+                "link": "https://www.instagram.com/no2u_nitricoxide",
                 "open_in_new_tab": true
               },
               "blocks": {}
