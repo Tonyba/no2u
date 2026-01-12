@@ -898,11 +898,452 @@
             "accordion_row_T73DNA",
             "accordion_row_ktEfEK"
           ]
+        },
+        "accordion_X8xW3q": {
+          "type": "accordion",
+          "name": "your rights",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_4MwDyT": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "The right to access the personal information that we have collected about you.",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_zkGCXY": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_zkGCXY"
+              ]
+            },
+            "accordion_row_tzNVb6": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "The right to say no to the sale of your personal information.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_hfbdhb": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of Nevada only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_hfbdhb"
+              ]
+            },
+            "accordion_row_NPCKzt": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "The right to request that we delete all or some of the personal information that we have collected on you.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_yLGkCJ": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_yLGkCJ"
+              ]
+            },
+            "accordion_row_UpfbNa": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to ask us to transmit your personal information that we have collected on you to another provider (where technically feasible).",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_dHNLjw": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_dHNLjw"
+              ]
+            },
+            "accordion_row_j8YL3g": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to request that we amend any of the information that we have collected about you",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_7ALqzQ": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_7ALqzQ"
+              ]
+            },
+            "accordion_row_wkd3Ec": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to withdraw your consent to the processing of your data.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_LWLmzq": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_LWLmzq"
+              ]
+            },
+            "accordion_row_fV3Q3q": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to request that we restrict the processing of your data.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_MV6MR8": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_MV6MR8"
+              ]
+            },
+            "accordion_row_XBwAPJ": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to lodge a complaint regarding our collection, sharing and processing of data with competent authorities in the proper jurisdiction.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_8Jj74d": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_8Jj74d"
+              ]
+            },
+            "accordion_row_VMcq3m": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to stop receiving unwanted direct marketing.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_RaPAY7": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_RaPAY7"
+              ]
+            },
+            "accordion_row_7xJk8e": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "The right to receive the personal information that we hold about you in a portable and, to the extent feasible, a readily usable format that allows you to transmit this information to another entity.",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_LcCQxF": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Applies To</strong></h4><p>Residents of the European Union and/or the European Economic Area and the United Kingdom only</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_LcCQxF"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_4MwDyT",
+            "accordion_row_tzNVb6",
+            "accordion_row_NPCKzt",
+            "accordion_row_UpfbNa",
+            "accordion_row_j8YL3g",
+            "accordion_row_wkd3Ec",
+            "accordion_row_fV3Q3q",
+            "accordion_row_XBwAPJ",
+            "accordion_row_VMcq3m",
+            "accordion_row_7xJk8e"
+          ]
         }
       },
       "block_order": [
         "group_RX3FpC",
-        "accordion_YQmKjw"
+        "accordion_YQmKjw",
+        "accordion_X8xW3q"
       ],
       "name": "t:names.multicolumn",
       "settings": {
