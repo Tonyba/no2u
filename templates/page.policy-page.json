@@ -352,7 +352,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "Identifying information - Name",
-                "open_by_default": true,
+                "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
@@ -903,7 +903,7 @@
               "type": "_accordion-row",
               "settings": {
                 "heading": "The right to access the personal information that we have collected about you.",
-                "open_by_default": true,
+                "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
