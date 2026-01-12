@@ -1272,7 +1272,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "w-100 how-to-use-text",
-                "text": "<p>{{ closest.product.metafields.custom.how_to_use_below_text.value }}</p>",
+                "text": "",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
