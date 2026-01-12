@@ -302,79 +302,6 @@
     "section_AGQH6E": {
       "type": "section",
       "blocks": {
-        "group_RX3FpC": {
-          "type": "group",
-          "name": "t:names.column",
-          "settings": {
-            "css_class": "",
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 10,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_Y3mwkd": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "css_class": "",
-                "text": "{{ closest.page.content }}",
-                "width": "100%",
-                "max_width": "none",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_Y3mwkd"
-          ]
-        },
         "text_UrqViq": {
           "type": "text",
           "name": "t:names.text",
@@ -926,6 +853,33 @@
             "accordion_row_ktEfEK"
           ]
         },
+        "text_ftirmx": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "css_class": "",
+            "text": "<h2>With whom we share your personal information</h2><p>We do not share your personal information with any third parties.</p><h2>Sale of your information</h2><p>We do not sell your personal information.</p><h2>Cookies</h2><p>A cookie is a small piece of data sent from a website and stored on your device by your browser. Cookies are generally used to allow websites to respond to you as an individual, to remember your preferences, to test content, and to analyze your interactions with Websites or with advertisements. This Website does not collect cookies.</p><h2>Children's privacy</h2><p>This Website is intended for use by a general audience and does not offer services to children. Should a child whom we know to be under 18 send personal information to us, we will use that information only to respond to that child to inform him or her that they cannot use this Website.</p><h3>Analytics programs</h3><p>This Website uses Google Analytics to collect information about you and your behaviors. If you would like to opt out of Google Analytics, please visit <a href=\"https://tools.google.com/dlpage/gaoptout/\" target=\"_blank\">https://tools.google.com/dlpage/gaoptout/</a>.</p><h2>Information retention</h2><p>We retain all of the information that we collect for a period of 1 years.</p><h2>Your rights</h2><p>Depending upon where you reside, you may have the following rights with regard to your personal information:</p>",
+            "width": "fit-content",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "accordion_X8xW3q": {
           "type": "accordion",
           "name": "your rights",
@@ -1368,9 +1322,9 @@
         }
       },
       "block_order": [
-        "group_RX3FpC",
         "text_UrqViq",
         "accordion_YQmKjw",
+        "text_ftirmx",
         "accordion_X8xW3q"
       ],
       "name": "t:names.multicolumn",
