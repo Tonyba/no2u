@@ -374,15 +374,162 @@
           "block_order": [
             "text_Y3mwkd"
           ]
+        },
+        "accordion_YQmKjw": {
+          "type": "accordion",
+          "name": "t:names.accordion",
+          "settings": {
+            "icon": "caret",
+            "dividers": true,
+            "type_preset": "h5",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "accordion_row_RWTE9j": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Identifying information - Name",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_wTrnYh": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Specific piece of information</strong></h4><p>Name</p><h4><strong>Legal basis for processing this information</strong></h4><ul><li>The user has provided consent to the processing of their information;</li><li>Processing is necessary to perform a contract with the user;</li><li>Processing is necessary in order to take steps that the user has requested prior to entering into a contract;</li><li>Processing is necessary for compliance with a legal obligation.</li></ul><h4><strong>How we use this information</strong></h4><ul><li>Analytics;</li><li>Enforcing our Terms of Service;</li><li>Marketing and advertising;</li><li>Participation in surveys and contests;</li><li>Performing services;</li><li>Providing customer service;</li><li>Providing financing;</li><li>Resolving disputes;</li><li>Verifying customer information.</li></ul><h4><strong>What happens if we don't have this information</strong></h4><ul><li>Our use of your data for analytics will not be possible;</li><li>Our use of your data for enforcing our Terms of Service will not be possible;</li><li>Our use of your data for marketing and advertising will not be possible;</li><li>Our use of your data for participation in surveys and contests will not be possible;</li><li>Our use of your data for performing services will not be possible;</li><li>Our use of your data for providing customer service will not be possible;</li><li>Our use of your data for providing financing will not be possible;</li><li>Our use of your data for resolving disputes will not be possible;</li><li>Our use of your data for verifying customer information will not be possible.</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_wTrnYh"
+              ]
+            },
+            "accordion_row_6mcgzc": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Identifying information - Postal / Shipping address",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_yNFeLc": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Specific piece of information</strong></h4><p>Postal / Shipping address</p><h4><strong>Legal basis for processing this information</strong></h4><ul><li>The user has provided consent to the processing of their information;</li><li>Processing is necessary to perform a contract with the user;</li><li>Processing is necessary in order to take steps that the user has requested prior to entering into a contract;</li><li>Processing is necessary for compliance with a legal obligation.</li></ul><h4><strong>How we use this information</strong></h4><ul><li>Analytics;</li><li>Enforcing our Terms of Service;</li><li>Marketing and advertising;</li><li>Participation in surveys and contests;</li><li>Performing services;</li><li>Providing customer service;</li><li>Providing financing;</li><li>Resolving disputes;</li><li>Verifying customer information.</li></ul><h4><strong>What happens if we don't have this information</strong></h4><ul><li>Our use of your data for analytics will not be possible;</li><li>Our use of your data for enforcing our Terms of Service will not be possible;</li><li>Our use of your data for marketing and advertising will not be possible;</li><li>Our use of your data for participation in surveys and contests will not be possible;</li><li>Our use of your data for performing services will not be possible;</li><li>Our use of your data for providing customer service will not be possible;</li><li>Our use of your data for providing financing will not be possible;</li><li>Our use of your data for resolving disputes will not be possible;</li><li>Our use of your data for verifying customer information will not be possible.</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_yNFeLc"
+              ]
+            },
+            "accordion_row_CeHR9F": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Manufacturing",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_fQh9rp": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_fQh9rp"
+              ]
+            }
+          },
+          "block_order": [
+            "accordion_row_RWTE9j",
+            "accordion_row_6mcgzc",
+            "accordion_row_CeHR9F"
+          ]
         }
       },
       "block_order": [
-        "group_RX3FpC"
+        "group_RX3FpC",
+        "accordion_YQmKjw"
       ],
       "name": "t:names.multicolumn",
       "settings": {
         "css_class": "",
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
