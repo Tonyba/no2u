@@ -800,6 +800,88 @@
               "block_order": [
                 "text_y6gHAp"
               ]
+            },
+            "accordion_row_T73DNA": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Internet or other electronic activity - Browsing history",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_aJtJMB": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Specific piece of information</strong></h4><p>Browsing history</p><h4><strong>Legal basis for processing this information</strong></h4><ul><li>The user has provided consent to the processing of their information;</li><li>Processing is necessary to perform a contract with the user;</li><li>Processing is necessary in order to take steps that the user has requested prior to entering into a contract;</li><li>Processing is necessary for compliance with a legal obligation.</li></ul><h4><strong>How we use this information</strong></h4><ul><li>Analytics;</li><li>Enforcing our Terms of Service;</li><li>Marketing and advertising;</li><li>Participation in surveys and contests;</li><li>Performing services;</li><li>Providing customer service;</li><li>Providing financing;</li><li>Resolving disputes;</li><li>Verifying customer information.</li></ul><h4><strong>What happens if we don't have this information</strong></h4><ul><li>Our use of your data for analytics will not be possible;</li><li>Our use of your data for enforcing our Terms of Service will not be possible;</li><li>Our use of your data for marketing and advertising will not be possible;</li><li>Our use of your data for participation in surveys and contests will not be possible;</li><li>Our use of your data for performing services will not be possible;</li><li>Our use of your data for providing customer service will not be possible;</li><li>Our use of your data for providing financing will not be possible;</li><li>Our use of your data for resolving disputes will not be possible;</li><li>Our use of your data for verifying customer information will not be possible.</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_aJtJMB"
+              ]
+            },
+            "accordion_row_ktEfEK": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Internet or other electronic activity - Search history",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_GHrgwX": {
+                  "type": "text",
+                  "settings": {
+                    "css_class": "",
+                    "text": "<h4><strong>Specific piece of information</strong></h4><p>Search history</p><h4><strong>Legal basis for processing this information</strong></h4><ul><li>The user has provided consent to the processing of their information;</li><li>Processing is necessary to perform a contract with the user;</li><li>Processing is necessary in order to take steps that the user has requested prior to entering into a contract;</li><li>Processing is necessary for compliance with a legal obligation.</li></ul><h4><strong>How we use this information</strong></h4><ul><li>Analytics;</li><li>Enforcing our Terms of Service;</li><li>Marketing and advertising;</li><li>Participation in surveys and contests;</li><li>Performing services;</li><li>Providing customer service;</li><li>Providing financing;</li><li>Resolving disputes;</li><li>Verifying customer information.</li></ul><h4><strong>What happens if we don't have this information</strong></h4><ul><li>Our use of your data for analytics will not be possible;</li><li>Our use of your data for enforcing our Terms of Service will not be possible;</li><li>Our use of your data for marketing and advertising will not be possible;</li><li>Our use of your data for participation in surveys and contests will not be possible;</li><li>Our use of your data for performing services will not be possible;</li><li>Our use of your data for providing customer service will not be possible;</li><li>Our use of your data for providing financing will not be possible;</li><li>Our use of your data for resolving disputes will not be possible;</li><li>Our use of your data for verifying customer information will not be possible.</li></ul>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_GHrgwX"
+              ]
             }
           },
           "block_order": [
@@ -812,7 +894,9 @@
             "accordion_row_TPzGT4",
             "accordion_row_Q8wXeq",
             "accordion_row_KgaMBW",
-            "accordion_row_ACTyXJ"
+            "accordion_row_ACTyXJ",
+            "accordion_row_T73DNA",
+            "accordion_row_ktEfEK"
           ]
         }
       },
