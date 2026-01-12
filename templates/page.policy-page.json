@@ -377,7 +377,7 @@
         },
         "accordion_YQmKjw": {
           "type": "accordion",
-          "name": "t:names.accordion",
+          "name": "information collected",
           "settings": {
             "icon": "caret",
             "dividers": true,
