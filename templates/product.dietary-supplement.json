@@ -266,12 +266,9 @@
               },
               "blocks": {}
             },
-            "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH": {
-              "type": "shopify://apps/recurpay-subscriptions-app/blocks/recurpay-app-block-widget/c600a513-dad8-4030-8697-de47c18881f2",
-              "settings": {
-                "multiply_price_with_quantity": true,
-                "show_price_in_frequency_dropdown": true
-              }
+            "bony_subscriptions_app_subscription_block_GWbJhR": {
+              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
+              "settings": {}
             },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
@@ -329,7 +326,7 @@
             "text_fFbnXz",
             "maximum_per_order_U7mqgh",
             "free_shipping_badge_YX8nKK",
-            "recurpay_subscriptions_app_recurpay_app_block_widget_iDg9tH",
+            "bony_subscriptions_app_subscription_block_GWbJhR",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi"
           ]
