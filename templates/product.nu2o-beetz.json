@@ -257,19 +257,6 @@
               },
               "blocks": {}
             },
-            "free_shipping_badge_YX8nKK": {
-              "type": "free-shipping-badge",
-              "name": "Free Shipping Badge",
-              "settings": {
-                "black_ver": false,
-                "text": "Free Shipping Over $300"
-              },
-              "blocks": {}
-            },
-            "bony_subscriptions_app_subscription_block_FUyMTz": {
-              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
-              "settings": {}
-            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -282,6 +269,19 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "free_shipping_badge_YX8nKK": {
+              "type": "free-shipping-badge",
+              "name": "Free Shipping Badge",
+              "settings": {
+                "black_ver": false,
+                "text": "Free Shipping Over $300"
+              },
+              "blocks": {}
+            },
+            "bony_subscriptions_app_subscription_block_FUyMTz": {
+              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
+              "settings": {}
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
@@ -325,9 +325,9 @@
             "product_list_details_6xALVh",
             "text_fFbnXz",
             "maximum_per_order_U7mqgh",
+            "variant_picker_R3rGDr",
             "free_shipping_badge_YX8nKK",
             "bony_subscriptions_app_subscription_block_FUyMTz",
-            "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi"
           ]
         }
