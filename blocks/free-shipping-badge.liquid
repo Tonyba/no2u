@@ -10,9 +10,22 @@
     margin-left: auto;
     margin-bottom: -47px;
   }
+
+  @media only screen and (max-width: 767px) {
+    .free-shipping-badge { 
+       font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    .free-shipping-badge svg {
+      width: 20px;
+    }
+   
+  }
+
 {% endstylesheet %}
 
-<div class="flex">
+<div class="flex items-center">
   <div class="icon">
     {{ 'delivery-truck.svg' | inline_asset_content }}
   </div>
