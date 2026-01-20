@@ -823,7 +823,6 @@
         "color_scheme": "scheme-5",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/NO2U_N.O._Beetz_Fermented_Beet_Powder_Drink.png",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -1074,7 +1073,6 @@
         "color_scheme": "scheme-5",
         "background_media": "none",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/NO2U_N.O._Beetz_Fermented_Beet_Powder_Drink.png",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -1325,7 +1323,6 @@
         "color_scheme": "scheme-5",
         "background_media": "none",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/NO2U_N.O._Beetz_Fermented_Beet_Powder_Drink.png",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -2222,7 +2219,6 @@
         "color_scheme": "scheme-5",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/NO2U_mixed_berries.png",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -2821,7 +2817,7 @@
               "name": "FAQs Product",
               "settings": {
                 "css_class": "",
-                "columns": 3
+                "columns": 1
               },
               "blocks": {}
             },
