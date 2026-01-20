@@ -1,0 +1,31 @@
+{% stylesheet %}
+  .science-performance {
+    border-bottom: 1px solid var(--border-color);
+  }
+{% endstylesheet %}
+
+{%- capture children %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
+{%- for item in children -%}
+  {{ children }}
+{%- endfor -%}
+
+{% schema %}
+{
+  "name": "Science of Performance",
+  "class": "science-performance w-100",
+  "blocks": [
+    {
+      "type": "science_performance_item"
+    }
+  ],
+  "settings": [],
+  "presets": [
+    {
+      "name": "Science of performance"
+    }
+  ]
+}
+{% endschema %}

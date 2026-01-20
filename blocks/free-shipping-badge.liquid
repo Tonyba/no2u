@@ -15,7 +15,13 @@
   <div class="icon">
     {{ 'delivery-truck.svg' | inline_asset_content }}
   </div>
-  <div class="text">Free Shipping</div>
+  <div class="text">
+    {% if block.settings.text != blank %}
+      {{ block.settings.text }}
+    {% else %}
+      Free Shippin
+    {% endif %}
+  </div>
 </div>
 
 {% schema %}
@@ -28,6 +34,11 @@
       "id": "black_ver",
       "label": "Show Black Version",
       "default": false
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
     }
   ],
   "presets": [

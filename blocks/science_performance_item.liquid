@@ -1,0 +1,65 @@
+{% stylesheet %}
+  .button-science {
+    margin-right: auto;
+    background-color: #0d4064;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  .science-performance-item {
+    border-top: 1px solid var(--border-color);
+    padding: 30px 0;
+  }
+
+  .science-performance-item h3 {
+    border-bottom: 1px solid;
+    display: inline-block;
+    padding-bottom: 2px;
+  }
+
+  .science-performance-item h3 strong {
+    color: #c92531;
+    font-weight: 600;
+  }
+{% endstylesheet %}
+
+<h3>{{ block.settings.title }}</h3>
+<p>{{ block.settings.desc }}</p>
+
+{% if block.settings.link != blank %}
+  <a href="{{ block.settings.link }}" class="button button-science">
+    <span class="svg-wrapper">
+      {{- 'download.svg' | inline_asset_content -}}
+    </span>
+    Download the PDF
+  </a>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Science Performance Item",
+  "class": "science-performance-item",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label": "Description"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Science Performance Item"
+    }
+  ]
+}
+{% endschema %}

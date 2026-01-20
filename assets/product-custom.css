@@ -90,6 +90,20 @@
     line-height: 160%;
 }
 
+.prod-content .accordion .details__header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.prod-content summary .svg-wrapper {
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 48px;
+    height: 48px;
+    color: var(--button-background-color);
+}
+
 .recurpay__widget .recurpay__widget_container--selected .recurpay__radio_group svg {
     color: #34A853;
     fill: #B3FFC8 !important
@@ -132,6 +146,23 @@
 
 .recurpay__widget .recurpay__description li {
     margin: 10px 0 !important;
+}
+
+.product-faqs>accordion-custom {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    color: black
+}
+
+.benefits-list .item-list .list-item {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .benefits-list img {
+        width: 22px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
