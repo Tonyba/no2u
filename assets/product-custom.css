@@ -23,7 +23,11 @@
     border-color: #B3FFC8 !important
 }
 
-
+.jdgm-rev__author,
+.jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, 
+.jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
+    color: black;
+}
 
 .bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
     background-color: #34A853 !important;
