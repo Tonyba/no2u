@@ -29,6 +29,10 @@
     color: black !important;
 }
 
+.jdgm-rev__author {
+    font-weight: 600 !important
+}
+
 .bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
     background-color: #34A853 !important;
 }
