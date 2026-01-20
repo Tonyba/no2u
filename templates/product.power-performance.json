@@ -257,15 +257,6 @@
               },
               "blocks": {}
             },
-            "free_shipping_badge_YX8nKK": {
-              "type": "free-shipping-badge",
-              "name": "Free Shipping Badge",
-              "settings": {
-                "black_ver": false,
-                "text": "Free Shipping Over $300"
-              },
-              "blocks": {}
-            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -276,6 +267,15 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "free_shipping_badge_YX8nKK": {
+              "type": "free-shipping-badge",
+              "name": "Free Shipping Badge",
+              "settings": {
+                "black_ver": false,
+                "text": "Free Shipping Over $300"
               },
               "blocks": {}
             },
@@ -325,8 +325,8 @@
             "product_list_details_6xALVh",
             "text_fFbnXz",
             "maximum_per_order_U7mqgh",
-            "free_shipping_badge_YX8nKK",
             "variant_picker_R3rGDr",
+            "free_shipping_badge_YX8nKK",
             "bony_subscriptions_app_subscription_block_7JADUM",
             "buy_buttons_eYQEYi"
           ]
