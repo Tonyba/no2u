@@ -26,7 +26,7 @@
 .jdgm-rev__author,
 .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, 
 .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
-    color: black;
+    color: black !important;
 }
 
 .bs-items.bs-dropdown-items .bs-radio-container--checked .bs-radio-circle .bs-radio-dot {
