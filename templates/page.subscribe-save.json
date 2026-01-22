@@ -1471,7 +1471,6 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/process.png",
                 "link": "",
                 "image_ratio": "square",
                 "width": "fill",
@@ -3379,7 +3378,7 @@
               "name": "t:names.heading",
               "settings": {
                 "css_class": "",
-                "text": "<h2>What sets TL products apart?</h2>",
+                "text": "<h2>What sets NO2U products apart?</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -4156,7 +4155,7 @@
                   "type": "doctor_item",
                   "name": "doctor item",
                   "settings": {
-                    "img": "shopify://shop_images/20769da294ce18d4de05300a171352de05c0bcad.png",
+                    "img": "shopify://shop_images/NO2U_-_Dr._Nathan_S_Bryan_Nitric_Oxide_N.O._Beetz_31e8018a-7d6e-471e-97b1-3561f26ccb37.png",
                     "quote": "“Big supplement companies that use artificial sweeteners, flavors, fillers, and colors in their products may taste great.”",
                     "content": "“But if you actually look at the ingredients like I do, and I look at the ingredients and everything that I put into my body, you'll see that you're getting a whole bunch of junk. So for the amount of whey protein that I consume on a daily basis, I want to make sure that I'm not taking in a ton of artificial chemicals, and I'm taking in the best quality protein that I can. So, I use all Transparent Labs products. They're as clean as can be for me.”",
                     "name": "Dr. Nathan S Bryan",
@@ -4759,7 +4758,7 @@
                       "type": "review-product",
                       "name": "Review product",
                       "settings": {
-                        "product": "dyno-duo"
+                        "product": "{{ closest.product }}"
                       },
                       "blocks": {}
                     }
@@ -6224,7 +6223,7 @@
               "name": "t:names.description",
               "settings": {
                 "css_class": "strong-line-red",
-                "text": "<p>Recently purchased? Please<strong> leave a review</strong></p>",
+                "text": "<p>Recently purchased? Please<strong> Leave a Review</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
