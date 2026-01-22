@@ -367,7 +367,7 @@
                       "name": "Text with icon",
                       "settings": {
                         "icon": "shopify://shop_images/pin.svg",
-                        "text": "2407 South Congress Ave, E-134, Austin, TX 78704"
+                        "text": "Made in USA | Austin, TX"
                       },
                       "blocks": {}
                     }
