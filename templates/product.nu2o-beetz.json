@@ -279,8 +279,8 @@
               },
               "blocks": {}
             },
-            "bony_subscriptions_app_subscription_block_FUyMTz": {
-              "type": "shopify://apps/bony-subscriptions-app/blocks/subscription-block/4dad6cee-f4ef-42d8-bd6b-ba84841f76a9",
+            "recharge_subscriptions_subscription_widget_v2_qXj6y7": {
+              "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
               "settings": {}
             },
             "buy_buttons_eYQEYi": {
@@ -327,7 +327,7 @@
             "maximum_per_order_U7mqgh",
             "variant_picker_R3rGDr",
             "free_shipping_badge_YX8nKK",
-            "bony_subscriptions_app_subscription_block_FUyMTz",
+            "recharge_subscriptions_subscription_widget_v2_qXj6y7",
             "buy_buttons_eYQEYi"
           ]
         }
