@@ -98,7 +98,7 @@
         "logo_position": "left",
         "menu_position": "center",
         "menu_row": "top",
-        "show_search": false,
+        "show_search": true,
         "search_position": "right",
         "user_icon": false,
         "search_row": "top",
