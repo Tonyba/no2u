@@ -769,7 +769,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Clean Protein</h3>",
+                        "text": "<h3>REAL Performance Boost</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1063,7 +1063,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>“I use TL creatine which I love so I decided to give their protein a shot, and I am a big fan</p>",
+                        "text": "<p>\"Endurance is everything on the bike. I started using N.O. Beetz before my rides, and the sustained energy is incredible. I don't gas out on the climbs like l used to. It's definitely the health optimization tool I was missing.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1131,7 +1131,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>Andrea Vitali</p>",
+                            "text": "<p>David Kang - Cyclist</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1158,7 +1158,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>22 Luglio 2025</p>",
+                            "text": "<p>10/12/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
