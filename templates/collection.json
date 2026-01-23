@@ -1234,7 +1234,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_N.O._Beetz_Communityr_Image_-_David_K.jpg",
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenges_Community_Image_-_Derek_S.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -1332,7 +1332,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"Endurance is everything on the bike. I started using N.O. Beetz before my rides, and the sustained energy is incredible. I don't gas out on the climbs like l used to. It's definitely the health optimization tool I was missing.\"</p>",
+                        "text": "<p>\"As I've gotten older, my performance in pick-up basketball has declined. N.O. Beetz has made a real difference. I feel like my endurance is back, and I can play harder for longer. This stuff really works.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1400,7 +1400,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>David Kang - Cyclist</p>",
+                            "text": "<p>Derek Singhn</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1427,7 +1427,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>10/12/2025</p>",
+                            "text": "<p>11/08/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1502,7 +1502,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Community_Image_-_Eleanor_D.jpg",
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_N.O._Beetz_Communityr_Image_-_David_K.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -1573,7 +1573,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Heart Health Support</h3>",
+                        "text": "<h3>Sustained Energy</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1600,7 +1600,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NOU Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
+                        "text": "<p>\"Endurance is everything on the bike. I started using N.O. Beetz before my rides, and the sustained energy is incredible. I don't gas out on the climbs like l used to. It's definitely the health optimization tool I was missing.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1668,7 +1668,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>Eleanor D. Cohn</p>",
+                            "text": "<p>David Kang - Cyclist</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1695,7 +1695,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>9/9/2025</p>",
+                            "text": "<p>10/12.2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1770,6 +1770,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_Community_Image_-_Eleanor_D.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -1840,7 +1841,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<h3>Clean Protein</h3>",
+                        "text": "<h3>Heart Health Support</h3>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1867,7 +1868,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>“I use TL creatine which I love so I decided to give their protein a shot, and I am a big fan</p>",
+                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NOU Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1935,7 +1936,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>Andrea Vitali</p>",
+                            "text": "<p>Eleanor D. Cohn</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -1962,7 +1963,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>22 Luglio 2025</p>",
+                            "text": "<p>9/09/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2134,7 +2135,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>“I use TL creatine which I love so I decided to give their protein a shot, and I am a big fan</p>",
+                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NOU Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2202,7 +2203,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>Andrea Vitali</p>",
+                            "text": "<p>Eleanor D. Cohn</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2229,7 +2230,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>22 Luglio 2025</p>",
+                            "text": "<p>9/9/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
