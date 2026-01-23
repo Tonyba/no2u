@@ -9653,6 +9653,246 @@
                 "image_XF77df",
                 "group_QWzm6M"
               ]
+            },
+            "card_yFhnXG": {
+              "type": "_card",
+              "name": "t:names.card",
+              "settings": {
+                "css_class": "review-card",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 0,
+                "inherit_color_scheme": true,
+                "color_scheme": "scheme-1",
+                "background_media": "none",
+                "aspect_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "image_RareXm": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Community_Image_-_Alex_R.jpg",
+                    "link": "",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "group_NTpmDn": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "css_class": "",
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-c1264752-e427-4ad2-bebb-75b2869e16d7",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 39,
+                    "padding-block-end": 50,
+                    "padding-inline-start": 30,
+                    "padding-inline-end": 30
+                  },
+                  "blocks": {
+                    "review_item_verified_CVQdf3": {
+                      "type": "review_item_verified",
+                      "name": "review item verified",
+                      "settings": {},
+                      "blocks": {}
+                    },
+                    "text_VY9x6U": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "css_class": "",
+                        "text": "<p>\"I've tried a lot of pre-workout supplements, but the NO2U Power & Performance Stack is on another level. The combination of the Nitric Oxide Lozenges and the N.O. Beetz powder gives me a clean, sustained energy boost without any jitters or crash. My endurance during long runs has noticeably improved, and my recovery time feels shorter. The pump I get in the gym is incredible. This stack has become a non-negotiable part of my training regimen.\"</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "0.875rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "group_c73Q3M": {
+                      "type": "group",
+                      "name": "t:names.group",
+                      "settings": {
+                        "css_class": "",
+                        "content_direction": "row",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "inherit_color_scheme": false,
+                        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 12,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {
+                        "text_JtPgYb": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "css_class": "",
+                            "text": "<p>Alex R. - Marathon Runner & Fitness Enthusiast</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-subheading--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground-heading)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        },
+                        "text_cAh9Nm": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "css_class": "",
+                            "text": "<p>15/7/2025</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-subheading--family)",
+                            "font_size": "0.875rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_JtPgYb",
+                        "text_cAh9Nm"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "review_item_verified_CVQdf3",
+                    "text_VY9x6U",
+                    "group_c73Q3M"
+                  ]
+                }
+              },
+              "block_order": [
+                "image_RareXm",
+                "group_NTpmDn"
+              ]
             }
           },
           "block_order": [
@@ -9685,7 +9925,8 @@
             "card_zCtnXG",
             "card_txEaec",
             "card_FcpEDn",
-            "card_EwyNcy"
+            "card_EwyNcy",
+            "card_yFhnXG"
           ]
         },
         "after-text": {
