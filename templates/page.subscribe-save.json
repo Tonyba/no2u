@@ -2145,7 +2145,7 @@
                   "name": "t:names.description",
                   "settings": {
                     "css_class": "",
-                    "text": "<p>Still have a question? Read our FAQ or send us a note at support@transparentlabs.com</p>",
+                    "text": "<p>Still have a question? Read our FAQ or send us a note at support@NO2U.com</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2529,7 +2529,7 @@
                               "name": "t:names.text",
                               "settings": {
                                 "css_class": "",
-                                "text": "<p>Never pay full price for your NO2U products again! Subscribers get 10% off plus free shipping on EVERY order, forever.</p>",
+                                "text": "<p>Never pay full price for your NO2U products again! Subscribers get 15% off plus free shipping on EVERY order, forever.</p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
