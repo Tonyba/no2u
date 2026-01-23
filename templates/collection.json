@@ -2614,7 +2614,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No! We use natural sweeteners and colors, such as stevia extract and spirulina powder.</p>",
+                        "text": "<p>We are committed to bringing you innovative products of the highest quality. Contact us at<a href=\"mailto:hello@no2u.com\">support@no2u.com</a> if you have a question about your order.</p><p>NO2U offers a 60-day money-back guarantee on all orders. The 60-day return window begins the day your order is received.<strong>Shipping is not included in our return policy and shipping charges for your original purchase are non-refundable.</strong>Items shipped outside of the 60-day return window may not be credited back or returned to you. NO2U is not responsible for any duties or taxes for returned items.</p><p><br/>Please allow up to 30 days for returns to be processed. Once a refund has been processed, it can take up to 5-10 business days to process back to your account.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
