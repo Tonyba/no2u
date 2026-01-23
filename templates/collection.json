@@ -2440,7 +2440,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "What certifications or testing standards do NO2U products follow?",
+                    "heading": "Are NO2U products backed by science?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -2450,7 +2450,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>In addition to our products being produced in an FDA-registered, cGMP facility, we provide third parthy testing results for each batch of products. All of our products are also certified by Infotmed Choice</p>",
+                        "text": "<p>Yes! NO2U products are developed using over 25 years of research on Nitric Oxide. They are formulated by Dr. Nathan S. Bryan, a leading expert in the field, ensuring that every product is scientifically tested and effective.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
