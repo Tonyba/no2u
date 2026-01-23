@@ -2038,6 +2038,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenge_N.O._Beetz_Community_Image_-_Jessica.jpg",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -2135,7 +2136,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"My doctor mentioned that Nitric Oxide production declines with age, and I wanted to stay ahead of my cardiovascular health. Since starting NOU Lozenges, I have more energy for my daily walks and my blood pressure numbers have been fantastic. I feel revitalized. Thank you Dr. Bryan!\"</p>",
+                        "text": "<p>\"I prioritize natural health solutions. Knowing that NO2U is backed by Dr. Nathan Bryan's science gave me the confidence to try it. l've noticed better circulation and a general sense of clarity and focus during my practice.</p><p>It's a game-changer for overall well-being.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2203,7 +2204,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>Eleanor D. Cohn</p>",
+                            "text": "<p>Jessica M. - Yoga Instructor</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -2230,7 +2231,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>9/9/2025</p>",
+                            "text": "<p>9/02/2025</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
