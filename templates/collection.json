@@ -2481,7 +2481,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How do I know which supplements are right for my fitness goals?",
+                    "heading": "What can I expect to feel after taking nitric oxide?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -2491,7 +2491,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>Our products are categorized by goal and product type to help guide your shopping experience, including Pre-Workouts, Protein Supplements, Muscle-Building & Recovery Formulas, and Health & Wellness Products.</p>",
+                        "text": "<p>After taking nitric oxide, you may experience improved blood flow, enhanced energy levels, and better overall endurance. Many users report feeling more energized and focused shortly after use, though some may not feel the difference right away. Rest assured, it’s still working behind the scenes. Consistent use can yield long-term results, further enhancing your performance and overall well-being.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2573,7 +2573,7 @@
                       "type": "text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>No! We use natural sweeteners and colors, such as stevia extract and spirulina powder.</p>",
+                        "text": "<p>Yes! Consistency is key to experiencing the full benefits of Nitric Oxide. We offer bundles and our <a href=\"/pages/subscribe-save\" title=\"Subscribe & Save\">Subscribe and Save</a> program makes it effortless to stay on track while providing significant savings.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
