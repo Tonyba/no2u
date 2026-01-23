@@ -3605,7 +3605,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>At No2u, our products are backed by decades of research and developed under the guidance of Dr. Nathan S. Bryan, a global authority on Nitric Oxide biochemistry.</p><p>If your body is not producing sufficient nitric oxide, our products provide it for you.</p>",
+                        "text": "<p>At No2u, our products are backed by decades of research and developed under the guidance of Dr. Nathan S. Bryan, a global authority on Nitric Oxide biochemistry.</p><p><strong>If your body is not producing sufficient nitric oxide, our products provide it for you.</strong></p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
