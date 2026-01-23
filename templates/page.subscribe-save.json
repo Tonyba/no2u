@@ -181,7 +181,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>With every order, you’ll save 10%! Get started today and make shopping simpler, smarter, and more affordable.</p>",
+                "text": "<p>With every order, you’ll save 15%! Get started today and make shopping simpler, smarter, and more affordable.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -929,7 +929,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>Subscribe & save 10%</p>",
+                "text": "<p>Subscribe & Save 15%</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
