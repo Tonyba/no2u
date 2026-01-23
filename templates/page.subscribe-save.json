@@ -1407,7 +1407,7 @@
                 "color_scheme": "",
                 "show_arrow": true,
                 "show_arrow_2": false,
-                "label": "Shop and save 10%",
+                "label": "Shop and Save 15%",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -1744,7 +1744,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "css_class": "",
-                    "text": "<h3>Log in to your Transparent Labs account</h3>",
+                    "text": "<h3>Log in to your NO2U account</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
