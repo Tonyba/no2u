@@ -1348,13 +1348,6 @@
             "desc": "3rd-party lab tests performed to verify purity and potency."
           }
         },
-        "item_XCzpkn": {
-          "type": "item",
-          "settings": {
-            "title": "45 +",
-            "desc": "Rigorously formulated, effective products."
-          }
-        },
         "item_ceAwhU": {
           "type": "item",
           "settings": {
@@ -1368,7 +1361,6 @@
         "item_meJ9KK",
         "item_RFMKTR",
         "item_fKGUTW",
-        "item_XCzpkn",
         "item_ceAwhU"
       ],
       "name": "Supporting with science",
