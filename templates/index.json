@@ -1341,18 +1341,18 @@
             "desc": "Our customers have experienced the benefits firsthand. Their success stories are the best measure of our impact."
           }
         },
-        "item_fKGUTW": {
-          "type": "item",
-          "settings": {
-            "title": "2,000 +",
-            "desc": "3rd-party lab tests performed to verify purity and potency."
-          }
-        },
         "item_ceAwhU": {
           "type": "item",
           "settings": {
             "title": "100+ Peer-Reviewed Journals",
             "desc": "Dr. Nathan S. Bryan's extensive research on nitric oxide ensures scientifically-backed results you can trust."
+          }
+        },
+        "item_fKGUTW": {
+          "type": "item",
+          "settings": {
+            "title": "2,000 +",
+            "desc": "3rd-party lab tests performed to verify purity and potency."
           }
         }
       },
@@ -1360,8 +1360,8 @@
         "item_eQTcfi",
         "item_meJ9KK",
         "item_RFMKTR",
-        "item_fKGUTW",
-        "item_ceAwhU"
+        "item_ceAwhU",
+        "item_fKGUTW"
       ],
       "name": "Supporting with science",
       "settings": {
