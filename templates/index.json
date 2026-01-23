@@ -8799,7 +8799,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"N.O. Beetz tastes great, it’s oxalate free and easy to keep in my purse or bag for travel.\"</p>",
+                        "text": "<p>\"NO2U’s Power & Performance Stack is a game-changer! My endurance on long runs has noticeably improved. I feel like I can hold my pace for longer.\"</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -8867,7 +8867,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p><strong>Courtney P.</strong></p>",
+                            "text": "<p>Courtney P.</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -9207,6 +9207,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/NO2U_Nitric_Oxide_Lozenges_Community_Image_-_Power_Performance_Stack.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -9277,7 +9278,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "css_class": "",
-                        "text": "<p>\"The clean energy from the NO2U Power & Performance Stack is a game-changer. No jitters, just smooth power through my entire workout.\"<br/></p>",
+                        "text": "<p>\"N.O. Beetz tastes great, it’s oxalate free and easy to keep in my purse or bag for travel.\" </p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
