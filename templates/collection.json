@@ -2288,7 +2288,7 @@
           "static": true,
           "settings": {
             "css_class": "strong-line-red",
-            "text": "<p>Recently purchased? Please <strong>leave a review</strong><br/></p>",
+            "text": "<p>Recently purchased? Please <strong>Leave a Review</strong><br/></p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
