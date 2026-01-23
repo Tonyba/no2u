@@ -1,6 +1,727 @@
+{% doc %}
+  @prompt
+    key ingredients with photo on the left, and 9 individual ingredient blocks with icon and description, Add title and description
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-ingredients-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+  }
+
+  .ai-ingredients-header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: {{ block.settings.header_spacing }}px;
+  }
+
+  .ai-ingredients-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_font_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 {{ block.settings.title_spacing }}px;
+    font-weight: 600;
+  }
+
+  .ai-ingredients-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_font_size }}px;
+    color: {{ block.settings.description_color }};
+    line-height: 1.6;
+    margin: 0;
+    max-width: 800px;
+  }
+
+  .ai-ingredients-description-{{ ai_gen_id }}.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ai-ingredients-container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: start;
+    width: 100%;
+    padding: {{ block.settings.section_padding }}px 0;
+  }
+
+  .ai-ingredients-photo-{{ ai_gen_id }} {
+    position: sticky;
+    top: 20px;
+    width: 100%;
+  }
+
+  .ai-ingredients-photo-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-ingredients-photo-wrapper-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-ingredients-photo-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    position: relative;
+  }
+
+  .ai-ingredients-photo-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-ingredients-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+
+  .ai-ingredients-list-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: {{ block.settings.grid_gap }}px;
+  }
+
+  .ai-ingredient-item-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: {{ block.settings.card_padding }}px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ai-ingredient-item-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-ingredient-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    margin: 0 auto {{ block.settings.icon_spacing }}px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: {{ block.settings.icon_background }};
+  }
+
+  .ai-ingredient-icon-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-ingredient-icon-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-ingredient-icon-placeholder-{{ ai_gen_id }} svg {
+    width: 50%;
+    height: 50%;
+    opacity: 0.3;
+  }
+
+  .ai-ingredient-name-{{ ai_gen_id }} {
+    font-size: {{ block.settings.name_font_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.name_color }};
+    margin: 0 0 8px;
+  }
+
+  .ai-ingredient-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.ingredient_description_font_size }}px;
+    color: {{ block.settings.ingredient_description_color }};
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-ingredients-container-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .ai-ingredients-photo-{{ ai_gen_id }} {
+      position: relative;
+      top: 0;
+    }
+
+    .ai-ingredients-list-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-ingredients-list-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+    }
+
+    .ai-ingredients-container-{{ ai_gen_id }} {
+      gap: 20px;
+    }
+
+    .ai-ingredients-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.title_font_size }}px * 0.8);
+    }
+
+    .ai-ingredients-description-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.description_font_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<key-ingredients-{{ ai_gen_id }} class="ai-ingredients-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div style="width: {{ block.settings.desktop_width_percent }}%; margin: 0 auto;">
+    {% if block.settings.title != blank or block.settings.description != blank %}
+      <div class="ai-ingredients-header-{{ ai_gen_id }}">
+        {% if block.settings.title != blank %}
+          <h2 class="ai-ingredients-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        {% endif %}
+        
+        {% if block.settings.description != blank %}
+          <div class="ai-ingredients-description-{{ ai_gen_id }} {% if block.settings.text_alignment == 'center' %}center{% endif %}">
+            {{ block.settings.description }}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-ingredients-container-{{ ai_gen_id }}">
+      <div class="ai-ingredients-photo-{{ ai_gen_id }}">
+        <div class="ai-ingredients-photo-wrapper-{{ ai_gen_id }}">
+          {% if block.settings.main_image %}
+            <img
+              src="{{ block.settings.main_image | image_url: width: 800 }}"
+              alt="{{ block.settings.main_image.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.main_image.width }}"
+              height="{{ block.settings.main_image.height }}"
+            >
+          {% else %}
+            <div class="ai-ingredients-photo-placeholder-{{ ai_gen_id }}">
+              {{ 'product-1' | placeholder_svg_tag }}
+              <div class="ai-ingredients-empty-state-{{ ai_gen_id }}">
+                Add a main image
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ai-ingredients-list-{{ ai_gen_id }}">
+        {% for i in (1..9) %}
+          {% liquid
+            assign name_key = 'ingredient_' | append: i | append: '_name'
+            assign description_key = 'ingredient_' | append: i | append: '_description'
+            assign icon_key = 'ingredient_' | append: i | append: '_icon'
+            
+            assign ingredient_name = block.settings[name_key]
+            assign ingredient_description = block.settings[description_key]
+            assign ingredient_icon = block.settings[icon_key]
+          %}
+
+          <div class="ai-ingredient-item-{{ ai_gen_id }}">
+            <div class="ai-ingredient-icon-{{ ai_gen_id }}">
+              {% if ingredient_icon %}
+                <img
+                  src="{{ ingredient_icon | image_url: width: 200 }}"
+                  alt="{{ ingredient_name | escape }}"
+                  loading="lazy"
+                  width="200"
+                  height="200"
+                >
+              {% else %}
+                <div class="ai-ingredient-icon-placeholder-{{ ai_gen_id }}">
+                  {{ 'product-1' | placeholder_svg_tag }}
+                </div>
+              {% endif %}
+            </div>
+            
+            {% if ingredient_name != blank %}
+              <h3 class="ai-ingredient-name-{{ ai_gen_id }}">{{ ingredient_name }}</h3>
+            {% else %}
+              <h3 class="ai-ingredient-name-{{ ai_gen_id }}">Ingredient {{ i }}</h3>
+            {% endif %}
+            
+            {% if ingredient_description != blank %}
+              <p class="ai-ingredient-description-{{ ai_gen_id }}">{{ ingredient_description }}</p>
+            {% else %}
+              <p class="ai-ingredient-description-{{ ai_gen_id }}">Add a description for this ingredient</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</key-ingredients-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class KeyIngredients{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+      }
+    }
+
+    customElements.define('key-ingredients-{{ ai_gen_id }}', KeyIngredients{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Key ingredients",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Key Ingredients"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Discover the powerful natural ingredients that make our formula effective"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Title bottom spacing",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "description_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#676767"
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Header bottom spacing",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Main image"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Grid gap",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Ingredient cards"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Background",
+      "default": "#f8f9fb"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Icons"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 40,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "label": "Size",
+      "default": 60
+    },
+    {
+      "type": "color",
+      "id": "icon_background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Ingredient typography"
+    },
+    {
+      "type": "range",
+      "id": "name_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Name size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "name_color",
+      "label": "Name color",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "range",
+      "id": "ingredient_description_font_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "ingredient_description_color",
+      "label": "Description color",
+      "default": "#676767"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_1_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_1_name",
+      "label": "Name",
+      "default": "Beetroot Extract"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_1_description",
+      "label": "Description",
+      "default": "Rich in nitrates to support healthy blood flow"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_2_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_2_name",
+      "label": "Name",
+      "default": "L-Citrulline"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_2_description",
+      "label": "Description",
+      "default": "Amino acid that boosts nitric oxide production"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_3_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_3_name",
+      "label": "Name",
+      "default": "Vitamin C"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_3_description",
+      "label": "Description",
+      "default": "Powerful antioxidant for immune support"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_4_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_4_name",
+      "label": "Name",
+      "default": "Magnesium"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_4_description",
+      "label": "Description",
+      "default": "Essential mineral for muscle and nerve function"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_5_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_5_name",
+      "label": "Name",
+      "default": "Pomegranate"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_5_description",
+      "label": "Description",
+      "default": "Supports cardiovascular health naturally"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 6"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_6_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_6_name",
+      "label": "Name",
+      "default": "Grape Seed"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_6_description",
+      "label": "Description",
+      "default": "Contains antioxidants for overall wellness"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 7"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_7_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_7_name",
+      "label": "Name",
+      "default": "Hawthorn Berry"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_7_description",
+      "label": "Description",
+      "default": "Traditional herb for heart health support"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 8"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_8_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_8_name",
+      "label": "Name",
+      "default": "CoQ10"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_8_description",
+      "label": "Description",
+      "default": "Supports cellular energy production"
+    },
+    {
+      "type": "header",
+      "content": "Ingredient 9"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_9_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_9_name",
+      "label": "Name",
+      "default": "B Vitamins"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_9_description",
+      "label": "Description",
+      "default": "Essential for energy metabolism and vitality"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Key ingredients"
+    }
+  ]
+}
 {% endschema %}
