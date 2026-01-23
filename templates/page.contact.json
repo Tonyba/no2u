@@ -101,7 +101,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>We’re here to help. Whether you have a question about your order, need assistance with a product, or want to discuss wholesale opportunities, our support team is ready to assist you.</p>",
+                "text": "<p>We’re here for you! Whether you need help with an order, have a product question, or want to explore wholesale opportunities, our support team is ready to help.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
