@@ -946,7 +946,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/Group_18696.svg",
-                    "item_text": "Improve Nitric Oxide production"
+                    "item_text": "<p>Improve Nitric Oxide production</p>"
                   },
                   "blocks": {}
                 },
@@ -955,7 +955,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/oxygen_16532541_1.svg",
-                    "item_text": "Enhance oxygen and nutrient delivery to cells."
+                    "item_text": "<p>Enhance oxygen and nutrient delivery to cells.</p>"
                   },
                   "blocks": {}
                 },
@@ -964,7 +964,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/Clip_path_group.svg",
-                    "item_text": "Support cardiovascular health."
+                    "item_text": "<p>Support cardiovascular health.</p>"
                   },
                   "blocks": {}
                 },
@@ -973,7 +973,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/hear.svg",
-                    "item_text": "Aid normal heart function."
+                    "item_text": "<p>Aid normal heart function.</p>"
                   },
                   "blocks": {}
                 },
@@ -982,7 +982,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/water-drop_18462599_1.svg",
-                    "item_text": "Support healthy blood circulation and blood pressure."
+                    "item_text": "<p>Support healthy blood circulation and blood pressure.</p>"
                   },
                   "blocks": {}
                 },
@@ -991,7 +991,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/drop_543560_1.svg",
-                    "item_text": "Create healthy blood flow."
+                    "item_text": "<p>Create healthy blood flow.</p>"
                   },
                   "blocks": {}
                 },
@@ -1000,7 +1000,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/Group_18695.svg",
-                    "item_text": "Deliver antioxidant support."
+                    "item_text": "<p>Deliver antioxidant support.</p>"
                   },
                   "blocks": {}
                 },
@@ -1009,7 +1009,7 @@
                   "name": "List Item",
                   "settings": {
                     "icon": "shopify://shop_images/brain_5623114_1.svg",
-                    "item_text": "Support cognitive function and memory."
+                    "item_text": "<p>Support cognitive function and memory.</p>"
                   },
                   "blocks": {}
                 }
@@ -2657,7 +2657,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "css_class": "",
-                            "text": "<p>12/3/25</p>",
+                            "text": "<p>12/03/25</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
