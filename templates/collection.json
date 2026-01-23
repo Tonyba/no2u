@@ -101,7 +101,7 @@
               "name": "t:names.text",
               "settings": {
                 "css_class": "",
-                "text": "<p>Explore Transparent Labs’ full range of clean, science-backed supplements. From premium protein powders to high-performance pre-workouts and wellness formulas, our products are made with clinically dosed ingredients—no artificial additives, no proprietary blends.</p>",
+                "text": "<p>Discover the No2u difference with our complete range of clean, science-backed supplements. Each product is engineered to help you achieve your wellness goals, whether you're looking to boost energy, build strength, or enhance recovery. We believe in complete transparency, which is why our formulas are made with clinically dosed ingredients you can trust.</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -2333,13 +2333,13 @@
         "css_class": "white-ver",
         "bg_color": "#2a2a2a",
         "img_1": "shopify://shop_images/file_5664646_1_1.svg",
-        "text_1": "<p>Complete Label Transparency</p>",
+        "text_1": "<p><strong>Complete Transparency</strong></p>",
         "img_2": "shopify://shop_images/medical-checkup_17534908_1.svg",
-        "text_2": "<p>Clinically-Dosed Formulas</p>",
+        "text_2": "<p><strong>Clinically Researched Ingredients</strong></p>",
         "img_3": "shopify://shop_images/quality-control_6196957_1.svg",
-        "text_3": "<p>3rd-Party Lab Tested</p>",
+        "text_3": "<p><strong>3rd-Party Lab Tested</strong></p>",
         "img_4": "shopify://shop_images/plant_497357_1.svg",
-        "text_4": "<p>Natural & Grass-Fed Ingredients</p>"
+        "text_4": "<p><strong>Clean Proprietary Formulas</strong></p>"
       }
     },
     "section_bfywmM": {
@@ -2440,7 +2440,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "What certifications or testing standards do Transparent Labs products follow?",
+                    "heading": "What certifications or testing standards do NO2U products follow?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -2522,7 +2522,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Do Transparent Labs products contain artificial sweeteners or colors?",
+                    "heading": "Do NO2U products contain artificial sweeteners or colors?",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
