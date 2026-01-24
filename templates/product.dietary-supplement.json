@@ -870,7 +870,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/Frame_2397_3.svg",
+                        "image": "shopify://shop_images/energy.png",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
@@ -1167,7 +1167,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/Frame_2397_4.svg",
+                        "image": "shopify://shop_images/cognitive.png",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
@@ -1292,7 +1292,7 @@
                       "type": "image",
                       "name": "t:names.image",
                       "settings": {
-                        "image": "shopify://shop_images/Frame_2397_5.svg",
+                        "image": "shopify://shop_images/mitochondria.png",
                         "link": "",
                         "image_ratio": "adapt",
                         "width": "custom",
