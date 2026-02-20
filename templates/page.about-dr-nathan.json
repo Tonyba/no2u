@@ -3116,7 +3116,7 @@
                       "type": "review-product",
                       "name": "Review product",
                       "settings": {
-                        "product": "power-performance-stack-dyno-duo-renaming"
+                        "product": "no2u-power-performance-stack"
                       },
                       "blocks": {}
                     }
@@ -3654,7 +3654,7 @@
                       "type": "review-product",
                       "name": "Review product",
                       "settings": {
-                        "product": "power-performance-stack-dyno-duo-renaming"
+                        "product": "no2u-power-performance-stack"
                       },
                       "blocks": {}
                     }
